@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="diplo-style-v2.css">
+<link rel="stylesheet" href="diplo-style-V2.css">
 
 Sourceschinoises Bulletin n°2, 27/10/2025
 
