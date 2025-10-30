@@ -1,6 +1,15 @@
+<link rel="stylesheet" href="diplo-style-V2.css">
+```
+5. **Laisse une ligne vide**
+6. **Puis ton titre** commence ligne 3
 
+**Ça devrait ressembler à ça :**
+```
+<link rel="stylesheet" href="diplo-style-V2.css">
 
-Recommandations du Comité central du PCC pour l’élaboration du 15e Plan quinquennal de développement économique et social
+Recommandations du Comité central du PCC pour l'élaboration du 15e Plan quinquennal de développement économique et social
+
+[reste de ton texte...]Recommandations du Comité central du PCC pour l’élaboration du 15e Plan quinquennal de développement économique et social
 
 (Adoptées le 23 octobre 2025 par la 4e session plénière du 20e Comité central du Parti communiste chinois)
 
