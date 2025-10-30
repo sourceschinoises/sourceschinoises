@@ -1,12 +1,15 @@
+---
+---
+<link rel="stylesheet" href="diplo-style-V2.css">
+```
+
+Donc ton fichier devrait commencer comme ça :
+```
+---
+---
 <link rel="stylesheet" href="diplo-style-V2.css">
 
-# Recommandations du Comité central du PCC pour l'élaboration du 15e Plan quinquennal de développement économique et social
-
-*(Adoptées le 23 octobre 2025 par la 4e session plénière du 20e Comité central du Parti communiste chinois)*
-
----
-
-La 4e session plénière du 20e Comité central a procédé à une analyse approfondie de la situation internationale et nationale et formule les recommandations suivantes pour l'élaboration du 15e Plan quinquennal de développement économique et social.
+# Recommandations du Comité central du PCC...
 
 ## I. Le 15e Plan quinquennal, période clé vers la modernisation socialiste
 
