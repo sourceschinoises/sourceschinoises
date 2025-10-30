@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="diplo-style.css">
+
 Sourceschinoises Bulletin n°2, 27/10/2025
 
 # ANNEXE : Agenda provisoire des prochaines réunions de l’OCS 2025 (Q3, Q4) – 2026
