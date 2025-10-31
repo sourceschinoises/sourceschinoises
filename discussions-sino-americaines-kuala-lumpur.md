@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="diplo-style-V2.css">
+
 ## Conférence de presse du MOFCOM, 29/10/2025 ##
 
 ***À l’issue des consultations économiques et commerciales sino-américaines tenues à Kuala Lumpur, les deux partie sont parvenues aux consensus et résultats suivants*** :
