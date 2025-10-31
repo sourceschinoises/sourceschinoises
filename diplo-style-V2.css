@@ -53,3 +53,17 @@ th {
 strong {
   font-weight: bold;
 }
+abbr[title] {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #cc0000;
+  text-underline-offset: 3px;
+  cursor: help;
+  color: #000;
+}
+
+abbr[title]:hover {
+  background-color: #ffffcc;
+  text-decoration-color: #990000;
+}
