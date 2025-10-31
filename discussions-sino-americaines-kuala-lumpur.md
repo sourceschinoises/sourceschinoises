@@ -4,18 +4,18 @@
 
 ***À l’issue des consultations économiques et commerciales sino-américaines tenues à Kuala Lumpur, les deux partie sont parvenues aux consensus et résultats suivants*** :
 
-## I ##. La partie américaine annulera les droits de douane additionnels de 10 %, dits « droits de douane fentanyl », imposés sur les marchandises originaires de Chine (y compris celles des Régions administratives spéciales de Hong Kong et de Macao)
+### I ### La partie américaine annulera les droits de douane additionnels de 10 %, dits « droits de douane fentanyl », imposés sur les marchandises originaires de Chine (y compris celles des Régions administratives spéciales de Hong Kong et de Macao)
 
 Les droits de douane additionnels de 24 % appliqués à titre de mesures de réciprocité sur les produits chinois (y compris ceux de Hong Kong et de Macao) demeureront suspendus pour une durée d’un an.
 
 La partie chinoise ajustera en conséquence ses contre-mesures tarifaires prises à l’égard des mesures susmentionnées des États-Unis.
 Les deux parties sont convenues de prolonger certaines exemptions tarifaires actuellement en vigueur.
 
-## II ##. La partie américaine suspendra pour une période d’un an la mise en œuvre de la « règle de pénétration à 50 % » de contrôle des exportations, annoncée le 29 septembre.
+### II ### La partie américaine suspendra pour une période d’un an la mise en œuvre de la « règle de pénétration à 50 % » de contrôle des exportations, annoncée le 29 septembre.
 
 La partie chinoise, pour sa part, suspendra également pour un an la mise en œuvre des mesures de contrôle des exportations connexes publiées le 9 octobre, et procédera à une étude approfondie en vue de préciser les modalités d’application.
 
-## III ##. La partie américaine suspendra pour un an les mesures liées à son enquête au titre de l’article 301 concernant les secteurs maritime, logistique et de la construction navale de la Chine.
+### III ### La partie américaine suspendra pour un an les mesures liées à son enquête au titre de l’article 301 concernant les secteurs maritime, logistique et de la construction navale de la Chine.
 
 À la suite de cette suspension, la partie chinoise suspendra également pour une durée équivalente ses contre-mesures correspondantes à l’encontre des États-Unis.
 
