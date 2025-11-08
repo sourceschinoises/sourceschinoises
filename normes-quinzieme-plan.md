@@ -12,13 +12,13 @@ Une fois publiées, ces normes joueront un rôle important pour l’amélioratio
 
 ## 1. Domaines émergents (新兴领域)
 
-- Publication de 167 normes nationales sur les matériaux à aimants permanents en terres rares, les céramiques de précision, les composites en fibre de carbone, afin de favoriser l’itération technologique, la transformation des résultats de R&D et d’orienter le secteur vers une normalisation.
+* Publication de 167 normes nationales sur les matériaux à aimants permanents en terres rares, les céramiques de précision, les composites en fibre de carbone, afin de favoriser l’itération technologique, la transformation des résultats de R&D et d’orienter le secteur vers une normalisation.
 
-- Publication de 4 normes nationales sur l’informatique/intelligence de calcul (terminologie, architecture de référence, méthodes de test) pour consolider la base de l’IA au service de la montée en gamme industrielle. Publication de 14 normes sur les équipements et matériaux pour semi-conducteurs (composants électroniques, encapsulation et tests des circuits intégrés) afin de soutenir un développement sain et normé du secteur des semi-conducteurs. 
+* Publication de 4 normes nationales sur l’informatique/intelligence de calcul (terminologie, architecture de référence, méthodes de test) pour consolider la base de l’IA au service de la montée en gamme industrielle. Publication de 14 normes sur les équipements et matériaux pour semi-conducteurs (composants électroniques, encapsulation et tests des circuits intégrés) afin de soutenir un développement sain et normé du secteur des semi-conducteurs. 
 
 ## 2. Transports et vert- bas carbone (交通和绿色低碳)
 
-- Publication de normes sur l’alarme et la signalisation des véhicules de métro urbain, pour rehausser la capacité de sécurité des transports publics sur rail.
+* Publication de normes sur l’alarme et la signalisation des véhicules de métro urbain, pour rehausser la capacité de sécurité des transports publics sur rail.
  
 •	Publication de normes sur l’immatriculation et l’identification en vol des drones, sur la signalisation routière, les véhicules au gaz, la réparation des conteneurs, les portes palières de métro, pour soutenir un transport sûr.
 
