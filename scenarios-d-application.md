@@ -1,6 +1,6 @@
 Sources chinoises, Bulletin du 17 novembre 2025
 
-
+<link rel="stylesheet" href="diplo-style-V2.css">
 
 Extraits de la Directive d'application du Bureau du Conseil des affaires d'État sur l'accélération et l'application à grande échelle de nouveaux scénarios d’usage 国务院办公厅关于加快场景培育和开放推动新场景大规模应用的实施意见https://www.gov.cn/zhengce/content/202511/content_7047419.htm  
 国办发〔2025〕37号 - Guobanfa [2025] n°37
