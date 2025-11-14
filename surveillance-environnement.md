@@ -1,26 +1,20 @@
 Sources chinoises, le 17 novembre 2025
 
+<link rel="stylesheet" href="diplo-style-V2.css">
 
+# Réglementation relative à la surveillance de l'environnement écologique 
 
-中华人民共和国国务院令
+[生态环境监测条例](https://www.gov.cn/zhengce/content/202511/content_7047288.htm)
 
-第820号
-
----
-
-La 《生态环境监测条例》 a été adoptée lors de la 70ème réunion ordinaire du Conseil des Affaires d'État le 17 octobre 2025. Elle est promulguée et entre en vigueur le 1er janvier 2026.
+Cette règlementation a été adoptée lors de la 70ème réunion ordinaire du Conseil des Affaires d'État le 17 octobre 2025. Elle entre en vigueur le 1er janvier 2026.
 
 Premier ministre : Li Qiang
 
-31 octobre 2025
+publiée le 31 octobre 2025
 
----
+### 第一章　总则 ###
 
-# 生态环境监测条例
-
-## 第一章　总则
-
-Chapitre I — Dispositions générales
+### Chapitre I — Dispositions générales ###
 
 **Article premier** — La présente réglementation est élaborée afin de normaliser les activités de monitoring environnemental écologique, d'améliorer les capacités et le niveau de monitoring environnemental écologique, de garantir la qualité des données de monitoring environnemental écologique, et de mieux faire jouer le rôle important du monitoring environnemental écologique dans le soutien à la construction de la civilisation écologique et d'une Belle Chine, ainsi que dans le service au développement économique et social de haute qualité, conformément aux lois pertinentes.
 
@@ -46,9 +40,9 @@ Les autorités compétentes des autorités publiques locales en matière d'envir
 
 L'État établit et perfectionne le système de transmission des données de monitoring environnemental écologique et le mécanisme de partage intégré, encourage et soutient le développement approfondi et l'application des données de monitoring environnemental écologique.
 
-## 第二章　公共监测
+### 第二章　公共监测 ###
 
-Chapitre II — Monitoring public
+### Chapitre II — Monitoring public ###
 
 **Article 10** — Les autorités publiques locales à tous les niveaux et les services concernés des autorités publiques à partir du niveau du district doivent exercer consciencieusement leurs fonctions de monitoring environnemental écologique, mener ou organiser conformément aux dispositions des lois et règlements ainsi qu'aux besoins du travail de protection de l'environnement écologique le monitoring public, comprenant le monitoring de la qualité environnementale écologique, le monitoring de supervision environnementale écologique, le monitoring d'urgence en cas d'incidents environnementaux écologiques soudains.
 
@@ -86,9 +80,9 @@ Après la survenue d'un incident environnemental écologique soudain, les autori
 
 **Article 19** — Les agents des autorités publiques locales à tous les niveaux et des services concernés des autorités publiques à partir du niveau du district ne peuvent en aucun cas falsifier les données de monitoring public ou indiquer ou suggérer de manière explicite ou implicite aux unités ou individus concernés de falsifier les données de monitoring public, ni exercer de représailles à l'encontre des unités ou individus qui exercent légalement leurs fonctions ou refusent ou résistent aux comportements illégaux de monitoring.
 
-## 第三章　自行监测
+### 第三章　自行监测 ###
 
-Chapitre III — Auto-monitoring
+### Chapitre III — Auto-monitoring ###
 
 **Article 20** — Les entreprises et unités de production mènent conformément aux dispositions des lois et règlements l'auto-monitoring concernant la situation d'émission de polluants, de gaz à effet de serre dans leurs activités de production et d'exploitation, ainsi que l'impact sur l'environnement écologique des projets de construction, des incidents environnementaux écologiques soudains.
 
@@ -124,7 +118,7 @@ Les entreprises et unités de production ne peuvent mettre en œuvre ou indiquer
 
 Les entreprises et unités de production doivent rendre publiques conformément à la loi les informations pertinentes de l'auto-monitoring et accepter la supervision sociale.
 
-## 第四章　技术服务机构
+### 第四章　技术服务机构 ###
 
 Chapitre IV — Organismes de services techniques
 
@@ -158,7 +152,7 @@ Les organismes de services techniques ainsi que leurs responsables sont responsa
 
 **Article 33** — Les organismes de services techniques qui acceptent un mandat pour mener des services de monitoring doivent conserver conformément aux dispositions les données, rapports, enregistrements et contrats de mandat pertinents à la conduite de leurs activités, afin de garantir la traçabilité de l'ensemble du processus des activités.
 
-## 第五章　监督管理
+### 第五章　监督管理 ###
 
 Chapitre V — Supervision et gestion
 
@@ -178,7 +172,7 @@ Les agents d'inspection ont conformément à la loi une obligation de confidenti
 
 **Article 39** — Toute unité ou individu a le droit de dénoncer auprès des autorités compétentes en matière d'environnement écologique et des autres autorités concernées les comportements qui violent les dispositions de la présente réglementation. Les autorités qui reçoivent les dénonciations doivent les traiter rapidement conformément à la loi.
 
-## 第六章　法律责任
+### 第六章　法律责任 ###
 
 Chapitre VI — Responsabilités juridiques
 
@@ -238,9 +232,9 @@ Lorsque les organismes de services techniques font l'objet de sanctions conform�
 
 **Article 46** — En cas de violation des dispositions de la présente réglementation causant des dommages à autrui, la responsabilité en réparation est assumée conformément à la loi. En cas de constitution d'une infraction aux règles de gestion de la sécurité publique, les organes de sécurité publique infligent des sanctions administratives conformément à la loi. En cas de constitution d'une infraction pénale, la responsabilité pénale est poursuivie conformément à la loi.
 
-## 第七章　附则
+### 第七章　附则 ###
 
-Chapitre VII — Dispositions complémentaires
+### Chapitre VII — Dispositions complémentaires ###
 
 **Article 47** — Le travail de monitoring environnemental écologique de l'armée est exécuté conformément aux dispositions pertinentes de la Commission militaire centrale.
 
