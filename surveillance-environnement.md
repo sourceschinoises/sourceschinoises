@@ -120,7 +120,7 @@ Les entreprises et unités de production doivent rendre publiques conformément 
 
 ### 第四章　技术服务机构 ###
 
-Chapitre IV — Organismes de services techniques
+### Chapitre IV — Organismes de services techniques ###
 
 **Article 27** — Les autorités publiques, leurs services concernés et les entreprises et unités de production peuvent mandater des organismes de services techniques établis conformément à la loi pour mener des services connexes de monitoring environnemental écologique (ci-après dénommés services de monitoring).
 
@@ -154,7 +154,7 @@ Les organismes de services techniques ainsi que leurs responsables sont responsa
 
 ### 第五章　监督管理 ###
 
-Chapitre V — Supervision et gestion
+### Chapitre V — Supervision et gestion ###
 
 **Article 34** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique promeut la conduite de la transmission des données de monitoring, de l'enregistrement des organismes de services techniques, de la publication des informations pertinentes et autres gestion et services par le biais de la plateforme de services de gestion du monitoring environnemental écologique, et établit avec les autorités concernées du Conseil des Affaires d'État un mécanisme de partage d'informations.
 
@@ -174,7 +174,7 @@ Les agents d'inspection ont conformément à la loi une obligation de confidenti
 
 ### 第六章　法律责任 ###
 
-Chapitre VI — Responsabilités juridiques
+### Chapitre VI — Responsabilités juridiques ###
 
 **Article 40** — En cas d'occupation ou d'endommagement des stations de monitoring de la qualité environnementale écologique ainsi que de leurs installations et équipements, ou de perturbation du fonctionnement normal des stations de monitoring de la qualité environnementale écologique, les autorités compétentes en matière d'environnement écologique ou les autres autorités concernées ordonnent conformément à leurs fonctions la rectification et infligent une amende de 20 000 yuans à 200 000 yuans.
 
