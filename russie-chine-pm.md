@@ -1,19 +1,26 @@
-Sources chinoises
+Sources chinoises, Bulletin n°5, le 17 novembre 2025
 
+<link rel="stylesheet" href="diplo-style-V2.css">
 
+# Communiqué conjoint de la 30e réunion régulière des Premiers ministres chinois et russe
 
-Communiqué conjoint de la 30e réunion régulière des Premiers ministres chinois et russe
+[texte intégral en chinois] (https://www.gov.cn/yaowen/liebiao/202511/content_7047103.htm) 
 
-https://www.gov.cn/yaowen/liebiao/202511/content_7047103.htm 
+traduction intégrale. Certains noms propres et accords ont été laissés en langue source chinoise entre parenthèses
 
-À l'invitation du Premier ministre du Conseil des affaires d'État de la République populaire de Chine Li Qiang, le Président du Gouvernement de la Fédération de Russie Mikhaïl Vladimirovich Mishoustine a effectué une visite en Chine du 3 au 4 novembre 2025. Le 4 novembre, le Président de la République populaire de Chine Xi Jinping a reçu le Premier ministre Mishustin à Beijing. Le 3 novembre, le Premier ministre Li Qiang et le Premier ministre Mishoustine ont présidé conjointement la 30e réunion des Premiers ministres chinois et russe à Hangzhou.
+À l'invitation du Premier ministre du Conseil des affaires d'État de la République populaire de Chine Li Qiang, le Président du Gouvernement de la Fédération de Russie Mikhaïl Vladimirovich Mishoustine a effectué une visite en Chine du 3 au 4 novembre 2025. Le 4 novembre, le Président de la République populaire de Chine Xi Jinping a reçu le Premier ministre Mishustin à Beijing. 
 
-# I (principes)
+Le 3 novembre, le Premier ministre Li Qiang et le Premier ministre Mishoustine ont présidé conjointement la 30e réunion des Premiers ministres chinois et russe à Hangzhou.
+
+## I (principes)
 
 Les deux Premiers ministres (ci-après dénommés "les deux parties") ont souligné que, sous la direction du Président Xi Jinping et du Président Poutine, le partenariat stratégique global de coordination de la nouvelle ère sino-russe a atteint son plus haut niveau historique et continue de progresser. 
 En mai et septembre 2025, lors de leurs entretiens à Moscou et Beijing, les deux chefs d'État ont procédé à d'importantes dispositions stratégiques concernant le développement des relations bilatérales. 
 
-Les deux parties considèrent le consensus des deux chefs d'État comme principe fondamental et, conformément aux principes de base établis par le « Traité de bon voisinage, d'amitié et de coopération entre la Chine et la Russie » (《中俄睦邻友好合作条约》) signé le 16 juillet 2001, de non-alliance, de non-confrontation et de non-ciblage de tiers. (Ils) maintiendront un esprit de bon voisinage et d'amitié permanents, de coordination stratégique globale et de coopération gagnant-gagnant mutuellement bénéfique. Les deux parties réaffirment que la Chine et la Russie se considèrent toujours mutuellement comme des partenaires prioritaires, consolideront la coopération dans tous les domaines et répondront aux défis externes.
+Les deux parties considèrent le consensus des deux chefs d'État comme principe fondamental et, conformément aux principes de base établis par le « Traité de bon voisinage, d'amitié et de coopération entre la Chine et la Russie » (《中俄睦邻友好合作条约》) signé le 16 juillet 2001, de non-alliance, de non-confrontation et de non-ciblage de tiers. 
+
+(Ils) maintiendront un esprit de bon voisinage et d'amitié permanents, de coordination stratégique globale et de coopération gagnant-gagnant mutuellement bénéfique. Les deux parties réaffirment que la Chine et la Russie se considèrent toujours mutuellement comme des partenaires prioritaires, consolideront la coopération dans tous les domaines et répondront aux défis externes.
+
 Les deux parties ont souligné que cette année marque le 80e anniversaire de la victoire de la guerre de résistance du peuple chinois contre l'agression japonaise et de la guerre mondiale antifasciste, ainsi que de la Grande Guerre patriotique soviétique, et également le 80e anniversaire de la création des Nations Unies. 
 
 En tant que principales puissances victorieuses de la Seconde Guerre mondiale et membres permanents du Conseil de sécurité des Nations Unies, la Chine et la Russie s'opposeront conjointement aux tentatives de falsification les résultats et l'histoire de la victoire de la Seconde Guerre mondiale et respecteront intégralement la Charte des Nations Unies. (Ils) s'appuieront sur celle-ci comme base du droit international pour promouvoir la réalisation d'une multipolarité mondiale égale et ordonnée.
@@ -25,15 +32,15 @@ La partie russe réaffirme l'autorité de la résolution 2758 de l'Assemblée g�
 La partie chinoise soutient la Russie dans la sauvegarde de sa sécurité et stabilité nationales, de son développement et de sa prospérité, de sa souveraineté et de son intégrité territoriale, et s'oppose à l'ingérence de forces externes dans les affaires intérieures russes.
 Les deux parties accordent une grande importance au rôle directeur du mécanisme de réunion des Premiers ministres chinois et russe dans l'approfondissement des échanges et du dialogue dans les domaines clés de la coopération pratique bilatérale, et réaffirment leur volonté d'améliorer l'efficacité de ce mécanisme pour promouvoir l'amélioration qualitative de la coopération bilatérale.
 
-# II (commerce et investissement)
+## II (commerce et investissement)
 
 Les deux parties ont souligné qu'en 2024, la coopération économique et commerciale sino-russe a surmonté l’impact de facteurs externes défavorables et a connu un développement sain et continu, avec un volume d'échanges commerciaux bilatéraux atteignant un nouveau record. Les deux parties prendront conjointement des mesures pour promouvoir le développement stable de la coopération bilatérale. À cette fin, les deux parties ont convenu :
 
 — De continuer à améliorer la structure commerciale et à exploiter les points de croissance du commerce bilatéral tels que le commerce électronique, les produits agricoles et les biens intermédiaires. 
 
-De promouvoir le développement du commerce électronique transfrontalier. 
+— De promouvoir le développement du commerce électronique transfrontalier. 
 
-D'optimiser l'environnement des affaires, d'améliorer le niveau de facilitation du commerce et de l'investissement, et de garantir conjointement la sécurité et la stabilité des chaînes industrielles et des chaînes d'approvisionnement.
+— D'optimiser l'environnement des affaires, d'améliorer le niveau de facilitation du commerce et de l'investissement, et de garantir conjointement la sécurité et la stabilité des chaînes industrielles et des chaînes d'approvisionnement.
 
 — De continuer à renforcer la coopération sectorielle dans le cadre des organisations internationales professionnelles, de s'opposer à la politisation de leurs activités et de maintenir l'esprit de coopération internationale constructive.
 
@@ -87,7 +94,7 @@ D'optimiser l'environnement des affaires, d'améliorer le niveau de facilitation
 
 — D'accorder une grande importance à la coopération dans le suivi de la qualité de l'eau des masses d'eau transfrontalières, les liaisons d'urgence en cas de catastrophes environnementales, les zones protégées transfrontalières et la biodiversité. 
 
--De poursuivre la coopération régulière dans le cadre de la sous-commission environnementale, y compris le groupe de travail existant sur la gestion des déchets. D'approfondir la coopération dans le cadre de la Commission mixte sino-russe pour l'utilisation rationnelle et la protection des eaux transfrontalières (中俄合理利用和保护跨界水联合委员会), y compris le groupe de travail existant sur la prévention des inondations. De continuer à approfondir la coopération en matière de prévision hydrologique et de prévention des inondations pour garantir la sécurité contre les inondations dans les zones frontalières des deux pays.
+— De poursuivre la coopération régulière dans le cadre de la sous-commission environnementale, y compris le groupe de travail existant sur la gestion des déchets. D'approfondir la coopération dans le cadre de la Commission mixte sino-russe pour l'utilisation rationnelle et la protection des eaux transfrontalières (中俄合理利用和保护跨界水联合委员会), y compris le groupe de travail existant sur la prévention des inondations. De continuer à approfondir la coopération en matière de prévision hydrologique et de prévention des inondations pour garantir la sécurité contre les inondations dans les zones frontalières des deux pays.
 
 — De renforcer la coopération en matière de protection de la biodiversité, notamment la protection d'espèces telles que le tigre de l'Amour (东北虎), la panthère de l'Amour (东北豹), le cheval de Przewalski (普氏野马) et la panthère des neiges (雪豹). De soutenir la coopération sino-russe pour la protection du panda géant (大熊猫) et du singe doré (金丝猴).
 
@@ -115,7 +122,7 @@ D'optimiser l'environnement des affaires, d'améliorer le niveau de facilitation
 
 — De renforcer la coopération pratique dans le cadre de l'« Accord de coopération économique et commerciale entre la République populaire de Chine et l'Union économique eurasiatique » (《中华人民共和国与欧亚经济联盟经贸合作协定》) signé le 17 mai 2018.
 
-# III (technologies)
+## III (technologies)
 
 Les deux parties évaluent positivement les résultats de la coopération sino-russe en matière d'innovation scientifique et technologique et de haute technologie, et souhaitent approfondir la coopération pour fournir une force motrice puissante au développement de haute qualité de l'économie et de la société et à la modernisation industrielle des deux pays. À cette fin, les deux parties ont convenu :
 
@@ -145,7 +152,7 @@ Les deux parties évaluent positivement les résultats de la coopération sino-r
 
 — De continuer à renforcer la coopération mutuellement bénéfique dans le domaine de la navigation par satellite. De promouvoir un niveau plus élevé de compatibilité et d'interopérabilité entre le système BeiDou (北斗系统) et le système GLONASS (格洛纳斯系统) ainsi que leurs services et systèmes d'augmentation, de renforcer la surveillance et l'évaluation conjointes des performances des services lors de l'utilisation simultanée des deux systèmes, le soutien à l'information des utilisateurs et le développement des applications, afin d'améliorer la qualité et la fiabilité des services de navigation civile des deux systèmes, et de les appliquer plus largement dans divers secteurs économiques des deux pays.
 
-# IV (Investissements)
+## IV (Investissements)
 
 Les deux parties soulignent qu'actuellement, la coopération en matière d'investissement sino-russe maintient une bonne dynamique de développement et joue un rôle important dans l'approfondissement de la coopération pratique sino-russe. Les deux parties souhaitent promouvoir les entreprises à accroître leur coopération en matière d'investissement, stimuler la vitalité de la coopération en matière d'investissement local, et améliorer continuellement la qualité et l'efficacité de la coopération en matière d'investissement. À cette fin, les deux parties ont convenu :
 
@@ -165,7 +172,7 @@ Les deux parties accueillent favorablement la signature du « Mémorandum d'ente
 
 — De soutenir le travail du Comité de coopération en matière d'investissement sino-russe (中俄投资合作委员会), de créer les conditions nécessaires pour optimiser l'environnement des affaires dans les deux pays et de promouvoir les meilleures pratiques.
 
-# V (coopération financière)
+## V (coopération financière)
 
 Les deux parties évaluent positivement les nouveaux progrès de la coopération sino-russe dans le domaine financier et souhaitent continuer à exploiter le potentiel de la sous-commission de coopération financière et du dialogue des ministres des Finances sino-russe, et renforcer la coopération entre les départements financiers des deux parties. À cette fin, les deux parties ont convenu :
 
@@ -191,7 +198,7 @@ Les deux parties évaluent positivement les nouveaux progrès de la coopération
 
 Les deux parties sont convaincues qu'il est nécessaire de respecter absolument les obligations internationales concernant l'immunité dont jouissent les États et leurs biens. La confiscation, le gel ou toute autre utilisation d'actifs souverains sans le consentement du propriétaire violent le principe fondamental de l'égalité souveraine de tous les États et déstabilisent l'ordre financier mondial.
 
-# VI (coopération énergétique)
+## VI (coopération énergétique)
 
 Les deux parties accordent une grande importance aux résultats de la coopération énergétique sino-russe et continueront à exploiter le potentiel de la coopération énergétique, à consolider le partenariat énergétique global, à consolider et approfondir le modèle de coopération énergétique dans tous les aspects, dans tous les domaines et en profondeur, à maintenir conjointement la sécurité énergétique nationale, régionale et mondiale, à promouvoir l'accès de tous à une énergie moderne abordable, fiable et durable, et à promouvoir une transition énergétique mondiale juste et équilibrée. À cette fin, les deux parties ont convenu :
 
@@ -209,7 +216,7 @@ Les deux parties accordent une grande importance aux résultats de la coopérati
 
 — De soutenir l'organisation en 2025 du 7e Forum d'affaires énergétiques Chine-Russie (中俄能源商务论坛), afin d'élargir la coopération pratique entre les entreprises des deux pays.
 
-# VII (échanges humains et culturels)
+## VII (échanges humains et culturels)
 
 Les deux parties estiment que la coopération humanitaire bilatérale revêt une grande importance pour la promotion du développement des relations bilatérales, et se disent satisfaites des résultats de la coopération dans divers domaines de coopération homologue entre les deux pays, et approfondiront continuellement cette coopération. À cette fin, les deux parties ont convenu :
 
@@ -245,7 +252,7 @@ Les deux parties estiment que la coopération humanitaire bilatérale revêt une
 
 — De renforcer la coopération dans le domaine de la jeunesse, y compris l'entrepreneuriat des jeunes, le volontariat, les industries créatives et l'éducation patriotique. De promouvoir l'élargissement des échanges entre les départements locaux et les organisations à but non lucratif. De promouvoir conjointement la priorité au développement de la jeunesse sur les plateformes multilatérales telles que les Nations Unies, l'Organisation de coopération de Shanghai et les BRICS.
 
-# VIII (coopérations territoriales)
+## VIII (coopérations territoriales)
 
 Les deux parties accordent une grande importance et accueillent favorablement les développements de la coopération entre les localités sino-russes et les régions frontalières dans les domaines économique, commercial, de l'investissement et des échanges humains, soutiennent les échanges et liaisons entre villes, élargissent les zones géographiques, les domaines concernés et l'échelle de coopération, et améliorent la base juridique et réglementaire de la coopération bilatérale. À cette fin, les deux parties ont convenu :
 
@@ -275,7 +282,7 @@ Les deux parties accordent une grande importance et accueillent favorablement le
 
 — De soutenir les deux parties dans l'établissement de relations de partenariat et de jumelage dans le domaine des échanges humains par le biais de canaux tels que l'Association du peuple chinois pour l'amitié avec l'étranger (中国人民对外友好协会) et l'Association panrusse pour le développement de l'autonomie locale.
 
-# IX (gouvernance régionale et mondiale)
+## IX (gouvernance régionale et mondiale)
 
 Les deux parties soulignent que le concept de communauté de destin pour l'humanité (人类命运共同体) proposé par la partie chinoise et une série d'initiatives mondiales de gouvernance ont une signification positive importante. La partie chinoise évalue positivement l'initiative « Architecture de sécurité eurasiatique » (欧亚大陆安全架构) proposée par la partie russe.
 
@@ -331,7 +338,7 @@ Les deux parties conviennent de promouvoir conjointement l'amélioration du bien
 
 Les deux parties appellent à faire face conjointement aux défis et menaces sécuritaires traditionnels et nouveaux tels que le terrorisme, l'extrémisme et le trafic de drogue.
 
-# X
+## X (documents joints)
 
 Dans le cadre de la 30e réunion régulière des Premiers ministres chinois et russe, les documents suivants ont été signés :
 
