@@ -4,11 +4,11 @@ Sources chinoises, Bulletin n°5, le 17 novembre 2025
 
 # Communiqué conjoint de la 30e réunion régulière des Premiers ministres chinois et russe
 
-[texte intégral en chinois] (https://www.gov.cn/yaowen/liebiao/202511/content_7047103.htm) 
+[texte intégral en chinois](https://www.gov.cn/yaowen/liebiao/202511/content_7047103.htm) 
 
-traduction intégrale. Certains noms propres et accords ont été laissés en langue source chinoise entre parenthèses
+***Traduction intégrale. Certains noms propres et accords ont été laissés en langue source chinoise entre parenthèses***
 
-À l'invitation du Premier ministre du Conseil des affaires d'État de la République populaire de Chine Li Qiang, le Président du Gouvernement de la Fédération de Russie Mikhaïl Vladimirovich Mishoustine a effectué une visite en Chine du 3 au 4 novembre 2025. Le 4 novembre, le Président de la République populaire de Chine Xi Jinping a reçu le Premier ministre Mishustin à Beijing. 
+À l'invitation du Premier ministre du Conseil des affaires d'État de la République populaire de Chine Li Qiang, le Président du Gouvernement de la Fédération de Russie Mikhaïl Vladimirovich Mishoustine a effectué une visite en Chine **du 3 au 4 novembre 2025**. Le 4 novembre, le Président de la République populaire de Chine Xi Jinping a reçu le Premier ministre Mishustin à Beijing. 
 
 Le 3 novembre, le Premier ministre Li Qiang et le Premier ministre Mishoustine ont présidé conjointement la 30e réunion des Premiers ministres chinois et russe à Hangzhou.
 
