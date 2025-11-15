@@ -1,13 +1,16 @@
+Sources chinoises, bulletin du 17 novembre 2025
 
+<link rel="stylesheet" href="diplo-style-V2.css">
 
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         SIMANDOU : QUI CONTRÔLE VRAIMENT ?                   ║
-║                              (23 Mds USD • 120 Mt/an)                        ║
+#                           QUI CONTRÔLE SIMANDOU ? #                               
+                             
+                        (23 Mds USD • 120 Mt/an)                        
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                           LES MINES (capital minier)                         │
+##                            LES MINES (capital minier) ##                         
 └──────────────────────────────────────────────────────────────────────────────┘
 
         BLOCS NORD (1-2)                          BLOCS SUD (3-4)
@@ -23,7 +26,7 @@
 
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                    L'INFRASTRUCTURE (600 km rail + ports)                    │
+##                    L'INFRASTRUCTURE (600 km rail + ports) ##                    
 └──────────────────────────────────────────────────────────────────────────────┘
 
     Conception rail     →  100% 🇨🇳  (bureaux d'études chinois)
@@ -36,7 +39,7 @@
 
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                              LE CLIENT FINAL                                 │
+##                              LE CLIENT FINAL ##                                 
 └──────────────────────────────────────────────────────────────────────────────┘
 
                     🇨🇳 CHINA BAOWU STEEL GROUP
@@ -45,10 +48,10 @@
                     Achète la majorité du minerai produit
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                        QUI PÈSE VRAIMENT ? (synthèse)                        │
+##                        QUI PÈSE VRAIMENT ? (synthèse) ##                      
 └──────────────────────────────────────────────────────────────────────────────┘
 
-    🇨🇳 CHINE → 75-80% du contrôle opérationnel
+### 🇨🇳 CHINE → 75-80% du contrôle opérationnel
        (Baowu, Chinalco, Weiqiao, CRCC, CHEC)
        • Capital minier: 45-47%
        • Infrastructure: 95%
