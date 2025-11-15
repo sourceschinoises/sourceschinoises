@@ -12,7 +12,7 @@ Sources chinoises, bulletin du 17 novembre 2025
 <h2 align="center">LES MINES (capital minier)</h2>                         
 └──────────────────────────────────────────────────────────────────────────────┘
 
-        BLOCS NORD (1-2)                          BLOCS SUD (3-4)
+           BLOCS NORD (1-2)                          BLOCS SUD (3-4)
         
         🇨🇳 Weiqiao         35%                   🇬🇧 Rio Tinto      53%
         🇸🇬 Winning Shipping 45%                  🇨🇳 Chinalco       47%
@@ -21,19 +21,19 @@ Sources chinoises, bulletin du 17 novembre 2025
                                                         CHEC 2,5%
         🇬🇳 Guinée          15%                   🇬🇳 Guinée         15%
         
-        Chinois: ~50%                             Chinois: 100% (via JV)
+           Chinois: ~50%                             Chinois: 100% (via JV)
 
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 <h2 align="center">L'INFRASTRUCTURE (600 km de rails + ports)</h2>                    
 └──────────────────────────────────────────────────────────────────────────────┘
 
-    Conception rail     →  100% 🇨🇳  (bureaux d'études chinois)
-    Construction rail   →  100% 🇨🇳  (7 filiales China Railway)
-    Construction ports  →   90% 🇨🇳  (CHEC + Yantai Port)
-    Standards tech.     →  100% 🇨🇳  (normes chinoises)
+       Conception rail     →  100% 🇨🇳  (bureaux d'études chinois)
+       Construction rail   →  100% 🇨🇳  (7 filiales China Railway)
+       Construction ports  →   90% 🇨🇳  (CHEC + Yantai Port)
+       Standards tech.     →  100% 🇨🇳  (normes chinoises)
     
-    ⚠️  Même si CTG (opérateur) = 42,5% WCS + 42,5% SimFer + 15% Guinée
+       Même si CTG (opérateur) = 42,5% WCS + 42,5% SimFer + 15% Guinée
         → TOUT construit et conçu par des entreprises chinoises
 
 
@@ -41,7 +41,7 @@ Sources chinoises, bulletin du 17 novembre 2025
 <h2 align="center">LE CLIENT FINAL</h2>                                 
 └──────────────────────────────────────────────────────────────────────────────┘
 
-                    🇨🇳 CHINA BAOWU STEEL GROUP
+                       🇨🇳 CHINA BAOWU STEEL GROUP
                        (N°1 sidérurgiste mondial)
                     
                     Achète la majorité du minerai produit
