@@ -42,6 +42,7 @@ Sources chinoises, bulletin du 17 novembre 2025
 └──────────────────────────────────────────────────────────────────────────────┘
 
 <p align="center">🇨🇳 CHINA BAOWU STEEL GROUP</p<
+
 <p align="center">(N°1 sidérurgiste mondial)</p<
                     
 <p align="center">Achète la majorité du minerai produit</p<
