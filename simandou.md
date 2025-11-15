@@ -4,9 +4,7 @@ Sources chinoises, bulletin du 17 novembre 2025
 
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-#                           QUI CONTRÔLE SIMANDOU ? #                               
-                             
-                        (23 Mds USD • 120 Mt/an)   
+#                           QUI CONTRÔLE SIMANDOU ? #                                
                         
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
@@ -27,7 +25,7 @@ Sources chinoises, bulletin du 17 novembre 2025
 
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-<h2 align="center">L'INFRASTRUCTURE (600 km rail + ports)</h2>                    
+<h2 align="center">L'INFRASTRUCTURE (600 km de rails + ports)</h2>                    
 └──────────────────────────────────────────────────────────────────────────────┘
 
     Conception rail     →  100% 🇨🇳  (bureaux d'études chinois)
