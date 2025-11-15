@@ -41,11 +41,10 @@ Sources chinoises, bulletin du 17 novembre 2025
 <h2 align="center">LE CLIENT FINAL</h2>                                 
 └──────────────────────────────────────────────────────────────────────────────┘
 
-<h2 align="center">🇨🇳 CHINA BAOWU STEEL GROUP</h2>
-
-<h2 align="center">(N°1 sidérurgiste mondial)</h2>
+<p align="center">🇨🇳 CHINA BAOWU STEEL GROUP</p<
+<p align="center">(N°1 sidérurgiste mondial)</p<
                     
-<h2 align="center">Achète la majorité du minerai produit</h2>
+<p align="center">Achète la majorité du minerai produit</p<
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 <h2 align="center">QUI PÈSE VRAIMENT ? (synthèse)</h2>                      
