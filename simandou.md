@@ -3,26 +3,47 @@ Sources chinoises, bulletin du 17 novembre 2025
 <link rel="stylesheet" href="diplo-style-V2.css">
 
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-# QUI CONTRÔLE SIMANDOU ? #                                
-                        
-╚══════════════════════════════════════════════════════════════════════════════╝
+┌───────────────────────────────────────────────────────────┐
+<div align="center" style="font-size: 24px; font-weight: bold;">QUI CONTRÔLE SIMANDOU ?</div>
+└───────────────────────────────────────────────────────────┘                                                   
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 <h2 align="center">LES MINES (capital minier)</h2>                         
 └──────────────────────────────────────────────────────────────────────────────┘
 
-           BLOCS NORD (1-2)                          BLOCS SUD (3-4)
-        
-        🇨🇳 Weiqiao         35%                   🇬🇧 Rio Tinto      53%
-        🇸🇬 Winning Shipping 45%                  🇨🇳 Chinalco       47%
-        🇬🇳 UMSI (guinéo-fr.) 20%                    └─ dont Baowu 20%
-        + 🇨🇳 Baowu (accord)                           CRCC 2,5%
-                                                        CHEC 2,5%
-        🇬🇳 Guinée          15%                   🇬🇳 Guinée         15%
-        
-       Chinois: ~50%                           Chinois: 100% (via JV)
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
+**BLOCS NORD (1-2)**
+
+CN Weiqiao 35%  
+SG Winning Shipping 45%  
+GN UMSI (guinéo-fr.) 20%  
++ CN Baowu (accord)  
+
+GN Guinée 15%  
+
+Chinois: ~50%
+
+</td>
+<td width="50%" valign="top">
+
+**BLOCS SUD (3-4)**
+
+GB Rio Tinto 53%  
+CN Chinalco 47%  
+└─ dont Baowu 20%  
+CRCC 2,5%  
+CHEC 2,5%  
+
+GN Guinée 15%  
+
+Chinois: 100% (via JV)
+
+</td>
+</tr>
+</table>
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 <h2 align="center">L'INFRASTRUCTURE (600 km de rails + ports)</h2>                    
@@ -41,11 +62,11 @@ Sources chinoises, bulletin du 17 novembre 2025
 <h2 align="center">LE CLIENT FINAL</h2>                                 
 └──────────────────────────────────────────────────────────────────────────────┘
 
-<p align="center">🇨🇳 CHINA BAOWU STEEL GROUP</p<
+** 🇨🇳 CHINA BAOWU STEEL GROUP
 
-<p align="center">(N°1 sidérurgiste mondial)</p<
+** N°1 sidérurgiste mondial
                     
-<p align="center">Achète la majorité du minerai produit</p<
+** Achète la majorité du minerai produit
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
 <h2 align="center">QUI PÈSE VRAIMENT ? (synthèse)</h2>                      
