@@ -2,7 +2,7 @@ Sources chinoises, le 17 novembre 2025
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
-# Réglementation relative à la surveillance de l'environnement écologique 
+# Réglementation relative au monitoring environnemental et écologique 
 
 [生态环境监测条例](https://www.gov.cn/zhengce/content/202511/content_7047288.htm)
 
@@ -12,45 +12,49 @@ Premier ministre : Li Qiang
 
 publiée le 31 octobre 2025
 
-### 第一章　总则 ###
+## 第一章　总则 ##
 
-### Chapitre I — Dispositions générales ###
+## Chapitre I — Dispositions générales ##
 
-**Article premier** — La présente réglementation est élaborée afin de normaliser les activités de monitoring environnemental écologique, d'améliorer les capacités et le niveau de monitoring environnemental écologique, de garantir la qualité des données de monitoring environnemental écologique, et de mieux faire jouer le rôle important du monitoring environnemental écologique dans le soutien à la construction de la civilisation écologique et d'une Belle Chine, ainsi que dans le service au développement économique et social de haute qualité, conformément aux lois pertinentes.
+**Article premier** — La présente réglementation est élaborée afin de normaliser les activités de monitoring environnemental écologique, d'améliorer ses capacités et de garantir la qualité des données . Lui faire jouer pleinement son rôle dans le soutien à la construction de la civilisation écologique et d'une Belle Chine (美丽中国), ainsi que dans le service au développement économique et social de haute qualité, conformément aux lois en vigueur.
 
 **Article 2** — Les activités de monitoring environnemental écologique et les activités connexes menées sur le territoire de la République populaire de Chine et dans les autres espaces maritimes relevant de sa juridiction sont soumises à la présente réglementation. Lorsque des dispositions différentes sont établies par des lois ou des règlements administratifs, ces dispositions prévalent.
 
 Le monitoring environnemental écologique mentionné dans la présente réglementation comprend le monitoring environnemental écologique mené ou organisé par les autorités publiques et leurs services concernés dans l'exercice de leurs fonctions de protection de l'environnement écologique (ci-après dénommé monitoring public), ainsi que l'auto-monitoring mené par les entreprises, unités de production et autres entités économiques ayant des obligations légales de monitoring (ci-après dénommées entreprises et unités de production) concernant l'impact de leurs activités sur l'environnement écologique.
 
-**Article 3** — Le travail de monitoring environnemental écologique doit mettre en œuvre les lignes directrices, principes et politiques du Parti et de l'État, ainsi que les décisions et dispositions, persister dans le monitoring conforme à la loi, le monitoring scientifique et le monitoring intègre, et construire un mécanisme de gouvernance dirigé par les autorités publiques, coordonné entre les services, respectant les responsabilités des entreprises et unités de production, avec participation sociale et supervision publique.
+**Article 3** — Le travail de monitoring environnemental écologique doit mettre en œuvre les lignes directrices, principes et politiques du Parti et de l'État, ainsi que les décisions et dispositions, persister dans le monitoring conforme à la loi, le monitoring scientifique et le monitoring de conformité, et construire un mécanisme de gouvernance dirigé par les autorités publiques, coordonné entre les services et respectant les responsabilités des entreprises et unités de production, avec participation sociale et supervision publique.
 
-**Article 4** — L'État établit et perfectionne le système de monitoring environnemental écologique, perfectionne les normes et standards de monitoring environnemental écologique. Les activités de monitoring environnemental écologique doivent respecter les normes et standards de monitoring environnemental écologique.
+**Article 4** — L'État établit et perfectionne le système de monitoring environnemental écologique, perfectionne les normes et standards de monitoring environnemental écologique. Les activités de monitoring environnemental écologique doivent respecter les normes et standards du monitoring.
 
-**Article 5** — L'État renforce la construction des capacités de monitoring environnemental écologique, accélère l'établissement d'un système de monitoring environnemental écologique modernisé, construit un réseau de monitoring environnemental écologique intégrant terre et mer, ciel et sol, coordination entre niveaux supérieurs et inférieurs, partage d'informations, et améliore de manière globale le niveau d'automatisation, de numérisation et d'intelligence du monitoring environnemental écologique.
+**Article 5** — L'État renforce la construction des capacités de monitoring environnemental écologique, accélère l'établissement d'un système de monitoring environnemental écologique modernisé, construit un réseau de monitoring intégrant terre et mer, ciel et sol, coordination entre niveaux supérieurs et inférieurs, partage d'informations, et améliore de manière globale le niveau d'automatisation, de numérisation et d'intelligence du monitoring environnemental écologique.
 
-**Article 6** — Les autorités publiques à partir du niveau du district doivent renforcer la direction organisationnelle et le soutien à la garantie du travail de monitoring environnemental écologique, coordonner la résolution des problèmes majeurs dans le travail de monitoring environnemental écologique, et inscrire les dépenses nécessaires à la conduite du travail de monitoring environnemental écologique dans le budget du niveau concerné, conformément aux principes de répartition des responsabilités financières et des dépenses.
+**Article 6** — Les autorités publiques à partir du niveau du district doivent renforcer la direction organisationnelle et le soutien à la garantie du travail de monitoring, coordonner la résolution des problèmes majeurs et inscrire les dépenses nécessaires dans le budget du niveau concerné, conformément aux principes de répartition des responsabilités financières et des dépenses.
 
-**Article 7** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique est responsable du travail de monitoring environnemental écologique national dans le cadre de ses fonctions. Les autorités concernées du Conseil des Affaires d'État en matière de ressources naturelles, de construction urbaine et rurale, de transport, d'administration des eaux, d'agriculture et affaires rurales, de météorologie, de forêts et prairies, de prévention et de contrôle des maladies, selon la répartition des fonctions, sont responsables du travail connexe de monitoring environnemental écologique.
+**Article 7** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique est responsable du travail de monitoring. Les autorités concernées du Conseil des Affaires d'État en matière de ressources naturelles, de construction urbaine et rurale, de transport, d'administration des eaux, d'agriculture et affaires rurales, de météorologie, de forêts et prairies, de prévention et de contrôle des maladies, selon la répartition des fonctions, sont responsables du travail connexe du monitoring.
 
-Les autorités compétentes des autorités publiques locales en matière d'environnement écologique sont responsables du travail de monitoring environnemental écologique dans leur circonscription administrative dans le cadre de leurs fonctions. Les autorités concernées des autorités publiques locales, selon la répartition des fonctions, sont responsables du travail connexe de monitoring environnemental écologique dans leur circonscription administrative.
+Les autorités compétentes des autorités publiques locales en matière d'environnement écologique sont responsables du travail de monitoring environnemental écologique dans leur circonscription administrative.
 
-**Article 8** — Les autorités publiques locales à tous les niveaux doivent établir et perfectionner le système de responsabilités et le mécanisme de travail de prévention et de sanction de la falsification des données de monitoring environnemental écologique, afin de garantir l'authenticité, l'exactitude et l'exhaustivité des données de monitoring environnemental écologique.
+**Article 8** — Les autorités publiques locales à tous les niveaux doivent établir et perfectionner le système de responsabilités et le mécanisme de travail de prévention et de sanction de la falsification des données de monitoring environnemental écologique, afin de garantir l'authenticité, l'exactitude et l'exhaustivité des données collectées.
 
-**Article 9** — L'État encourage et soutient la recherche, le développement et l'application de technologies et équipements avancés de monitoring environnemental écologique, intensifie la formation de talents spécialisés dans le monitoring environnemental écologique, et promeut les échanges et la coopération internationale en matière de monitoring environnemental écologique.
+**Article 9** — L'État encourage et soutient la recherche, le développement et l'application de technologies et équipements avancés de monitoring environnemental écologique, intensifie la formation de talents spécialisés dans le monitoring environnemental écologique, et promeut les échanges et la coopération internationale.
 
-L'État établit et perfectionne le système de transmission des données de monitoring environnemental écologique et le mécanisme de partage intégré, encourage et soutient le développement approfondi et l'application des données de monitoring environnemental écologique.
+L'État établit et perfectionne le système de transmission des données de monitoring et le mécanisme de partage intégré, encourage et soutient le développement approfondi et l'application des données de monitoring.
 
-### 第二章　公共监测 ###
+## 第二章　公共监测 ##
 
-### Chapitre II — Monitoring public ###
+## Chapitre II — Monitoring public ##
 
 **Article 10** — Les autorités publiques locales à tous les niveaux et les services concernés des autorités publiques à partir du niveau du district doivent exercer consciencieusement leurs fonctions de monitoring environnemental écologique, mener ou organiser conformément aux dispositions des lois et règlements ainsi qu'aux besoins du travail de protection de l'environnement écologique le monitoring public, comprenant le monitoring de la qualité environnementale écologique, le monitoring de supervision environnementale écologique, le monitoring d'urgence en cas d'incidents environnementaux écologiques soudains.
 
-**Article 11** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique organise conjointement avec les autorités concernées du Conseil des Affaires d'État le réseau national de monitoring environnemental écologique. Les autorités compétentes des autorités publiques locales à partir du niveau de la municipalité dotée de districts en matière d'environnement écologique organisent conjointement avec les autorités concernées du même niveau le réseau de monitoring environnemental écologique local dans leur circonscription administrative.
+**Article 11** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique organise conjointement avec les autorités concernées du Conseil des Affaires d'État le réseau national de monitoring environnemental écologique. Les autorités compétentes des autorités publiques locales à partir du niveau de la municipalité dotée de districts en matière d'environnement écologique organisent conjointement avec les autorités concernées du même niveau le réseau de monitoring local dans leur circonscription administrative.
 
-L'organisation du réseau de monitoring environnemental écologique doit persister dans les principes de configuration rationnelle, de fonctions complètes, de classification par niveaux, de construction et de partage communs, et promouvoir l'interconnexion entre le réseau national de monitoring environnemental écologique et les réseaux locaux de monitoring environnemental écologique.
+L'organisation du réseau de monitoring environnemental écologique doit persister dans les principes de configuration rationnelle, de fonctions complètes, de classification par niveaux, de construction et de partage communs, et promouvoir l'interconnexion entre le réseau national de monitoring environnemental écologique et les réseaux locaux de monitoring.
 
-**Article 12** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique planifie de manière unifiée conjointement avec les autorités concernées du Conseil des Affaires d'État l'implantation des stations nationales de monitoring de la qualité environnementale écologique. Les autorités compétentes des provinces, régions autonomes et municipalités relevant directement de l'autorité centrale en matière d'environnement écologique planifient de manière unifiée conjointement avec les autorités concernées du même niveau l'implantation des stations locales de monitoring de la qualité environnementale écologique dans leur circonscription administrative. L'implantation, l'ajustement et la suppression de stations locales de monitoring de la qualité environnementale écologique doivent être enregistrés auprès de l'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique ou des autorités concernées du Conseil des Affaires d'État.
+**Article 12** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique planifie de manière unifiée conjointement avec les autorités concernées du Conseil des Affaires d'État l'implantation des stations nationales de monitoring de la qualité environnementale écologique. 
+
+Les autorités compétentes des provinces, régions autonomes et municipalités relevant directement de l'autorité centrale en matière d'environnement écologique planifient de manière unifiée conjointement avec les autorités concernées du même niveau l'implantation des stations locales de monitoring de la qualité environnementale écologique dans leur circonscription administrative. 
+
+L'implantation, l'ajustement et la suppression de stations locales de monitoring de la qualité environnementale écologique doivent être enregistrés auprès de l'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique ou des autorités concernées du Conseil des Affaires d'État.
 
 L'implantation des stations de monitoring de la qualité environnementale écologique doit être conforme aux exigences des normes de monitoring environnemental écologique et éviter les constructions redondantes.
 
@@ -80,9 +84,9 @@ Après la survenue d'un incident environnemental écologique soudain, les autori
 
 **Article 19** — Les agents des autorités publiques locales à tous les niveaux et des services concernés des autorités publiques à partir du niveau du district ne peuvent en aucun cas falsifier les données de monitoring public ou indiquer ou suggérer de manière explicite ou implicite aux unités ou individus concernés de falsifier les données de monitoring public, ni exercer de représailles à l'encontre des unités ou individus qui exercent légalement leurs fonctions ou refusent ou résistent aux comportements illégaux de monitoring.
 
-### 第三章　自行监测 ###
+## 第三章　自行监测 ##
 
-### Chapitre III — Auto-monitoring ###
+## Chapitre III — Auto-monitoring ##
 
 **Article 20** — Les entreprises et unités de production mènent conformément aux dispositions des lois et règlements l'auto-monitoring concernant la situation d'émission de polluants, de gaz à effet de serre dans leurs activités de production et d'exploitation, ainsi que l'impact sur l'environnement écologique des projets de construction, des incidents environnementaux écologiques soudains.
 
@@ -118,9 +122,9 @@ Les entreprises et unités de production ne peuvent mettre en œuvre ou indiquer
 
 Les entreprises et unités de production doivent rendre publiques conformément à la loi les informations pertinentes de l'auto-monitoring et accepter la supervision sociale.
 
-### 第四章　技术服务机构 ###
+## 第四章　技术服务机构 ##
 
-### Chapitre IV — Organismes de services techniques ###
+## Chapitre IV — Organismes de services techniques ##
 
 **Article 27** — Les autorités publiques, leurs services concernés et les entreprises et unités de production peuvent mandater des organismes de services techniques établis conformément à la loi pour mener des services connexes de monitoring environnemental écologique (ci-après dénommés services de monitoring).
 
@@ -152,9 +156,9 @@ Les organismes de services techniques ainsi que leurs responsables sont responsa
 
 **Article 33** — Les organismes de services techniques qui acceptent un mandat pour mener des services de monitoring doivent conserver conformément aux dispositions les données, rapports, enregistrements et contrats de mandat pertinents à la conduite de leurs activités, afin de garantir la traçabilité de l'ensemble du processus des activités.
 
-### 第五章　监督管理 ###
+## 第五章　监督管理 ##
 
-### Chapitre V — Supervision et gestion ###
+## Chapitre V — Supervision et gestion ##
 
 **Article 34** — L'autorité compétente du Conseil des Affaires d'État en matière d'environnement écologique promeut la conduite de la transmission des données de monitoring, de l'enregistrement des organismes de services techniques, de la publication des informations pertinentes et autres gestion et services par le biais de la plateforme de services de gestion du monitoring environnemental écologique, et établit avec les autorités concernées du Conseil des Affaires d'État un mécanisme de partage d'informations.
 
@@ -172,9 +176,9 @@ Les agents d'inspection ont conformément à la loi une obligation de confidenti
 
 **Article 39** — Toute unité ou individu a le droit de dénoncer auprès des autorités compétentes en matière d'environnement écologique et des autres autorités concernées les comportements qui violent les dispositions de la présente réglementation. Les autorités qui reçoivent les dénonciations doivent les traiter rapidement conformément à la loi.
 
-### 第六章　法律责任 ###
+## 第六章　法律责任 ##
 
-### Chapitre VI — Responsabilités juridiques ###
+## Chapitre VI — Responsabilités juridiques ##
 
 **Article 40** — En cas d'occupation ou d'endommagement des stations de monitoring de la qualité environnementale écologique ainsi que de leurs installations et équipements, ou de perturbation du fonctionnement normal des stations de monitoring de la qualité environnementale écologique, les autorités compétentes en matière d'environnement écologique ou les autres autorités concernées ordonnent conformément à leurs fonctions la rectification et infligent une amende de 20 000 yuans à 200 000 yuans.
 
@@ -232,14 +236,15 @@ Lorsque les organismes de services techniques font l'objet de sanctions conform�
 
 **Article 46** — En cas de violation des dispositions de la présente réglementation causant des dommages à autrui, la responsabilité en réparation est assumée conformément à la loi. En cas de constitution d'une infraction aux règles de gestion de la sécurité publique, les organes de sécurité publique infligent des sanctions administratives conformément à la loi. En cas de constitution d'une infraction pénale, la responsabilité pénale est poursuivie conformément à la loi.
 
-### 第七章　附则 ###
+## 第七章　附则 ##
 
-### Chapitre VII — Dispositions complémentaires ###
+## Chapitre VII — Dispositions complémentaires ##
 
 **Article 47** — Le travail de monitoring environnemental écologique de l'armée est exécuté conformément aux dispositions pertinentes de la Commission militaire centrale.
 
 **Article 48** — La protection de la sécurité des données de monitoring environnemental écologique est exécutée conformément aux dispositions de la 《中华人民共和国数据安全法》 et de la 《网络数据安全管理条例》.
 
 **Article 49** — La présente réglementation entre en vigueur le 1er janvier 2026.
+
 
 Sources chinoises, 2025
