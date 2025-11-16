@@ -2,14 +2,16 @@ Sources chinoises, Bulletin du 17 novembre 2025
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
-Extraits de la Directive d'application du Bureau du Conseil des affaires d'État sur l'accélération et l'application à grande échelle de nouveaux scénarios d’usage 国务院办公厅关于加快场景培育和开放推动新场景大规模应用的实施意见https://www.gov.cn/zhengce/content/202511/content_7047419.htm  
-国办发〔2025〕37号 - Guobanfa [2025] n°37
+# Directive d'application du Bureau du Conseil des affaires d'État sur l'accélération et l'application à grande échelle de nouveaux scénarios d’usage # 
 
-关于加快场景培育和开放推动新场景大规模应用的实施意见 - Directive d'application sur l'accélération de la culture et l'ouverture de scénarios pour promouvoir l'application à grande échelle de nouveaux scénarios
+[国务院办公厅关于加快场景培育和开放推动新场景大规模应用的实施意见]([https://url.com](https://www.gov.cn/zhengce/content/202511/content_7047419.htm)  
 
-Traduction du document : 
+Guobanfa [2025] n°37
+
+Traduction partielle du document : 
 
 Aux gouvernements populaires des provinces, régions autonomes et municipalités relevant directement de l'autorité centrale, aux ministères et organisations sous tutelle du Conseil des affaires d'État :
+
 Les scénarios (场景) constituent des contextes spécifiques permettant de vérifier les applications industrielles des nouvelles technologies, nouveaux produits et nouveaux modèles économiques, ainsi que les infrastructures d'accompagnement, modèles commerciaux et politiques institutionnelles associés.
 
 Ils représentent un pont reliant technologie et industrie, recherche et marché, et constituent un vecteur essentiel pour promouvoir l'intégration de l'innovation technologique et industrielle.
@@ -18,20 +20,17 @@ Ils jouent un rôle moteur crucial dans la promotion de l'application commercial
 
 ________________________________________
 
-一、总体要求 - I. Demande générale
+## 一、总体要求 - I. Demande générale
 
-Le document se fonde sur la pensée de Xi Jinping sur le socialisme à caractéristiques chinoises pour la nouvelle ère et applique pleinement le nouveau concept de développement.
-
-Il met l'accent sur l'innovation, la réforme, l'adaptation aux conditions locales, la sécurité ordonnée, l'implémentation systémique et le développement intégré. 
+Le document se fonde sur la pensée de Xi Jinping sur le socialisme à caractéristiques chinoises pour la nouvelle ère et applique pleinement le nouveau concept de développement (新发展理念).
 
 L'objectif est de capitaliser sur l'avantage du méta-marché (超大规模市场) et des nombreux scénarios d'application du pays pour soutenir la construction de scénarios majeurs complets (综合性重大场景), de scénarios intégrés sectoriels (行业领域集成式场景) et de scénarios ciblés à haute valeur ajoutée (高价值小切口场景), en élargissant l'offre dans les domaines de la production, du travail et de la vie quotidienne.
-________________________________________
 
-二、加快培育拓展经济社会应用场景 - II. Accélération de la culture et extension des scénarios d'application économiques et sociaux
+## 二、加快培育拓展经济社会应用场景 - II. Accélération de la culture et extension des scénarios d'application économiques et sociaux
 
 Le document identifie 22 domaines prioritaires répartis en 5 catégories :
 
-(一) 打造一批新领域新赛道应用场景 - (1) Créer des scénarios d'application dans de nouveaux domaines et nouvelles pistes
+### (一) 打造一批新领域新赛道应用场景 - (1) Créer des scénarios d'application dans de nouveaux domaines et nouvelles pistes
 
 数字经济领域 - Économie numérique : Applications métavers, réalité virtuelle, puissance de calcul intelligente, robots dans les domaines bureautiques, sociaux, consommation et divertissement
 
@@ -45,7 +44,7 @@ Le document identifie 22 domaines prioritaires répartis en 5 catégories :
 
 海洋开发领域 - Développement océanique : Exploration en eaux profondes, exploitation sous-marine, aquaculture hauturière, équipements d'ingénierie maritime, électronique maritime, biomédecine maritime
 
-(二) 建设一批产业转型升级的新业态应用场景 - (2) Construire des scénarios de nouveaux modèles économiques pour la transformation et mise à niveau industrielles
+### (二) 建设一批产业转型升级的新业态应用场景 - (2) Construire des scénarios de nouveaux modèles économiques pour la transformation et mise à niveau industrielles
 
 制造业领域 - Secteur manufacturier : Fabrication intelligente (智能制造), verte (绿色制造) et orientée services (服务型制造). Lignes de production flexibles, usines intelligentes et vertes, parcs numériques standards, parcs zéro carbone. Ouverture vers logiciels de base autonomes et logiciels industriels. Scénarios d'application de modèles verticaux de grande taille pour le domaine industriel (工业领域垂直大模型). Design industriel, vérification en phase pilote (中试验证), inspection et tests
 
@@ -55,7 +54,7 @@ Le document identifie 22 domaines prioritaires répartis en 5 catégories :
 
 现代农业领域 - Agriculture moderne : Scénarios d'application pour sélection variétale avec soutien aux technologies de design et biosélection. Scénarios numériques pour reproduction, multiplication et extension. Scénarios pour zones arides, froides, plateaux, terres salines-alcalines. Fermes intelligentes (智慧农（牧、渔）场). Chaînes industrielles complètes de sélection, élevage, transformation alimentaire. Transformation numérique de l'élevage et de la pêche
 
-(三) 推出一批行业领域应用场景 - (3) Lancer une série de scénarios d'application sectoriels
+### (三) 推出一批行业领域应用场景 - (3) Lancer une série de scénarios d'application sectoriels
 
 应急管理领域 - Gestion des urgences : Perception intelligente, sauvetage sans pilote, sauvetage aérien. Surveillance et alerte précoce intelligentes des catastrophes, commandement des urgences, secours, approvisionnement en matériel d'urgence
 
@@ -67,7 +66,7 @@ Le document identifie 22 domaines prioritaires répartis en 5 catégories :
 
 林业草原领域 - Forêts et prairies : Applications intégrées basse altitude et télédétection. Scénarios d'enquête et surveillance forestière, zones humides et terres en friche, gestion écologique, protection écologique, prévention des catastrophes. Surveillance et patrouilles des parcs nationaux, réserves naturelles, parcs naturels
 
-(四) 创新社会治理服务综合性应用场景 - (4) Innover dans les scénarios d'application complets pour les services de gouvernance sociale
+### (四) 创新社会治理服务综合性应用场景 - (4) Innover dans les scénarios d'application complets pour les services de gouvernance sociale
 
 政务服务领域 - Services gouvernementaux : Rendez-vous intelligent, authentification d'identité intelligente, approbation intelligente, supervision intelligente. Scénarios de services publics d'emploi pour diplômés universitaires, travailleurs de nouvelles formes d'emploi, travailleurs migrants. Scénarios de sécurité sociale numérique et de demande d'emploi des entreprises
 
@@ -75,12 +74,15 @@ Le document identifie 22 domaines prioritaires répartis en 5 catégories :
 
 乡村建设领域 - Construction rurale : Scénarios de beaux villages ruraux (和美乡村) et villages numériques (数字乡村). Gouvernance intelligente et services standards au niveau local
 
-(五) 丰富民生领域应用场景 - (5) Enrichir les scénarios d'application dans les domaines de subsistance
+### (五) 丰富民生领域应用场景 - (5) Enrichir les scénarios d'application dans les domaines de subsistance
 
 医疗卫生领域 - Santé médicale : Big data, IoT, interfaces cerveau-machine (脑机接口), robots médicaux, équipements intelligents. Consultation santé, orientation diagnostique, diagnostic assisté, télémédecine, vérification de prescriptions
 
 养老助残托育领域 - Services aux personnes âgées, handicapées et garde d'enfants : Robots de service, équipements portables intelligents, systèmes de services à distance, médecins et pharmaciens de famille en ligne. Assistance technologique au handicap, services domestiques, garde d'enfants (托育照护), rééducation médicale, services de santé
 
-Sources chinoises, 2025
 文化和旅游领域 - Culture et tourisme : Technologies numériques dans culture et tourisme. Spectacles numériques (数字演艺), art numérique (数字艺术), expériences immersives (沉浸式体验). Passage rapide, réservations, guides intelligents, gestion de flux touristiques, visites virtuelles
+
 跨界融合消费领域 - Consommation intersectorielle : Fusion commerce, culture, tourisme, sport, santé, transport. Applications convergentes internet, 5G, réalité virtuelle. Scénarios immersifs et interactifs. Quartiers intelligents (智慧街区), zones commerciales intelligentes (智慧商圈)
+
+
+Sources chinoises, 2025
