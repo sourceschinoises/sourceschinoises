@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="diplo-style-V2.css">
 
 | Catégorie (chinois) | Traduction / fonction synthétique | Ministère pilote principal | Type d'entreprises visées | Ordre de grandeur (nombre, période récente) | Profil sectoriel (focalisation industrie/tech) | Indicateurs de poids / remarques clés |
