@@ -176,5 +176,4 @@ Les Ministère du Commerce (商务部), Ministère de l'Industrie et des Technol
 
 14 novembre 2025
 
-
-Sources chinoises, 2025
+_________________
