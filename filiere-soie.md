@@ -82,21 +82,56 @@ Pour ce faire, il faut:
 
 **Améliorer les capacités de transformation des étoffes de soie (提升丝织物加工能力)** 
 
-Soutenir les entreprises dans la modernisation et la transformation des lignes de production d'étoffes écru existantes, promouvoir l'optimisation de l'efficacité des entreprises de tissage traditionnelles. Accueillir de manière proactive le transfert des activités de tissage (丝绸织造产业转移) des régions orientales, attirer activement les entreprises de tissage (招引织造企业) des régions du Zhejiang (浙江), Jiangsu (江苏) et autres à s'y implanter, construire des parcs industriels de transformation textile de la soie, guider et stimuler la complémentarité des avantages des entreprises en amont et en aval de la chaîne industrielle, former des effets d'échelle. Promouvoir la modernisation et l'amélioration des équipements techniques de tissage, promouvoir vigoureusement l'application de nouvelles technologies telles que le tissage à rapière de nouveau type, le jacquard électronique à grande largeur et grand nombre d'aiguilles, améliorer l'efficacité de production. Favoriser l'innovation dans les tissus de soie, développer de nouveaux tissus de soie composites, différenciés et fonctionnels, optimiser la structure des produits. Cultiver un ensemble de PME spécialisées et innovantes (专精特新中小企业) ainsi que d'entreprises championnes de la fabrication dans un domaine unique (单项制造冠军企业) de la filière soie.
+Il faut :
+
+- Soutenir les entreprises dans la modernisation et la transformation des lignes de production d'étoffes écru existantes, promouvoir l'optimisation de l'efficacité des entreprises de tissage traditionnelles.
+
+- Accueillir le transfert des activités de tissage (丝绸织造产业转移) des régions orientales, attirer activement les entreprises de tissage (招引织造企业) des régions du Zhejiang (浙江), Jiangsu (江苏) et autres à s'y implanter, construire des parcs industriels de transformation textile de la soie, et guider, stimuler la complémentarité des avantages des entreprises en amont et en aval de la chaîne industrielle pour former des effets d'échelle.
+
+- Promouvoir la modernisation et l'amélioration des équipements techniques de tissage, promouvoir les nouvelles technologies telles que le tissage à rapière de nouvelle génération, le jacquard électronique à grande largeur et grand nombre d'aiguilles, améliorer l'efficacité de production.
+
+- Favoriser l'innovation dans les tissus de soie, développer de nouveaux tissus de soie composites, différenciés et fonctionnels, optimiser la structure des produits.
+
+- Cultiver enfin un ensemble de PME spécialisées et innovantes (专精特新中小企业) ainsi que d'entreprises championnes de la fabrication dans un domaine unique (单项制造冠军企业) de la filière soie.
 
 **Compléter les capacités de soutien en teinture et impression (补齐印染配套能力)**
 
-Accueillir de manière adaptée aux conditions locales le transfert des industries de teinture-impression et de confection textile des régions orientales, développer vigoureusement la production d'étoffes écru dégommées-blanchies (精练漂白), accélérer la construction de projets majeurs de prolongement et de complément de chaîne, combler les lacunes technologiques clés en teinture-impression de soie. Promouvoir en priorité la modernisation des équipements techniques des entreprises de teinture-impression, accélérer la promotion de l'application de procédés tels que l'impression numérique, élever le niveau de production verte (绿色生产) du secteur. Soutenir les principales régions productrices de soie dans la création de plateformes et bases nationales de démonstration de services aux PME, encourager le Guangxi (广西), le Sichuan (四川), le Yunnan (云南) et d'autres régions à cultiver des clusters industriels caractéristiques de PME (特色中小企业产业集群) de la filière soie.
+Il faudra 
+
+
+- Accueillir de manière adaptée aux conditions locales le transfert des industries de teinture-impression et de confection textile des régions orientales, développer la production d'étoffes écru dégommées-blanchies (精练漂白), accélérer la construction de projets majeurs de prolongement et de complément de chaîne, et combler les lacunes technologiques clés en teinture-impression de soie.
+
+- Promouvoir en priorité la modernisation des équipements techniques des entreprises de teinture-impression, accélérer la promotion de l'application de procédés tels que l'impression numérique, élever le niveau de production verte (绿色生产) du secteur.
+
+- Soutenir les principales régions productrices de soie dans la création de plateformes et bases nationales de démonstration de services aux PME, encourager le Guangxi (广西), le Sichuan (四川), le Yunnan (云南) à cultiver des clusters industriels caractéristiques de PME (特色中小企业产业集群) de la filière soie.
 
 ### (II) Les régions orientales renforceront le leadership scientifique et technologique et favoriseront la montée en qualité et en gamme de l'industrie. (东部地区强化科技引领，促进产业提质增效)
 
 **Renforcer les capacités de recherche et développement technologique (加强科技研发能力)** 
 
-Valoriser les avantages en recherche et développement scientifique et technologique des régions du delta du Yangtsé (长三角) et du delta de la rivière des Perles (珠三角), construire un Centre technique national de la soie (国家丝绸技术中心), promouvoir la recherche et le développement de technologies et produits de haute technologie tels que les tissus de soie haut de gamme, les équipements automatisés, etc. Valoriser le rôle des centres de recherche de niveau national et des laboratoires clés, intégrer les ressources scientifiques et technologiques du secteur, construire plusieurs plateformes de services d'innovation scientifique et technologique de la filière soie, cultiver un ensemble d'entreprises performantes disposant de droits de propriété intellectuelle propres.
+Nous devons : 
+
+- Valoriser les avantages en recherche et développement scientifique et technologique des régions du delta du Yangtsé (长三角) et du delta de la rivière des Perles (珠三角), 
+
+- Construire un Centre technique national de la soie (国家丝绸技术中心),
+
+- Promouvoir la recherche et le développement de technologies et produits de haute technologie tels que les tissus de soie haut de gamme, les équipements automatisés, etc.
+
+- Valoriser le rôle des centres de recherche de niveau national et des laboratoires clés et intégrer les ressources scientifiques et technologiques du secteur,
+
+- Construire plusieurs plateformes de services d'innovation scientifique et technologique de la filière soie et,
+
+- Cultiver un ensemble d'entreprises performantes disposant de droits de propriété intellectuelle propres.
 
 **Améliorer les capacités de conception de produits (提升产品设计能力)** 
 
-Renforcer la protection du patrimoine culturel immatériel (非物质文化遗产) lié à la soie, promouvoir la transmission et l'innovation des artisanats traditionnels tels que le brocart Song (宋锦), le brocart Yun (云锦), le kesi (缂丝), le satin Zhang (漳缎), etc., développer des produits dérivés et des produits en collaboration. Exploiter en profondeur les ressources de motifs textiles traditionnels en soie, utiliser diverses méthodes artisanales telles que le jacquard, la broderie, la peinture à la main, etc., innover dans les catégories d'étoffes de soie, soutenir les candidatures aux dix grandes catégories de produits textiles innovants (十大纺织创新品类). Intégrer les éléments de mode moderne, les tendances populaires et les thèmes culturels, élever le niveau de créativité mode (时尚创意) et de conception de produits en soie.
+Il faut :  
+
+- Renforcer la protection du patrimoine culturel immatériel (非物质文化遗产) lié à la soie, promouvoir la transmission et l'innovation des artisanats traditionnels tels que le brocart Song (宋锦), le brocart Yun (云锦), le kesi (缂丝), le satin Zhang (漳缎), etc. et développer des produits dérivés et des produits en collaboration.
+
+- Exploiter en profondeur les ressources de motifs textiles traditionnels en soie, utiliser diverses méthodes artisanales telles que le jacquard, la broderie, la peinture à la main, etc., innover dans les catégories d'étoffes de soie, soutenir les candidatures aux dix grandes catégories de produits textiles innovants (十大纺织创新品类). 
+
+- Enfin, intégrer les éléments de mode moderne, les tendances populaires et les thèmes culturels, élever le niveau de créativité mode (时尚创意) et de conception de produits en soie.
 
 **Construire la compétitivité des marques (打造品牌竞争力)** 
 
