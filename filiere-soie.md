@@ -5,7 +5,17 @@ Sources chinoises, bulletin du 24 novembre 2025
 
 # Circulaire pour le lancement du projet "La Soie à l'Est, l'Expansion à l'Ouest" dans la filière soie
 
-Afin de mettre en œuvre les décisions du Comité central du Parti (党中央) et du Conseil des affaires de l'État (国务院) concernant l'accélération de la transformation et de la modernisation des industries traditionnelles, d'optimiser la configuration de la filière soie, de construire un système industriel modernisé à développement équilibré (现代化均衡发展产业体系) entre l'Est, le Centre et l'Ouest, et de promouvoir le développement de haute qualité de la filière soie, les éléments suivants sont notifiés concernant la conduite des travaux "La Soie à l'Est, l'Expansion à l'Ouest" (东丝西扩) :
+Afin de mettre en œuvre les décisions du Comité central du Parti (党中央) et du Conseil des affaires de l'État (国务院) concernant :  
+
+- l'accélération de la transformation et de la modernisation des industries traditionnelles, 
+
+- l'optimisation de la configuration de la filière soie, 
+
+- la construction d'un système industriel modernisé à développement équilibré (现代化均衡发展产业体系) entre l'Est, le Centre et l'Ouest, et 
+
+- le développement de haute qualité de la filière soie, 
+
+- les éléments suivants sont notifiés concernant la conduite des travaux "La Soie à l'Est, l'Expansion à l'Ouest" (东丝西扩) :
 
 ## I. Exigences générales (总体要求)
 
