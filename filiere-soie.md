@@ -135,24 +135,46 @@ Il faut :
 
 **Construire la compétitivité des marques (打造品牌竞争力)** 
 
-Mettre en œuvre en profondeur la stratégie de marques commerciales (商标品牌战略), intégrer les ressources multiples des associations sectorielles, établissements d'enseignement, institutions, etc., explorer la conduite de recherches sur le système d'évaluation de la valeur des marques commerciales de soie et des activités d'amélioration de la valeur. Encourager la création de marques collectives régionales (区域集体品牌), guider les entreprises leaders dans leur coopération avec les marques de mode internationales, accélérer l'intégration dans la chaîne de valeur haut de gamme textile mondiale (全球纺织高端价值链), créer des produits de consommation renommés chinois. Renforcer le travail de création de démonstration des anciennes marques chinoises célèbres (中华老字号) du secteur de la soie. Soutenir la participation des entreprises à des salons professionnels internationaux tels que la Fashion Week de Milan (米兰时装周), le Salon Maison & Objet de Paris (巴黎家居装饰展), etc., établir des centres d'exposition de marques à l'étranger, élargir la notoriété et l'influence internationales des entreprises de marque.
+Nous devons : 
+
+- Mettre en œuvre notre stratégie de marques commerciales (商标品牌战略), intégrer les ressources multiples des associations sectorielles, établissements d'enseignement, institutions, etc., explorer la conduite de recherches sur le système d'évaluation de la valeur des marques commerciales de soie et des activités d'amélioration de la valeur. 
+
+- Encourager la création de marques collectives régionales (区域集体品牌), guider les entreprises leaders dans leur coopération avec les marques de mode internationales, accélérer l'intégration dans la chaîne de valeur haut de gamme textile mondiale (全球纺织高端价值链), créer des produits de consommation renommés chinois.
+
+- Renforcer le travail de création pilote des anciennes marques chinoises célèbres (中华老字号) du secteur de la soie.
+
+- Soutenir la participation des entreprises à des salons professionnels internationaux tels que la Fashion Week de Milan (米兰时装周), le Salon Maison & Objet de Paris (巴黎家居装饰展), etc., établir des centres d'exposition de marques à l'étranger et renforcer la notoriété et l'influence internationales des entreprises de marque.
 
 ### (III) Promouvoir l'Ouest par l'Est, renforcer la coordination et l'interaction, favoriser le développement synergique de l'industrie. (以东带西，加强协同联动，促进产业协同发展)
 
 **Construire des plateformes d'information (搭建信息平台)**
 
-Par l'intermédiaire des autorités locales en charge de la sériciculture et de la soie (地方蚕丝主管部门) et des associations professionnelles, renforcer la collecte d'informations sur les investissements des entreprises, recenser les besoins en attraction d'investissements, établir une base de données des projets de transfert et des régions d'accueil, compléter continuellement le contenu de la base de données, fournir une garantie d'information de base pour les transferts industriels.
+Par l'intermédiaire des autorités locales en charge de la sériciculture et de la soie (地方蚕丝主管部门) et des associations professionnelles, nous renforcerons la collecte d'informations sur les investissements des entreprises, recenserons les besoins en attraction d'investissements, et établirons une base de données des projets de transfert et des régions d'accueil. Nous compléterons le contenu de la base de données, et fournirons une garantie d'information de base pour les transferts industriels.
 
 **Conduire des mises en relation de projets (开展项目对接)** 
 
-S'appuyant sur des plateformes telles que la Conférence nationale de promotion sur site du développement de haute qualité de la filière soie (全国蚕丝绸产业高质量发展现场推进会), l'Exposition internationale chinoise de la soie (中国国际丝绸博览会), le Congrès chinois de la soie (中国丝绸大会), etc., organiser des activités de promotion d'investissements, de négociations de projets, etc., mettre en relation précisément les besoins, promouvoir le transfert graduel des industries de tissage, dégommage-teinture-impression, confection, textile de maison, etc. vers les régions du Centre et de l'Ouest.
+S'appuyant sur des plateformes telles que la Conférence nationale de promotion sur site du développement de haute qualité de la filière soie (全国蚕丝绸产业高质量发展现场推进会), l'Exposition internationale chinoise de la soie (中国国际丝绸博览会), le Congrès chinois de la soie (中国丝绸大会), nous organiserons des activités de promotion d'investissements, de négociations de projets et mettrons en relation les besoins, le transfert graduel des industries de tissage, dégommage-teinture-impression, confection, textile de maison, etc. vers les régions du Centre et de l'Ouest.
 
 **Renforcer les services de suivi (强化跟踪服务)** 
 
-Renforcer la garantie des éléments tels que le foncier, l'énergie, etc., encourager les entreprises ayant des besoins à augmenter leur capital et étendre leur production sur place, soutenir les nouvelles entreprises implantées dans l'accélération de la construction de projets. Mettre en œuvre un mécanisme de service "une politique par projet" (“一项目一政策”服务机制), pour les projets d'investissement prioritaires, établir une liste de politiques d'implantation de projets, résoudre les problèmes rencontrés dans le processus de construction de projets.
+- Nous renforcons la garantie des éléments tels que le foncier, l'énergie, et encouragerons les entreprises ayant des besoins à augmenter leur capital et à étendre leur production sur place, en soutenant les nouvelles entreprises en phase d'accélération de la construction de projets. 
+
+- Nous mettrons en œuvre un mécanisme de service "une politique par projet" (“一项目一政策”服务机制), pour les projets d'investissement prioritaires, établirons une liste de politiques d'implantation de projets, afin de résoudre les problèmes rencontrés dans le processus de construction de projets.
 
 ## III. Garanties de mise en œuvre (保障措施)
 
-Toutes les régions doivent pleinement reconnaître l'importance significative de la conduite des travaux "La Soie à l'Est, l'Expansion à l'Ouest" (东丝西扩工作), valoriser le rôle directeur du Bureau de coordination de la soie (蚕丝协调办公室), renforcer la coordination organisationnelle, perfectionner les mécanismes de travail, élaborer des plans de travail, clarifier la répartition des responsabilités, garantir l'efficacité des travaux. Premièrement, encourager les régions concernées à formuler des politiques préférentielles fiscales spécifiques (具体税收优惠政策), augmenter le soutien financier par des fonds spéciaux pour le commerce extérieur et autres fonds budgétaires ; établir et perfectionner le système de contact privilégié avec les entreprises clés de la filière soie, guider les entreprises concernées à assumer activement leurs responsabilités sociales (社会责任). Deuxièmement, renforcer les recherches et enquêtes ainsi que les statistiques de résultats, rapporter régulièrement l'avancement des travaux ; organiser régulièrement des échanges de travail entre les départements et régions concernés, synthétiser et promouvoir en temps opportun les mesures efficaces. Troisièmement, utiliser pleinement les différents canaux de communication tels que la presse écrite, les plateformes Internet, etc., promouvoir vigoureusement les bonnes expériences et bonnes pratiques ; encourager les organisations sociales à organiser des activités d'échange et de discussion sur la recherche et développement technologique, les modèles d'activité, etc., contribuer à la montée en qualité et en gamme du secteur.
+- Toutes les régions doivent pleinement reconnaître l'importance significative de la conduite des travaux "La Soie à l'Est, l'Expansion à l'Ouest" (东丝西扩工作), valoriser le rôle directeur du Bureau de coordination de la soie (蚕丝协调办公室), renforcer la coordination organisationnelle, perfectionner les mécanismes de travail, élaborer des plans de travail, clarifier la répartition des responsabilités, garantir l'efficacité des travaux. 
 
-Ministère du Commerce (商务部), Ministère de l'Industrie et des Technologies de l'Information (工业和信息化部), Ministère de l'Agriculture et des Affaires rurales (农业农村部), Ministère de la Culture et du Tourisme (文化和旅游部), Administration d'État pour la Régulation du marché (市场监管总局), Administration nationale de la Propriété intellectuelle (国家知识产权局), Administration nationale des Forêts et des Prairies (国家林业和草原局) 14 novembre 2025
+- Premièrement, encourager les régions concernées à formuler des politiques préférentielles fiscales spécifiques (具体税收优惠政策), augmenter le soutien financier par des fonds spéciaux pour le commerce extérieur et autres fonds budgétaires ; établir et perfectionner le système de contact privilégié avec les entreprises clés de la filière soie, guider les entreprises concernées à assumer activement leurs responsabilités sociales (社会责任).
+
+- Deuxièmement, renforcer les recherches et enquêtes ainsi que les statistiques de résultats, rapporter régulièrement l'avancement des travaux ; organiser régulièrement des échanges de travail entre les départements et régions concernés, synthétiser et promouvoir en temps opportun les mesures efficaces.
+    
+- Troisièmement, utiliser pleinement les différents canaux de communication tels que la presse écrite, les plateformes Internet, etc., promouvoir les bonnes pratiques ; encourager les organisations sociales à organiser des activités d'échange et de discussion sur la recherche et développement technologique, les modèles d'activité, et contribuer ainsi à la montée en qualité et en gamme du secteur.
+
+
+Les Ministère du Commerce (商务部), Ministère de l'Industrie et des Technologies de l'Information (工业和信息化部), Ministère de l'Agriculture et des Affaires rurales (农业农村部), Ministère de la Culture et du Tourisme (文化和旅游部), l'Administration d'État pour la Régulation du marché (市场监管总局), l'Administration nationale de la Propriété intellectuelle (国家知识产权局), Administration nationale des Forêts et des Prairies (国家林业和草原局). 
+
+14 novembre 2025
+
+
+Sources chinoises, 2025
