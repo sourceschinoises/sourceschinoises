@@ -19,9 +19,46 @@ Afin de mettre en œuvre les décisions du Comité central du Parti (党中央) 
 
 ## I. Exigences générales (总体要求)
 
-Guidés par la Pensée de Xi Jinping sur le socialisme aux caractéristiques chinoises de la nouvelle ère (习近平新时代中国特色社会主义思想), mettant pleinement en œuvre l'esprit du XXe Congrès du Parti (党的二十大) et des sessions plénières de la XXe législature, en maintenant les principes d'une gouvernance orientée par l'État (政府引导), de la primauté du marché (市场主导), de la recherche de progrès dans la stabilité (稳中求进), et de privilégier l'établissement avant la déconstruction (先立后破), en coordonnant les dotations en ressources de la filière soie et les bases industrielles de l'Est, du Centre et de l'Ouest, en s'adaptant aux besoins de transfert graduel (梯次转移) de la filière soie, en développant de manière adaptée aux conditions locales de nouvelles forces productives de qualité (新质生产力), en promouvant solidement la construction d'un système industriel moderne de la soie (现代蚕丝绸产业体系), en créant de nouveaux avantages compétitifs internationaux, pour former une nouvelle configuration de développement de la filière soie caractérisée par "l'innovation et le leadership à l'Est, le soutien des capacités productives au Centre et à l'Ouest, la synergie et la complémentarité entre l'Est, le Centre et l'Ouest" (“东部创新引领、中西部产能支撑、东西部协同互补”).
+Guidés par la Pensée de Xi Jinping sur le socialisme aux caractéristiques chinoises de la nouvelle ère (习近平新时代中国特色社会主义思想), mettant pleinement en œuvre l'esprit du XXe Congrès du Parti (党的二十大) et des sessions plénières de la XXe législature, avec :  
 
-D'ici 2028, les régions orientales devront créer environ 10 entreprises phares (龙头企业) du secteur dont le chiffre d'affaires dépasse les 10 milliards de yuans, développer plus de 20 marques nationales et internationales reconnues détenant leurs propres droits de propriété intellectuelle et réseaux de commercialisation internationaux, et les produits en soie haut de gamme devront représenter plus de 50% des exportations de ces régions. Les régions du Centre et de l'Ouest devront construire plusieurs zones de concentration pour le développement de haute qualité de la filière soie, cultiver plus de 10 entreprises chefs de file (龙头企业) avec un chiffre d'affaires supérieur à 500 millions de yuans, et la production de cocons, soie grège et étoffes de soie de qualité devra atteindre plus de 75% dans ces régions. Réaliser des percées dans 10 technologies clés (10项关键技术) telles que la filature automatique (自动缫丝), le triage mécanique des cocons (机械拣茧), la teinture écologique (绿色染色), etc. La valeur totale de production nationale de la filière soie devra dépasser 300 milliards de yuans.
+- le gouvernement comme pilote de l'action (政府引导),
+ 
+
+- la primauté du marché (市场主导) comme principe,
+
+- la recherche du progrès dans la stabilité (稳中求进), et
+
+- "bâtir puis démanteler" (先立后破),
+
+- en coordonnant les dotations en ressources de la filière soie et les bases industrielles de l'Est, du Centre et de l'Ouest,
+
+- en s'adaptant aux besoins de transfert graduel (梯次转移) de la filière soie,
+
+- en développant de manière adaptée aux conditions locales une nouvelle productivité (新质生产力),
+
+- en promouvant solidement la construction d'un système industriel moderne de la soie (现代蚕丝绸产业体系),
+
+- en créant de nouveaux avantages compétitifs internationaux, pour former une nouvelle configuration de développement de la filière soie caractérisée par "l'innovation et le leadership à l'Est, le soutien des capacités productives au Centre et à l'Ouest, la synergie et la complémentarité entre l'Est, le Centre et l'Ouest" (“东部创新引领、中西部产能支撑、东西部协同互补”)
+
+D'ici 2028, les régions orientales devront : 
+
+- créer environ 10 entreprises phares (龙头企业) du secteur dont le chiffre d'affaires dépasse les 10 milliards de yuans,
+
+- développer plus de 20 marques nationales et internationales reconnues détenant leurs propres droits de propriété intellectuelle et réseaux de commercialisation internationaux, et
+
+- les produits en soie haut de gamme devront représenter plus de 50% des exportations de ces régions.
+
+Les régions du Centre et de l'Ouest devront : 
+
+- construire plusieurs zones de concentration pour le développement de haute qualité de la filière soie,
+
+- cultiver plus de 10 entreprises chefs de file (龙头企业) avec un chiffre d'affaires supérieur à 500 millions de yuans, et
+
+- la production de cocons, soie grège et étoffes de soie de qualité devra atteindre plus de 75% dans ces régions et
+
+- Réaliser des percées dans 10 technologies clés (10项关键技术) telles que la filature automatique (自动缫丝), le triage mécanique des cocons (机械拣茧), la teinture écologique (绿色染色), etc.
+
+La valeur totale de production nationale de la filière soie devra dépasser 300 milliards de yuans.
 
 ## II. Tâches prioritaires (重点任务)
 
@@ -29,7 +66,19 @@ D'ici 2028, les régions orientales devront créer environ 10 entreprises phares
 
 **Renforcer l'offre en cocons et soie grège (加强茧丝原料供给能力)** 
 
-Optimiser la configuration régionale de la sériciculture (蚕桑生产), accélérer l'intégration et la promotion de modèles techniques verts de haute qualité et haute efficacité, soutenir le développement d'assurances pour produits agricoles spécialisés dans la sériciculture. Continuer à mettre en œuvre le système de transaction et règlement par vérification certifiée pour garantir un approvisionnement stable et de haute qualité en matières premières de cocons et soie grège. Promouvoir la stabilisation des capacités productives des filatures de soie existantes, moderniser les équipements obsolètes, optimiser les procédés de filature, améliorer la qualité des produits de soie grège. Mettre en œuvre un ensemble de projets de transformation technique de la filière soie, promouvoir l'application de technologies et équipements avancés tels que le triage mécanique des cocons, le décoconnage automatisé, les procédés courts de filature, la détection électronique de la soie grège, etc. Explorer une classification et identification distincte des cocons frais et secs ainsi que de la soie grège. Valoriser les avantages de la sériciculture dans le traitement global de l'érosion hydrique, de la désertification et de la désertification karstique, construire un système industriel vert (绿色产业体系) et un système de barrière de sécurité écologique.
+Pour ce faire, il faut: 
+
+- Optimiser la configuration régionale de la sériciculture (蚕桑生产), accélérer l'intégration et la promotion de modèles techniques verts de haute qualité et haute efficacité, soutenir le développement d'assurances pour produits agricoles spécialisés dans la sériciculture. 
+
+- Continuer à mettre en œuvre le système de transaction et règlement par vérification certifiée pour garantir un approvisionnement stable et de haute qualité en matières premières de cocons et soie grège. 
+
+- Promouvoir la stabilisation des capacités productives des filatures de soie existantes, moderniser les équipements obsolètes, optimiser les procédés de filature, améliorer la qualité des produits de soie grège. 
+
+- Mettre en œuvre un ensemble de projets de transformation technique de la filière soie, promouvoir l'application de technologies et équipements avancés tels que le triage mécanique des cocons, le décoconnage automatisé, les procédés courts de filature, la détection électronique de la soie grège, etc. 
+
+- Explorer une classification et identification distincte des cocons frais et secs ainsi que de la soie grège. 
+
+- Valoriser les avantages de la sériciculture dans le traitement global de l'érosion hydrique, de la désertification et de la désertification karstique, construire un système industriel vert (绿色产业体系) et un système de barrière de sécurité écologique.
 
 **Améliorer les capacités de transformation des étoffes de soie (提升丝织物加工能力)** 
 
