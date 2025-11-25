@@ -1,0 +1,203 @@
+* {
+  color: #000 !important;
+}
+
+body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 50px;
+  background-color: #ffffff;
+  font-family: 'Arial', 'Helvetica', 'Liberation Sans', sans-serif;
+  line-height: 1.6;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  border: 2px solid #2c3e50;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Titre principal - style officiel */
+h1 {
+  text-align: center;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 3px double #2c3e50;
+  padding: 15px 20px;
+  margin-bottom: 35px;
+  background-color: #ecf0f1;
+  font-weight: bold;
+}
+
+/* Sous-titres - encadrés */
+h2 {
+  font-size: 1.4em;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  background-color: #e8eef2;
+  border-left: 5px solid #2c3e50;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Sous-sous-titres */
+h3 {
+  font-size: 1.2em;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid #7f8c8d;
+  font-weight: bold;
+}
+
+/* Paragraphes */
+p {
+  text-align: justify;
+  margin: 12px 0;
+  text-indent: 0;
+}
+
+/* Tableaux - style administratif renforcé */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.92em;
+  border: 2px solid #2c3e50;
+}
+
+th, td {
+  border: 1px solid #34495e;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #d5dbdd;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9em;
+  border-bottom: 2px solid #2c3e50;
+}
+
+/* Lignes alternées pour lisibilité */
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Listes */
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+/* Blocs de citation ou d'encadré */
+blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background-color: #f4f6f7;
+  border: 1px solid #95a5a6;
+  border-left: 4px solid #2c3e50;
+  font-style: italic;
+}
+
+/* Texte en gras */
+strong, b {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Texte en italique */
+em, i {
+  font-style: italic;
+}
+
+/* Code inline */
+code {
+  background-color: #ecf0f1;
+  padding: 2px 6px;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* Blocs de code */
+pre {
+  background-color: #f4f6f7;
+  border: 1px solid #95a5a6;
+  padding: 15px;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Abréviations avec infobulles */
+abbr[title] {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #2c3e50;
+  text-underline-offset: 3px;
+  cursor: help;
+  color: #000;
+}
+
+abbr[title]:hover {
+  background-color: #fff9c4;
+  text-decoration-color: #000;
+}
+
+/* Liens */
+a {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #34495e;
+  background-color: #ecf0f1;
+}
+
+/* Séparateur horizontal */
+hr {
+  border: none;
+  border-top: 2px solid #7f8c8d;
+  margin: 30px 0;
+}
+
+/* Style pour encadrés spéciaux (via div.encadre) */
+.encadre {
+  border: 2px solid #2c3e50;
+  padding: 15px 20px;
+  margin: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.encadre-important {
+  border: 3px double #c0392b;
+  padding: 15px 20px;
+  margin: 20px 0;
+  background-color: #fadbd8;
+}
+
+/* Notes de bas de page */
+.note {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #bdc3c7;
+}
