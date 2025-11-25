@@ -1,7 +1,7 @@
 
 Sources chinoises, le 27 novembre 2025
 
-<link rel="stylesheet" href="brief-style-V1.css">
+<link rel="stylesheet" href="brief-style-V2.css">
 
 Pékin, 24 novembre (Xinhua)
 
