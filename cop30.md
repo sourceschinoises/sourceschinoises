@@ -24,50 +24,50 @@ Bloc climat-diplomatie
    
    └─ Li Gao 李高 – Vice-ministre MEE, chef de délégation (团长), pilote des négos
        
-        │
+   ▼
         
-        ├─ Pôle "Planification & finances"
+   ├─ Pôle "Planification & finances"
         
-        │     ├─ 国家发展改革委 (NDRC – macro-stratégie, 1+N, NDC)
+            ├─ 国家发展改革委 (NDRC – macro-stratégie, 1+N, NDC)
         
-        │     └─ 财政部 (MoF – finance climat, contributions, architecture fonds)
+            ├─ 财政部 (MoF – finance climat, contributions, architecture fonds)
         
-        │
+   ▼
+   
+   ├─ Pôle "Diplomatie & politique"
         
-        ├─ Pôle "Diplomatie & politique"
+            ├─ 外交部 (MAE – ligne multilatérale, G77, UE, etc.)
         
-        │     ├─ 外交部 (MAE – ligne multilatérale, G77, UE, etc.)
+            ├─ 中央对外联络部 (International Departement du PCC - diplomatie du PCC en direction du Sud global)
         
-        │     └─ 中央对外联络部 (ID du PCC – diplomatie partisane / Sud global)
+   ▼
+   
+   ├─ Pôle "Secteurs & régulateurs"
         
-        │
+            ├─ 国家能源局 (énergie, charbon/ENR)
         
-        ├─ Pôle "Secteurs & régulateurs"
+            ├─ 农业农村部 (agriculture, adaptation rurale)
         
-        │     ├─ 国家能源局 (énergie, charbon/ENR)
+            ├─ 商务部 (commerce, CBAM, mesures unilatérales)
         
-        │     ├─ 农业农村部 (agriculture, adaptation rurale)
+            ├─ 国家林草局 (forêts, puits de carbone)
         
-        │     ├─ 商务部 (commerce, CBAM, mesures unilatérales)
+            ├─ 中国气象局 (adaptation, alertes précoces)
+      
+            ├─ 中国民航局 (aviation, engagements sectoriels)
         
-        │     ├─ 国家林草局 (forêts, puits de carbone)
+   ▼
+   
+   ├─ Pôle "Savoirs & narratif"
         
-        │     ├─ 中国气象局 (adaptation, alertes précoces)
+            ├─ 中国科学院 (CAS – science, modélisation)
         
-        │     └─ 中国民航局 (aviation, engagements sectoriels)
+            └─ 中国社会科学院 (CASS – équité, gouvernance mondiale)
         
-        │
-        
-        ├─ Pôle "Savoirs & narratif"
-        
-        │     ├─ 中国科学院 (CAS – science, modélisation)
-        
-        │     └─ 中国社会科学院 (CASS – équité, gouvernance mondiale)
-        
-        │
-        
-        └─ Pôle "Territoires & vitrine"
+   ▼
+   
+   ├─ Pôle "Territoires & vitrine"
               
               ├─ Provinces/villes pilotes (ETS, low-carbon cities)
               
-              └─ 香港 / 澳门特别行政区 (SAR, intégrées dans le narratif "une Chine")
+              ├─ HKSAR et Macao, intégrées dans le narratif "une Chine")
