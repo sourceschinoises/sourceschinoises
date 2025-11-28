@@ -2,21 +2,23 @@ Sources chinoises, bulletin du 1er décembre 2025
 
 <link rel="stylesheet" href="brief-style-V2.css">
 
-## Arbre décisionnel du PCC / COP 30 Brésil
+## Arbre décisionnel du PCC et du gouvernement à la COP 30, Brésil
+
+   ▼
 
 **Xi Jinping / Comité central**
    
-   │  (ligne politique : 生态文明, 新发展理念, 1+N, NDC 2035)
+   │  Ligne politique : civilisation écologique (生态文明), nouveau concept de développement (新发展理念)
    
    ▼
 
-Ding Xuexiang 丁薛祥 – discours au sommet de Belém
+Ding Xuexiang, vice-premier ministre 丁薛祥 – discours au sommet de Belém
    
-   │  (donne le cadrage politique "vert + sécurité")
+   │ Cadrage 15ème plan "vert + sécurité" :  "1+N", NDC 2035
    
    ▼
 
-Bloc climat-diplomatie
+Délégation climat-diplomatie
    
    ├─ Huang Runqiu 黄润秋 – Ministre MEE, visage politique climat
    
@@ -28,46 +30,46 @@ Bloc climat-diplomatie
         
    ├─ Pôle "Planification & finances"
         
-            ├─ 国家发展改革委 (NDRC – macro-stratégie, 1+N, NDC)
+            ├─  NDRC (国家发展改革委) : macro-stratégie, 1+N, NDC
         
-            ├─ 财政部 (MoF – finance climat, contributions, architecture fonds)
+            ├─ MoF (财政部): finance climat, contributions, architecture fonds
         
    ▼
    
    ├─ Pôle "Diplomatie & politique"
         
-            ├─ 外交部 (MAE – ligne multilatérale, G77, UE, etc.)
+            ├─ MAE (外交部) : ligne multilatérale, G77, UE, etc.
         
-            ├─ 中央对外联络部 (International Departement du PCC - diplomatie du PCC en direction du Sud global)
+            ├─ DLI (中央对外联络部),  le Departement international du PCC : diplomatie du PCC en direction du Sud global
         
    ▼
    
-   ├─ Pôle "Secteurs & régulateurs"
+   ├─ Pôle "Sectoriel"
         
-            ├─ 国家能源局 (énergie, charbon/ENR)
+            ├─ NEA (国家能源局) (énergie, charbon/ENR)
         
-            ├─ 农业农村部 (agriculture, adaptation rurale)
+            ├─ M. de l'agriculture (农业农村部) (agriculture, adaptation rurale)
         
-            ├─ 商务部 (commerce, CBAM, mesures unilatérales)
+            ├─ MOFCOM (商务部) (commerce, CBAM, mesures unilatérales)
         
-            ├─ 国家林草局 (forêts, puits de carbone)
+            ├─ M. Des forêts (国家林草局) (forêts, puits de carbone)
         
-            ├─ 中国气象局 (adaptation, alertes précoces)
+            ├─ Admin météo (中国气象局) (adaptation, alertes précoces)
       
-            ├─ 中国民航局 (aviation, engagements sectoriels)
+            ├─ Admin Aviation civile (中国民航局) (aviation, engagements sectoriels)
         
    ▼
    
-   ├─ Pôle "Savoirs & narratif"
+   ├─ Pôle "Innovation & narratif"
         
-            ├─ 中国科学院 (CAS – science, modélisation)
+            ├─ CAS (中国科学院), Académie des Sciences : science, modélisation)
         
-            └─ 中国社会科学院 (CASS – équité, gouvernance mondiale)
+            └─ CASS (中国社会科学院), Académie des sciences sociales : équité, gouvernance mondiale
         
    ▼
    
    ├─ Pôle "Territoires & vitrine"
               
-              ├─ Provinces/villes pilotes (ETS, low-carbon cities)
+              ├─ Provinces/villes pilotes : ETS, low-carbon cities
               
-              ├─ HKSAR et Macao, intégrées dans le narratif "une Chine")
+              ├─ HKSAR et Macao, intégrées dans le narratif "une Chine"
