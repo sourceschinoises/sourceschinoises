@@ -201,3 +201,21 @@ hr {
   padding-top: 10px;
   border-top: 1px solid #bdc3c7;
 }
+
+/* Pour les diagrammes ASCII */
+pre {
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    white-space: pre !important;
+    overflow-x: auto;
+    background: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Empêcher la justification du texte dans les pre */
+pre {
+    text-align: left !important;
+}
