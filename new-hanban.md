@@ -5,7 +5,7 @@ Sources chinoises, le 1er décembre 2025
 
 ## L'organisation de l'enseignement du chinois
 
-### 1. CHAÎNE DE COMMANDEMENT : DE PÉKIN AUX RELAIS FRANÇAIS
+### CHAÎNE DE COMMANDEMENT : DE PÉKIN AUX RELAIS FRANÇAIS
 ```
 PARTI COMMUNISTE CHINOIS (PCC) 
          |
