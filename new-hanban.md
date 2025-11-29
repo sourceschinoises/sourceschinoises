@@ -27,7 +27,7 @@ PARTI COMMUNISTE CHINOIS (PCC)
    
          ↓ RELAIS FRANÇAIS ↓
          
-- Universités partenaires des IC
+- Universités partenaires des Instituts Confucius (IC)
 - Collectivités territoriales  
 - AFPC (concours 汉语桥)
 - Écoles privées (préparation HSK)
