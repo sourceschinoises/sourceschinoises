@@ -11,9 +11,9 @@ Texte original, suivie d’une traduction en anglais, puis d’un commentaire qu
 
 [习近平同美国总统特朗普通电话]([https://url.com](http://www.news.cn/politics/leaders/20251124/9c9191096e0547a9a3f26e903fc6995e/c.html))
 
-*Xi Jinping held a telephone conversation with U.S. President Donald Trump*
+*<mark>Xi Jinping held a telephone conversation with U.S. President Donald Trump</mark>*
 
-Il s’agit d’une lettre ouverte au président Trump, pas d’un verbatim compte-rendu. Xi Jinping envoie donc un message personnel à D. J. Trump et son entourage.
+Sous-texte : Il s’agit d’une lettre ouverte au président Trump, pas d’un verbatim compte-rendu. Xi Jinping envoie donc un message personnel à D. J. Trump et son entourage.
 
 **习近平在通话中表示，上个月在韩国釜山举行的两国元首会晤取得了积极成果，双方达成了多项重要共识，明确了前进方向，凝聚了合作共识，发出了稳定信号**
 
