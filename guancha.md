@@ -4,13 +4,17 @@ Sources chinoises, le 8 décembre 2025
 
 # Visite d'Emmanuel Macron en Chine : interview d'un expert chinois de la France
 
-Traduction intégrale de l'article de Guancha https://www.guancha.cn/internation/2025_12_03_799258.shtml
+Traduction intégrale de [l'article de Guancha](https://www.guancha.cn/internation/2025_12_03_799258.shtml)
 
 **La visite d'État de Macron en Chine : analyse du professeur Wang Shuo**
 
 Le président français Emmanuel Macron effectuera une visite d'État en Chine du 3 au 5 décembre. Durant cette visite, Macron séjournera à Pékin et à Chengdu.
 
-Selon le porte-parole du ministère chinois des Affaires étrangères Lin Jian (林剑), il s'agit de la quatrième visite d'État du président Macron en Chine, et également d'une visite de retour suite à la visite d'État historique du président Xi Jinping en France l'année dernière, à l'occasion du 60e anniversaire de l'établissement des relations diplomatiques sino-françaises (中法建交60周年). Durant cette visite, le président Xi Jinping s'entretiendra avec le président Macron pour guider conjointement le développement des relations sino-françaises dans la nouvelle conjoncture, et procéder à un échange approfondi de vues sur les questions internationales et régionales majeures. Le Premier ministre Li Qiang (李强) et le président du Comité permanent de l'Assemblée nationale populaire Zhao Leji (赵乐际) recevront respectivement le président Macron.
+Selon le porte-parole du ministère chinois des Affaires étrangères Lin Jian (林剑), il s'agit de la quatrième visite d'État du président Macron en Chine, et également d'une visite de retour suite à la visite d'État historique du président Xi Jinping en France l'année dernière, à l'occasion du 60e anniversaire de l'établissement des relations diplomatiques sino-françaises (中法建交60周年). 
+
+Durant cette visite, le président Xi Jinping s'entretiendra avec le président Macron pour guider conjointement le développement des relations sino-françaises dans la nouvelle conjoncture, et procéder à un échange approfondi de vues sur les questions internationales et régionales majeures. 
+
+Le Premier ministre Li Qiang (李强) et le président du Comité permanent de l'Assemblée nationale populaire Zhao Leji (赵乐际) recevront respectivement le président Macron.
 
 Quel signal Macron souhaite-t-il envoyer au monde avec cette visite ? 
 
@@ -90,7 +94,7 @@ Sur les questions économiques, il s’agit essentiellement d’un jeu purement 
 
 **Wang Shuo** : 
 
-Macron, doté d’une forte culture humaniste, disciple de Paul Ricœur (保罗·利科), aime visiter des villes historiques comme Xi’an.
+Macron, doté d’une forte culture humaniste, disciple de Paul Ricœur, aime visiter des villes historiques comme Xi’an.
 
 L’enjeu profond de Chengdu est celui de l’apprentissage mutuel entre civilisations (文明互鉴).
 
@@ -98,7 +102,7 @@ Créer d’abord un climat culturel de compréhension mutuelle peut faciliter le
 
 **Guancha** : Dernières observations ?
 
-**Wang Shuo** : De décembre à avril, les dirigeants du Royaume-Uni, de l’Allemagne et des États-Unis se rendront en Chine. Macron, en tant que « premier visiteur », ouvre la voie / fait office d’éclaireur (探路) non seulement pour la France, mais pour l’Europe et même le G7.
+**Wang Shuo** : De décembre à avril, les dirigeants du Royaume-Uni, de l’Allemagne et des États-Unis se rendront en Chine. Macron, en tant que « premier visiteur », ouvre la voie non seulement pour la France, mais pour l’Europe et même le G7.
 
 Cette vague où les dirigeants occidentaux se bousculent (争先恐后) pour venir en Chine montre que l’état actuel du monde et les difficultés économiques nécessitent la participation de la Chine. 
 
