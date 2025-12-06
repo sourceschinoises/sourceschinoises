@@ -13,21 +13,31 @@ D’abord, le poste de Li Zhiyou n’est pas celui d’un simple gestionnaire : 
 De plus, l’affaire est mise en récit dans un environnement discursif explicitement centré sur le renforcement de la « conscience d’appartenance à la communauté nationale chinoise » (铸牢中华民族共同体意识).
 Une séquence de chutes et de remaniements en cascade.
 
-Depuis le début de l’année 2025, l’Mongolie intérieure est traversée par une succession de chutes de cadres de haut rang, qui, vues dans leur ensemble, dessinent un mouvement plus profond que la seule sanction de comportements individuels. 
+### Une région sous surveillance
+
+Depuis le début de l’année 2025, la Mongolie intérieure est traversée par une succession de chutes de cadres de haut rang, qui, vues dans leur ensemble, dessinent un mouvement plus profond que la seule sanction de comportements individuels. 
 
 En janvier, l’ex-vice-président de la succursale régionale de la Banque de Chine (BoC), Liu Ming, est placé sous enquête. En février, deux autres figures tombent à leur tour : Wang Haolin, ancien président de l’Institut professionnel, puis Wang Zhonghe, ex-vice-président de la Conférence consultative politique du peuple chinois de la région (CCPCC).
 
-Ces affaires touchent des secteurs très différents – finance, éducation supérieure, organe consultatif politique – mais convergent sur un point : ce sont des postes qui disposent de ressources, de réseaux et d’une capacité d’allocation de fonds publics. À ces cas s’ajoute, à l’été 2025, la mise en cause de Wang Lixia (王莉霞), présidente du gouvernement régional (内蒙古自治区政府主席), pour « graves violations de la discipline » (严重违纪). Il ne s’agit plus d’un second rang : la cheffe de l’exécutif régional est directement touchée.
+Ces affaires touchent des secteurs très différents – finance, éducation supérieure, organe consultatif politique – mais convergent sur un point : ce sont des postes qui disposent de ressources, de réseaux et d’une capacité d’allocation de fonds publics. 
 
-Le 1er octobre 2025, un nouveau signal fort est envoyé avec la nomination de Wang Weizhong, ancien secrétaire du Parti du Guangdong, comme secrétaire du Comité du Parti pour l’Mongolie intérieure, en remplacement de Sun Shaocheng. La presse présente ce mouvement comme un ajustement majeur du noyau dirigeant de la région (重要调整). 
+À ces cas s’ajoute, à l’été 2025, la mise en cause de Wang Lixia (王莉霞), présidente du gouvernement régional, pour « graves violations de la discipline » (严重违纪). Il ne s’agit plus d’un second rang : la cheffe de l’exécutif régional est directement touchée.
+
+Le 1er octobre 2025, un nouveau signal fort est envoyé avec la nomination de Wang Weizhong, ancien secrétaire du Parti du Guangdong, comme secrétaire du Comité du Parti pour la Mongolie intérieure, en remplacement de Sun Shaocheng. La presse présente ce mouvement comme un ajustement majeur du noyau dirigeant de la région. 
 
 On assiste ainsi, en moins d’un an, à une recomposition de la couche supérieure du pouvoir régional : dirigeants politiques, responsables d’entreprises ou d’institutions publiques et cadre financier.
 
-Même dans un contexte où la lutte anticorruption (反腐败斗争) est permanente et largement banalisée, la densité de cas reliés à une même région reste atypique. Elle signale que la Mongolie intérieure fait l’objet d’une reprise en main politique structurée, dont la chute de Li Zhiyou, dans le champ des affaires ethniques, est une nouvelle étape.
+Même dans un contexte où la lutte anticorruption (反腐败斗争) est permanente et largement banalisée, la densité de cas reliés à une même région reste atypique. 
+
+Elle signale que la Mongolie intérieure fait l’objet d’une reprise en main politique structurée, dont la chute de Li Zhiyou, dans le champ des affaires ethniques, est une nouvelle étape.
 
 ### Au-delà de la corruption : pourquoi l’Mongolie intérieure est-elle ciblée ?
 
-Une première lecture pourrait voir dans cette séquence l’effet mécanique d’une intensification locale de la campagne anticorruption. Ce diagnostic n’est pas entièrement faux. En mars 2025, le Comité régional du Parti lance la huitième vague d’inspections internes (第八轮巡视) qui cible services, entreprises publiques et institutions jugés sensibles. D’avril à juin, une équipe centrale d’inspection (中央第十巡视组) effectue une mission de deux mois et demi en Mongolie intérieure, avec mandat de vérifier l’application des décisions du Comité central (党中央决策部署), de recueillir les signalements visant les principaux dirigeants et d’identifier les points de fragilité (薄弱环节).
+Une première lecture pourrait voir dans cette séquence l’effet mécanique d’une intensification locale de la campagne anticorruption. Ce diagnostic n’est pas entièrement faux. 
+
+En mars 2025, le Comité régional du Parti lance la huitième vague d’inspections internes (第八轮巡视) qui cible services, entreprises publiques et institutions jugés sensibles. 
+
+D’avril à juin, une équipe centrale d’inspection (中央第十巡视组) effectue une mission de deux mois et demi en Mongolie intérieure, avec mandat de vérifier l’application des décisions du Comité central (党中央决策部署), de recueillir les signalements visant les principaux dirigeants et d’identifier les points de fragilité (薄弱环节).
 Dans le même temps, le rapport d’activité du gouvernement régional pour 2025 (2025年政府工作报告) insiste sur la nécessité de 
 
 - « normaliser » la gouvernance du secteur du charbon (煤炭领域治理常态化),
@@ -52,7 +62,7 @@ En 2025, un « Recueil pour l’étude de la pensée importante du secrétaire g
 
 Son noyau doctrinal articule à la fois les politiques ethniques et la construction d’un « foyer spirituel commun » (共有精神家园).
 
-## Ce cadre national trouve en Mongolie intérieure une série de déclinaisons très concrètes. 
+### Une poltiique qui se décline sur le terrain 
 
 En mars 2025, une réunion des directeurs des Commissions des affaires ethniques de la région (全区民委主任会议) dresse le bilan de 2024 : 
 
@@ -72,7 +82,7 @@ Juridiquement et réglementairement, les ajustements vont dans le sens d’une h
 
 L’ensemble de ces évolutions montre que la politique ethnique en Mongolie intérieure est en train d’être refondue autour de d'une "conscience communautaire" (共同体意识), et que la gestion de la langue, de l’éducation et des identités locales est intégrée dans un objectif de recomposition de la loyauté politique.
 
-## La politique religieuse : la sinisation (宗教中国化), entre droit et sécurité
+### La sinisation regilieuse : entre "droit" et sécurité
 
 Parallèlement à cette recomposition de la politique ethnique, l’année 2025 est marquée, au plan national, par une densification notable du cadre normatif applicable aux affaires religieuses (宗教事务). 
 
