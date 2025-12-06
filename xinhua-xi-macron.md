@@ -56,11 +56,13 @@ E. Macron a affirmé l’engagement de la France en faveur d’une relation Euro
 
 Face aux incertitudes géopolitiques et aux tensions portant atteinte à l’ordre multilatéral, il a souligné que la coopération franco-chinoise est essentielle. 
 
-Il a exprimé un accord complet (完全赞同) avec les propositions de Xi Jinping concernant la réforme de la gouvernance mondiale et un plus grand équilibre de l’économie mondiale, et a indiqué que la France est prête à renforcer sa coordination avec la Chine sur des enjeux majeurs : climat, biodiversité, gouvernance de l’intelligence artificielle, pour contribuer à la paix et à la prospérité mondiale.
+E. Macron a également exprimé un accord complet (完全赞同) avec les propositions de Xi Jinping concernant la réforme de la gouvernance mondiale et un plus grand équilibre de l’économie mondiale, et a indiqué que la France est prête à renforcer sa coordination avec la Chine sur des enjeux majeurs : climat, biodiversité, gouvernance de l’intelligence artificielle, pour contribuer à la paix et à la prospérité mondiale.
 
-Les deux chefs d’État ont échangé leurs points de vue sur la crise ukrainienne (乌克兰危机). 
+**Les deux chefs d’État ont échangé leurs points de vue sur la crise ukrainienne (乌克兰危机)**. 
 
-Xi Jinping a réaffirmé que la Chine soutient toute initiative propice à la paix et poursuivra à sa façon (继续以自己的方式) toute action constructive en faveur d’une solution politique de cette crise. Il a ajouté que la Chine soutient le rôle que les pays européens doivent jouer (中方支持欧洲国家发挥应有作用) pour construire une architecture de sécurité européenne équilibrée, efficace et durable (均衡、有效、可持续).
+Xi Jinping a réaffirmé que la Chine soutient toute initiative propice à la paix et poursuivra à sa façon (继续以自己的方式) toute action constructive en faveur d’une solution politique de cette crise. 
+
+Il a ajouté que la Chine soutient le rôle que les pays européens devraient jouer (中方支持欧洲国家发挥应有作用) pour construire une architecture de sécurité européenne équilibrée, efficace et durable (均衡、有效、可持续).
 
 À l’issue de l’entretien, les deux chefs d'Etat ont présidé à la signature de plusieurs accords de coopération dans les domaines du nucléaire, de l’agroalimentaire, de l’éducation et de l’environnement.
 
