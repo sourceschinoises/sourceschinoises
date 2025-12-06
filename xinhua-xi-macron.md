@@ -8,15 +8,15 @@ Traduction intégrale du [communiqué](https://www.fmprc.gov.cn/web/zyxw/202512/
 
 Les expressions clés ou à double lecture sont ajoutées en langue source, entre parenthèses. 
 
+----------
 
 **Dans la matinée du 4 décembre 2025, le président Xi Jinping a rencontré à Pékin, au Palais de l’Assemblée du Peuple, le président français Emmanuel Macron, en visite d’État en Chine**.
 
-
 Xi Jinping a indiqué que la Chine et la France sont deux pays attachés à leur autonomie stratégique (独立自主), dotés d’une vision de long terme et capables d’assumer leurs responsabilités. 
 
-Dans une période où les transformations internationales s’accélèrent (百年变局), les deux pays doivent agir avec sens des responsabilités, défendre le multilatéralisme (多边主义) et se tenir du côté de la stabilité historique. 
+Dans une période où les transformations internationales s’accélèrent (百年变局), les deux pays doivent agir avec sens des responsabilités, défendre le multilatéralisme et se tenir du côté de la stabilité historique. 
 
-La Chine est disposée à travailler avec la France, en partant des intérêts fondamentaux de leurs peuples et des intérêts de long terme de la communauté internationale, dans un esprit de dialogue sur un pied d’égalité et de coopération ouverte (平等对话、开放合作), afin de renforcer le partenariat stratégique global sino-français dans un nouveau cycle de soixante ans (“新甲子”), afin qu’il exprime pleinement sa valeur stratégique et contribue à un monde multipolaire plus équilibré et à une mondialisation économique plus inclusive et bénéfique pour tous (普惠包容).
+La Chine est disposée à travailler avec la France, en partant des intérêts fondamentaux de leurs peuples et des intérêts de long terme de la communauté internationale, dans un esprit de dialogue sur un pied d’égalité et de coopération ouverte (平等对话、开放合作), afin de renforcer le partenariat stratégique global sino-français dans un nouveau cycle de soixante ans, afin qu’il exprime pleinement sa valeur stratégique et contribue à un monde multipolaire plus équilibré et à une mondialisation économique plus inclusive et bénéfique pour tous (普惠包容).
 
 Xi Jinping a souligné que, malgré les incertitudes extérieures, la Chine et la France doivent préserver leur autonomie stratégique, se comprendre et se soutenir mutuellement sur les questions touchant à leurs intérêts essentiels et préoccupations majeures (核心利益和重大关切), et consolider la base politique de leurs relations bilatérales. 
 
@@ -66,5 +66,6 @@ Il a ajouté que la Chine soutient le rôle que les pays européens devraient jo
 
 À l’issue de l’entretien, les deux chefs d'Etat ont présidé à la signature de plusieurs accords de coopération dans les domaines du nucléaire, de l’agroalimentaire, de l’éducation et de l’environnement.
 
+----------
 
-Sources chinoise, 2025
+Sources chinoises, 2025
