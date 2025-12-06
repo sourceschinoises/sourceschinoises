@@ -31,18 +31,18 @@ Même dans un contexte où la lutte anticorruption (反腐败斗争) est permane
 
 Elle signale que la Mongolie intérieure fait l’objet d’une reprise en main politique structurée, dont la chute de Li Zhiyou, dans le champ des affaires ethniques, est une nouvelle étape.
 
-### Au-delà de la corruption : pourquoi l’Mongolie intérieure est-elle ciblée ?
+### Au-delà de la corruption : pourquoi la Mongolie intérieure est-elle ciblée ?
 
 Une première lecture pourrait voir dans cette séquence l’effet mécanique d’une intensification locale de la campagne anticorruption. Ce diagnostic n’est pas entièrement faux. 
 
 En mars 2025, le Comité régional du Parti lance la huitième vague d’inspections internes (第八轮巡视) qui cible services, entreprises publiques et institutions jugés sensibles. 
 
-D’avril à juin, une équipe centrale d’inspection (中央第十巡视组) effectue une mission de deux mois et demi en Mongolie intérieure, avec mandat de vérifier l’application des décisions du Comité central (党中央决策部署), de recueillir les signalements visant les principaux dirigeants et d’identifier les points de fragilité (薄弱环节).
-Dans le même temps, le rapport d’activité du gouvernement régional pour 2025 (2025年政府工作报告) insiste sur la nécessité de 
+D’avril à juin, une équipe centrale d’inspection (中央第十巡视组) effectue une mission de deux mois et demi en Mongolie intérieure, avec mandat de vérifier l’application des décisions du Comité central, de recueillir les signalements visant les principaux dirigeants et d’identifier les points de fragilité.
+Dans le même temps, le rapport d’activité du gouvernement régional pour 2025, insiste sur la nécessité de 
 
 - « normaliser » la gouvernance du secteur du charbon (煤炭领域治理常态化),
 
-- "poursuivre la correction des problèmes de corruption dans les entreprises publiques" (国有企业腐败问题), notamment dans la santé (医疗领域), la finance (金融领域) et les appels d’offres (招投标). 
+- "poursuivre la correction des problèmes de corruption dans les entreprises publiques" (国有企业腐败问题), notamment dans la santé, la finance et les appels d’offres. 
 
 À ce niveau, la Mongolie intérieure n’est pas un cas isolé : la lutte contre les rentes dans l’énergie, les ressources naturelles et la finance est un axe national.
 
@@ -50,7 +50,9 @@ Mais cette province ne se réduit pas à une « province à problèmes».
 
 La région est définie par Pékin comme une « importante barrière écologique » (重要生态屏障), une « base stratégique énergétique et minérale » (能源和重要矿产资源战略基地), une « grande base de production agricole et pastorale » (重要农畜产品生产基地) et une « barrière de sécurité pour la frontière nord de la patrie » (祖国北疆安全稳定屏障).
 
-Dans cette perspective, la lutte anticorruption est un moyen, pas une fin. Elle permet de démanteler des réseaux de rente dans le charbon, les minerais ou la finance régionale qui interfèrent avec les priorités nationales ; elle autorise une recomposition de l’élite locale au profit de cadres jugés plus fiables ; elle accompagne, enfin, la mise en œuvre d’un agenda plus structurant : la refonte de la politique ethnique et religieuse dans une région autonome tenue pour stratégique. C’est cette dernière dimension que l’affaire Li Zhiyou éclaire particulièrement.
+Dans cette perspective, la lutte anticorruption est un moyen, pas une fin. Elle permet de démanteler des réseaux de rente dans le charbon, les minerais ou la finance régionale qui interfèrent avec les priorités nationales ; elle autorise une recomposition de l’élite locale au profit de cadres jugés plus fiables ; elle accompagne, enfin, la mise en œuvre d’un agenda plus structurant : la refonte de la politique ethnique et religieuse dans une région autonome tenue pour stratégique. 
+
+C’est cette dernière dimension que l’affaire Li Zhiyou éclaire particulièrement.
 
 ### Une politique ethnique refondée autour de la « communauté nationale »
 
@@ -62,7 +64,7 @@ En 2025, un « Recueil pour l’étude de la pensée importante du secrétaire g
 
 Son noyau doctrinal articule à la fois les politiques ethniques et la construction d’un « foyer spirituel commun » (共有精神家园).
 
-### Une poltiique qui se décline sur le terrain 
+### Une politique qui se déploie sur le terrain 
 
 En mars 2025, une réunion des directeurs des Commissions des affaires ethniques de la région (全区民委主任会议) dresse le bilan de 2024 : 
 
@@ -82,7 +84,7 @@ Juridiquement et réglementairement, les ajustements vont dans le sens d’une h
 
 L’ensemble de ces évolutions montre que la politique ethnique en Mongolie intérieure est en train d’être refondue autour de d'une "conscience communautaire" (共同体意识), et que la gestion de la langue, de l’éducation et des identités locales est intégrée dans un objectif de recomposition de la loyauté politique.
 
-### La sinisation regilieuse : entre "droit" et sécurité
+### La sinisation des religions : entre "droit" et sécurité
 
 Parallèlement à cette recomposition de la politique ethnique, l’année 2025 est marquée, au plan national, par une densification notable du cadre normatif applicable aux affaires religieuses (宗教事务). 
 
@@ -144,17 +146,17 @@ Les termes utilisés aujourd’hui dans les textes sur la sinisation de la relig
 
 Ils renvoient à un vocabulaire déjà largement éprouvé dans le contexte du Xinjiang (新疆) entre 2016 et 2019.
 
-Dans cette région, à partir de 2016, plusieurs campagnes de rectification politique sont structurées autour de séquences tripartites proches, même si les caractères exacts diffèrent. Dans le cadre de la campagne « Étudier les deux, être un membre du Parti qualifié » (两学一做), un article du canal 党建 du Quotidien du Peuple (人民日报·党建频道) intitulé « Xinjiang : se concentrer sur l’objectif général et bien faire dans l’étude, l’action et la réforme » (新疆：聚焦总目标 扎实学做改) décrit une méthode fondée sur l’étude approfondie 
+Dans cette région, à partir de 2016, plusieurs campagnes de rectification politique sont structurées autour de séquences tripartites proches, même si les caractères exacts diffèrent. Dans le cadre de la campagne « Étudier les deux, être un membre du Parti qualifié » (两学一做), un article du canal 党建 du Quotidien du Peuple (人民日报·党建频道) intitulé « Xinjiang : se concentrer sur l’objectif général et bien faire dans l’étude, l’action et la réforme » (新疆：聚焦总目标 扎实学做改) décrit une méthode fondée sur l’étude approfondie : 
 
 - des textes idéologiques,
 
 - de la stratégie de gouvernance du Xinjiang (治疆方略) et
 
-- de l’« objectif général » de stabilité;
+- de l’objectif général de stabilité;
 
-- de lutte contre le terrorisme
+- de lutte contre le terrorisme,
 
-- de réduction de la pauvreté (扎实做) ; et
+- de réduction de la pauvreté, et
 
 - de « correction sérieuse » (认真改) des problèmes identifiés dans les organisations de base. 
 
