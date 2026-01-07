@@ -1,4 +1,4 @@
-Sources chinoises, bulletin n°11, le 8 janvier 2026
+Sources chinoises, bulletin n°11, le 8 janvier 2026 
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
