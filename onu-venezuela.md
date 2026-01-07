@@ -6,23 +6,63 @@ Sources chinoises, Bulletin n°11, le 8 janvier 2026
 
 *Chargé d'affaires par intérim de la Mission permanente de la Chine auprès des Nations Unies
 
+[texte source en chinois](https://un.china-mission.gov.cn/hyyfy/202601/t20260105_11806803.htm)
+
 5 janvier 2026, 11h30
 
 Monsieur le Président,
 
-La Chine soutient la convocation par le Conseil de sécurité d'une réunion d'urgence suite à l'action militaire menée par les États-Unis contre le Venezuela. Nous remercions Madame la Secrétaire générale adjointe DiCarlo d'avoir transmis la communication du Secrétaire général Guterres. J'ai écouté attentivement les interventions et me réjouis de la présence du Représentant permanent du Venezuela ainsi que des représentants des autres États membres.
+La Chine soutient la convocation par le Conseil de sécurité d'une réunion d'urgence suite à l'action militaire menée par les États-Unis contre le Venezuela. 
 
-Le 3 janvier, les États-Unis ont unilatéralement lancé une opération militaire d'envergure contre le Venezuela, procédé à la détention et au transfert forcés du Président Maduro et de son épouse hors du territoire national, annoncé leur intention d'« administrer » le Venezuela, et n'ont pas exclu la possibilité de conduire une seconde opération militaire de plus grande ampleur. La Chine exprime sa profonde consternation face à cette action unilatérale, illégale et coercitive des États-Unis, et la condamne avec la plus grande fermeté.
+Nous remercions Madame la Secrétaire générale adjointe DiCarlo d'avoir transmis la communication du Secrétaire général Guterres. 
 
-Depuis un certain temps, la communauté internationale a exprimé à maintes reprises de vives préoccupations concernant les sanctions, le blocus et les menaces de recours à la force imposés par les États-Unis au Venezuela. Le Conseil de sécurité a tenu deux réunions d'urgence au cours desquelles le Secrétaire général Guterres, la majorité des membres du Conseil de sécurité, les États de la région et d'autres États ont unanimement appelé au respect de la Charte des Nations Unies et du droit international, à la retenue et au calme, au règlement pacifique des différends, à la désescalade de la situation et au maintien de la stabilité régionale.
+J'ai écouté attentivement les interventions et me réjouis de la présence du Représentant permanent du Venezuela ainsi que des représentants des autres États membres.
 
-Pourtant, les États-Unis, en tant que membre permanent du Conseil de sécurité, ont fait fi des préoccupations sérieuses de la communauté internationale et ont délibérément porté atteinte à la souveraineté, à la sécurité et aux intérêts légitimes du Venezuela, violant gravement le principe d'égalité souveraine, le principe de non-ingérence dans les affaires intérieures, le principe du règlement pacifique des différends internationaux, et le principe de non-recours à la force dans les relations internationales. Ces principes constituent l'essence même de la Charte des Nations Unies et le fondement du maintien de la paix et de la sécurité internationales. Les États-Unis ont placé leur puissance au-dessus du multilatéralisme et privilégié l'action militaire aux efforts diplomatiques, menaçant gravement la paix et la sécurité en Amérique latine et dans les Caraïbes, ainsi que la paix et la sécurité internationales. La Chine s'y oppose résolument, et la communauté internationale a également exprimé de sérieuses préoccupations et condamné fermement ces actions. Nous exhortons instamment les États-Unis à prendre en considération l'appel unanime de la communauté internationale, à respecter le droit international ainsi que les buts et principes de la Charte des Nations Unies, à cesser de porter atteinte à la souveraineté et à la sécurité d'un autre État, à mettre fin aux tentatives de renversement du gouvernement vénézuélien, et à revenir sur la voie d'un règlement politique par le dialogue et la négociation. Nous appelons les États-Unis à garantir la sécurité personnelle du Président Maduro et de son épouse et à procéder à leur libération immédiate. Nous soutenons l'exercice par le Conseil de sécurité de sa responsabilité première en matière de maintien de la paix et de la sécurité internationales, et appuyons tous les efforts du Secrétaire général des Nations Unies, des États et organisations de la région visant à favoriser le dialogue et la désescalade.
+Le 3 janvier, les États-Unis ont unilatéralement lancé une opération militaire d'envergure contre le Venezuela, procédé à la détention et au transfert forcés du Président Maduro et de son épouse hors du territoire national, annoncé leur intention d'« administrer » le Venezuela, et n'ont pas exclu la possibilité de conduire une seconde opération militaire de plus grande ampleur. 
+
+La Chine exprime sa profonde consternation face à cette action unilatérale, illégale et coercitive des États-Unis, et la condamne avec la plus grande fermeté.
+
+Depuis quelque temps, la communauté internationale a exprimé à maintes reprises de vives préoccupations concernant les sanctions, le blocus et les menaces de recours à la force imposés par les États-Unis au Venezuela. 
+
+Le Conseil de sécurité a tenu deux réunions d'urgence au cours desquelles le Secrétaire général Guterres, la majorité des membres du Conseil de sécurité, les États de la région et d'autres États ont unanimement appelé au respect de la Charte des Nations Unies et du droit international, à la retenue et au calme, au règlement pacifique des différends, à la désescalade de la situation et au maintien de la stabilité régionale.
+
+Pourtant, les États-Unis, membre permanent du Conseil de sécurité, ont fait fi des préoccupations de la communauté internationale et ont délibérément porté atteinte à la souveraineté, à la sécurité et aux intérêts légitimes du Venezuela, violant gravement le principe d'égalité souveraine, le principe de non-ingérence dans les affaires intérieures, le principe de règlement pacifique des différends internationaux, et le principe de non-recours à la force dans les relations internationales. 
+
+Ces principes constituent l'essence même de la Charte des Nations Unies et le fondement du maintien de la paix et de la sécurité internationales. 
+
+Les États-Unis ont placé leur puissance au-dessus du multilatéralisme et privilégié l'action militaire aux efforts diplomatiques, menaçant gravement la paix et la sécurité en Amérique latine et dans les Caraïbes, ainsi que la paix et la sécurité internationales. 
+
+La Chine s'y oppose résolument, et la communauté internationale a également exprimé de sérieuses préoccupations et condamné fermement ces actions. 
+
+Nous exhortons instamment les États-Unis à prendre en considération l'appel unanime de la communauté internationale, à respecter le droit international ainsi que les buts et principes de la Charte des Nations Unies, à cesser de porter atteinte à la souveraineté et à la sécurité d'un autre État, à mettre fin aux tentatives de renversement du gouvernement vénézuélien, et à revenir sur la voie d'un règlement politique par le dialogue et la négociation. 
+
+Nous appelons les États-Unis à garantir la sécurité personnelle du Président Maduro et de son épouse et à procéder à leur libération immédiate. 
+
+Nous soutenons l'exercice par le Conseil de sécurité de sa responsabilité première en matière de maintien de la paix et de la sécurité internationales, et appuyons tous les efforts du Secrétaire général des Nations Unies, des États et organisations de la région visant à favoriser le dialogue et la désescalade.
 
 Monsieur le Président,
 
-Les leçons de l'histoire sont récentes et édifiantes : les moyens militaires ne constituent pas une solution aux différends, et l'usage abusif de la force ne peut qu'engendrer des crises plus graves encore. Les États-Unis ont précédemment contourné le Conseil de sécurité pour mener des opérations militaires en Irak, procédé à des frappes contre les installations nucléaires iraniennes, et imposé des sanctions économiques, des actions militaires, voire des occupations armées à plusieurs pays d'Amérique latine et des Caraïbes, provoquant des conflits prolongés, de l'instabilité et d'immenses souffrances humanitaires. Ces actions ont-elles apporté la paix et la stabilité ? Ont-elles contribué au développement et à la prospérité ? La communauté internationale en tire des conclusions parfaitement claires.
+Les leçons de l'histoire sont récentes et édifiantes : les moyens militaires ne constituent pas une solution aux différends, et l'usage abusif de la force ne peut qu'engendrer des crises plus graves encore. 
 
-Le Venezuela est un État souverain et indépendant qui a pleinement le droit de défendre sa souveraineté et sa dignité nationale. Les États d'Amérique latine et des Caraïbes constituent une force importante pour le maintien de la paix et de la stabilité mondiales ainsi que pour la promotion du développement et de la prospérité à l'échelle internationale, et ont pleinement le droit de choisir librement leur voie de développement et leurs partenaires de coopération. Aucun État ne peut s'arroger le rôle de policier international, aucun État ne peut se prévaloir de la fonction de juge international. La Chine soutient fermement le gouvernement et le peuple vénézuéliens dans la défense de leur souveraineté, de leur sécurité et de leurs intérêts légitimes, et soutient résolument les États de la région dans la préservation du statut de zone de paix de l'Amérique latine et des Caraïbes. Nous exigeons que les États-Unis modifient leur approche, cessent leurs pratiques de coercition et d'intimidation, et développent leurs relations et leur coopération avec les États de la région sur la base du respect mutuel, de l'égalité de traitement et de la non-ingérence dans les affaires intérieures. La Chine est disposée à renforcer, aux côtés des États de la région et de la communauté internationale, la solidarité et la coopération, à défendre l'équité et la justice, et à œuvrer ensemble au maintien de la paix et de la stabilité en Amérique latine et dans les Caraïbes.
+Les États-Unis ont précédemment contourné le Conseil de sécurité pour mener des opérations militaires en Irak, procédé à des frappes contre les installations nucléaires iraniennes, et imposé des sanctions économiques, des actions militaires, voire des occupations armées à plusieurs pays d'Amérique latine et des Caraïbes, provoquant des conflits prolongés, de l'instabilité et d'immenses souffrances humanitaires. 
+
+Ces actions ont-elles apporté la paix et la stabilité ? 
+
+Ont-elles contribué au développement et à la prospérité ? 
+
+La communauté internationale en tire des conclusions parfaitement claires.
+
+Le Venezuela est un État souverain et indépendant qui a pleinement le droit de défendre sa souveraineté et sa dignité nationale. 
+
+Les États d'Amérique latine et des Caraïbes constituent une force importante pour le maintien de la paix et de la stabilité mondiales ainsi que pour la promotion du développement et de la prospérité à l'échelle internationale, et ont pleinement le droit de choisir librement leur voie de développement et leurs partenaires de coopération. 
+
+Aucun État ne peut s'arroger un rôle de police internationale, aucun État ne peut se prévaloir de la fonction de juge international. 
+
+La Chine soutient fermement le gouvernement et le peuple vénézuéliens dans la défense de leur souveraineté, de leur sécurité et de leurs intérêts légitimes, et soutient résolument les États de la région dans la préservation du statut de zone de paix de l'Amérique latine et des Caraïbes. 
+
+Nous exigeons que les États-Unis modifient leur approche, cessent leurs pratiques de coercition et d'intimidation, et développent leurs relations et leur coopération avec les États de la région sur la base du respect mutuel, de l'égalité de traitement et de la non-ingérence dans les affaires intérieures. 
+
+La Chine est disposée à renforcer, aux côtés des États de la région et de la communauté internationale, la solidarité et la coopération, à défendre l'équité et la justice, et à œuvrer ensemble au maintien de la paix et de la stabilité en Amérique latine et dans les Caraïbes.
 
 Je vous remercie, Monsieur le Président.
 
