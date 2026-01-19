@@ -2,11 +2,9 @@ Sources chinoises, bulletin n°13, le 22 janvier 2026
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
-## Colonisation idéologique — Les moyens, les racines et les dangers internationaux de la guerre cognitive américaine
+## Colonisation idéologique — Les moyens, les racines et les nuisances de la guerre cognitive américaine pour le monde
 
 [思想殖民——美国认知战的手段、根源及国际危害](https://www.news.cn/world/20250907/e8bfe4558e15435988acbd9310436da3/c.html?utm)
-
-(思想殖民——美国认知战的手段、根源及国际危害)
 
 **Chapitre I — La réalité historique de la colonisation idéologique américaine**
 
