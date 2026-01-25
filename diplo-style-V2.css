@@ -10,6 +10,7 @@ body {
   font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
   line-height: 1.8;
   color: #000;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -53,7 +54,7 @@ th {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 abbr[title] {
   font-weight: bold;
