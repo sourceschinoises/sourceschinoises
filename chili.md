@@ -8,7 +8,7 @@ Traduction de [美方制裁推进涉华项目的智利官员，中方警告](htt
 
 À la veille d’un sommet latino-américain organisé aux États-Unis, l’administration Trump a imposé sans motif valable des restrictions de visas à trois responsables chiliens ayant participé à la promotion d’un projet de câble numérique sous-marin impliquant des entreprises chinoises, suscitant le mécontentement de la partie chinoise et du Chili.
 
-Cependant, des responsables américains ne se sont pas retenus.
+Cependant, des responsables américains n'en sont pas restés là.
 
 
 Le 23 février, l’ambassadeur des États-Unis au Chili, Brandon Judd, a même lancé un nouvel avertissement au gouvernement chilien : il a fait pression sur celui-ci pour qu’il examine et filtre les investissements étrangers ; faute de quoi, le Chili pourrait perdre les avantages du programme américain d’exemption de visa.
