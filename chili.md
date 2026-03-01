@@ -2,7 +2,7 @@ Sources chinoises, bulletin n°18, 5 mars 2026
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
-Traduction de 美方制裁推进涉华项目的智利官员，中方警告 https://www.guancha.cn/internation/2026_02_24_807828.shtml?s=zwyxgtjbt&utm=
+Traduction de [美方制裁推进涉华项目的智利官员，中方警告](https://www.guancha.cn/internation/2026_02_24_807828.shtml?s=zwyxgtjbt&utm=)
 
 ## Les États-Unis sanctionnent des responsables chiliens ayant promu un projet impliquant la Chine, la partie chinoise met en garde
 
@@ -148,7 +148,7 @@ Les dirigeants des principaux pays latino-américains gouvernés par la gauche, 
 Les observateurs s’attendent à ce que Kast suive dans une certaine mesure la ligne américaine de confrontation avec la Chine, tout en conservant une marge de manœuvre.
 
 
-Après tout, le président argentin Javier Milei constitue un précédent.
+Mais le président argentin Javier Milei constitue un précédent.
 
 
 Pendant la campagne électorale, Milei avait à plusieurs reprises tenu des propos hostiles à l’égard de la Chine, allant jusqu’à déclarer que la Chine était « un assassin » et qu’il romprait les relations avec elle.
