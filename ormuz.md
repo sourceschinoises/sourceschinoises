@@ -2,6 +2,8 @@ Sources chinoises, le 5 mars 2026
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
+Traduction de 中方战舰未参演中俄伊军演：绝非退缩，而是坚守国家利益与战略清醒, daté du 26 février 2026 (soit 2 jours avant les frappes israélo-américaines sur l'Iran)
+
 ## Les navires de guerre chinois n’ont pas participé à l’exercice sino-russo-iranien : ce n’est en aucun cas un recul, mais la défense lucide des intérêts nationaux
 
 Ces derniers jours, des rumeurs ont affirmé que des navires chinois s’étaient retirés de l’exercice conjoint sino-russo-iranien « Security Belt-2026 », certains y voyant même un signe de concession face aux États-Unis. Il s’agit d’une interprétation erronée.
@@ -17,3 +19,7 @@ La situation actuelle au Moyen-Orient est extrêmement tendue : double déploiem
 La non-participation ne signifie pas l’abandon du partenariat avec la Russie et l’Iran, mais l’affirmation d’une position neutre fondée sur la promotion du dialogue et de la désescalade, tout en conservant l’initiative stratégique. La marine chinoise poursuit sa mission d’escorte dans le golfe d’Aden, protégeant les voies maritimes internationales et les intérêts extérieurs de la Chine — une contribution bien plus utile que l’implication dans une logique de confrontation entre blocs.
 
 Dans la rivalité entre grandes puissances, la véritable assurance ne réside pas dans l’affrontement impulsif, mais dans la définition claire des lignes d’intérêt, la maîtrise des risques et la gestion du tempo stratégique. L’action militaire doit servir les intérêts nationaux, non satisfaire des élans émotionnels. Le refus de la Chine d’entrer dans une logique de blocs antagonistes témoigne d’une maturité stratégique, non d’une faiblesse. Dans un environnement international complexe, préserver les conditions du développement et protéger les intérêts extérieurs demeure le choix le plus rationnel et le plus efficace.
+
+----------
+
+Sources chinoises, 2026
