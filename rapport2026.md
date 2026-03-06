@@ -17,7 +17,7 @@ Allocution d’ouverture du Premier ministre Li Qiang
 
 Principales actions menées :
 
-Mise en œuvre de politiques macroéconomiques plus actives pour stabiliser l’économie
+Mise en œuvre de politiques macroéconomiques pour stabiliser l’économie
 (一是实施更加积极有为的宏观政策，着力稳定经济运行)
 
 Promotion d’un développement tiré par l’innovation et construction d’un système industriel moderne
@@ -26,16 +26,16 @@ Promotion d’un développement tiré par l’innovation et construction d’un 
 Approfondissement de la réforme et de l’ouverture pour fluidifier la circulation de l’économie nationale
 (三是进一步深化改革开放，畅通国民经济循环)
 
-Promotion coordonnée de l’urbanisation nouvelle et de la revitalisation rurale
+Promotion coordonnée de la nouvelle urbanisation et de la revitalisation rurale
 (四是统筹推进新型城镇化和乡村全面振兴，促进城乡区域协调发展)
 
 Renforcement de la protection sociale et développement des politiques sociales
 (五是切实抓好民生保障，积极发展社会事业)
 
-Accélération de la construction d’une « Chine belle » et développement bas-carbone
+Accélération de la construction d’une « la belle Chine» et développement bas-carbone
 (六是加快美丽中国建设，推动绿色低碳发展)
 
-Renforcement de la gouvernance gouvernementale et amélioration de la gestion sociale
+Renforcement de la gouvernance et amélioration de la gestion des affaires sociales
 (七是持续加强政府建设，创新和完善社会治理)
 
 ## II. Objectifs et grandes missions du 15e plan quinquennal
@@ -70,7 +70,7 @@ Coordination entre développement et sécurité
 
 Six domaines :
 
-Développement des nouvelles forces productives
+Développement de la nouvelle productivité
 (引领新质生产力发展)
 
 Construction d’un système d’infrastructures moderne
@@ -139,9 +139,10 @@ Accélérer la transition écologique
 Prévenir et gérer les risques dans les secteurs clés
 (十) 加强重点领域风险防范化解和安全能力建设)
 
-## V. Exigences pour l’action gouvernementale*
+## V. Demandes pour l’action gouvernementale*
 
-(*j’ai reconstitué la structure analytique, car le document ne présente plus de titres formels de section au même niveau que I–IV. C’est classique des rapports de travail du gouvernement depuis Wen Jiabao : la structure administrative s’arrête aux “政府工作任务”, puis viennent les paragraphes politico-institutionnels obligatoires
+├ *j’ai reconstitué la structure analytique, car le document ne présente plus de titres formels de section au même niveau que I–IV. 
+C’est classique des rapports de travail du gouvernement depuis Wen Jiabao : la structure administrative s’arrête aux missions du gouvernement “政府工作任务”, puis viennent les paragraphes des fonctions et tâches régaliennes*┤
 
 (对政府工作的要求)
 
