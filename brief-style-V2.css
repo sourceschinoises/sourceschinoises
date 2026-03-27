@@ -1,24 +1,24 @@
-/* Pour les diagrammes ASCII */
-pre {
-    font-family: 'Courier New', Courier, monospace !important;
-    font-size: 12px !important;
-    line-height: 1.2 !important;
-    white-space: pre !important;
-    overflow-x: auto;
-    background: #f5f5f5;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+/* ============================================================
+   FEUILLE DE STYLE — SOURCES CHINOISES / GITHUB PAGES
+   ============================================================ */
+
+/* ── Variables globales ── */
+:root {
+  --bleu:        #2c3e50;
+  --bleu-clair:  #4a6fa5;
+  --fond:        #f4f6f7;
+  --bordure:     #95a5a6;
+  --tooltip-bg:  #1a2533;
+  --tooltip-fg:  #ecf0f1;
+  --tooltip-w:   320px;
 }
 
-/* Empêcher la justification du texte dans les pre */
-pre {
-    text-align: left !important;
-}
+/* ── Reset couleur global ── */
 * {
   color: #000 !important;
 }
 
+/* ── Corps ── */
 body {
   max-width: 800px;
   margin: 40px auto;
@@ -32,7 +32,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Titre principal - style officiel */
+/* ── Titre principal ── */
 h1 {
   text-align: center;
   font-size: 1.5em;
@@ -45,7 +45,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Sous-titres - encadrés */
+/* ── Sous-titres ── */
 h2 {
   font-size: 1.4em;
   margin-top: 35px;
@@ -58,7 +58,7 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* Sous-sous-titres */
+/* ── Sous-sous-titres ── */
 h3 {
   font-size: 1.2em;
   margin-top: 25px;
@@ -68,14 +68,14 @@ h3 {
   font-weight: bold;
 }
 
-/* Paragraphes */
+/* ── Paragraphes ── */
 p {
   text-align: justify;
   margin: 12px 0;
   text-indent: 0;
 }
 
-/* Tableaux - style administratif renforcé */
+/* ── Tableaux ── */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -99,12 +99,11 @@ th {
   border-bottom: 2px solid #2c3e50;
 }
 
-/* Lignes alternées pour lisibilité */
 tr:nth-child(even) {
   background-color: #f8f9fa;
 }
 
-/* Listes */
+/* ── Listes ── */
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
@@ -115,7 +114,7 @@ li {
   line-height: 1.5;
 }
 
-/* Blocs de citation ou d'encadré */
+/* ── Citations ── */
 blockquote {
   margin: 20px 0;
   padding: 15px 20px;
@@ -125,18 +124,11 @@ blockquote {
   font-style: italic;
 }
 
-/* Texte en gras */
-strong, b {
-  font-weight: bold;
-  color: #000;
-}
+/* ── Texte ── */
+strong, b { font-weight: bold; color: #000; }
+em, i     { font-style: italic; }
 
-/* Texte en italique */
-em, i {
-  font-style: italic;
-}
-
-/* Code inline */
+/* ── Code inline ── */
 code {
   background-color: #ecf0f1;
   padding: 2px 6px;
@@ -146,13 +138,19 @@ code {
   font-size: 0.9em;
 }
 
-/* Blocs de code */
+/* ── Blocs de code / diagrammes ASCII ── */
 pre {
-  background-color: #f4f6f7;
-  border: 1px solid #95a5a6;
-  padding: 15px;
+  font-family: 'Courier New', Courier, monospace !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+  white-space: pre !important;
   overflow-x: auto;
+  background: #f4f6f7;
+  padding: 15px;
+  border: 1px solid #95a5a6;
+  border-radius: 4px;
   margin: 20px 0;
+  text-align: left !important;
 }
 
 pre code {
@@ -161,7 +159,7 @@ pre code {
   padding: 0;
 }
 
-/* Abréviations avec infobulles */
+/* ── Abréviations ── */
 abbr[title] {
   font-weight: bold;
   text-decoration: underline;
@@ -177,25 +175,25 @@ abbr[title]:hover {
   text-decoration-color: #000;
 }
 
-/* Liens */
+/* ── Liens ── */
 a {
-  color: #2c3e50;
+  color: #2c3e50 !important;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #34495e;
+  color: #34495e !important;
   background-color: #ecf0f1;
 }
 
-/* Séparateur horizontal */
+/* ── Séparateur ── */
 hr {
   border: none;
   border-top: 2px solid #7f8c8d;
   margin: 30px 0;
 }
 
-/* Style pour encadrés spéciaux (via div.encadre) */
+/* ── Encadrés ── */
 .encadre {
   border: 2px solid #2c3e50;
   padding: 15px 20px;
@@ -210,7 +208,7 @@ hr {
   background-color: #fadbd8;
 }
 
-/* Notes de bas de page */
+/* ── Notes de bas de page classiques ── */
 .note {
   font-size: 0.85em;
   color: #555;
@@ -218,3 +216,101 @@ hr {
   padding-top: 10px;
   border-top: 1px solid #bdc3c7;
 }
+
+
+/* ============================================================
+   SYSTÈME DE NOTES EN INFO-BULLE
+   Hover sur desktop — tap sur mobile
+   Usage dans le Markdown :
+     texte<span class="note-ref">
+       <span class="note-trigger" tabindex="0" role="button">¹</span>
+       <span class="note-bubble">Texte de la note.</span>
+     </span>.
+   ============================================================ */
+
+.note-ref {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+/* L'exposant cliquable */
+.note-ref .note-trigger {
+  display: inline-block;
+  font-size: 0.72em;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold;
+  vertical-align: super;
+  color: var(--bleu-clair) !important;
+  background: transparent;
+  border: 1px solid var(--bleu-clair);
+  border-radius: 3px;
+  padding: 0 3px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  transition: background 0.15s, color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.note-ref .note-trigger:hover,
+.note-ref .note-trigger:focus {
+  background: var(--bleu-clair);
+  color: #fff !important;
+}
+
+/* La bulle */
+.note-ref .note-bubble {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: var(--tooltip-w);
+  background: var(--tooltip-bg);
+  color: var(--tooltip-fg) !important;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.82em;
+  line-height: 1.55;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.18s ease;
+  z-index: 999;
+  text-align: left;
+  font-style: normal;
+}
+
+/* Flèche */
+.note-ref .note-bubble::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 7px solid transparent;
+  border-top-color: var(--tooltip-bg);
+}
+
+/* Hover desktop uniquement */
+@media (hover: hover) {
+  .note-ref:hover .note-bubble {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* Ouverture par JS (tap mobile + clic desktop) */
+.note-ref.active .note-bubble {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Repositionnements automatiques */
+.note-ref.align-left .note-bubble               { left: 0; transform: none; }
+.note-ref.align-left .note-bubble::after        { left: 20px; transform: none; }
+.note-ref.align-right .note-bubble              { left: auto; right: 0; transform: none; }
+.note-ref.align-right .note-bubble::after       { left: auto; right: 20px; transform: none; }
+.note-ref.below .note-bubble                    { bottom: auto; top: calc(100% + 10px); }
+.note-ref.below .note-bubble::after             { top: auto; bottom: 100%; border-top-color: transparent; border-bottom-color: var(--tooltip-bg); }
