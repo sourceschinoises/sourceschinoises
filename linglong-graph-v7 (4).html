@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linglong Tire — Cartographie de l'écosystème</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f4f3ef;--bg2:#eceae5;--bg3:#e2e0da;
+  --text:#1a1917;--text2:#5a5855;--text3:#9a9895;
+  --border:rgba(26,25,23,0.10);--border2:rgba(26,25,23,0.20);
+  --radius:5px;
+  --c-org:#1a1917;
+  --c-inst:#1a5295;
+  --c-ind:#b84020;
+  --c-rd:#0e7a56;
+  --c-cap:#8b1a1a;
+}
+body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--text);font-size:13px;line-height:1.5;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+
+/* HEADER */
+header{border-bottom:1px solid var(--border2);padding:9px 16px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;background:white}
+.h-title{font-size:14px;font-weight:500;letter-spacing:-0.01em;color:var(--text)}
+.h-sub{font-size:10px;color:var(--text3);font-family:'IBM Plex Mono',monospace;margin-top:1px}
+.disclaimer{background:#fffbee;border-bottom:1px solid #e8d87a;padding:4px 16px;font-size:10px;color:#7a6010;font-family:'IBM Plex Mono',monospace;flex-shrink:0}
+
+/* LAYOUT */
+.app{display:flex;flex:1;overflow:hidden}
+#graph-area{flex:1;position:relative;overflow:hidden;background:var(--bg)}
+#graph-area svg{width:100%;height:100%;cursor:grab}
+#graph-area svg:active{cursor:grabbing}
+
+/* ZONE LABELS (fond de carte) */
+.zone-label{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;pointer-events:none;user-select:none;opacity:0.13;text-transform:uppercase;letter-spacing:0.08em}
+
+/* SIDEBAR */
+#sb{width:265px;border-left:1px solid var(--border2);display:flex;flex-direction:column;flex-shrink:0;background:white;overflow:hidden}
+.sb-search{padding:7px 11px;border-bottom:1px solid var(--border);flex-shrink:0}
+.sb-search input{width:100%;font-size:11px;padding:4px 8px;border:0.5px solid var(--border2);border-radius:var(--radius);background:var(--bg);color:var(--text);outline:none;font-family:'IBM Plex Sans',sans-serif}
+.sb-search input:focus{border-color:var(--text2)}
+.sb-filters{overflow-y:auto;max-height:52vh;border-bottom:1px solid var(--border);flex-shrink:0}
+.fg{padding:5px 11px 6px;border-bottom:0.5px solid var(--border)}
+.fg:last-child{border-bottom:none}
+.fg-title{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text3);margin-bottom:3px;font-family:'IBM Plex Mono',monospace}
+.fi{display:flex;align-items:center;gap:5px;margin-bottom:1px;cursor:pointer;font-size:10px;color:var(--text);line-height:1.8}
+.fi input{cursor:pointer;width:11px;height:11px;flex-shrink:0}
+.fi-all{color:var(--text3);font-style:italic;font-size:9px}
+.fi-icon{width:14px;height:14px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.fi-dash{width:20px;height:2px;flex-shrink:0;border-radius:1px}
+
+/* INFO PANEL */
+#panel{flex:1;overflow-y:auto;padding:11px;min-height:0}
+.p-empty{font-size:10px;color:var(--text3);text-align:center;padding-top:2rem;font-family:'IBM Plex Mono',monospace;line-height:2}
+.p-name{font-size:13px;font-weight:500;color:var(--text);margin-bottom:5px}
+.p-badges{margin-bottom:8px;display:flex;flex-wrap:wrap;gap:3px}
+.badge{font-size:9px;font-weight:500;padding:2px 7px;border-radius:3px;font-family:'IBM Plex Mono',monospace}
+.p-field{margin-bottom:6px}
+.p-fl{font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:1px;font-family:'IBM Plex Mono',monospace}
+.p-fv{font-size:11px;color:var(--text2);line-height:1.5}
+.p-ct{font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin:9px 0 4px;font-family:'IBM Plex Mono',monospace}
+.p-ci{font-size:10px;padding:2px 0;border-bottom:0.5px solid var(--border);display:flex;gap:4px;align-items:baseline;line-height:1.4}
+.p-ci:last-child{border-bottom:none}
+.p-fiche{display:block;margin-top:9px;padding:6px;font-size:10px;background:var(--bg);border:0.5px solid var(--border2);border-radius:var(--radius);cursor:pointer;color:var(--text);text-align:center;font-family:'IBM Plex Mono',monospace;text-decoration:none}
+.p-fiche:hover{background:var(--bg2)}
+
+/* TOOLBAR */
+#toolbar{display:flex;gap:5px;padding:6px 11px;border-top:1px solid var(--border);flex-shrink:0}
+#toolbar button{flex:1;font-size:10px;padding:4px;background:var(--bg);border:0.5px solid var(--border2);border-radius:var(--radius);cursor:pointer;color:var(--text);font-family:'IBM Plex Mono',monospace}
+#toolbar button:hover{background:var(--bg2)}
+#statbar{padding:3px 11px;border-top:1px solid var(--border);font-size:9px;color:var(--text3);font-family:'IBM Plex Mono',monospace;flex-shrink:0}
+
+/* TOOLTIP */
+#tt{position:fixed;background:white;border:1px solid var(--border2);border-radius:5px;padding:6px 10px;font-size:11px;color:var(--text);font-family:'IBM Plex Sans',sans-serif;pointer-events:none;z-index:9999;display:none;max-width:260px;box-shadow:0 2px 8px rgba(0,0,0,0.12)}
+#tt .tt-type{font-size:9px;font-family:'IBM Plex Mono',monospace;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:2px}
+#tt .tt-label{font-size:11px;color:var(--text)}
+#tt .tt-nodes{font-size:10px;color:var(--text2);margin-top:2px}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="h-title">Linglong Tire — Cartographie de l'écosystème</div>
+    <div class="h-sub">Shandong Linglong Tire Co., Ltd. · v7 · Mars 2026</div>
+  </div>
+</header>
+<div class="disclaimer">⚠ Modèle analytique — En l'état de nos connaissances et des sources consultées. Catégories Fournisseur équipement et Sous-traitant vides dans cette version.</div>
+
+<div id="tt"><div class="tt-type" id="tt-type"></div><div class="tt-label" id="tt-label"></div><div class="tt-nodes" id="tt-nodes"></div></div>
+
+<div class="app">
+  <div id="graph-area"><svg id="svg"></svg></div>
+  <div id="sb">
+    <div class="sb-search"><input type="text" id="q" placeholder="Rechercher nom, pays, description…" oninput="doSearch()"></div>
+    <div class="sb-filters">
+      <div class="fg">
+        <div class="fg-title">Écosystèmes</div>
+        <div id="fe"></div>
+      </div>
+      <div class="fg">
+        <div class="fg-title">Catégories</div>
+        <div id="fc"></div>
+      </div>
+      <div class="fg">
+        <div class="fg-title">Types de liens</div>
+        <div id="fl"></div>
+      </div>
+    </div>
+    <div id="panel"><div class="p-empty">Cliquez sur un nœud<br>pour afficher sa fiche</div></div>
+    <div id="toolbar">
+      <button onclick="recenter()">Recentrer</button>
+      <button onclick="showAll()">Tout afficher</button>
+      <button id="btn-lines" onclick="toggleLines()" title="Afficher/masquer les lignes des liens">Lignes ✓</button>
+    </div>
+    <div id="statbar">Chargement…</div>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'linglong-data.json';
+let DATA, SIM, SVGSEL, MG, NG, LG, AG, ZM;
+let AM=new Set(), AC=new Set(), AL=new Set(), ST='';
+
+// ── ZONES PAR META (forces d'attraction) ─────────────────────────────────────
+// Les positions sont exprimées en fractions du canvas (0-1)
+const ZONE = {
+  organique:     {fx:0.50, fy:0.46},  // centre
+  institutionnel:{fx:0.18, fy:0.22},  // haut gauche
+  rd:            {fx:0.20, fy:0.75},  // bas gauche
+  industriel:    {fx:0.78, fy:0.50},  // droite
+  capitalistique:{fx:0.80, fy:0.20},  // haut droite
+};
+
+// ── COULEURS META ─────────────────────────────────────────────────────────────
+const META_COL = {
+  organique:'#1a1917', institutionnel:'#1a5295',
+  industriel:'#b84020', rd:'#0e7a56', capitalistique:'#8b1a1a'
+};
+const META_LABEL = {
+  organique:'Organique', institutionnel:'Institutionnel',
+  industriel:'Industriel', rd:'R&D', capitalistique:'Capitalistique'
+};
+
+// ── ICÔNES SVG MÉTIER ─────────────────────────────────────────────────────────
+// Dessinées à la main, 16x16 viewBox, paths
+const ICONS = {
+  // Organique
+  siege: `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="1" y="8" width="14" height="7" rx="0.5" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="4" y="5" width="8" height="3.5" fill="none" stroke="currentColor" stroke-width="1.4"/><polygon points="8,1 15,5 1,5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><rect x="6" y="10" width="4" height="5" fill="currentColor" opacity="0.5"/></svg>`,
+  filiale: `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="2" y="9" width="5" height="6" rx="0.5" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="9" y="9" width="5" height="6" rx="0.5" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="5" y="4" width="6" height="5.5" fill="none" stroke="currentColor" stroke-width="1.3"/><polygon points="8,1 13,4 3,4" fill="currentColor" opacity="0.6"/><line x1="4.5" y1="9" x2="4.5" y2="9" stroke="currentColor" stroke-width="1.3"/><line x1="5" y1="6.5" x2="3.5" y2="9" stroke="currentColor" stroke-width="1.2"/><line x1="11" y1="6.5" x2="12.5" y2="9" stroke="currentColor" stroke-width="1.2"/><line x1="8" y1="9" x2="8" y2="9" stroke="currentColor" stroke-width="1.2"/></svg>`,
+  // Institutionnel
+  regulateur: `<svg width="14" height="14" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.4"/><polygon points="8,2.5 9.5,6.5 13.5,6.5 10.5,9 11.5,13 8,10.5 4.5,13 5.5,9 2.5,6.5 6.5,6.5" fill="currentColor" opacity="0.7"/></svg>`,
+  federation: `<svg width="14" height="14" viewBox="0 0 16 16"><circle cx="8" cy="8" r="2" fill="currentColor"/><circle cx="2.5" cy="4" r="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="13.5" cy="4" r="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="2.5" cy="12" r="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="13.5" cy="12" r="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="8" y1="8" x2="2.5" y2="4" stroke="currentColor" stroke-width="1.2"/><line x1="8" y1="8" x2="13.5" y2="4" stroke="currentColor" stroke-width="1.2"/><line x1="8" y1="8" x2="2.5" y2="12" stroke="currentColor" stroke-width="1.2"/><line x1="8" y1="8" x2="13.5" y2="12" stroke="currentColor" stroke-width="1.2"/></svg>`,
+  cluster: `<svg width="14" height="14" viewBox="0 0 16 16"><polygon points="8,1 14,4.5 14,11.5 8,15 2,11.5 2,4.5" fill="none" stroke="currentColor" stroke-width="1.4"/><polygon points="8,4.5 11,6.3 11,9.7 8,11.5 5,9.7 5,6.3" fill="currentColor" opacity="0.5"/></svg>`,
+  // Industriel
+  fourni_mat: `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="2" y="7" width="12" height="8" rx="0.5" fill="none" stroke="currentColor" stroke-width="1.3"/><polygon points="8,1 14,7 2,7" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><line x1="2" y1="10" x2="14" y2="10" stroke="currentColor" stroke-width="1" opacity="0.5"/><line x1="8" y1="7" x2="8" y2="15" stroke="currentColor" stroke-width="1" opacity="0.5"/></svg>`,
+  fourni_eq: `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="1" y="9" width="14" height="5" rx="0.5" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="3" y="5" width="10" height="4" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="5" y="2" width="6" height="3" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="4" y1="9" x2="4" y2="14" stroke="currentColor" stroke-width="1.3"/><line x1="12" y1="9" x2="12" y2="14" stroke="currentColor" stroke-width="1.3"/></svg>`,
+  sous_trait: `<svg width="14" height="14" viewBox="0 0 16 16"><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M5,8 L7,10 L11,6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  prestataire:`<svg width="14" height="14" viewBox="0 0 16 16"><rect x="2" y="4" width="12" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="2" y1="7" x2="14" y2="7" stroke="currentColor" stroke-width="1.3"/><line x1="6" y1="4" x2="6" y2="2" stroke="currentColor" stroke-width="1.3"/><line x1="10" y1="4" x2="10" y2="2" stroke="currentColor" stroke-width="1.3"/></svg>`,
+  oem: `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="1" y="7" width="14" height="5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="3" y="5" width="10" height="2.5" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="4" cy="12.5" r="2" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="12.5" r="2" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="6" y1="12.5" x2="10" y2="12.5" stroke="currentColor" stroke-width="1.3"/></svg>`,
+  distributeur:`<svg width="14" height="14" viewBox="0 0 16 16"><polyline points="2,8 9,8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/><polygon points="9,5 14,8 9,11" fill="currentColor"/><line x1="2" y1="5" x2="2" y2="11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  logisticien:`<svg width="14" height="14" viewBox="0 0 16 16"><path d="M1,10 Q8,3 15,10" fill="none" stroke="currentColor" stroke-width="1.4"/><ellipse cx="8" cy="10" rx="5" ry="2.5" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="8" y1="7.5" x2="8" y2="10" stroke="currentColor" stroke-width="1.2"/></svg>`,
+  // R&D
+  institut: `<svg width="14" height="14" viewBox="0 0 16 16"><circle cx="6" cy="5" r="3" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="6" y1="8" x2="6" y2="14" stroke="currentColor" stroke-width="1.3"/><line x1="3.5" y1="14" x2="8.5" y2="14" stroke="currentColor" stroke-width="1.3"/><path d="M9,3 L13,5 L12,9 L10,10 L9,8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><circle cx="10.5" cy="6.5" r="1" fill="currentColor" opacity="0.6"/></svg>`,
+  partenaire_t:`<svg width="14" height="14" viewBox="0 0 16 16"><circle cx="8" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/><path d="M8,1 L8,3 M8,13 L8,15 M1,8 L3,8 M13,8 L15,8 M3,3 L4.5,4.5 M11.5,11.5 L13,13 M13,3 L11.5,4.5 M4.5,11.5 L3,13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>`,
+  plateforme: `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="1" y="13" width="14" height="2" rx="0.5" fill="currentColor" opacity="0.6"/><path d="M3,13 L3,8 M13,13 L13,8" stroke="currentColor" stroke-width="1.3"/><path d="M3,8 Q8,2 13,8" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="8" y1="5" x2="8" y2="13" stroke="currentColor" stroke-width="1" stroke-dasharray="1.5,1.5" opacity="0.6"/></svg>`,
+  // Capitalistique
+  actionnaire:`<svg width="14" height="14" viewBox="0 0 16 16"><polyline points="1,13 5,8 8,10 12,4 15,6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="12,4 15,4 15,7" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>`,
+  fin_public: `<svg width="14" height="14" viewBox="0 0 16 16"><polygon points="8,1 15,5 15,6 1,6 1,5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="2" y="6" width="2.5" height="7" fill="currentColor" opacity="0.6"/><rect x="6.8" y="6" width="2.5" height="7" fill="currentColor" opacity="0.6"/><rect x="11.5" y="6" width="2.5" height="7" fill="currentColor" opacity="0.6"/><rect x="1" y="13" width="14" height="1.5" fill="currentColor" opacity="0.5"/></svg>`,
+  fin_prive:  `<svg width="14" height="14" viewBox="0 0 16 16"><rect x="2" y="5" width="12" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="5" y="3" width="6" height="3" rx="0.5" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="8" cy="10" r="2" fill="none" stroke="currentColor" stroke-width="1.3"/><line x1="8" y1="8" x2="8" y2="12" stroke="currentColor" stroke-width="1" opacity="0.5"/></svg>`,
+};
+
+function iconHTML(cat, col, size=13) {
+  const svg = ICONS[cat];
+  if (!svg) return `<svg width="${size}" height="${size}"></svg>`;
+  return svg.replace('width="14"',`width="${size}"`).replace('height="14"',`height="${size}"`).replace(/currentColor/g, col);
+}
+
+function nodeR(d) { return d.cat === 'siege' ? 17 : 8; }
+
+function catCol(cat) {
+  const c = DATA?.categories?.[cat];
+  return c ? META_COL[c.meta] || '#888' : '#888';
+}
+
+// ── TOGGLE LIGNES ─────────────────────────────────────────────────────────────
+let linesVisible = true;
+function toggleLines() {
+  linesVisible = !linesVisible;
+  document.getElementById('btn-lines').textContent = linesVisible ? 'Lignes ✓' : 'Lignes ✗';
+  if (LG) LG.style('display', d => isLV(d) ? (linesVisible ? null : 'none') : 'none');
+}
+
+// ── FILTRES ───────────────────────────────────────────────────────────────────
+function buildFilters() {
+  // Écosystèmes — texte coloré, sans icône
+  addTogRow('fe','m');
+  Object.entries(META_LABEL).forEach(([k,label]) => {
+    AM.add(k);
+    const col = META_COL[k];
+    const lb = document.createElement('label'); lb.className='fi';
+    lb.innerHTML = `<input type="checkbox" checked data-k="${k}" data-g="m" onchange="chk(this)"><span style="color:${col};font-weight:500;font-size:10px">${label}</span>`;
+    document.getElementById('fe').appendChild(lb);
+  });
+
+  // Catégories — icône métier, texte sans couleur de fond
+  addTogRow('fc','c');
+  if (DATA?.categories) {
+    Object.entries(DATA.categories).forEach(([k,v]) => {
+      AC.add(k);
+      const col = META_COL[v.meta] || '#888';
+      const lb = document.createElement('label'); lb.className='fi';
+      lb.innerHTML = `<input type="checkbox" checked data-k="${k}" data-g="c" onchange="chk(this)"><span class="fi-icon" style="color:${col}">${iconHTML(k,col,13)}</span><span style="font-size:10px">${v.label}</span>`;
+      document.getElementById('fc').appendChild(lb);
+    });
+  }
+
+  // Types de liens — tiret coloré
+  addTogRow('fl','l');
+  if (DATA?.types_liens) {
+    Object.entries(DATA.types_liens).forEach(([k,v]) => {
+      AL.add(k);
+      const lb = document.createElement('label'); lb.className='fi';
+      const bg = v.tiret
+        ? `background:repeating-linear-gradient(90deg,${v.couleur} 0,${v.couleur} 5px,transparent 5px,transparent 9px)`
+        : `background:${v.couleur}`;
+      lb.innerHTML = `<input type="checkbox" checked data-k="${k}" data-g="l" onchange="chk(this)"><span class="fi-dash" style="${bg}"></span><span style="font-size:10px">${v.label}</span>`;
+      document.getElementById('fl').appendChild(lb);
+    });
+  }
+}
+
+function addTogRow(cid, grp) {
+  const lb = document.createElement('label'); lb.className='fi fi-all';
+  lb.innerHTML = `<input type="checkbox" checked data-g="${grp}" data-all="${cid}" onchange="togAll('${cid}','${grp}',this.checked)"> tout / aucun`;
+  document.getElementById(cid).appendChild(lb);
+}
+
+function togAll(cid, grp, on) {
+  const set = grp==='m'?AM:grp==='c'?AC:AL;
+  document.querySelectorAll(`#${cid} input[data-k]`).forEach(cb=>{cb.checked=on;on?set.add(cb.dataset.k):set.delete(cb.dataset.k);});
+  render();
+}
+function chk(cb) { const s=cb.dataset.g==='m'?AM:cb.dataset.g==='c'?AC:AL; cb.checked?s.add(cb.dataset.k):s.delete(cb.dataset.k); render(); }
+function doSearch() { ST=document.getElementById('q').value.toLowerCase(); render(); }
+
+function isNV(d) { return AM.has(d.meta)&&AC.has(d.cat)&&(!ST||d.label.toLowerCase().includes(ST)||(d.desc||'').toLowerCase().includes(ST)||(d.pays||'').toLowerCase().includes(ST)); }
+function isLV(d) { return AL.has(d.type)&&AM.has(d.source.meta)&&AM.has(d.target.meta)&&AC.has(d.source.cat)&&AC.has(d.target.cat); }
+
+function render() {
+  if (!NG) return;
+  NG.style('opacity', d => isNV(d)?1:0.04);
+  // Quand une recherche est active : masquer tous les liens et flèches
+  if (ST) {
+    LG.style('opacity', 0).style('pointer-events','none').style('display','none');
+    AG.style('opacity', 0).style('pointer-events','none');
+  } else {
+    LG.style('opacity', d => isLV(d)?0.75:0.03)
+      .style('pointer-events', d => isLV(d)?'stroke':'none')
+      .style('display', d => isLV(d) ? (linesVisible ? null : 'none') : 'none');
+    AG.style('opacity', d => isLV(d)?0.85:0.03)
+      .style('pointer-events', d => isLV(d)?'all':'none');
+  }
+  const n = DATA.noeuds.filter(isNV).length;
+  document.getElementById('statbar').textContent = `${n} / ${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
+}
+
+// ── TOOLTIP ───────────────────────────────────────────────────────────────────
+const tt = document.getElementById('tt');
+const ttType = document.getElementById('tt-type');
+const ttLabel = document.getElementById('tt-label');
+const ttNodes = document.getElementById('tt-nodes');
+
+function showTooltip(e, lk) {
+  if (!isLV(lk)) return; // ne pas afficher si le lien est filtré
+  const lt = DATA.types_liens[lk.type] || {};
+  const src = DATA.noeuds.find(n=>n.id===lk.s);
+  const tgt = DATA.noeuds.find(n=>n.id===lk.t);
+  ttType.textContent = lt.label || lk.type;
+  ttLabel.textContent = lk.label;
+  ttNodes.textContent = `${src?.label||lk.s} → ${tgt?.label||lk.t}`;
+  ttType.style.color = lt.couleur || '#888';
+  tt.style.display = 'block';
+  moveTooltip(e);
+}
+function moveTooltip(e) { tt.style.left=(e.clientX+14)+'px'; tt.style.top=(e.clientY-10)+'px'; }
+function hideTooltip() { tt.style.display='none'; }
+
+// ── INFO PANEL ────────────────────────────────────────────────────────────────
+function showInfo(d) {
+  const cat = DATA.categories[d.cat]||{};
+  const metaCol = META_COL[d.meta]||'#888';
+  const metaLabel = META_LABEL[d.meta]||d.meta;
+  const conns = DATA.liens.filter(l=>l.s===d.id||l.t===d.id);
+  let h = `<div class="p-name">${d.label}</div><div class="p-badges">`;
+  h += `<span class="badge" style="background:${metaCol}18;color:${metaCol};border:0.5px solid ${metaCol}44">${metaLabel}</span>`;
+  h += `<span class="badge" style="background:var(--bg2);color:var(--text2)">${cat.label||d.cat}</span>`;
+  if(d.pays) h += `<span class="badge" style="background:var(--bg2);color:var(--text3)">${d.pays}</span>`;
+  h += `</div>`;
+  if(d.desc)     h += `<div class="p-field"><div class="p-fl">Description</div><div class="p-fv">${d.desc}</div></div>`;
+  if(d.relation) h += `<div class="p-field"><div class="p-fl">Relation avec Linglong</div><div class="p-fv">${d.relation}</div></div>`;
+  if(d.depuis)   h += `<div class="p-field"><div class="p-fl">Depuis</div><div class="p-fv">${d.depuis}</div></div>`;
+  if(d.detail)   h += `<div class="p-field"><div class="p-fl">Détail</div><div class="p-fv">${d.detail}</div></div>`;
+  if(conns.length) {
+    h += `<div class="p-ct">Connexions (${conns.length})</div>`;
+    conns.slice(0,12).forEach(lk=>{
+      const oid=lk.s===d.id?lk.t:lk.s, o=DATA.noeuds.find(n=>n.id===oid);
+      const lt=DATA.types_liens[lk.type]||{};
+      const arr=lk.s===d.id?'→':(lt.directionnel===false?'↔':'←');
+      h += `<div class="p-ci"><span style="color:var(--text3)">${arr}</span><span style="font-weight:500;color:${catCol(o?.cat)}">${o?.label||oid}</span><span style="color:var(--text3);font-size:9px;margin-left:auto">${lk.label}</span></div>`;
+    });
+    if(conns.length>12) h += `<div style="font-size:9px;color:var(--text3);margin-top:2px">… et ${conns.length-12} autre(s)</div>`;
+  }
+  if(d.lien_fiche) h += `<a class="p-fiche" href="${d.lien_fiche}" target="_blank">↗ Ouvrir la fiche complète</a>`;
+  document.getElementById('panel').innerHTML = h;
+}
+
+function highlight(d) {
+  const ids=new Set(DATA.liens.filter(l=>l.s===d.id||l.t===d.id).flatMap(l=>[l.s,l.t])); ids.add(d.id);
+  NG.style('opacity',n=>ids.has(n.id)?1:0.05);
+  LG.style('opacity',l=>(l.source.id===d.id||l.target.id===d.id)?0.95:0.03);
+  AG.style('opacity',l=>(l.source.id===d.id||l.target.id===d.id)?0.95:0.03);
+}
+
+function recenter() { SVGSEL.transition().duration(600).call(ZM.transform,d3.zoomIdentity); }
+function showAll() {
+  AM=new Set(Object.keys(META_LABEL)); AC=new Set(Object.keys(DATA.categories)); AL=new Set(Object.keys(DATA.types_liens));
+  document.getElementById('q').value=''; ST='';
+  document.querySelectorAll('#fe input,#fc input,#fl input').forEach(cb=>cb.checked=true);
+  if(NG){
+    NG.style('opacity',1);
+    LG.style('opacity',0.85).style('display', linesVisible ? null : 'none').style('pointer-events','stroke');
+    AG.style('opacity',0.85).style('pointer-events','all');
+  }
+  document.getElementById('panel').innerHTML='<div class="p-empty">Cliquez sur un nœud<br>pour afficher sa fiche</div>';
+  document.getElementById('statbar').textContent=`${DATA.noeuds.length} / ${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
+}
+
+// ── FLÈCHE MANUELLE ───────────────────────────────────────────────────────────
+function arrowPath(sx,sy,tx,ty,r) {
+  const dx=tx-sx,dy=ty-sy,dist=Math.sqrt(dx*dx+dy*dy)||1;
+  const ux=dx/dist,uy=dy/dist;
+  const tip_x=tx-ux*(r+1), tip_y=ty-uy*(r+1);
+  const base_x=tip_x-ux*9, base_y=tip_y-uy*9;
+  const px=-uy*4.5, py=ux*4.5;
+  return `M${tip_x},${tip_y}L${base_x+px},${base_y+py}L${base_x-px},${base_y-py}Z`;
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const r = await fetch(DATA_URL);
+    DATA = await r.json();
+  } catch(e) {
+    document.getElementById('statbar').textContent='⚠ linglong-data.json introuvable — vérifiez que les deux fichiers sont dans le même dossier.';
+    return;
+  }
+
+  buildFilters();
+
+  const cont = document.getElementById('graph-area');
+  const W = cont.clientWidth, H = cont.clientHeight;
+
+  SVGSEL = d3.select('#svg').attr('viewBox',`0 0 ${W} ${H}`);
+  MG = SVGSEL.append('g').attr('id','main-g');
+
+  // Labels de zones en fond
+  const zoneLabels = [
+    {key:'institutionnel', label:'Institutionnel', x:0.08, y:0.08},
+    {key:'capitalistique', label:'Capitalistique', x:0.72, y:0.06},
+    {key:'rd',             label:'R&D',            x:0.06, y:0.82},
+    {key:'industriel',     label:'Industriel',     x:0.72, y:0.82},
+    {key:'organique',      label:'Organique',      x:0.40, y:0.44},
+  ];
+  zoneLabels.forEach(z=>{
+    SVGSEL.append('text').attr('class','zone-label')
+      .attr('x',z.x*W).attr('y',z.y*H)
+      .attr('fill', META_COL[z.key])
+      .text(z.label);
+  });
+
+  ZM = d3.zoom().scaleExtent([0.15,5]).on('zoom',e=>MG.attr('transform',e.transform));
+  SVGSEL.call(ZM);
+
+  const nodes = DATA.noeuds.map(d=>({...d}));
+  const links = DATA.liens.map(d=>({...d, source:d.s, target:d.t}));
+
+  // Forces de zone par méta
+  SIM = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d=>d.id).distance(d=>d.type==='controle'?42:80).strength(0.4))
+    .force('charge', d3.forceManyBody().strength(d=>d.cat==='siege'?-700:-130))
+    .force('collide', d3.forceCollide(d=>nodeR(d)+5))
+    .force('x', d3.forceX(d => {
+      // ISO/TC 45 n'a plus de lien vers CRIA — attirer vers zone institutionnelle plus fortement
+      if(d.id==='ISOTC') return W*0.22;
+      return (ZONE[d.meta]?.fx||0.5)*W;
+    }).strength(d => d.id==='ISOTC' ? 0.25 : 0.08))
+    .force('y', d3.forceY(d => {
+      if(d.id==='ISOTC') return H*0.28;
+      return (ZONE[d.meta]?.fy||0.5)*H;
+    }).strength(d => d.id==='ISOTC' ? 0.25 : 0.08));
+
+  // Calcul des offsets pour liens parallèles (même paire source-cible)
+  const pairCount = {}, pairIdx = {};
+  links.forEach(lk => {
+    const key = [lk.s,lk.t].sort().join('|');
+    pairCount[key] = (pairCount[key]||0) + 1;
+  });
+  links.forEach(lk => {
+    const key = [lk.s,lk.t].sort().join('|');
+    const fwdKey = lk.s+'|'+lk.t;
+    if (pairIdx[fwdKey] === undefined) pairIdx[fwdKey] = 0;
+    const n = pairCount[key];
+    lk._offset = n > 1 ? (pairIdx[fwdKey]++ - (n-1)/2) * 7 : 0;
+  });
+
+  // Liens — paths courbés pour les liens parallèles
+  LG = MG.append('g').attr('fill','none')
+    .selectAll('path').data(links).enter().append('path')
+    .attr('stroke', d=>DATA.types_liens[d.type]?.couleur||'#aaa')
+    .attr('stroke-width', d=>(DATA.types_liens[d.type]?.w||1.5)*0.55)
+    .attr('stroke-dasharray', d=>DATA.types_liens[d.type]?.tiret?'5,3':null)
+    .style('opacity',0.75)
+    .style('pointer-events','stroke')
+    .on('mouseover', (e,d)=>{ if(isLV(d)) showTooltip(e,d); })
+    .on('mousemove', e=>moveTooltip(e))
+    .on('mouseout', hideTooltip);
+
+  // Flèches manuelles
+  const dirLinks = links.filter(d=>DATA.types_liens[d.type]?.directionnel!==false);
+  AG = MG.append('g')
+    .selectAll('path').data(dirLinks).enter().append('path')
+    .attr('fill',d=>DATA.types_liens[d.type]?.couleur||'#aaa')
+    .attr('stroke','none').style('opacity',0.85)
+    .style('pointer-events','all')
+    .on('mouseover', (e,d)=>{ if(isLV(d)) showTooltip(e,d); })
+    .on('mousemove', e=>moveTooltip(e))
+    .on('mouseout', hideTooltip);
+
+  // Nœuds
+  NG = MG.append('g').selectAll('.nd')
+    .data(nodes).enter().append('g').attr('class','nd')
+    .style('cursor','pointer')
+    .call(d3.drag()
+      .on('start',(e,d)=>{if(!e.active)SIM.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on('drag', (e,d)=>{d.fx=e.x;d.fy=e.y;})
+      .on('end',  (e,d)=>{if(!e.active)SIM.alphaTarget(0);d.fx=null;d.fy=null;}))
+    .on('click',(e,d)=>{e.stopPropagation();showInfo(d);highlight(d);});
+
+  NG.each(function(d){
+    const g=d3.select(this), r=nodeR(d), col=catCol(d.cat);
+    // Fond blanc légèrement visible pour les petits nœuds
+    if(r<12) g.append('circle').attr('r',r+2).attr('fill','rgba(244,243,239,0.7)').attr('stroke','none');
+    // Icône SVG pour les petits nœuds, cercle plein pour le siège
+    if(d.cat==='siege'){
+      g.append('circle').attr('r',r).attr('fill',col).attr('stroke','white').attr('stroke-width',2.5);
+    } else {
+      // Petit cercle coloré + icône au centre
+      g.append('circle').attr('r',r).attr('fill',col).attr('opacity',0.2).attr('stroke',col).attr('stroke-width',1.2);
+      // Icône vectorielle réduite centrée
+      const iSize=10;
+      const fo=g.append('foreignObject').attr('x',-iSize/2).attr('y',-iSize/2).attr('width',iSize).attr('height',iSize).style('overflow','visible').style('pointer-events','none');
+      const div=fo.append('xhtml:div').style('width',iSize+'px').style('height',iSize+'px').style('display','flex').style('align-items','center').style('justify-content','center');
+      div.html(iconHTML(d.cat,col,iSize));
+    }
+    g.append('text').attr('text-anchor','middle').attr('font-size',d.cat==='siege'?11:8)
+      .attr('font-weight',d.cat==='siege'?'600':'400').attr('fill',d.cat==='siege'?'white':'#1a1917')
+      .attr('dy',r+(d.cat==='siege'?-2:11)).text(d.label);
+    g.append('title').text(`${d.label} · ${DATA.categories[d.cat]?.label||d.cat}`);
+  });
+
+  SVGSEL.on('click',()=>showAll());
+  document.addEventListener('mousemove',e=>{if(tt.style.display!=='none')moveTooltip(e);});
+
+  // Tick
+  SIM.on('tick',()=>{
+    LG.attr('d', lk => {
+      const sx=lk.source.x, sy=lk.source.y, tx=lk.target.x, ty=lk.target.y;
+      const dx=tx-sx, dy=ty-sy, dist=Math.sqrt(dx*dx+dy*dy)||1;
+      const r=nodeR(lk.target);
+      const isDir=DATA.types_liens[lk.type]?.directionnel!==false;
+      const off=isDir?r+10:r+2;
+      const ex=tx-dx/dist*off, ey=ty-dy/dist*off;
+      const offset=lk._offset||0;
+      if(offset===0) return `M${sx},${sy}L${ex},${ey}`;
+      // Courbe quadratique décalée pour liens parallèles
+      const mx=(sx+tx)/2 - dy/dist*offset, my=(sy+ty)/2 + dx/dist*offset;
+      return `M${sx},${sy}Q${mx},${my} ${ex},${ey}`;
+    });
+    AG.attr('d', lk => {
+      const offset=lk._offset||0;
+      if(offset===0) return arrowPath(lk.source.x,lk.source.y,lk.target.x,lk.target.y,nodeR(lk.target));
+      // Pour liens courbés, ajuster la direction de la flèche selon la courbe
+      const sx=lk.source.x, sy=lk.source.y, tx=lk.target.x, ty=lk.target.y;
+      const dx=tx-sx, dy=ty-sy, dist=Math.sqrt(dx*dx+dy*dy)||1;
+      const mx=(sx+tx)/2 - dy/dist*offset, my=(sy+ty)/2 + dx/dist*offset;
+      return arrowPath(mx, my, tx, ty, nodeR(lk.target));
+    });
+    NG.attr('transform',d=>`translate(${d.x},${d.y})`);
+  });
+
+  document.getElementById('statbar').textContent=`${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
+}
+
+init();
+</script>
+</body>
+</html>
