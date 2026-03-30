@@ -1,0 +1,1971 @@
+{
+  "meta": {
+    "titre": "Linglong Tire — Cartographie de l'écosystème",
+    "entreprise": "Shandong Linglong Tire Co., Ltd.",
+    "date": "2026-03",
+    "version": "1.0",
+    "disclaimer": "Modèle analytique. En l'état de nos connaissances et des sources consultées. Les catégories Fournisseur équipement et Sous-traitant sont vides dans cette version."
+  },
+  "categories": {
+    "siege": {
+      "label": "Siège",
+      "meta": "organique",
+      "couleur": "#1a1917",
+      "anneau": "#1a1917"
+    },
+    "filiale": {
+      "label": "Filiale",
+      "meta": "organique",
+      "couleur": "#5F5E5A",
+      "anneau": "#1a1917"
+    },
+    "regulateur": {
+      "label": "Régulateur",
+      "meta": "institutionnel",
+      "couleur": "#185FA5",
+      "anneau": "#0C447C"
+    },
+    "federation": {
+      "label": "Fédération",
+      "meta": "institutionnel",
+      "couleur": "#378ADD",
+      "anneau": "#0C447C"
+    },
+    "cluster": {
+      "label": "Cluster",
+      "meta": "institutionnel",
+      "couleur": "#85B7EB",
+      "anneau": "#0C447C"
+    },
+    "fourni_mat": {
+      "label": "Fournisseur matières",
+      "meta": "industriel",
+      "couleur": "#D85A30",
+      "anneau": "#993C1D"
+    },
+    "fourni_eq": {
+      "label": "Fournisseur équipement",
+      "meta": "industriel",
+      "couleur": "#F0997B",
+      "anneau": "#993C1D"
+    },
+    "sous_trait": {
+      "label": "Sous-traitant",
+      "meta": "industriel",
+      "couleur": "#EF9F27",
+      "anneau": "#993C1D"
+    },
+    "prestataire": {
+      "label": "Prestataire de services",
+      "meta": "industriel",
+      "couleur": "#FAC775",
+      "anneau": "#993C1D"
+    },
+    "oem": {
+      "label": "OEM",
+      "meta": "industriel",
+      "couleur": "#993C1D",
+      "anneau": "#993C1D"
+    },
+    "distributeur": {
+      "label": "Distributeur",
+      "meta": "industriel",
+      "couleur": "#712B13",
+      "anneau": "#993C1D"
+    },
+    "logisticien": {
+      "label": "Logisticien",
+      "meta": "industriel",
+      "couleur": "#F5C4B3",
+      "anneau": "#993C1D"
+    },
+    "institut": {
+      "label": "Institut",
+      "meta": "rd",
+      "couleur": "#1D9E75",
+      "anneau": "#085041"
+    },
+    "partenaire_t": {
+      "label": "Partenaire technologique",
+      "meta": "rd",
+      "couleur": "#5DCAA5",
+      "anneau": "#085041"
+    },
+    "plateforme": {
+      "label": "Plateforme d'essai",
+      "meta": "rd",
+      "couleur": "#9FE1CB",
+      "anneau": "#085041"
+    },
+    "actionnaire": {
+      "label": "Actionnaire",
+      "meta": "capitalistique",
+      "couleur": "#A32D2D",
+      "anneau": "#501313"
+    },
+    "fin_public": {
+      "label": "Financeur public",
+      "meta": "capitalistique",
+      "couleur": "#E24B4A",
+      "anneau": "#501313"
+    },
+    "fin_prive": {
+      "label": "Financeur privé",
+      "meta": "capitalistique",
+      "couleur": "#F09595",
+      "anneau": "#501313"
+    }
+  },
+  "metas": {
+    "organique": {
+      "label": "Organique",
+      "couleur": "#1a1917",
+      "shape": "circle"
+    },
+    "institutionnel": {
+      "label": "Institutionnel",
+      "couleur": "#185FA5",
+      "shape": "square"
+    },
+    "industriel": {
+      "label": "Industriel",
+      "couleur": "#D85A30",
+      "shape": "diamond"
+    },
+    "rd": {
+      "label": "R&D",
+      "couleur": "#1D9E75",
+      "shape": "triangle"
+    },
+    "capitalistique": {
+      "label": "Capitalistique",
+      "couleur": "#A32D2D",
+      "shape": "hexagon"
+    }
+  },
+  "types_liens": {
+    "controle": {
+      "label": "Contrôle / filiale",
+      "couleur": "#1a1917",
+      "directionnel": true,
+      "tiret": false,
+      "w": 2.5
+    },
+    "tutelle": {
+      "label": "Tutelle / supervision",
+      "couleur": "#1a5295",
+      "directionnel": true,
+      "tiret": false,
+      "w": 2.0
+    },
+    "appro": {
+      "label": "Approvisionnement",
+      "couleur": "#b84020",
+      "directionnel": true,
+      "tiret": false,
+      "w": 2.0
+    },
+    "oem_livr": {
+      "label": "Livraison OEM",
+      "couleur": "#7a2800",
+      "directionnel": true,
+      "tiret": false,
+      "w": 2.0
+    },
+    "rd_part": {
+      "label": "Partenariat R&D",
+      "couleur": "#0e7a56",
+      "directionnel": false,
+      "tiret": false,
+      "w": 1.5
+    },
+    "financement": {
+      "label": "Financement",
+      "couleur": "#8b1a1a",
+      "directionnel": true,
+      "tiret": false,
+      "w": 1.8
+    },
+    "distribution": {
+      "label": "Distribution",
+      "couleur": "#2a258a",
+      "directionnel": true,
+      "tiret": false,
+      "w": 1.6
+    },
+    "logistique": {
+      "label": "Logistique",
+      "couleur": "#0a4a38",
+      "directionnel": true,
+      "tiret": false,
+      "w": 1.6
+    },
+    "non_qualifie": {
+      "label": "Lien non qualifié",
+      "couleur": "#888780",
+      "directionnel": false,
+      "tiret": true,
+      "w": 1.0
+    }
+  },
+  "noeuds": [
+    {
+      "id": "LLTS",
+      "label": "Linglong Tire",
+      "cat": "siege",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Société mère cotée à la Bourse de Shanghai (601966.SS) depuis 2016. Siège à Zhaoyuan, Shandong. Fleuron du Linglong Group, contrôlé par la famille Wang Xicheng. Entreprise leader désignée du cluster pneumatique du Shandong.",
+      "relation": "Nœud central de l'écosystème",
+      "depuis": "1975",
+      "detail": "Capitalisation : ~12,5 Mds yuan (mars 2026). Capacité totale : ~65M pneus/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTGR",
+      "label": "Linglong Group",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Holding familiale de tête, conglomérat industriel privé contrôlé par Wang Xicheng. Actionnaire majoritaire de LLTS.",
+      "relation": "Actionnaire de contrôle",
+      "depuis": "1975",
+      "detail": "Participation : ~60% de LLTS.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTZH",
+      "label": "Linglong Zhaoyuan",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Usine phare et siège opérationnel. Spécialisée pneus haut de gamme et VE. Première usine 4.0 du groupe, 100% automatisée.",
+      "relation": "Unité de production principale",
+      "depuis": "2003",
+      "detail": "Capacité : 12M pneus/an. Certif. : ISO 9001, IATF 16949.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTDZ",
+      "label": "Linglong Dezhou",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Usine spécialisée pneus poids lourds et agricoles. Certifiée Usine Verte Nationale 2020. Procédés de vulcanisation bas carbone.",
+      "relation": "Unité de production poids lourds",
+      "depuis": "2008",
+      "detail": "Capacité : 8M pneus/an. Certif. : ISO 14001.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTGX",
+      "label": "Linglong Guangxi",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Usine orientée marchés tropicaux et ASEAN. Formulations caoutchouc adaptées chaleur et humidité.",
+      "relation": "Unité de production ASEAN",
+      "depuis": "2012",
+      "detail": "Capacité : 5M pneus/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTJM",
+      "label": "Linglong Jingmen",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Usine spécialisée pneus agricoles, OTR et hiver. Fabrication modulaire petites séries.",
+      "relation": "Unité de production spécialisée",
+      "depuis": "2015",
+      "detail": "Capacité : 3M pneus/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTCC",
+      "label": "Linglong Changchun",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Usine sécurisée, pneus véhicules industriels et militaires. Matériaux renforcés anti-perforation. Partenariat FAW et gouvernement du Jilin.",
+      "relation": "Unité de production industrielle et militaire",
+      "depuis": "2017",
+      "detail": "Capacité : 2M pneus/an. Certification militaire CN.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTSR",
+      "label": "Linglong Serbia",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Serbie",
+      "desc": "Première implantation européenne, zone économique de Zrenjanin. Financée par Exim Bank Chine et fonds serbes. Hub pour le marché européen.",
+      "relation": "Unité de production Europe",
+      "depuis": "2019",
+      "detail": "Capacité : 13,6M pneus/an. Investissement : 1,8 Md yuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLTTH",
+      "label": "Linglong Thailand",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Thaïlande",
+      "desc": "Hub ASEAN à Rayong. Opérationnelle depuis 2024. Financée partiellement par obligations vertes.",
+      "relation": "Unité de production ASEAN",
+      "depuis": "2024",
+      "detail": "Capacité : 12M pneus/an. Investissement : 2,1 Md yuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLMFG",
+      "label": "Linglong Intelligent Mfg.",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Filiale 4.0 de Zhaoyuan. Robotique, IA, jumeaux numériques. Partenariat Huawei IoT et Fraunhofer.",
+      "relation": "Filiale technologique",
+      "depuis": "2020",
+      "detail": "Détention : 100%. Partenaires : Huawei, Fraunhofer.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLGRN",
+      "label": "Linglong Green Tech.",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Filiale dédiée recyclage et matériaux biosourcés. Projet pilote pyrolyse pneus usagés (brevet 2025).",
+      "relation": "Filiale R&D verte",
+      "depuis": "2021",
+      "detail": "Brevet pyrolyse : 2025.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLITK",
+      "label": "Linglong Trading HK",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Hong Kong",
+      "desc": "Bras commercial international. Export vers 120 pays. Gère les relations avec distributeurs Tyreplus et TireRack.",
+      "relation": "Filiale commerciale export",
+      "depuis": "2010",
+      "detail": "CA : 2 Mds yuan (2025). Détention : ~70%.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLLOG",
+      "label": "Linglong Logistics",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Hub logistique de Qingdao. Coordonne les flux maritimes via COSCO vers l'Europe et l'ASEAN.",
+      "relation": "Filiale logistique",
+      "depuis": "2014",
+      "detail": "Hub : Qingdao.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLEUR",
+      "label": "Linglong Europe GmbH",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Allemagne",
+      "desc": "Centre de distribution européen. Approvisionne le réseau Tyreplus Europe.",
+      "relation": "Filiale commerciale Europe",
+      "depuis": "2018",
+      "detail": "CA : 500M yuan (2025).",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLUSA",
+      "label": "Linglong Americas",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "USA",
+      "desc": "Bureau commercial américain. Focus pneus pour véhicules électriques.",
+      "relation": "Filiale commerciale Amériques",
+      "depuis": "2020",
+      "detail": "Focus : marché VE USA.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLFLT",
+      "label": "Linglong Fleet Solutions",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "JV avec Geely. Gestion de flottes de véhicules équipés de pneus Linglong.",
+      "relation": "JV services flottes",
+      "depuis": "2023",
+      "detail": "10 000 véhicules équipés (2025). Co-actionnaires : Linglong + Geely.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLMOB",
+      "label": "Linglong Mobility",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "JV avec Huawei. Solutions de mobilité connectée, pneus intelligents TPMS 2.0.",
+      "relation": "JV mobilité connectée",
+      "depuis": "2023",
+      "detail": "Statut : phase de test 2025-2026.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLRDE",
+      "label": "Linglong R&D Hanovre",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Allemagne",
+      "desc": "Centre européen. Adaptation normes REACH, étiquetage pneus EU. Projet pneus connectés 5G.",
+      "relation": "Centre R&D Europe",
+      "depuis": "2023",
+      "detail": "Budget : 300M yuan (2023-2026).",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLRDA",
+      "label": "Linglong R&D Akron",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "USA",
+      "desc": "Centre américain. Focus pneus VE et autonomes. Collaboration Univ. Akron et Goodyear.",
+      "relation": "Centre R&D Amériques",
+      "depuis": "2022",
+      "detail": "Projet : optimisation pneus Tesla Model 3/Y.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLRDAS",
+      "label": "Linglong R&D Rayong",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Thaïlande",
+      "desc": "Hub R&D ASEAN intégré à l'usine de Rayong. Matériaux tropicaux.",
+      "relation": "Centre R&D ASEAN",
+      "depuis": "2024",
+      "detail": "Spécialisation : caoutchouc résistant humidité.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLRDP",
+      "label": "Linglong R&D Pékin",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Centre satellite. Matériaux avancés, simulation moléculaire. Partenariat Univ. Pékin.",
+      "relation": "Centre R&D matériaux",
+      "depuis": "2019",
+      "detail": "Projets : silice biosourcée (brevet 2024), élastomères auto-réparants.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLRDSH",
+      "label": "Linglong R&D Shanghai",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Centre satellite. Interaction pneu-chaussée, dynamique véhicules. Partenariat Shanghai Jiaotong University.",
+      "relation": "Centre R&D dynamique",
+      "depuis": "2020",
+      "detail": "Projet : modélisation pneus véhicules autonomes.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LLRDQ",
+      "label": "Linglong R&D Qingdao",
+      "cat": "filiale",
+      "meta": "organique",
+      "pays": "Chine",
+      "desc": "Centre satellite. Vulcanisation bas carbone. Brevet réduction 15% émissions CO2 (2023).",
+      "relation": "Centre R&D procédés",
+      "depuis": "2019",
+      "detail": "Brevet : réduction CO2 vulcanisation 2023.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "MIIT",
+      "label": "MIIT",
+      "cat": "regulateur",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "Ministère de l'Industrie et des Technologies de l'Information. Principal régulateur sectoriel. Attribue labels, subventions et programmes Smart Manufacturing.",
+      "relation": "Supervision sectorielle, subventions, labels nationaux",
+      "depuis": "Antérieur à 2019",
+      "detail": "Labels : Mfg. Single Champion (2021), Green Factory (2022), Smart Mfg. Demo (2023).",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "NDRC",
+      "label": "NDRC",
+      "cat": "regulateur",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "Commission nationale du développement et de la réforme. Pilote les plans quinquennaux et la stratégie Dual Carbon.",
+      "relation": "Planification stratégique nationale",
+      "depuis": "Antérieur à 2021",
+      "detail": "14e Plan quinquennal caoutchouc 2021-2025. Dual Carbon 30/60.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "MOFCO",
+      "label": "MOFCOM",
+      "cat": "regulateur",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "Ministère du Commerce. Supervise les exportations et la diplomatie économique. A attribué le statut Key Enterprise BRI.",
+      "relation": "Régulation exports, statut BRI",
+      "depuis": "Antérieur à 2021",
+      "detail": "Statut Key Enterprise BRI. Soutien implantations Serbie et Thaïlande.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SDPRO",
+      "label": "Shandong Province",
+      "cat": "regulateur",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "Gouvernement provincial du Shandong. Principal soutien territorial. Subventions, quotas énergétiques préférentiels, désignation 链主企业 (2021).",
+      "relation": "Soutien territorial, désignation cluster leader",
+      "depuis": "2021",
+      "detail": "Subvention 50M yuan modernisation Dezhou (2020). Tarif électrique réduit 15% Zhaoyuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "ISOTC",
+      "label": "ISO/TC 45",
+      "cat": "regulateur",
+      "meta": "institutionnel",
+      "pays": "International",
+      "desc": "Comité technique ISO sur les pneumatiques et le caoutchouc. Linglong y contribue via la CRIA.",
+      "relation": "Normalisation internationale",
+      "depuis": "2022",
+      "detail": "Contribution via CRIA. Rôle exact non documenté.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "CRIA",
+      "label": "CRIA",
+      "cat": "federation",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "China Rubber Industry Association. Principal organe professionnel sectoriel. Rôle de Linglong (participant / rédacteur principal) non entièrement documenté.",
+      "relation": "Membre — normalisation sectorielle",
+      "depuis": "Antérieur à 2015",
+      "detail": "Rôle Linglong : participant confirmé, rédacteur principal sur certaines sous-sections (non documenté).",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "DANDL",
+      "label": "Dandelion Rubber Alliance",
+      "cat": "federation",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "Dandelion Rubber Industry Technology Innovation Strategic Alliance. Alliance d'innovation sur le caoutchouc de guayule. Linglong en est présidente depuis 2023.",
+      "relation": "Présidente depuis 2023",
+      "depuis": "2023",
+      "detail": "Coordination R&D sectorielle sur le caoutchouc de guayule.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SDCLS",
+      "label": "Shandong Tire Cluster",
+      "cat": "cluster",
+      "meta": "institutionnel",
+      "pays": "Chine",
+      "desc": "Cluster pneumatique du Shandong, reconnu National Advanced Manufacturing Cluster par le MIIT (2022). Linglong en est le Chain Leader désigné.",
+      "relation": "Chain Leader (链主企业)",
+      "depuis": "2021",
+      "detail": "Membres : Linglong (leader), Sailun, Triangle, Double Star, Prinx Chengshan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "WANGF",
+      "label": "Famille Wang Xicheng",
+      "cat": "actionnaire",
+      "meta": "capitalistique",
+      "pays": "Chine",
+      "desc": "Fondateur et actionnaire de référence via Linglong Group. Contrôle familial centralisé : Wang Xicheng → Linglong Group → LLTS.",
+      "relation": "Actionnaire fondateur et de contrôle",
+      "depuis": "1975",
+      "detail": "Participation via LLTGR : ~60% de LLTS.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "INSTCN",
+      "label": "Investisseurs instit. CN",
+      "cat": "actionnaire",
+      "meta": "capitalistique",
+      "pays": "Chine",
+      "desc": "Fonds publics chinois, compagnies d'assurance et institutionnels domestiques. Actionnariat stable.",
+      "relation": "Actionnaires institutionnels stables",
+      "depuis": "2016",
+      "detail": "Participation estimée : ~30% de LLTS. Composition exacte non publique.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "FLOAT",
+      "label": "Flottant (marché)",
+      "cat": "actionnaire",
+      "meta": "capitalistique",
+      "pays": "International",
+      "desc": "Part du capital en circulation libre sur la Bourse de Shanghai. Petits porteurs, fonds étrangers, institutionnels internationaux.",
+      "relation": "Actionnariat de marché diffus",
+      "depuis": "2016",
+      "detail": "Participation : ~10% de LLTS. Cotation : 601966.SS.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "EXIMCN",
+      "label": "Exim Bank Chine",
+      "cat": "fin_public",
+      "meta": "capitalistique",
+      "pays": "Chine",
+      "desc": "Banque chinoise d'import-export. Bras financier des politiques BRI. A financé l'usine de Zrenjanin via un prêt structuré.",
+      "relation": "Prêteur BRI — financement usine Serbie",
+      "depuis": "2019",
+      "detail": "Prêt usine Serbie : partie du financement de 1,8 Md yuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SRF",
+      "label": "Silk Road Fund",
+      "cat": "fin_public",
+      "meta": "capitalistique",
+      "pays": "Chine",
+      "desc": "Fonds souverain chinois dédié aux projets BRI. Partenariat 2023 pour l'expansion européenne.",
+      "relation": "Partenaire financier BRI — expansion Europe",
+      "depuis": "2023",
+      "detail": "Engagement : 0,5 Md yuan (2023).",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "ICBC",
+      "label": "ICBC",
+      "cat": "fin_prive",
+      "meta": "capitalistique",
+      "pays": "Chine",
+      "desc": "Industrial and Commercial Bank of China. Partenaire bancaire principal pour les emprunts industriels.",
+      "relation": "Partenaire bancaire — emprunts industriels",
+      "depuis": "Antérieur à 2021",
+      "detail": "Part : ~30% des investissements totaux (avec CCB).",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "CCB",
+      "label": "China Construction Bank",
+      "cat": "fin_prive",
+      "meta": "capitalistique",
+      "pays": "Chine",
+      "desc": "China Construction Bank. Partenaire bancaire pour le financement des investissements industriels.",
+      "relation": "Partenaire bancaire — emprunts industriels",
+      "depuis": "Antérieur à 2021",
+      "detail": "Répartition exacte ICBC/CCB non publique.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "GUANK",
+      "label": "Guangken Rubber Group",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Principal fournisseur de caoutchouc naturel. Contrat 10 ans (2020-2030), clause de prix indexé marché Shanghai. Co-investissement plantations durables Hainan/Yunnan.",
+      "relation": "Approvisionnement long terme + co-développement",
+      "depuis": "2018",
+      "detail": "Volume : 20 000 t/an. Budget co-dev : 30M yuan/an. Projet Sustainable Rubber Initiative.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SINOP",
+      "label": "Sinopec",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Groupe pétrochimique d'État. Fournit noir de carbone et polymères synthétiques (SBR, polybutadiène). Livraison JIT pour Zhaoyuan et Dezhou. Brevet conjoint 2023.",
+      "relation": "Approvisionnement + co-développement",
+      "depuis": "2019",
+      "detail": "Volume : ~40 000 t/an. Projet EcoSynth. Brevet conjoint 2023.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "BEKAE",
+      "label": "Bekaert",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Belgique",
+      "desc": "Équipementier belge spécialisé dans les câbles acier pour pneumatiques. Contrat exclusif Zhaoyuan et Dezhou. Projet SteelCord 2.0.",
+      "relation": "Approvisionnement exclusif + co-développement",
+      "depuis": "2020",
+      "detail": "Volume : 10 000 km/an. Garantie : 0 défaut/1M mètres.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "CABOT",
+      "label": "Cabot Corporation",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "USA",
+      "desc": "Spécialiste des noirs de carbone haute performance. Partenariat R&D GreenSilica. Laboratoire commun à Zhaoyuan.",
+      "relation": "Approvisionnement + partenariat R&D",
+      "depuis": "2021",
+      "detail": "Volume : 8 000 t/an. Projet GreenSilica 2021-2025. Labo : 20M yuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "KUMHO",
+      "label": "Kumho Petrochemical",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Corée du Sud",
+      "desc": "Pétrochimiste spécialisé en caoutchoucs synthétiques. Fourniture polymères + co-développement composés pneus électriques.",
+      "relation": "Approvisionnement + co-développement VE",
+      "depuis": "2021",
+      "detail": "Volume : 10 000 t/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SDCHE",
+      "label": "Shandong Chemical Group",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Fournisseur local d'additifs chimiques. Avantage logistique par proximité. Projet CleanAdd d'additifs bas toxiques.",
+      "relation": "Approvisionnement local",
+      "depuis": "2017",
+      "detail": "Volume : 3 000 t/an. Réduction coûts logistiques : 20%.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "YANCH",
+      "label": "Yanchang Petroleum",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Fournisseur d'huiles de procédé. Clause de paiement différé en cas de fluctuation des prix pétroliers.",
+      "relation": "Approvisionnement huiles procédé",
+      "depuis": "Antérieur à 2021",
+      "detail": "Volume : 5 000 t/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "LANXS",
+      "label": "Lanxess",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Allemagne",
+      "desc": "Chimiste spécialisé en caoutchoucs synthétiques haut de gamme. Projet SilentTread composés pneus silencieux.",
+      "relation": "Approvisionnement + co-développement",
+      "depuis": "2023",
+      "detail": "Volume : 5 000 t/an. Projet SilentTread. Réduction NVH : -3dB.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "TIANJ",
+      "label": "Tianjin Metallurgical",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Fournisseur local de câbles acier pour l'usine de Dezhou. Livraisons JIT. Contrôle qualité mensuel conjoint.",
+      "relation": "Approvisionnement câbles acier",
+      "depuis": "2019",
+      "detail": "Volume : 8 000 km/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "BASF",
+      "label": "BASF",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Allemagne",
+      "desc": "Groupe chimique allemand. Additifs haut de gamme pour pneus VE. Projet DurabilityPlus.",
+      "relation": "Approvisionnement additifs VE + co-développement",
+      "depuis": "2022",
+      "detail": "Volume : 2 000 t/an. Gain kilométrage : +15%.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "THAIR",
+      "label": "Thai Rubber Authority",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Thaïlande",
+      "desc": "Autorité thaïlandaise du caoutchouc naturel. Accord cadre ASEAN-Chine pour usines Thaïlande et Serbie.",
+      "relation": "Approvisionnement ASEAN",
+      "depuis": "2022",
+      "detail": "Volume : 12 000 t/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "CSRUB",
+      "label": "China Synthetic Rubber",
+      "cat": "fourni_mat",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Fournisseur de noir de carbone grades N220 et N330. Contrat cadre 5 ans renouvelé 2025. Co-développement grades low rolling resistance.",
+      "relation": "Approvisionnement + co-développement",
+      "depuis": "2020",
+      "detail": "Volume : 15 000 t/an.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "FAW",
+      "label": "FAW Group",
+      "cat": "oem",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Constructeur automobile public chinois. Partenariat OEM Hongqi (premium) et Jiefang (utilitaires). Projet WinterGrip équipe conjointe Changchun.",
+      "relation": "Livraison OEM + co-développement",
+      "depuis": "2019",
+      "detail": "Modèles : Hongqi LS5, Jiefang J6. Produit : ArcticTread. Budget : 50M yuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SAIC",
+      "label": "SAIC Motor",
+      "cat": "oem",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Constructeur automobile chinois. Partenariat pneus VE basse résistance. Projet SmartTire capteurs IoT.",
+      "relation": "Livraison OEM + co-développement VE",
+      "depuis": "2020",
+      "detail": "Modèles : MG ZS, Roewe Marvel X. Labo commun Shanghai : 30 ingénieurs.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "GEELY",
+      "label": "Geely",
+      "cat": "oem",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Constructeur automobile privé, propriétaire de Volvo. Partenariat pneus silencieux et durables. Co-actionnaire JV Linglong Fleet Solutions.",
+      "relation": "Livraison OEM + co-développement + JV",
+      "depuis": "2021",
+      "detail": "Modèles : Volvo S90, Galaxy E8. Budget conjoint : 40M yuan.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "BYD",
+      "label": "BYD",
+      "cat": "oem",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Constructeur de véhicules électriques. Partenariat pneus ultra-bas carbone et résistance thermique. Labo commun Shenzhen.",
+      "relation": "Livraison OEM + co-développement VE",
+      "depuis": "2020",
+      "detail": "Modèles : Han EV, Dolphin. Produits : GreenEV, ThermalSafe.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "VW",
+      "label": "Volkswagen",
+      "cat": "oem",
+      "meta": "industriel",
+      "pays": "Allemagne",
+      "desc": "Constructeur automobile allemand. Accord licence OEM usines Changchun et Shanghai. Projet WinterChina pneus nord Chine.",
+      "relation": "Livraison OEM + co-développement",
+      "depuis": "2021",
+      "detail": "Modèles : ID.4, ID.6. Produits : EuroGrip, PolarTread.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "BMW",
+      "label": "BMW",
+      "cat": "oem",
+      "meta": "industriel",
+      "pays": "Allemagne",
+      "desc": "Constructeur automobile allemand. Co-développement pneus haut de gamme silencieux pour VE. Centre R&D conjoint Shenyang.",
+      "relation": "Livraison OEM + co-développement premium",
+      "depuis": "2023",
+      "detail": "Modèles : i3, iX3. Produits : PremiumTour, SilentPremium.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "TYREP",
+      "label": "Tyreplus Europe",
+      "cat": "distributeur",
+      "meta": "industriel",
+      "pays": "Europe",
+      "desc": "Réseau de distribution européen. Partenariat avec Linglong Trading HK et Europe GmbH.",
+      "relation": "Distribution Europe",
+      "depuis": "Antérieur à 2021",
+      "detail": "Partenariat capitalistique partiel.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "TIRRA",
+      "label": "TireRack USA",
+      "cat": "distributeur",
+      "meta": "industriel",
+      "pays": "USA",
+      "desc": "Distributeur en ligne américain. Focus pneus VE. Partenariat avec Linglong Americas.",
+      "relation": "Distribution USA",
+      "depuis": "Antérieur à 2021",
+      "detail": "Canal : e-commerce.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "COSCO",
+      "label": "COSCO",
+      "cat": "logisticien",
+      "meta": "industriel",
+      "pays": "Chine",
+      "desc": "Compagnie maritime d'État chinoise. Partenaire logistique de Linglong Logistics pour les routes maritimes vers l'Europe.",
+      "relation": "Sous-traitance routes maritimes",
+      "depuis": "Antérieur à 2021",
+      "detail": "Hub : Qingdao. Routes : Europe, ASEAN.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SDUNI",
+      "label": "Shandong University",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Université publique du Shandong. Collaboration matériaux polymères et matériaux auto-réparants. Partenariat avec Linglong Green Technology.",
+      "relation": "Partenariat R&D matériaux",
+      "depuis": "2021",
+      "detail": "Projets : matériaux auto-réparants, biosourcés. Durée : 2021-2026.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "QUST",
+      "label": "Qingdao Univ. Sci. & Tech.",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Université spécialisée chimie du caoutchouc. Collaboration vulcanisation bas carbone et recyclage.",
+      "relation": "Partenariat R&D procédés",
+      "depuis": "2019",
+      "detail": "Brevet recyclage : 2025. Durée : 2019-2025.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SDACS",
+      "label": "Shandong Academy of Sciences",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Académie des sciences provinciale du Shandong. Collaboration procédés de fabrication intelligents.",
+      "relation": "Partenariat R&D fabrication",
+      "depuis": "Antérieur à 2021",
+      "detail": "Spécialisation : procédés intelligents.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SDKLA",
+      "label": "Shandong Key Lab Rubber",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Laboratoire clé provincial co-financé par Linglong. Spécialisé en ingénierie des produits en caoutchouc.",
+      "relation": "Co-financement laboratoire provincial",
+      "depuis": "Antérieur à 2021",
+      "detail": "Statut : laboratoire clé provincial.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "PKUCH",
+      "label": "Beijing Univ. Chem. Tech.",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Université de référence en chimie des polymères. Collaboration caoutchouc biosourcé guayule. Projet conjoint avec Bridgestone.",
+      "relation": "Partenariat R&D matériaux biosourcés",
+      "depuis": "2020",
+      "detail": "Durée : 2020-2027.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "PKIAC",
+      "label": "Université de Pékin",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Collaboration simulation moléculaire et silice biosourcée. Partenariat avec le centre R&D de Pékin.",
+      "relation": "Partenariat R&D simulation",
+      "depuis": "2024",
+      "detail": "Brevet silice biosourcée : 2024.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "SHJTU",
+      "label": "Shanghai Jiaotong Univ.",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Collaboration interaction pneu-chaussée et modélisation pneus véhicules autonomes.",
+      "relation": "Partenariat R&D dynamique véhicules",
+      "depuis": "2020",
+      "detail": "Projet : modélisation pneus véhicules autonomes.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "HANNV",
+      "label": "Univ. de Hanovre",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Allemagne",
+      "desc": "Université technique allemande. Collaboration pneus intelligents et capteurs intégrés.",
+      "relation": "Partenariat R&D pneus connectés",
+      "depuis": "2022",
+      "detail": "Projet : pneus connectés 5G. Durée : 2022-2028.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "UAKRN",
+      "label": "Univ. d'Akron",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "USA",
+      "desc": "Université liée à l'industrie pneumatique. Collaboration interaction pneu-chaussée et matériaux VE.",
+      "relation": "Partenariat R&D pneus VE",
+      "depuis": "2021",
+      "detail": "Projet : optimisation pneus Tesla Model 3/Y. Durée : 2021-2026.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "FRAUN",
+      "label": "Fraunhofer Institute",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Allemagne",
+      "desc": "Institut de recherche appliquée allemand. Collaboration acoustique NVH, jumeaux numériques et industrie 4.0.",
+      "relation": "Partenariat R&D industrie 4.0",
+      "depuis": "2023",
+      "detail": "Projets : NVH, jumeaux numériques Zhaoyuan. Durée : 2023-2027.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "PSUGI",
+      "label": "Prince of Songkla Univ.",
+      "cat": "institut",
+      "meta": "rd",
+      "pays": "Thaïlande",
+      "desc": "Université thaïlandaise. Collaboration matériaux pour climats tropicaux.",
+      "relation": "Partenariat R&D matériaux tropicaux",
+      "depuis": "2024",
+      "detail": "Projet : caoutchouc résistant humidité.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "HUAW",
+      "label": "Huawei",
+      "cat": "partenaire_t",
+      "meta": "rd",
+      "pays": "Chine",
+      "desc": "Groupe technologique chinois. Partenaire IoT usine 4.0 de Zhaoyuan, 5G Industrial Internet et pneus connectés via JV Linglong Mobility.",
+      "relation": "Partenariat technologique multi-axes",
+      "depuis": "2020",
+      "detail": "Axes : IoT usine, 5G, TPMS 2.0. Co-actionnaire LLMOB.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "BRIDG",
+      "label": "Bridgestone",
+      "cat": "partenaire_t",
+      "meta": "rd",
+      "pays": "Japon",
+      "desc": "Fabricant de pneumatiques japonais. Collaboration caoutchouc naturel biosourcé de guayule. Partenariat tripartite avec Beijing Univ. Chem. Tech.",
+      "relation": "Partenariat R&D matériaux biosourcés",
+      "depuis": "2022",
+      "detail": "Partenariat tripartite : Linglong + Bridgestone + PKUCH.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "MICHE",
+      "label": "Michelin",
+      "cat": "partenaire_t",
+      "meta": "rd",
+      "pays": "France",
+      "desc": "Fabricant de pneumatiques français. Collaboration recyclage des matériaux de pneus usagés.",
+      "relation": "Partenariat R&D recyclage",
+      "depuis": "2023",
+      "detail": "Périmètre exact non documenté.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "GOODY",
+      "label": "Goodyear",
+      "cat": "partenaire_t",
+      "meta": "rd",
+      "pays": "USA",
+      "desc": "Fabricant de pneumatiques américain. Collaboration centre R&D d'Akron sur pneus VE.",
+      "relation": "Partenariat R&D pneus VE",
+      "depuis": "2021",
+      "detail": "Projet : optimisation pneus VE. Centre Akron.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "NOKIA",
+      "label": "Nokian Tyres",
+      "cat": "partenaire_t",
+      "meta": "rd",
+      "pays": "Finlande",
+      "desc": "Fabricant spécialisé en pneus hivernaux. Partenariat tests hivernaux au Winter Test Center d'Arjeplog.",
+      "relation": "Partenariat tests hivernaux",
+      "depuis": "Antérieur à 2021",
+      "detail": "Lieu : Winter Test Center, Arjeplog, Suède.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "CONTL",
+      "label": "Continental AG",
+      "cat": "partenaire_t",
+      "meta": "rd",
+      "pays": "Allemagne",
+      "desc": "Équipementier automobile allemand. Partenariat tests haute vitesse piste de Papenburg.",
+      "relation": "Partenariat tests haute vitesse",
+      "depuis": "Antérieur à 2021",
+      "detail": "Lieu : High-Speed Track, Papenburg.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "TUVSD",
+      "label": "TÜV SÜD",
+      "cat": "plateforme",
+      "meta": "rd",
+      "pays": "Allemagne",
+      "desc": "Organisme de certification et d'essai allemand. Partenaire pour la certification des pneus Linglong sur la piste de Zhaoyuan.",
+      "relation": "Certification et essais",
+      "depuis": "Antérieur à 2021",
+      "detail": "Norme : ISO 10844. Piste : Zhaoyuan Test Track.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "APLPS",
+      "label": "Applus+",
+      "cat": "plateforme",
+      "meta": "rd",
+      "pays": "Espagne",
+      "desc": "Organisme de certification et d'essai espagnol. Partenaire pour la certification qualité.",
+      "relation": "Certification qualité",
+      "depuis": "Antérieur à 2021",
+      "detail": "Périmètre exact non documenté.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "WINTC",
+      "label": "Winter Test Center",
+      "cat": "plateforme",
+      "meta": "rd",
+      "pays": "Suède",
+      "desc": "Centre d'essais hivernaux à Arjeplog. Tests sur neige et glace pour pneus hiver et cloutés.",
+      "relation": "Tests hivernaux",
+      "depuis": "Antérieur à 2021",
+      "detail": "Normes : ECE R117, ISO 19447. Partenaire local : Nokian Tyres.",
+      "entreprises": [
+        "Linglong"
+      ]
+    },
+    {
+      "id": "PAPNB",
+      "label": "High-Speed Track Papenburg",
+      "cat": "plateforme",
+      "meta": "rd",
+      "pays": "Allemagne",
+      "desc": "Piste d'essais haute vitesse de Papenburg. Tests jusqu'à 300+ km/h.",
+      "relation": "Tests haute vitesse",
+      "depuis": "Antérieur à 2021",
+      "detail": "Normes : ECE R30, FMVSS 139. Partenaire local : Continental AG.",
+      "entreprises": [
+        "Linglong"
+      ]
+    }
+  ],
+  "liens": [
+    {
+      "s": "LLTS",
+      "t": "LLTGR",
+      "type": "controle",
+      "label": "Filiale mère"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTZH",
+      "type": "controle",
+      "label": "Usine phare Zhaoyuan"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTDZ",
+      "type": "controle",
+      "label": "Usine Dezhou"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTGX",
+      "type": "controle",
+      "label": "Usine Guangxi"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTJM",
+      "type": "controle",
+      "label": "Usine Jingmen"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTCC",
+      "type": "controle",
+      "label": "Usine Changchun"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTSR",
+      "type": "controle",
+      "label": "Usine Serbie"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLTTH",
+      "type": "controle",
+      "label": "Usine Thaïlande"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLMFG",
+      "type": "controle",
+      "label": "Filiale Intelligent Mfg."
+    },
+    {
+      "s": "LLTS",
+      "t": "LLGRN",
+      "type": "controle",
+      "label": "Filiale Green Technology"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLITK",
+      "type": "controle",
+      "label": "Filiale Trading HK"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLLOG",
+      "type": "controle",
+      "label": "Filiale Logistics"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLEUR",
+      "type": "controle",
+      "label": "Filiale Europe GmbH"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLUSA",
+      "type": "controle",
+      "label": "Filiale Americas"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLFLT",
+      "type": "controle",
+      "label": "JV Fleet Solutions"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLMOB",
+      "type": "controle",
+      "label": "JV Mobility"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLRDE",
+      "type": "controle",
+      "label": "Centre R&D Hanovre"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLRDA",
+      "type": "controle",
+      "label": "Centre R&D Akron"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLRDAS",
+      "type": "controle",
+      "label": "Centre R&D Rayong"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLRDP",
+      "type": "controle",
+      "label": "Centre R&D Pékin"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLRDSH",
+      "type": "controle",
+      "label": "Centre R&D Shanghai"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLRDQ",
+      "type": "controle",
+      "label": "Centre R&D Qingdao"
+    },
+    {
+      "s": "MIIT",
+      "t": "LLTS",
+      "type": "tutelle",
+      "label": "Supervision, subventions, labels nationaux"
+    },
+    {
+      "s": "MIIT",
+      "t": "SDCLS",
+      "type": "tutelle",
+      "label": "Reconnaissance cluster national 2022"
+    },
+    {
+      "s": "NDRC",
+      "t": "LLTS",
+      "type": "tutelle",
+      "label": "Planification 14e Plan quinquennal"
+    },
+    {
+      "s": "MOFCO",
+      "t": "LLTS",
+      "type": "tutelle",
+      "label": "Statut Key Enterprise BRI"
+    },
+    {
+      "s": "SDPRO",
+      "t": "LLTS",
+      "type": "tutelle",
+      "label": "Subventions, quotas énergétiques, désignation 链主企业 2021"
+    },
+    {
+      "s": "SDPRO",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Subventions provinciales 50M yuan"
+    },
+    {
+      "s": "CRIA",
+      "t": "LLTS",
+      "type": "non_qualifie",
+      "label": "Membre CRIA — rôle exact non documenté"
+    },
+    {
+      "s": "DANDL",
+      "t": "LLTS",
+      "type": "tutelle",
+      "label": "Présidence alliance 2023"
+    },
+    {
+      "s": "SDCLS",
+      "t": "LLTS",
+      "type": "non_qualifie",
+      "label": "Chain Leader cluster"
+    },
+    {
+      "s": "ISOTC",
+      "t": "CRIA",
+      "type": "non_qualifie",
+      "label": "Contribution ISO/TC 45 via CRIA"
+    },
+    {
+      "s": "WANGF",
+      "t": "LLTGR",
+      "type": "financement",
+      "label": "Contrôle familial ~100%"
+    },
+    {
+      "s": "LLTGR",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Actionnaire majoritaire ~60%"
+    },
+    {
+      "s": "INSTCN",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Investisseurs institutionnels ~30%"
+    },
+    {
+      "s": "FLOAT",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Flottant ~10%"
+    },
+    {
+      "s": "EXIMCN",
+      "t": "LLTSR",
+      "type": "financement",
+      "label": "Prêt usine Serbie 1,8 Md yuan"
+    },
+    {
+      "s": "SRF",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Expansion Europe 0,5 Md yuan 2023"
+    },
+    {
+      "s": "ICBC",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Emprunts bancaires"
+    },
+    {
+      "s": "CCB",
+      "t": "LLTS",
+      "type": "financement",
+      "label": "Emprunts bancaires"
+    },
+    {
+      "s": "GEELY",
+      "t": "LLFLT",
+      "type": "non_qualifie",
+      "label": "Co-actionnaire JV Fleet Solutions"
+    },
+    {
+      "s": "HUAW",
+      "t": "LLMOB",
+      "type": "non_qualifie",
+      "label": "Co-actionnaire JV Mobility"
+    },
+    {
+      "s": "GUANK",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Caoutchouc naturel 20 000 t/an"
+    },
+    {
+      "s": "GUANK",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Co-dev caoutchouc durable Hainan/Yunnan"
+    },
+    {
+      "s": "SINOP",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Noir de carbone + polymères ~40 000 t/an"
+    },
+    {
+      "s": "SINOP",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Co-dev noir de carbone bas émission, brevet 2023"
+    },
+    {
+      "s": "BEKAE",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Câbles acier 10 000 km/an"
+    },
+    {
+      "s": "BEKAE",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Projet SteelCord 2.0"
+    },
+    {
+      "s": "CABOT",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Noir de carbone spécialisé VE 8 000 t/an"
+    },
+    {
+      "s": "CABOT",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Projet GreenSilica 2021-2025"
+    },
+    {
+      "s": "KUMHO",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Polymères synthétiques 10 000 t/an"
+    },
+    {
+      "s": "KUMHO",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Co-dev composés pneus électriques"
+    },
+    {
+      "s": "SDCHE",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Additifs chimiques 3 000 t/an"
+    },
+    {
+      "s": "SDCHE",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Projet CleanAdd additifs bas toxiques"
+    },
+    {
+      "s": "YANCH",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Huiles de procédé 5 000 t/an"
+    },
+    {
+      "s": "LANXS",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Caoutchouc synthétique 5 000 t/an"
+    },
+    {
+      "s": "LANXS",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Projet SilentTread pneus silencieux"
+    },
+    {
+      "s": "TIANJ",
+      "t": "LLTDZ",
+      "type": "appro",
+      "label": "Câbles acier utilitaires 8 000 km/an"
+    },
+    {
+      "s": "BASF",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Additifs haut de gamme VE 2 000 t/an"
+    },
+    {
+      "s": "BASF",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Projet DurabilityPlus"
+    },
+    {
+      "s": "THAIR",
+      "t": "LLTTH",
+      "type": "appro",
+      "label": "Caoutchouc naturel ASEAN 12 000 t/an"
+    },
+    {
+      "s": "CSRUB",
+      "t": "LLTS",
+      "type": "appro",
+      "label": "Noir de carbone N220/N330 15 000 t/an"
+    },
+    {
+      "s": "CSRUB",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Co-dev grades low rolling resistance"
+    },
+    {
+      "s": "LLTS",
+      "t": "FAW",
+      "type": "oem_livr",
+      "label": "Pneus Hongqi LS5 / Jiefang J6"
+    },
+    {
+      "s": "LLTS",
+      "t": "FAW",
+      "type": "rd_part",
+      "label": "Projet WinterGrip Changchun"
+    },
+    {
+      "s": "LLTS",
+      "t": "SAIC",
+      "type": "oem_livr",
+      "label": "Pneus MG ZS / Roewe Marvel X"
+    },
+    {
+      "s": "LLTS",
+      "t": "SAIC",
+      "type": "rd_part",
+      "label": "Projet SmartTire capteurs IoT"
+    },
+    {
+      "s": "LLTS",
+      "t": "GEELY",
+      "type": "oem_livr",
+      "label": "Pneus Volvo S90 / Galaxy E8"
+    },
+    {
+      "s": "LLTS",
+      "t": "GEELY",
+      "type": "rd_part",
+      "label": "Projet SilentComfort / EcoDrive"
+    },
+    {
+      "s": "LLTS",
+      "t": "BYD",
+      "type": "oem_livr",
+      "label": "Pneus Han EV / Dolphin"
+    },
+    {
+      "s": "LLTS",
+      "t": "BYD",
+      "type": "rd_part",
+      "label": "Projet FastCharge / GreenEV"
+    },
+    {
+      "s": "LLTS",
+      "t": "VW",
+      "type": "oem_livr",
+      "label": "Pneus ID.4 / ID.6"
+    },
+    {
+      "s": "LLTS",
+      "t": "VW",
+      "type": "rd_part",
+      "label": "Projet WinterChina / EuroGrip"
+    },
+    {
+      "s": "LLTS",
+      "t": "BMW",
+      "type": "oem_livr",
+      "label": "Pneus i3 / iX3"
+    },
+    {
+      "s": "LLTS",
+      "t": "BMW",
+      "type": "rd_part",
+      "label": "Projet SilentComfort premium"
+    },
+    {
+      "s": "LLTS",
+      "t": "LLITK",
+      "type": "distribution",
+      "label": "Export 120 pays 2 Md yuan CA"
+    },
+    {
+      "s": "LLITK",
+      "t": "TYREP",
+      "type": "distribution",
+      "label": "Distribution Europe"
+    },
+    {
+      "s": "LLITK",
+      "t": "TIRRA",
+      "type": "distribution",
+      "label": "Distribution USA"
+    },
+    {
+      "s": "LLLOG",
+      "t": "COSCO",
+      "type": "logistique",
+      "label": "Sous-traitance routes maritimes Europe"
+    },
+    {
+      "s": "LLEUR",
+      "t": "TYREP",
+      "type": "distribution",
+      "label": "Distribution Europe GmbH"
+    },
+    {
+      "s": "SDUNI",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Matériaux polymères / auto-réparants"
+    },
+    {
+      "s": "SDUNI",
+      "t": "LLGRN",
+      "type": "rd_part",
+      "label": "Projet matériaux biosourcés"
+    },
+    {
+      "s": "QUST",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Chimie caoutchouc / recyclage"
+    },
+    {
+      "s": "QUST",
+      "t": "LLRDQ",
+      "type": "rd_part",
+      "label": "Vulcanisation bas carbone"
+    },
+    {
+      "s": "SDACS",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Procédés fabrication intelligents"
+    },
+    {
+      "s": "SDKLA",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Co-financement laboratoire clé"
+    },
+    {
+      "s": "PKUCH",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Élastomères biosourcés / guayule"
+    },
+    {
+      "s": "PKIAC",
+      "t": "LLRDP",
+      "type": "rd_part",
+      "label": "Silice biosourcée / simulation mol."
+    },
+    {
+      "s": "SHJTU",
+      "t": "LLRDSH",
+      "type": "rd_part",
+      "label": "Modélisation pneus véhicules autonomes"
+    },
+    {
+      "s": "HANNV",
+      "t": "LLRDE",
+      "type": "rd_part",
+      "label": "Pneus connectés 5G 2022-2028"
+    },
+    {
+      "s": "UAKRN",
+      "t": "LLRDA",
+      "type": "rd_part",
+      "label": "Optimisation pneus Tesla Model 3/Y"
+    },
+    {
+      "s": "FRAUN",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Acoustique NVH / jumeaux numériques"
+    },
+    {
+      "s": "FRAUN",
+      "t": "LLMFG",
+      "type": "rd_part",
+      "label": "Usine intelligente Zhaoyuan"
+    },
+    {
+      "s": "PSUGI",
+      "t": "LLRDAS",
+      "type": "rd_part",
+      "label": "Caoutchouc résistant humidité"
+    },
+    {
+      "s": "HUAW",
+      "t": "LLMFG",
+      "type": "rd_part",
+      "label": "Solutions IoT usine 4.0"
+    },
+    {
+      "s": "HUAW",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "5G Industrial Internet"
+    },
+    {
+      "s": "BRIDG",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Caoutchouc guayule biosourcé"
+    },
+    {
+      "s": "BRIDG",
+      "t": "PKUCH",
+      "type": "rd_part",
+      "label": "Co-recherche guayule tripartite"
+    },
+    {
+      "s": "MICHE",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Recyclage matériaux pneus"
+    },
+    {
+      "s": "GOODY",
+      "t": "LLRDA",
+      "type": "rd_part",
+      "label": "Optimisation pneus VE Akron"
+    },
+    {
+      "s": "NOKIA",
+      "t": "WINTC",
+      "type": "rd_part",
+      "label": "Tests hivernaux Arjeplog"
+    },
+    {
+      "s": "CONTL",
+      "t": "PAPNB",
+      "type": "rd_part",
+      "label": "Tests haute vitesse Papenburg"
+    },
+    {
+      "s": "TUVSD",
+      "t": "LLTS",
+      "type": "non_qualifie",
+      "label": "Certification / essais"
+    },
+    {
+      "s": "APLPS",
+      "t": "LLTS",
+      "type": "non_qualifie",
+      "label": "Certification qualité"
+    },
+    {
+      "s": "WINTC",
+      "t": "LLTJM",
+      "type": "rd_part",
+      "label": "Tests hivernaux pneus WinterGrip"
+    },
+    {
+      "s": "PAPNB",
+      "t": "LLTS",
+      "type": "rd_part",
+      "label": "Tests haute vitesse >300 km/h"
+    }
+  ]
+}

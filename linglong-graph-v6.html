@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linglong Tire — Cartographie de l'écosystème</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f7f6f2;--bg2:#eeecea;--bg3:#e5e3de;
+  --text:#1a1917;--text2:#5a5855;--text3:#9a9895;
+  --border:rgba(26,25,23,0.12);--border2:rgba(26,25,23,0.22);
+  --radius:6px;--radius-lg:10px;
+}
+body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--text);font-size:13px;line-height:1.5;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+
+/* HEADER */
+header{border-bottom:1px solid var(--border2);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;gap:12px;flex-wrap:wrap}
+.header-title{font-size:15px;font-weight:500;letter-spacing:-0.02em}
+.header-sub{font-size:11px;color:var(--text3);font-family:'IBM Plex Mono',monospace;margin-top:1px}
+.header-right{font-size:11px;color:var(--text3);font-family:'IBM Plex Mono',monospace;text-align:right}
+.disclaimer-bar{background:#fff8e6;border-bottom:1px solid #e6d48a;padding:5px 16px;font-size:11px;color:#7a6010;font-family:'IBM Plex Mono',monospace;flex-shrink:0}
+
+/* LAYOUT */
+.app{display:flex;flex:1;overflow:hidden}
+#graph-area{flex:1;position:relative;overflow:hidden;background:var(--bg)}
+#graph-area svg{width:100%;height:100%;cursor:grab}
+#graph-area svg:active{cursor:grabbing}
+#sidebar{width:270px;border-left:1px solid var(--border2);display:flex;flex-direction:column;flex-shrink:0;background:white;overflow:hidden}
+
+/* SIDEBAR SECTIONS */
+.sb-search{padding:8px 12px;border-bottom:1px solid var(--border);flex-shrink:0}
+.sb-search input{width:100%;font-size:12px;padding:5px 8px;border:0.5px solid var(--border2);border-radius:var(--radius);background:var(--bg);color:var(--text);outline:none;font-family:'IBM Plex Sans',sans-serif}
+.sb-search input:focus{border-color:var(--text2)}
+.sb-filters{overflow-y:auto;max-height:260px;border-bottom:1px solid var(--border);flex-shrink:0}
+.filter-group{padding:5px 12px 7px;border-bottom:0.5px solid var(--border)}
+.filter-group:last-child{border-bottom:none}
+.fg-title{font-size:10px;font-weight:500;color:var(--text3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;font-family:'IBM Plex Mono',monospace}
+.fi{display:flex;align-items:center;gap:5px;margin-bottom:2px;cursor:pointer;font-size:11px;color:var(--text);line-height:1.7}
+.fi input{cursor:pointer;width:11px;height:11px;flex-shrink:0}
+.fi-all{color:var(--text3);font-style:italic;font-size:10px}
+.fi-icon{width:13px;height:13px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.fi-dash{width:20px;height:2px;flex-shrink:0;border-radius:1px}
+
+/* INFO PANEL */
+#info-panel{flex:1;overflow-y:auto;padding:12px}
+.info-empty{font-size:11px;color:var(--text3);text-align:center;padding-top:2rem;font-family:'IBM Plex Mono',monospace;line-height:1.9}
+.info-name{font-size:14px;font-weight:500;color:var(--text);margin-bottom:5px}
+.info-badges{margin-bottom:9px;display:flex;flex-wrap:wrap;gap:4px}
+.badge{font-size:10px;font-weight:500;padding:2px 7px;border-radius:3px;font-family:'IBM Plex Mono',monospace;display:inline-flex;align-items:center;gap:3px}
+.info-field{margin-bottom:7px}
+.field-label{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:2px;font-family:'IBM Plex Mono',monospace}
+.field-value{font-size:12px;color:var(--text2);line-height:1.5}
+.conn-title{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin:10px 0 5px;font-family:'IBM Plex Mono',monospace}
+.conn-item{font-size:11px;padding:3px 0;border-bottom:0.5px solid var(--border);display:flex;gap:5px;align-items:baseline;line-height:1.4}
+.conn-item:last-child{border-bottom:none}
+.fiche-btn{display:block;width:100%;margin-top:10px;padding:6px;font-size:11px;background:var(--bg);border:0.5px solid var(--border2);border-radius:var(--radius);cursor:pointer;color:var(--text);text-align:center;font-family:'IBM Plex Mono',monospace;text-decoration:none}
+.fiche-btn:hover{background:var(--bg2)}
+
+/* TOOLBAR */
+#toolbar{padding:6px 12px;border-top:1px solid var(--border);display:flex;gap:6px;flex-shrink:0}
+#toolbar button{flex:1;font-size:11px;padding:4px;background:var(--bg);border:0.5px solid var(--border2);border-radius:var(--radius);cursor:pointer;color:var(--text);font-family:'IBM Plex Mono',monospace}
+#toolbar button:hover{background:var(--bg2)}
+.stats-bar{padding:3px 12px;border-top:1px solid var(--border);font-size:10px;color:var(--text3);font-family:'IBM Plex Mono',monospace;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="header-title">Linglong Tire — Cartographie de l'écosystème</div>
+    <div class="header-sub">Shandong Linglong Tire Co., Ltd. · v6 · Mars 2026</div>
+  </div>
+  <div class="header-right">Sources chinoises<br>Institut Thomas More</div>
+</header>
+<div class="disclaimer-bar">⚠ Modèle analytique — En l'état de nos connaissances et des sources consultées. Catégories Fournisseur équipement et Sous-traitant vides dans cette version.</div>
+
+<div class="app">
+  <div id="graph-area"><svg id="main-svg"></svg></div>
+  <div id="sidebar">
+    <div class="sb-search">
+      <input type="text" id="search-input" placeholder="Rechercher nom, pays, description…" oninput="doSearch()">
+    </div>
+    <div class="sb-filters">
+      <div class="filter-group">
+        <div class="fg-title">Écosystèmes</div>
+        <div id="fe"></div>
+      </div>
+      <div class="filter-group">
+        <div class="fg-title">Catégories</div>
+        <div id="fc"></div>
+      </div>
+      <div class="filter-group">
+        <div class="fg-title">Types de liens</div>
+        <div id="fl"></div>
+      </div>
+    </div>
+    <div id="info-panel">
+      <div class="info-empty">Cliquez sur un nœud<br>pour afficher sa fiche</div>
+    </div>
+    <div id="toolbar">
+      <button onclick="recenter()">Recentrer</button>
+      <button onclick="showAll()">Tout afficher</button>
+    </div>
+    <div class="stats-bar" id="stat-bar">Chargement…</div>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'linglong-data.json';
+let DATA, simulation, svgSel, mainG, nodeG, linkG, arrowG, zoom;
+let activeMetas = new Set();
+let activeCats = new Set();
+let activeLinks = new Set();
+let searchTerm = '';
+
+// ── FORMES GÉOMÉTRIQUES PAR META ──────────────────────────────────────────────
+const SHAPES = {
+  organique:     'circle',
+  institutionnel:'square',
+  industriel:    'diamond',
+  rd:            'triangle',
+  capitalistique:'hexagon'
+};
+
+function shapePath(shape, r) {
+  switch(shape) {
+    case 'square':   return `M${-r},${-r}H${r}V${r}H${-r}Z`;
+    case 'diamond':  return `M0,${-r*1.3}L${r*1.1},0L0,${r*1.3}L${-r*1.1},0Z`;
+    case 'triangle': return `M0,${-r*1.3}L${r*1.2},${r}L${-r*1.2},${r}Z`;
+    case 'hexagon': {
+      const a=r*1.1, pts=[];
+      for(let i=0;i<6;i++){const ang=Math.PI/180*(60*i-30);pts.push(`${a*Math.cos(ang)},${a*Math.sin(ang)}`);}
+      return 'M'+pts.join('L')+'Z';
+    }
+    default: return null; // circle
+  }
+}
+
+function svgIconHTML(shape, col, size=11) {
+  const r = size/2;
+  if (shape==='circle') return `<svg width="${size}" height="${size}" viewBox="${-r} ${-r} ${size} ${size}"><circle r="${r*0.85}" fill="${col}"/></svg>`;
+  return `<svg width="${size}" height="${size}" viewBox="${-r*1.4} ${-r*1.4} ${size*1.4} ${size*1.4}"><path d="${shapePath(shape,r*0.8)}" fill="${col}"/></svg>`;
+}
+
+// ── COULEURS ──────────────────────────────────────────────────────────────────
+function catCol(cat) { return DATA.categories[cat]?.couleur || '#888'; }
+function metaCol(meta) { return DATA.metas[meta]?.couleur || '#888'; }
+function linkCol(type) { return DATA.types_liens[type]?.couleur || '#aaa'; }
+function nodeR(d) { return d.cat === 'siege' ? 16 : 8; }
+
+// ── FILTRES ───────────────────────────────────────────────────────────────────
+function buildFilters() {
+  function togRow(cid, grp) {
+    const lb = document.createElement('label');
+    lb.className = 'fi fi-all';
+    lb.innerHTML = `<input type="checkbox" checked data-g="${grp}" data-all="${cid}" onchange="togAll('${cid}','${grp}',this.checked)"> tout / aucun`;
+    document.getElementById(cid).appendChild(lb);
+  }
+
+  // Écosystèmes
+  togRow('fe','m');
+  Object.entries(DATA.metas).forEach(([k,v]) => {
+    activeMetas.add(k);
+    const shape = SHAPES[k] || 'circle';
+    const lb = document.createElement('label'); lb.className='fi';
+    lb.innerHTML = `<input type="checkbox" checked data-k="${k}" data-g="m" onchange="chk(this)"><span class="fi-icon">${svgIconHTML(shape,v.couleur,11)}</span>${v.label}`;
+    document.getElementById('fe').appendChild(lb);
+  });
+
+  // Catégories
+  togRow('fc','c');
+  Object.entries(DATA.categories).forEach(([k,v]) => {
+    activeCats.add(k);
+    const shape = SHAPES[v.meta] || 'circle';
+    const lb = document.createElement('label'); lb.className='fi';
+    lb.innerHTML = `<input type="checkbox" checked data-k="${k}" data-g="c" onchange="chk(this)"><span class="fi-icon">${svgIconHTML(shape,v.couleur,11)}</span>${v.label}`;
+    document.getElementById('fc').appendChild(lb);
+  });
+
+  // Liens
+  togRow('fl','l');
+  Object.entries(DATA.types_liens).forEach(([k,v]) => {
+    activeLinks.add(k);
+    const lb = document.createElement('label'); lb.className='fi';
+    const bg = v.tiret
+      ? `background:repeating-linear-gradient(90deg,${v.couleur} 0,${v.couleur} 5px,transparent 5px,transparent 9px)`
+      : `background:${v.couleur}`;
+    lb.innerHTML = `<input type="checkbox" checked data-k="${k}" data-g="l" onchange="chk(this)"><span class="fi-dash" style="${bg}"></span>${v.label}`;
+    document.getElementById('fl').appendChild(lb);
+  });
+}
+
+function togAll(cid, grp, on) {
+  const set = grp==='m' ? activeMetas : grp==='c' ? activeCats : activeLinks;
+  document.querySelectorAll(`#${cid} input[data-k]`).forEach(cb => {
+    cb.checked = on;
+    on ? set.add(cb.dataset.k) : set.delete(cb.dataset.k);
+  });
+  applyFilters();
+}
+
+function chk(cb) {
+  const k=cb.dataset.k, g=cb.dataset.g;
+  const set = g==='m' ? activeMetas : g==='c' ? activeCats : activeLinks;
+  cb.checked ? set.add(k) : set.delete(k);
+  applyFilters();
+}
+
+function doSearch() {
+  searchTerm = document.getElementById('search-input').value.toLowerCase();
+  applyFilters();
+}
+
+function isNodeVis(d) {
+  return activeMetas.has(d.meta) && activeCats.has(d.cat) &&
+    (!searchTerm || d.label.toLowerCase().includes(searchTerm) ||
+     (d.desc||'').toLowerCase().includes(searchTerm) ||
+     (d.pays||'').toLowerCase().includes(searchTerm));
+}
+function isLinkVis(d) {
+  return activeLinks.has(d.type) &&
+    activeMetas.has(d.source.meta) && activeMetas.has(d.target.meta) &&
+    activeCats.has(d.source.cat) && activeCats.has(d.target.cat);
+}
+
+function applyFilters() {
+  if (!nodeG) return;
+  nodeG.style('opacity', d => isNodeVis(d) ? 1 : 0.04);
+  linkG.style('opacity', d => isLinkVis(d) ? 0.88 : 0.03);
+  arrowG.style('opacity', d => isLinkVis(d) ? 0.88 : 0.03);
+  const n = DATA.noeuds.filter(isNodeVis).length;
+  document.getElementById('stat-bar').textContent = `${n} / ${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
+}
+
+// ── INFO PANEL ────────────────────────────────────────────────────────────────
+function showInfo(d) {
+  const cat = DATA.categories[d.cat] || {};
+  const meta = DATA.metas[d.meta] || {};
+  const shape = SHAPES[d.meta] || 'circle';
+  const conns = DATA.liens.filter(l => l.s===d.id || l.t===d.id);
+  let h = `<div class="info-name">${d.label}</div>`;
+  h += `<div class="info-badges">`;
+  h += `<span class="badge" style="background:${cat.couleur}22;color:${cat.couleur}">${svgIconHTML(shape,cat.couleur,9)} ${cat.label||d.cat}</span>`;
+  h += `<span class="badge" style="background:${meta.couleur}22;color:${meta.couleur}">${meta.label||d.meta}</span>`;
+  if (d.pays) h += `<span class="badge" style="background:var(--bg2);color:var(--text2)">${d.pays}</span>`;
+  h += `</div>`;
+  if (d.desc)     h += `<div class="info-field"><div class="field-label">Description</div><div class="field-value">${d.desc}</div></div>`;
+  if (d.relation) h += `<div class="info-field"><div class="field-label">Relation avec Linglong</div><div class="field-value">${d.relation}</div></div>`;
+  if (d.depuis)   h += `<div class="info-field"><div class="field-label">Depuis</div><div class="field-value">${d.depuis}</div></div>`;
+  if (d.detail)   h += `<div class="info-field"><div class="field-label">Détail</div><div class="field-value">${d.detail}</div></div>`;
+  if (conns.length) {
+    h += `<div class="conn-title">Connexions (${conns.length})</div>`;
+    conns.forEach(lk => {
+      const oid = lk.s===d.id ? lk.t : lk.s;
+      const o = DATA.noeuds.find(n => n.id===oid);
+      const lt = DATA.types_liens[lk.type] || {};
+      const arr = lk.s===d.id ? '→' : (lt.directionnel===false ? '↔' : '←');
+      h += `<div class="conn-item"><span style="color:var(--text3)">${arr}</span><span style="font-weight:500;color:${catCol(o?.cat)}">${o?.label||oid}</span><span style="color:var(--text3);font-size:10px;margin-left:auto;text-align:right">${lk.label}</span></div>`;
+    });
+  }
+  if (d.lien_fiche) h += `<a class="fiche-btn" href="${d.lien_fiche}" target="_blank">↗ Ouvrir la fiche complète</a>`;
+  document.getElementById('info-panel').innerHTML = h;
+}
+
+function highlight(d) {
+  const ids = new Set(DATA.liens.filter(l=>l.s===d.id||l.t===d.id).flatMap(l=>[l.s,l.t]));
+  ids.add(d.id);
+  nodeG.style('opacity', n => ids.has(n.id) ? 1 : 0.06);
+  linkG.style('opacity', l => (l.source.id===d.id||l.target.id===d.id) ? 1 : 0.03);
+  arrowG.style('opacity', l => (l.source.id===d.id||l.target.id===d.id) ? 1 : 0.03);
+}
+
+function recenter() { svgSel.transition().duration(600).call(zoom.transform, d3.zoomIdentity); }
+function showAll() {
+  document.getElementById('search-input').value = ''; searchTerm = '';
+  activeMetas = new Set(Object.keys(DATA.metas));
+  activeCats  = new Set(Object.keys(DATA.categories));
+  activeLinks = new Set(Object.keys(DATA.types_liens));
+  document.querySelectorAll('#fe input,#fc input,#fl input').forEach(i => i.checked = true);
+  if (nodeG) { nodeG.style('opacity',1); linkG.style('opacity',0.88); arrowG.style('opacity',0.88); }
+  document.getElementById('info-panel').innerHTML = '<div class="info-empty">Cliquez sur un nœud<br>pour afficher sa fiche</div>';
+  document.getElementById('stat-bar').textContent = `${DATA.noeuds.length} / ${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
+}
+
+// ── FLÈCHE MANUELLE ───────────────────────────────────────────────────────────
+function arrowPath(sx, sy, tx, ty, r) {
+  const dx=tx-sx, dy=ty-sy, dist=Math.sqrt(dx*dx+dy*dy)||1;
+  const ux=dx/dist, uy=dy/dist;
+  const ex=tx-ux*(r+1), ey=ty-uy*(r+1); // pointe
+  const bx=ex-ux*8,   by=ey-uy*8;        // base
+  const px=-uy*4,     py=ux*4;
+  return `M${ex},${ey}L${bx+px},${by+py}L${bx-px},${by-py}Z`;
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const r = await fetch(DATA_URL);
+    DATA = await r.json();
+  } catch(e) {
+    document.getElementById('stat-bar').textContent = '⚠ Impossible de charger linglong-data.json — vérifiez que les deux fichiers sont dans le même dossier.';
+    return;
+  }
+
+  buildFilters();
+  document.getElementById('stat-bar').textContent = `${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
+
+  const container = document.getElementById('graph-area');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  svgSel = d3.select('#main-svg').attr('viewBox', `0 0 ${W} ${H}`);
+  mainG = svgSel.append('g').attr('id','main-g');
+
+  zoom = d3.zoom().scaleExtent([0.05,14]).on('zoom', e => mainG.attr('transform', e.transform));
+  svgSel.call(zoom);
+
+  const nodes = DATA.noeuds.map(d => ({...d}));
+  const links = DATA.liens.map(d => ({...d, source:d.s, target:d.t}));
+
+  simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d=>d.id).distance(d => d.type==='controle' ? 42 : 78).strength(0.42))
+    .force('charge', d3.forceManyBody().strength(d => d.cat==='siege' ? -650 : -130))
+    .force('center', d3.forceCenter(W/2, H/2))
+    .force('collide', d3.forceCollide(d => nodeR(d)+6));
+
+  // Liens — lignes simples sans marqueur SVG
+  linkG = mainG.append('g').attr('fill','none')
+    .selectAll('line').data(links).enter().append('line')
+    .attr('stroke', d => linkCol(d.type))
+    .attr('stroke-width', d => DATA.types_liens[d.type]?.w || 1.5)
+    .attr('stroke-dasharray', d => DATA.types_liens[d.type]?.tiret ? '5,3' : null)
+    .style('opacity', 0.88)
+    .append('title').text(d => `${DATA.types_liens[d.type]?.label||d.type} : ${d.label}`);
+
+  // Flèches manuelles pour liens directionnels
+  const dirLinks = links.filter(d => DATA.types_liens[d.type]?.directionnel !== false);
+  arrowG = mainG.append('g')
+    .selectAll('path').data(dirLinks).enter().append('path')
+    .attr('fill', d => linkCol(d.type))
+    .attr('stroke', 'none')
+    .style('opacity', 0.88);
+
+  // Nœuds
+  nodeG = mainG.append('g').selectAll('.node')
+    .data(nodes).enter().append('g').attr('class','node')
+    .style('cursor','pointer')
+    .call(d3.drag()
+      .on('start', (e,d) => { if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
+      .on('end',   (e,d) => { if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; }))
+    .on('click', (e,d) => { e.stopPropagation(); showInfo(d); highlight(d); });
+
+  nodeG.each(function(d) {
+    const g = d3.select(this);
+    const r = nodeR(d);
+    const shape = SHAPES[d.meta] || 'circle';
+    const col = catCol(d.cat);
+    if (shape === 'circle') {
+      g.append('circle').attr('r',r).attr('fill',col).attr('stroke','rgba(255,255,255,0.35)').attr('stroke-width',1.5);
+    } else {
+      g.append('path').attr('d', shapePath(shape,r)).attr('fill',col).attr('stroke','rgba(255,255,255,0.35)').attr('stroke-width',1.5);
+    }
+    g.append('text').attr('text-anchor','middle')
+      .attr('font-size', d.cat==='siege' ? 11 : 8)
+      .attr('font-weight', d.cat==='siege' ? '700' : '400')
+      .attr('fill','#111').attr('dy', r+10)
+      .text(d.label);
+    g.append('title').text(`${d.label} · ${DATA.categories[d.cat]?.label||d.cat}`);
+  });
+
+  svgSel.on('click', () => showAll());
+
+  // Tick — calcul précis des extrémités
+  simulation.on('tick', () => {
+    linkG.each(function(lk) {
+      const r = nodeR(lk.target);
+      const sx=lk.source.x, sy=lk.source.y, tx=lk.target.x, ty=lk.target.y;
+      const dx=tx-sx, dy=ty-sy, dist=Math.sqrt(dx*dx+dy*dy)||1;
+      const isDir = DATA.types_liens[lk.type]?.directionnel !== false;
+      const off = isDir ? r+9 : r;
+      d3.select(this).attr('x1',sx).attr('y1',sy).attr('x2',tx-dx/dist*off).attr('y2',ty-dy/dist*off);
+    });
+    arrowG.attr('d', lk => arrowPath(lk.source.x, lk.source.y, lk.target.x, lk.target.y, nodeR(lk.target)));
+    nodeG.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+}
+
+init();
+</script>
+</body>
+</html>
