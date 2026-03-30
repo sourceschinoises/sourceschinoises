@@ -41,7 +41,7 @@ header{border-bottom:1px solid var(--border2);padding:9px 16px;display:flex;alig
 .sb-search{padding:7px 11px;border-bottom:1px solid var(--border);flex-shrink:0}
 .sb-search input{width:100%;font-size:11px;padding:4px 8px;border:0.5px solid var(--border2);border-radius:var(--radius);background:var(--bg);color:var(--text);outline:none;font-family:'IBM Plex Sans',sans-serif}
 .sb-search input:focus{border-color:var(--text2)}
-.sb-filters{overflow-y:auto;max-height:265px;border-bottom:1px solid var(--border);flex-shrink:0}
+.sb-filters{overflow-y:auto;max-height:52vh;border-bottom:1px solid var(--border);flex-shrink:0}
 .fg{padding:5px 11px 6px;border-bottom:0.5px solid var(--border)}
 .fg:last-child{border-bottom:none}
 .fg-title{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--text3);margin-bottom:3px;font-family:'IBM Plex Mono',monospace}
@@ -382,8 +382,15 @@ async function init() {
     .force('link', d3.forceLink(links).id(d=>d.id).distance(d=>d.type==='controle'?42:80).strength(0.4))
     .force('charge', d3.forceManyBody().strength(d=>d.cat==='siege'?-700:-130))
     .force('collide', d3.forceCollide(d=>nodeR(d)+5))
-    .force('x', d3.forceX(d => (ZONE[d.meta]?.fx||0.5)*W).strength(0.08))
-    .force('y', d3.forceY(d => (ZONE[d.meta]?.fy||0.5)*H).strength(0.08));
+    .force('x', d3.forceX(d => {
+      // ISO/TC 45 n'a plus de lien vers CRIA — attirer vers zone institutionnelle plus fortement
+      if(d.id==='ISOTC') return W*0.22;
+      return (ZONE[d.meta]?.fx||0.5)*W;
+    }).strength(d => d.id==='ISOTC' ? 0.25 : 0.08))
+    .force('y', d3.forceY(d => {
+      if(d.id==='ISOTC') return H*0.28;
+      return (ZONE[d.meta]?.fy||0.5)*H;
+    }).strength(d => d.id==='ISOTC' ? 0.25 : 0.08));
 
   // Calcul des offsets pour liens parallèles (même paire source-cible)
   const pairCount = {}, pairIdx = {};

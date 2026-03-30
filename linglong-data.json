@@ -221,7 +221,8 @@
       "detail": "Capitalisation : ~12,5 Mds yuan (mars 2026). Capacité totale : ~65M pneus/an.",
       "entreprises": [
         "Linglong"
-      ]
+      ],
+      "lien_fiche": "https://sourceschinoises.github.io/sourceschinoises/linglong-fiche"
     },
     {
       "id": "LLTGR",
@@ -753,7 +754,8 @@
       "detail": "Volume : 20 000 t/an. Budget co-dev : 30M yuan/an. Projet Sustainable Rubber Initiative.",
       "entreprises": [
         "Linglong"
-      ]
+      ],
+      "lien_fiche": "https://sourceschinoises.github.io/sourceschinoises/guangken-fiche-v2"
     },
     {
       "id": "SINOP",
