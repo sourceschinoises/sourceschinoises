@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guangken Rubber Group — Fiche analytique</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f4f3ef;--bg2:#eceae5;--bg3:#e2e0da;
+  --text:#1a1917;--text2:#5a5855;--text3:#9a9895;
+  --border:rgba(26,25,23,0.10);--border2:rgba(26,25,23,0.20);
+  --orange:#b84020;--orange-light:#faeee9;--orange-dim:#993320;
+  --amber:#7a6010;--amber-light:#fffbee;
+  --grey:#888780;--grey-light:#f0efeb;
+  --radius:5px;--radius-lg:8px;
+}
+body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.65;max-width:880px;margin:0 auto;padding:2rem 1.5rem}
+
+/* HEADER */
+.fiche-header{border-bottom:2px solid var(--orange);padding-bottom:1.25rem;margin-bottom:1.5rem}
+.fiche-eyebrow{font-size:10px;font-family:'IBM Plex Mono',monospace;color:var(--text3);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:6px}
+.fiche-title{font-size:22px;font-weight:500;letter-spacing:-0.02em;color:var(--text);margin-bottom:2px}
+.fiche-title-cn{font-size:15px;font-weight:300;color:var(--text3);margin-bottom:10px;font-family:'IBM Plex Mono',monospace}
+.fiche-badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.badge{font-size:10px;font-weight:500;padding:2px 8px;border-radius:3px;font-family:'IBM Plex Mono',monospace}
+.badge-cat{background:var(--orange-light);color:var(--orange-dim)}
+.badge-pays{background:#e6f0fb;color:#0c447c}
+.badge-statut{background:#e4f5ee;color:#0a5a38}
+.badge-recouper{background:var(--grey-light);color:var(--grey)}
+
+/* META GRID */
+.meta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.meta-card{background:white;border:0.5px solid var(--border2);border-radius:var(--radius);padding:8px 12px}
+.meta-label{font-size:9px;font-family:'IBM Plex Mono',monospace;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:2px}
+.meta-value{font-size:13px;font-weight:500;color:var(--text)}
+.meta-value.recouper{font-size:11px;color:var(--grey);font-style:italic}
+
+/* NAVIGATION */
+.nav-bar{background:white;border:0.5px solid var(--border2);border-radius:var(--radius-lg);padding:8px 14px;margin-bottom:1.5rem;display:flex;gap:14px;flex-wrap:wrap}
+.nav-bar a{font-size:11px;font-family:'IBM Plex Mono',monospace;color:var(--orange);text-decoration:none}
+.nav-bar a:hover{text-decoration:underline}
+
+/* SEARCH */
+.search-bar{background:white;border:0.5px solid var(--border2);border-radius:var(--radius-lg);padding:7px 12px;margin-bottom:1.25rem;display:flex;align-items:center;gap:8px}
+.search-bar input{flex:1;border:none;outline:none;font-size:12px;font-family:'IBM Plex Sans',sans-serif;background:transparent;color:var(--text)}
+.search-bar input::placeholder{color:var(--text3)}
+#search-count{font-size:10px;font-family:'IBM Plex Mono',monospace;color:var(--text3);white-space:nowrap}
+#search-clear{font-size:10px;font-family:'IBM Plex Mono',monospace;color:var(--orange);cursor:pointer;border:none;background:none;padding:0;display:none}
+
+/* NOTICES */
+.disclaimer{background:var(--amber-light);border-left:3px solid #c9a820;padding:8px 12px;font-size:11px;color:var(--amber);font-family:'IBM Plex Mono',monospace;border-radius:0 var(--radius) var(--radius) 0;margin-bottom:1.5rem;line-height:1.6}
+.notice-recouper{background:var(--grey-light);border-left:3px solid var(--grey);padding:6px 10px;font-size:11px;color:var(--grey);font-family:'IBM Plex Mono',monospace;border-radius:0 var(--radius) var(--radius) 0;margin:8px 0;line-height:1.6}
+.notice-ok{background:#e4f5ee;border-left:3px solid #0a5a38;padding:6px 10px;font-size:11px;color:#0a5a38;font-family:'IBM Plex Mono',monospace;border-radius:0 var(--radius) var(--radius) 0;margin:8px 0;line-height:1.6}
+
+/* SECTIONS */
+section{margin-bottom:2rem}
+.section-title{font-size:11px;font-weight:600;color:var(--text3);font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.07em;border-bottom:0.5px solid var(--border2);padding-bottom:5px;margin-bottom:1rem}
+p{color:var(--text2);margin-bottom:0.75rem}
+p:last-child{margin-bottom:0}
+strong{color:var(--text);font-weight:500}
+
+/* TABLEAUX */
+.data-table{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:1rem}
+.data-table th{text-align:left;padding:6px 10px;font-size:10px;font-weight:600;color:var(--text3);font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.04em;border-bottom:1px solid var(--border2);background:var(--bg2)}
+.data-table td{padding:6px 10px;border-bottom:0.5px solid var(--border);color:var(--text2);vertical-align:top;line-height:1.5}
+.data-table tr:last-child td{border-bottom:none}
+.data-table tr:hover td{background:var(--bg2)}
+td.recouper{color:var(--grey);font-style:italic;font-size:11px}
+td.ok{color:#0a5a38;font-weight:500}
+.certitude{display:inline-block;font-size:9px;padding:1px 5px;border-radius:2px;font-family:'IBM Plex Mono',monospace;font-weight:500}
+.c-ok{background:#e4f5ee;color:#0a5a38}
+.c-rec{background:var(--grey-light);color:var(--grey)}
+.c-pla{background:#fff3e0;color:#7a4a00}
+
+/* CONNEXIONS */
+.conn-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.conn-card{background:white;border:0.5px solid var(--border2);border-radius:var(--radius);padding:10px 12px}
+.conn-name{font-size:12px;font-weight:500;color:var(--text);margin-bottom:3px}
+.conn-type{font-size:10px;font-family:'IBM Plex Mono',monospace;color:var(--text3);margin-bottom:4px}
+.conn-desc{font-size:11px;color:var(--text2);line-height:1.5}
+.conn-level{font-size:9px;font-family:'IBM Plex Mono',monospace;margin-top:4px}
+
+/* FOOTER */
+footer{border-top:0.5px solid var(--border);padding-top:1rem;margin-top:2rem;font-size:10px;color:var(--text3);font-family:'IBM Plex Mono',monospace;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+/* HIGHLIGHT */
+mark.hl{background:#fff3cd;border-radius:2px;padding:0 1px}
+</style>
+</head>
+<body>
+
+<div class="fiche-header">
+  <div class="fiche-eyebrow">Fiche analytique · Fournisseur matières · Avril 2026</div>
+  <div class="fiche-title">Guangken Rubber Group</div>
+  <div class="fiche-title-cn">广垦橡胶集团</div>
+  <div class="fiche-badges">
+    <span class="badge badge-cat">Fournisseur matières</span>
+    <span class="badge badge-pays">Chine</span>
+    <span class="badge badge-statut">Relation active</span>
+  </div>
+  <div class="meta-grid">
+    <div class="meta-card">
+      <div class="meta-label">ID interne</div>
+      <div class="meta-value">GUANK</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">Relation depuis</div>
+      <div class="meta-value">2016 <span style="font-size:10px;font-weight:400;color:var(--text3)">(accord stratégique)</span></div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">Matière principale</div>
+      <div class="meta-value">Caoutchouc naturel</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">Volume annuel</div>
+      <div class="meta-value recouper">à recouper</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">Durée contrat</div>
+      <div class="meta-value recouper">à recouper</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">Budget co-dev</div>
+      <div class="meta-value recouper">à recouper</div>
+    </div>
+  </div>
+</div>
+
+<div class="search-bar">
+  <input type="text" id="search-input" placeholder="Rechercher dans cette fiche…" oninput="searchPage()">
+  <span id="search-count"></span>
+  <button id="search-clear" onclick="clearSearch()">Effacer</button>
+</div>
+
+<nav class="nav-bar">
+  <a href="#description">↓ Description</a>
+  <a href="#statut">↓ Statut capitalistique</a>
+  <a href="#chaine">↓ Chaîne de valeur</a>
+  <a href="#geo">↓ Géographie</a>
+  <a href="#relation">↓ Relation avec Linglong</a>
+  <a href="#contrat">↓ Contrat et volumes</a>
+  <a href="#codev">↓ Co-développement</a>
+  <a href="#durabilite">↓ Durabilité</a>
+  <a href="#ecosystem">↓ Connexions élargies</a>
+  <a href="#sources">↓ Niveaux de documentation</a>
+</nav>
+
+<div class="disclaimer">⚠ Fiche analytique — Les données marquées <strong style="color:var(--amber)">"à recouper"</strong> ne doivent pas être présentées comme établies. Seules les données sans mention sont retenues comme documentées.</div>
+
+<section id="description">
+  <div class="section-title">Description</div>
+  <p>Guangken Rubber Group (广垦橡胶集团) est un acteur amont intégré du caoutchouc naturel, rattaché au système <strong>Guangdong Nongken</strong> (广东农垦) — le système des fermes d'État de la province du Guangdong. Il se situe en amont de la chaîne de valeur du pneu, avec un périmètre couvrant la culture d'hévéa, la collecte du latex, la transformation primaire et intermédiaire, le conditionnement et la commercialisation.</p>
+  <p>Guangken doit être lu moins comme un simple négociant que comme une <strong>plateforme amont de sécurisation du caoutchouc naturel</strong>, articulant base institutionnelle chinoise, capacités régionales en Asie du Sud-Est, et fourniture aux grands manufacturiers de pneumatiques.</p>
+</section>
+
+<section id="statut">
+  <div class="section-title">Statut capitalistique et institutionnel</div>
+  <table class="data-table">
+    <thead><tr><th>Paramètre</th><th>Valeur</th><th>Certitude</th></tr></thead>
+    <tbody>
+      <tr><td>Rattachement</td><td class="ok">Système Guangdong Nongken / Guangdong State Farm</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Nature du contrôle</td><td class="ok">Entité du système public agricole provincial</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Statut boursier</td><td class="ok">Non coté</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Conséquence documentaire</td><td>Pas d'obligation de publication comparable aux sociétés cotées — clients, volumes et contrats rarement publiés nominativement</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+    </tbody>
+  </table>
+  <div class="notice-ok">Le statut public de Guangken explique structurellement le faible niveau de granularité documentaire disponible sur ses relations clients.</div>
+</section>
+
+<section id="chaine">
+  <div class="section-title">Chaîne de valeur couverte</div>
+  <table class="data-table">
+    <thead><tr><th>Segment</th><th>Contenu</th><th>Certitude</th></tr></thead>
+    <tbody>
+      <tr><td>Plantation</td><td>Bases domestiques (Chine) + bases en Asie du Sud-Est</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Transformation</td><td>Usines de traitement du latex et du caoutchouc naturel ; production de grades standards pour l'industrie pneumatique</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Commercialisation</td><td>Fourniture à des industriels du pneu ; clients chinois et étrangers</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Durabilité / conformité</td><td>Engagement dans les dispositifs de durabilité du secteur ; degré exact d'intégration EUDR à recouper</td><td><span class="certitude c-pla">Plausible</span></td></tr>
+    </tbody>
+  </table>
+  <p><strong>Grades produits mentionnables</strong> : caoutchouc naturel standard, latex concentré, feuilles transformées. Grades type TSR20 / 标胶20号 / STR20 / SVR 3L : usage sectoriel plausible, attribution précise par relation client <span class="badge badge-recouper">à recouper</span>.</p>
+</section>
+
+<section id="geo">
+  <div class="section-title">Empreinte géographique</div>
+  <table class="data-table">
+    <thead><tr><th>Zone</th><th>Présence</th><th>Certitude</th></tr></thead>
+    <tbody>
+      <tr><td>Guangdong</td><td>Ancrage institutionnel et organisationnel</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Hainan</td><td>Présence dans la filière caoutchouc naturel</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Yunnan</td><td>Présence dans la filière caoutchouc naturel</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Thaïlande</td><td>Présence ou implantation</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Laos</td><td>Présence ou implantation</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Cambodge</td><td>Présence ou implantation</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Autres points ASEAN</td><td>Présence régionale possible</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Volume annuel de transformation (global)</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Surface de plantation propre</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+    </tbody>
+  </table>
+  <div class="notice-recouper">Des ordres de grandeur élevés circulent au niveau du groupe élargi Guangdong Nongken mais ne doivent pas être réattribués mécaniquement à Guangken Rubber Group seul.</div>
+</section>
+
+<section id="relation">
+  <div class="section-title">Relation avec Linglong Tire</div>
+
+  <div class="notice-ok">Accord stratégique documenté en 2016 autour du caoutchouc naturel — point d'entrée le plus solide de la relation.</div>
+
+  <p>La relation entre Guangken et Linglong Tire est <strong>historiquement documentée depuis 2016</strong>, date d'un accord stratégique autour du caoutchouc naturel. Sa nature dépasse vraisemblablement une logique spot, avec une articulation possible entre approvisionnement, sécurisation amont et dimension technique — mais les paramètres précis restent à recouper.</p>
+
+  <table class="data-table">
+    <thead><tr><th>Élément</th><th>Valeur</th><th>Certitude</th></tr></thead>
+    <tbody>
+      <tr><td>Date de l'accord documenté</td><td class="ok">2016</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Nature générale</td><td class="ok">Accord stratégique autour du caoutchouc naturel</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Type de lien principal</td><td class="ok">Approvisionnement en caoutchouc naturel</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Relation dépasse la logique spot</td><td>Vraisemblable</td><td><span class="certitude c-pla">Plausible</span></td></tr>
+      <tr><td>Date alternative 2018</td><td class="recouper">Non retenue comme point de départ principal — à recouper</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Continuité post-2016</td><td class="recouper">Probable mais non confirmée nominativement dans les rapports annuels Linglong 2017–2024</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Fournisseur principal de Linglong</td><td class="recouper">—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Part dans les achats NR de Linglong</td><td class="recouper">—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+    </tbody>
+  </table>
+
+  <p>L'accord de 2016 pourrait être de nature tripartite. Une version fait apparaître Linglong + Guangken + <strong>Qingdao University of Science and Technology</strong> ; d'autres formulations mentionnent un tiers logistique ou commercial. <span class="badge badge-recouper">Identité du troisième partenaire à recouper</span> — ne pas figer sans source primaire.</p>
+</section>
+
+<section id="contrat">
+  <div class="section-title">Contrat et volumes</div>
+
+  <div class="notice-recouper">Aucune donnée contractuelle fine n'est stabilisée à ce stade. Les paramètres ci-dessous doivent tous être traités comme non établis.</div>
+
+  <table class="data-table">
+    <thead><tr><th>Paramètre</th><th>Valeur circulante</th><th>Certitude</th></tr></thead>
+    <tbody>
+      <tr><td>Contrat long terme spécifique Linglong</td><td class="recouper">—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Contrat 10 ans (2020–2030)</td><td class="recouper">—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Volume annuel</td><td class="recouper">20 000 t/an évoqué — non stabilisé</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Prix / mécanisme d'indexation</td><td class="recouper">Indexation SHFE évoquée — applicable au secteur mais non confirmée pour cette relation spécifique</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Référence contractuelle GK-2018-10</td><td class="recouper">—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Clause de priorité d'accès</td><td class="recouper">—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="codev">
+  <div class="section-title">Co-développement</div>
+
+  <div class="notice-recouper">L'existence d'un programme bilatéral formalisé de co-développement n'est pas établie à ce stade. Les éléments suivants ne doivent pas être présentés comme des faits.</div>
+
+  <table class="data-table">
+    <thead><tr><th>Élément</th><th>Statut</th></tr></thead>
+    <tbody>
+      <tr><td>Programme "Sustainable Rubber Initiative"</td><td class="recouper">Non retenu — à recouper</td></tr>
+      <tr><td>Budget co-développement (30 M CNY/an)</td><td class="recouper">Non retenu — à recouper</td></tr>
+      <tr><td>Co-financement 50/50</td><td class="recouper">Non retenu — à recouper</td></tr>
+      <tr><td>Programme variétés résistantes (Yunnan / Hainan)</td><td class="recouper">Non retenu — à recouper</td></tr>
+      <tr><td>Volet recherche / technique dans l'accord 2016</td><td>Possible — la relation de 2016 comportait vraisemblablement une dimension plus large que l'achat pur</td></tr>
+      <tr><td>Articulation plantation – technique – R&D</td><td>Plausible — à recouper dans le détail</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="durabilite">
+  <div class="section-title">Durabilité</div>
+  <table class="data-table">
+    <thead><tr><th>Élément</th><th>Valeur</th><th>Certitude</th></tr></thead>
+    <tbody>
+      <tr><td>GPSNR</td><td>Participation documentée</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>FSC</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>ISCC</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Certifications chinoises de production durable</td><td>Existence plausible</td><td><span class="certitude c-pla">Plausible</span></td></tr>
+      <tr><td>Programme conjoint Linglong–Guangken documenté</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Traçabilité co-brandée</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>EUDR — niveau d'intégration opérationnelle</td><td>—</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="ecosystem">
+  <div class="section-title">Connexions dans l'écosystème élargi du pneu chinois</div>
+
+  <p style="margin-bottom:1rem">Aucun des grands manufacturiers cotés examinés ne mentionne nominativement Guangken dans ses rapports annuels. Cela limite structurellement la documentation directe des liens ci-dessous.</p>
+
+  <div class="conn-grid">
+    <div class="conn-card">
+      <div class="conn-name">Linglong Tire (LLTS)</div>
+      <div class="conn-type">Approvisionnement amont + relation structurée</div>
+      <div class="conn-desc">Accord stratégique autour du caoutchouc naturel documenté en 2016. Lien principal : approvisionnement NR. Dimension plus large (technique / R&D / amont) probable mais à recouper dans le détail.</div>
+      <div class="conn-level"><span class="certitude c-ok">Existence documentée</span> <span class="certitude c-rec">Paramètres fins à recouper</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">Guangdong Nongken</div>
+      <div class="conn-type">Contrôle / tutelle institutionnelle</div>
+      <div class="conn-desc">Guangken est une entité du système Guangdong State Farm. Socle public, logique agro-industrielle, capacité de projection régionale en ASEAN.</div>
+      <div class="conn-level"><span class="certitude c-ok">Documenté</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">GPSNR</div>
+      <div class="conn-type">Plateforme de durabilité sectorielle</div>
+      <div class="conn-desc">Positionnement sur le caoutchouc naturel durable. Pertinence accrue pour les clients pneus exportateurs face aux exigences ESG et EUDR.</div>
+      <div class="conn-level"><span class="certitude c-ok">Documenté</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">Sailun</div>
+      <div class="conn-type">Relation commerciale probable</div>
+      <div class="conn-desc">Relation commercialement crédible et cohérente avec les flux Chine–ASEAN. Non documentée nominativement dans les disclosures publics de Sailun.</div>
+      <div class="conn-level"><span class="certitude c-pla">Plausible</span> <span class="certitude c-rec">À recouper</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">ZC Rubber / Zhongce</div>
+      <div class="conn-type">Relation possible</div>
+      <div class="conn-desc">Aucun lien nominatif public stabilisé. ZC Rubber semble fonctionner avec une architecture d'achat plus ouverte, plus appuyée sur les traders. Une relation ponctuelle ou indirecte ne peut être exclue.</div>
+      <div class="conn-level"><span class="certitude c-rec">À recouper</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">Double Coin / Doublestar / Prinx Chengshan</div>
+      <div class="conn-type">Relation possible</div>
+      <div class="conn-desc">Liens possibles sur le segment NR. Aucun élément nominatif public stabilisé à ce stade pour aucun de ces trois groupes.</div>
+      <div class="conn-level"><span class="certitude c-rec">À recouper</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">Triangle</div>
+      <div class="conn-type">Relation parfois citée</div>
+      <div class="conn-desc">Mentionné dans des formulations sectorielles générales. Utile pour mesurer si Guangken travaille prioritairement avec le noyau Shandong ou de manière transversale.</div>
+      <div class="conn-level"><span class="certitude c-pla">Plausible</span> <span class="certitude c-rec">À recouper</span></div>
+    </div>
+    <div class="conn-card">
+      <div class="conn-name">Qingdao Univ. of Science and Technology</div>
+      <div class="conn-type">Interface académique / technique (si confirmé)</div>
+      <div class="conn-desc">Possible troisième partie de l'accord stratégique 2016 avec Linglong. Donnerait à la relation un volet recherche appliquée / amont agronomique. À ne pas inscrire comme fait sans source primaire.</div>
+      <div class="conn-level"><span class="certitude c-rec">À recouper</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="section-title">Niveaux de documentation par thème</div>
+  <table class="data-table">
+    <thead><tr><th>Thème</th><th>Niveau</th></tr></thead>
+    <tbody>
+      <tr><td>Existence de Guangken comme acteur amont structuré</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Rattachement au système Guangdong Nongken</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Accord stratégique avec Linglong en 2016</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Présence ASEAN (Thaïlande, Laos, Cambodge)</td><td><span class="certitude c-ok">Documenté au niveau général</span></td></tr>
+      <tr><td>GPSNR</td><td><span class="certitude c-ok">Documenté</span></td></tr>
+      <tr><td>Continuité détaillée de la relation Linglong après 2016</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Volume annuel Linglong</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Durée contractuelle précise</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Co-développement bilatéral détaillé</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Identité du 3e partenaire de l'accord 2016</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>FSC / ISCC</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Détail des bases et capacités ASEAN</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+      <tr><td>Relations avec Sailun, ZC Rubber, Double Coin, Doublestar, Prinx Chengshan, Triangle</td><td><span class="certitude c-rec">À recouper</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  <span>Fiche GUANK · v2 · Avril 2026</span>
+  <span>Modèle analytique — En l'état des sources consultées</span>
+</footer>
+
+<script>
+let originalHTML = '';
+
+function searchPage() {
+  const term = document.getElementById('search-input').value;
+  const count = document.getElementById('search-count');
+  const clearBtn = document.getElementById('search-clear');
+
+  if (!originalHTML) originalHTML = document.body.innerHTML;
+
+  if (!term || term.length < 2) {
+    if (originalHTML) document.body.innerHTML = originalHTML;
+    count.textContent = '';
+    clearBtn.style.display = 'none';
+    rebind(); return;
+  }
+
+  clearBtn.style.display = 'inline';
+  document.body.innerHTML = originalHTML;
+  rebind();
+
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+  const nodes = [];
+  let node;
+  while (node = walker.nextNode()) {
+    if (!['SCRIPT','STYLE','INPUT'].includes(node.parentElement.tagName) &&
+        node.textContent.toLowerCase().includes(term.toLowerCase())) {
+      nodes.push(node);
+    }
+  }
+
+  let total = 0;
+  const re = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+  nodes.forEach(n => {
+    const matches = (n.textContent.match(re)||[]).length;
+    total += matches;
+    const span = document.createElement('span');
+    span.innerHTML = n.textContent.replace(re, '<mark class="hl">$1</mark>');
+    n.parentNode.replaceChild(span, n);
+  });
+
+  count.textContent = total > 0 ? total + ' occurrence' + (total>1?'s':'') : 'Aucun résultat';
+  const first = document.querySelector('mark.hl');
+  if (first) first.scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+function clearSearch() {
+  if (originalHTML) document.body.innerHTML = originalHTML;
+  document.getElementById('search-count').textContent = '';
+  document.getElementById('search-clear').style.display = 'none';
+  rebind();
+  originalHTML = '';
+}
+
+function rebind() {
+  const inp = document.getElementById('search-input');
+  if (inp) inp.oninput = searchPage;
+  const clr = document.getElementById('search-clear');
+  if (clr) clr.onclick = clearSearch;
+}
+</script>
+</body>
+</html>
