@@ -240,8 +240,10 @@ function isLV(d) { return AL.has(d.type)&&AM.has(d.source.meta)&&AM.has(d.target
 function render() {
   if (!NG) return;
   NG.style('opacity', d => isNV(d)?1:0.04);
-  LG.style('opacity', d => isLV(d)?0.85:0.03);
-  AG.style('opacity', d => isLV(d)?0.85:0.03);
+  LG.style('opacity', d => isLV(d)?0.85:0.03)
+    .style('pointer-events', d => isLV(d)?'stroke':'none');
+  AG.style('opacity', d => isLV(d)?0.85:0.03)
+    .style('pointer-events', d => isLV(d)?'all':'none');
   const n = DATA.noeuds.filter(isNV).length;
   document.getElementById('statbar').textContent = `${n} / ${DATA.noeuds.length} nœuds · ${DATA.liens.length} liens`;
 }
@@ -253,6 +255,7 @@ const ttLabel = document.getElementById('tt-label');
 const ttNodes = document.getElementById('tt-nodes');
 
 function showTooltip(e, lk) {
+  if (!isLV(lk)) return; // ne pas afficher si le lien est filtré
   const lt = DATA.types_liens[lk.type] || {};
   const src = DATA.noeuds.find(n=>n.id===lk.s);
   const tgt = DATA.noeuds.find(n=>n.id===lk.t);
@@ -369,14 +372,29 @@ async function init() {
     .force('x', d3.forceX(d => (ZONE[d.meta]?.fx||0.5)*W).strength(0.08))
     .force('y', d3.forceY(d => (ZONE[d.meta]?.fy||0.5)*H).strength(0.08));
 
-  // Liens
+  // Calcul des offsets pour liens parallèles (même paire source-cible)
+  const pairCount = {}, pairIdx = {};
+  links.forEach(lk => {
+    const key = [lk.s,lk.t].sort().join('|');
+    pairCount[key] = (pairCount[key]||0) + 1;
+  });
+  links.forEach(lk => {
+    const key = [lk.s,lk.t].sort().join('|');
+    const fwdKey = lk.s+'|'+lk.t;
+    if (pairIdx[fwdKey] === undefined) pairIdx[fwdKey] = 0;
+    const n = pairCount[key];
+    lk._offset = n > 1 ? (pairIdx[fwdKey]++ - (n-1)/2) * 7 : 0;
+  });
+
+  // Liens — paths courbés pour les liens parallèles
   LG = MG.append('g').attr('fill','none')
-    .selectAll('line').data(links).enter().append('line')
+    .selectAll('path').data(links).enter().append('path')
     .attr('stroke', d=>DATA.types_liens[d.type]?.couleur||'#aaa')
     .attr('stroke-width', d=>DATA.types_liens[d.type]?.w||1.5)
     .attr('stroke-dasharray', d=>DATA.types_liens[d.type]?.tiret?'5,3':null)
     .style('opacity',0.85)
-    .on('mouseover', (e,d)=>showTooltip(e,d))
+    .style('pointer-events','stroke')
+    .on('mouseover', (e,d)=>{ if(isLV(d)) showTooltip(e,d); })
     .on('mousemove', e=>moveTooltip(e))
     .on('mouseout', hideTooltip);
 
@@ -386,7 +404,8 @@ async function init() {
     .selectAll('path').data(dirLinks).enter().append('path')
     .attr('fill',d=>DATA.types_liens[d.type]?.couleur||'#aaa')
     .attr('stroke','none').style('opacity',0.85)
-    .on('mouseover', (e,d)=>showTooltip(e,d))
+    .style('pointer-events','all')
+    .on('mouseover', (e,d)=>{ if(isLV(d)) showTooltip(e,d); })
     .on('mousemove', e=>moveTooltip(e))
     .on('mouseout', hideTooltip);
 
@@ -427,15 +446,28 @@ async function init() {
 
   // Tick
   SIM.on('tick',()=>{
-    LG.each(function(lk){
+    LG.attr('d', lk => {
+      const sx=lk.source.x, sy=lk.source.y, tx=lk.target.x, ty=lk.target.y;
+      const dx=tx-sx, dy=ty-sy, dist=Math.sqrt(dx*dx+dy*dy)||1;
       const r=nodeR(lk.target);
-      const sx=lk.source.x,sy=lk.source.y,tx=lk.target.x,ty=lk.target.y;
-      const dx=tx-sx,dy=ty-sy,dist=Math.sqrt(dx*dx+dy*dy)||1;
       const isDir=DATA.types_liens[lk.type]?.directionnel!==false;
       const off=isDir?r+10:r+2;
-      d3.select(this).attr('x1',sx).attr('y1',sy).attr('x2',tx-dx/dist*off).attr('y2',ty-dy/dist*off);
+      const ex=tx-dx/dist*off, ey=ty-dy/dist*off;
+      const offset=lk._offset||0;
+      if(offset===0) return `M${sx},${sy}L${ex},${ey}`;
+      // Courbe quadratique décalée pour liens parallèles
+      const mx=(sx+tx)/2 - dy/dist*offset, my=(sy+ty)/2 + dx/dist*offset;
+      return `M${sx},${sy}Q${mx},${my} ${ex},${ey}`;
     });
-    AG.attr('d',lk=>arrowPath(lk.source.x,lk.source.y,lk.target.x,lk.target.y,nodeR(lk.target)));
+    AG.attr('d', lk => {
+      const offset=lk._offset||0;
+      if(offset===0) return arrowPath(lk.source.x,lk.source.y,lk.target.x,lk.target.y,nodeR(lk.target));
+      // Pour liens courbés, ajuster la direction de la flèche selon la courbe
+      const sx=lk.source.x, sy=lk.source.y, tx=lk.target.x, ty=lk.target.y;
+      const dx=tx-sx, dy=ty-sy, dist=Math.sqrt(dx*dx+dy*dy)||1;
+      const mx=(sx+tx)/2 - dy/dist*offset, my=(sy+ty)/2 + dx/dist*offset;
+      return arrowPath(mx, my, tx, ty, nodeR(lk.target));
+    });
     NG.attr('transform',d=>`translate(${d.x},${d.y})`);
   });
 
