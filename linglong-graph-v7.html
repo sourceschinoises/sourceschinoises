@@ -110,7 +110,11 @@ header{border-bottom:1px solid var(--border2);padding:9px 16px;display:flex;alig
       </div>
     </div>
     <div id="panel"><div class="p-empty">Cliquez sur un nœud<br>pour afficher sa fiche</div></div>
-    <div id="toolbar"><button onclick="recenter()">Recentrer</button><button onclick="showAll()">Tout afficher</button></div>
+    <div id="toolbar">
+      <button onclick="recenter()">Recentrer</button>
+      <button onclick="showAll()">Tout afficher</button>
+      <button id="btn-lines" onclick="toggleLines()" title="Afficher/masquer les lignes des liens">Lignes ✓</button>
+    </div>
     <div id="statbar">Chargement…</div>
   </div>
 </div>
@@ -181,6 +185,14 @@ function catCol(cat) {
   return c ? META_COL[c.meta] || '#888' : '#888';
 }
 
+// ── TOGGLE LIGNES ─────────────────────────────────────────────────────────────
+let linesVisible = true;
+function toggleLines() {
+  linesVisible = !linesVisible;
+  document.getElementById('btn-lines').textContent = linesVisible ? 'Lignes ✓' : 'Lignes ✗';
+  if (LG) LG.style('display', d => isLV(d) ? (linesVisible ? null : 'none') : 'none');
+}
+
 // ── FILTRES ───────────────────────────────────────────────────────────────────
 function buildFilters() {
   // Écosystèmes — texte coloré, sans icône
@@ -240,8 +252,9 @@ function isLV(d) { return AL.has(d.type)&&AM.has(d.source.meta)&&AM.has(d.target
 function render() {
   if (!NG) return;
   NG.style('opacity', d => isNV(d)?1:0.04);
-  LG.style('opacity', d => isLV(d)?0.85:0.03)
-    .style('pointer-events', d => isLV(d)?'stroke':'none');
+  LG.style('opacity', d => isLV(d)?0.75:0.03)
+    .style('pointer-events', d => isLV(d)?'stroke':'none')
+    .style('display', d => isLV(d) ? (linesVisible ? null : 'none') : 'none');
   AG.style('opacity', d => isLV(d)?0.85:0.03)
     .style('pointer-events', d => isLV(d)?'all':'none');
   const n = DATA.noeuds.filter(isNV).length;
@@ -358,7 +371,7 @@ async function init() {
       .text(z.label);
   });
 
-  ZM = d3.zoom().scaleExtent([0.05,14]).on('zoom',e=>MG.attr('transform',e.transform));
+  ZM = d3.zoom().scaleExtent([0.15,5]).on('zoom',e=>MG.attr('transform',e.transform));
   SVGSEL.call(ZM);
 
   const nodes = DATA.noeuds.map(d=>({...d}));
@@ -390,9 +403,9 @@ async function init() {
   LG = MG.append('g').attr('fill','none')
     .selectAll('path').data(links).enter().append('path')
     .attr('stroke', d=>DATA.types_liens[d.type]?.couleur||'#aaa')
-    .attr('stroke-width', d=>DATA.types_liens[d.type]?.w||1.5)
+    .attr('stroke-width', d=>(DATA.types_liens[d.type]?.w||1.5)*0.55)
     .attr('stroke-dasharray', d=>DATA.types_liens[d.type]?.tiret?'5,3':null)
-    .style('opacity',0.85)
+    .style('opacity',0.75)
     .style('pointer-events','stroke')
     .on('mouseover', (e,d)=>{ if(isLV(d)) showTooltip(e,d); })
     .on('mousemove', e=>moveTooltip(e))

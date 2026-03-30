@@ -1470,12 +1470,6 @@
       "label": "Supervision, subventions, labels nationaux"
     },
     {
-      "s": "MIIT",
-      "t": "SDCLS",
-      "type": "tutelle",
-      "label": "Reconnaissance cluster national 2022"
-    },
-    {
       "s": "NDRC",
       "t": "LLTS",
       "type": "tutelle",
@@ -1516,12 +1510,6 @@
       "t": "LLTS",
       "type": "non_qualifie",
       "label": "Chain Leader cluster"
-    },
-    {
-      "s": "ISOTC",
-      "t": "CRIA",
-      "type": "non_qualifie",
-      "label": "Contribution ISO/TC 45 via CRIA"
     },
     {
       "s": "WANGF",
