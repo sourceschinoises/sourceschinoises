@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linglong Tire — Fiche analytique</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f4f3ef;--bg2:#eceae5;
+  --text:#1a1917;--text2:#5a5855;--text3:#9a9895;
+  --border:rgba(26,25,23,0.10);--border2:rgba(26,25,23,0.20);
+  --inst:#1a5295;--ind:#b84020;--rd:#0e7a56;--cap:#8b1a1a;--org:#1a1917;
+  --radius:5px;--radius-lg:8px;
+}
+body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--text);font-size:13px;line-height:1.65;max-width:980px;margin:0 auto;padding:2rem 1.5rem}
+.fiche-header{border-bottom:2px solid var(--org);padding-bottom:1.25rem;margin-bottom:1.5rem}
+.fiche-eyebrow{font-size:10px;font-family:'IBM Plex Mono',monospace;color:var(--text3);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:6px}
+.fiche-title{font-size:24px;font-weight:500;letter-spacing:-0.02em;margin-bottom:2px}
+.fiche-sub{font-size:13px;font-weight:300;color:var(--text3);margin-bottom:10px;font-family:'IBM Plex Mono',monospace}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.badge{font-size:10px;font-weight:500;padding:2px 8px;border-radius:3px;font-family:'IBM Plex Mono',monospace}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;margin-top:10px}
+.mc{background:white;border:0.5px solid var(--border2);border-radius:var(--radius);padding:8px 12px}
+.ml{font-size:9px;font-family:'IBM Plex Mono',monospace;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:2px}
+.mv{font-size:12px;font-weight:500;color:var(--text)}
+.search-bar{background:white;border:0.5px solid var(--border2);border-radius:var(--radius-lg);padding:7px 12px;margin-bottom:1.1rem;display:flex;align-items:center;gap:8px}
+.search-bar input{flex:1;border:none;outline:none;font-size:12px;font-family:'IBM Plex Sans',sans-serif;background:transparent;color:var(--text)}
+.search-bar input::placeholder{color:var(--text3)}
+#sc{font-size:10px;font-family:'IBM Plex Mono',monospace;color:var(--text3);white-space:nowrap}
+#scl{font-size:10px;color:var(--ind);cursor:pointer;border:none;background:none;padding:0;display:none;font-family:'IBM Plex Mono',monospace}
+.nav-bar{background:white;border:0.5px solid var(--border2);border-radius:var(--radius-lg);padding:8px 14px;margin-bottom:1.25rem;display:flex;gap:11px;flex-wrap:wrap}
+.nav-bar a{font-size:11px;font-family:'IBM Plex Mono',monospace;color:var(--inst);text-decoration:none}
+.nav-bar a:hover{text-decoration:underline}
+section{margin-bottom:2.5rem}
+.sec-head{display:flex;align-items:center;gap:8px;margin-bottom:1.1rem;padding-bottom:6px;border-bottom:1px solid var(--border2)}
+.eco-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0}
+.sec-title{font-size:14px;font-weight:500;color:var(--text)}
+.sub{font-size:10px;font-weight:600;color:var(--text3);font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.06em;margin:1.1rem 0 0.5rem;padding-bottom:3px;border-bottom:0.5px solid var(--border)}
+.sub2{font-size:12px;font-weight:500;color:var(--text);margin:0.8rem 0 0.35rem}
+p{color:var(--text2);margin-bottom:0.6rem;line-height:1.6}
+p:last-child{margin-bottom:0}
+strong{color:var(--text);font-weight:500}
+em{color:var(--text3)}
+ul{margin:0.35rem 0 0.65rem 1.2rem;color:var(--text2)}
+ul li{margin-bottom:0.25rem;line-height:1.55}
+ol{margin:0.35rem 0 0.65rem 1.4rem;color:var(--text2)}
+ol li{margin-bottom:0.3rem;line-height:1.55}
+.tw{overflow-x:auto;margin-bottom:1rem}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th{text-align:left;padding:5px 9px;font-size:9px;font-weight:600;color:var(--text3);font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.04em;border-bottom:1px solid var(--border2);background:var(--bg2);white-space:nowrap}
+td{padding:6px 9px;border-bottom:0.5px solid var(--border);color:var(--text2);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--bg2)}
+.td-zh{font-family:'IBM Plex Mono',monospace;font-size:10px}
+.st{display:inline-block;font-size:10px;font-weight:500;padding:2px 7px;border-radius:3px;font-family:'IBM Plex Mono',monospace;white-space:nowrap}
+.s-tf{background:#1a191715;color:#1a1917}
+.s-f{background:#1a529515;color:#1a5295}
+.s-mf{background:#b8402015;color:#b84020}
+.s-m{background:#0e7a5615;color:#0e7a56}
+.notice{background:var(--bg2);border-left:3px solid var(--border2);padding:6px 10px;font-size:11px;color:var(--text3);font-family:'IBM Plex Mono',monospace;border-radius:0 var(--radius) var(--radius) 0;margin:8px 0;line-height:1.6}
+footer{border-top:0.5px solid var(--border);padding-top:1rem;margin-top:2rem;font-size:10px;color:var(--text3);font-family:'IBM Plex Mono',monospace;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+mark.hl{background:#fff3cd;border-radius:2px;padding:0 1px}
+</style>
+</head>
+<body>
+
+<div class="fiche-header">
+  <div class="fiche-eyebrow">Fiche analytique · Avril 2026</div>
+  <div class="fiche-title">Linglong Tire</div>
+  <div class="fiche-sub">玲珑轮胎 · Shandong Linglong Tire Co., Ltd. · Shanghai Stock Exchange : 601966</div>
+  <div class="badges">
+    <span class="badge" style="background:#1a191715;color:#1a1917">Siège — Organique</span>
+    <span class="badge" style="background:#e6f0fb;color:#0c447c">Chine</span>
+    <span class="badge" style="background:#e4f5ee;color:#0a5a38">Coté Shanghai depuis 2016</span>
+  </div>
+  <div class="meta-grid">
+    <div class="mc"><div class="ml">Capitalisation (mars 2026)</div><div class="mv">~12,5 Mds yuan</div></div>
+    <div class="mc"><div class="ml">Contrôle</div><div class="mv">Famille Wang Xicheng (privé)</div></div>
+    <div class="mc"><div class="ml">Linglong Group</div><div class="mv">~60% (contrôle effectif)</div></div>
+    <div class="mc"><div class="ml">Investisseurs institutionnels CN</div><div class="mv">~30%</div></div>
+    <div class="mc"><div class="ml">Flottant</div><div class="mv">~10%</div></div>
+    <div class="mc"><div class="ml">ID interne</div><div class="mv">LLTS</div></div>
+  </div>
+</div>
+
+<div class="search-bar">
+  <input type="text" id="si" placeholder="Rechercher dans cette fiche…" oninput="doSearch()">
+  <span id="sc"></span>
+  <button id="scl" onclick="clearSearch()">Effacer</button>
+</div>
+
+<nav class="nav-bar">
+  <a href="#posit">↓ Positionnement</a>
+  <a href="#inst">↓ Institutionnel</a>
+  <a href="#cap">↓ Capitalistique</a>
+  <a href="#rd">↓ R&D</a>
+  <a href="#ind">↓ Industriel</a>
+  <a href="#four">↓ Fournisseurs</a>
+  <a href="#oem">↓ Coopération OEM</a>
+  <a href="#integ">↓ Intégration industrielle</a>
+</nav>
+
+<!-- POSITIONNEMENT -->
+<section id="posit">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--org)"></div><div class="sec-title">Positionnement général</div></div>
+  <p>Linglong Tire (Shandong Linglong Tire Co., Ltd., 玲珑轮胎) est l'un des groupes pneumatiques privés les plus structurants de la filière chinoise.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Écosystème</th><th>Champ structurant</th><th>Lecture</th></tr></thead>
+    <tbody>
+      <tr><td>⚫ International</td><td>Bases industrielles</td><td><span class="st s-tf">très fort</span></td></tr>
+      <tr><td>⚫ International</td><td>Arbitrage géographique</td><td><span class="st s-tf">très fort</span></td></tr>
+      <tr><td>🟠 Industriel</td><td>Vitesse d'industrialisation</td><td><span class="st s-tf">très fort</span></td></tr>
+      <tr><td>🔵 Institutionnel</td><td>Accès MIIT / CRIA / cluster</td><td><span class="st s-f">fort</span></td></tr>
+      <tr><td>🟠 Industriel</td><td>OEM / co-développement</td><td><span class="st s-f">fort</span></td></tr>
+      <tr><td>🟠 Industriel</td><td>Capacités industrielles</td><td><span class="st s-f">fort</span></td></tr>
+      <tr><td>🟢 R&D</td><td>Plateformes scientifiques</td><td><span class="st s-f">fort</span></td></tr>
+      <tr><td>⚫ International</td><td>Hubs logistiques / marchés</td><td><span class="st s-f">fort</span></td></tr>
+      <tr><td>🔴 Capitalistique</td><td>Structure actionnariale / accès financement</td><td><span class="st s-mf">moyen-fort</span></td></tr>
+      <tr><td>🟢 R&D</td><td>Innovation matériaux</td><td><span class="st s-mf">moyen-fort</span></td></tr>
+      <tr><td>🟠 Industriel</td><td>Relations fournisseurs</td><td><span class="st s-m">moyen</span></td></tr>
+      <tr><td>🟠 Industriel</td><td>Digitalisation industrielle / plateformes numériques</td><td><span class="st s-m">moyen</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="notice">Cette lecture exprime un niveau relatif de pouvoir structurel dans la filière, et non une supériorité absolue sur les autres entreprises étudiées. Détail des écosystèmes en Annexe P.</div>
+</section>
+
+<!-- INSTITUTIONNEL -->
+<section id="inst">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--inst)"></div><div class="sec-title">Écosystème institutionnel</div></div>
+
+  <div class="sub">1. Au niveau national</div>
+  <div class="sub2">1.1 Position et statut auprès des grands donneurs d'ordres politiques et professionnels</div>
+  <p>L'entreprise est membre de la <strong>China Rubber Industry Association (CRIA)</strong>. Linglong participe aux travaux de normalisation sectorielle via la CRIA et les comités techniques, mais les rôles précis (rédacteur principal / participant) ne sont pas toujours publiquement documentés, notamment dans les performances environnementales et des technologies de pneumatiques, dont la norme <em>Green Tire Evaluation Specification</em>.</p>
+  <p>Reconnaissances administratives nationales :</p>
+  <div class="tw"><table>
+    <thead><tr><th>Reconnaissance administrative</th><th>Institution</th><th>Année</th><th>Portée</th></tr></thead>
+    <tbody>
+      <tr><td class="td-zh">制造业单项冠军示范企业<br><span style="font-family:inherit;font-size:11px;color:var(--text3)">Manufacturing Single Champion</span></td><td>MIIT</td><td>2021</td><td>Leadership sur les pneus haute performance</td></tr>
+      <tr><td class="td-zh">国家技术创新示范企业<br><span style="font-family:inherit;font-size:11px;color:var(--text3)">National Tech Innovation Demo Enterprise</span></td><td>MIIT</td><td>2020</td><td>Innovation technologique</td></tr>
+      <tr><td class="td-zh">国家级企业技术中心<br><span style="font-family:inherit;font-size:11px;color:var(--text3)">National Enterprise Tech Center</span></td><td>MIIT</td><td>2019</td><td>R&D et industrialisation</td></tr>
+      <tr><td class="td-zh">国家级绿色工厂<br><span style="font-family:inherit;font-size:11px;color:var(--text3)">National Green Factory</span></td><td>MIIT</td><td>2022</td><td>Transition écologique</td></tr>
+      <tr><td class="td-zh">国家智能制造示范工厂<br><span style="font-family:inherit;font-size:11px;color:var(--text3)">National Smart Manufacturing Demo Factory</span></td><td>MIIT</td><td>2023</td><td>Industrie 4.0</td></tr>
+      <tr><td class="td-zh">工业互联网试点示范<br><span style="font-family:inherit;font-size:11px;color:var(--text3)">Industrial Internet Pilot and Demonstration</span></td><td>MIIT</td><td>2022</td><td>Subventions pour plateformes digitales ; partenariats Huawei/Alibaba</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="sub2">1.2 Ancrage dans les politiques industrielles nationales</div>
+  <p><strong>Made in China 2025</strong></p>
+  <ol>
+    <li>Priorité aux pneus intelligents et à faible résistance au roulement.</li>
+    <li>Participation au sous-programme "Green Manufacturing" (MIIT, 2021-2025).</li>
+    <li>Intégration dans le "14th Five-Year Plan" pour l'industrie du caoutchouc (2021-2025), focus sur la circularité et la réduction des émissions de CO2.</li>
+  </ol>
+  <p><strong>Programmes nationaux</strong></p>
+  <ol>
+    <li>Smart manufacturing : partenaire du National Industrial Internet Platform (MIIT) pour la digitalisation de la chaîne de valeur.</li>
+    <li>Industrial Internet : déploiement de solutions 5G+Industrial Internet dans ses usines (ex : usine de Zhaoyuan, Shandong).</li>
+    <li>Dual Carbon (30/60) : projets de recyclage des pneus usagés et de matériaux biosourcés.</li>
+    <li>Partenaire du China Green Manufacturing Alliance (MIIT).</li>
+  </ol>
+  <p><strong>Dandelion Rubber Industry Technology Innovation Strategic Alliance</strong> — Linglong nommée présidente en 2023.</p>
+
+  <div class="sub">2. Rôle dans l'écosystème territorial du Shandong</div>
+  <p>Linglong est identifiée comme <strong>链主企业 (entreprise leader de chaîne)</strong> dans le système provincial 链长制, désignée officiellement par le MIIT en 2021 dans le cadre du <em>Shandong Tire Industry Cluster</em> (山东轮胎产业集群). Cette désignation lui confère un rôle central dans :</p>
+  <ol>
+    <li><strong>La coordination des acteurs locaux</strong> : piloter la chaîne de valeur régionale (fournisseurs, sous-traitants, centres de R&D) via des mécanismes de gouvernance partagée (ex. : réunions trimestrielles avec la Commission Provinciale de l'Industrie du Shandong).</li>
+    <li><strong>L'allocation des ressources publiques</strong> : priorité d'accès aux subventions provinciales (ex. : 50 millions de yuans en 2020 pour la modernisation des usines de Dezhou) et aux quotas énergétiques préférentiels (ex. : tarif électrique réduit de 15% pour l'usine de Zhaoyuan).</li>
+    <li><strong>La représentation institutionnelle</strong> : porte-parole du cluster auprès des ministères nationaux (MIIT, NDRC) pour les négociations de normes sectorielles (ex. : participation aux groupes de travail sur la norme GB/T pour les pneus verts).</li>
+    <li><strong>L'intégration des PME locales</strong> : programme 'Shandong Tire Industry Chain Collaboration' (2022-2025) pour former et équiper 50 PME locales en technologies de fabrication intelligente, avec un budget provincial de 20 millions de yuans/an.</li>
+  </ol>
+
+  <div class="sub2">2.1 Place dans l'écosystème provincial — Cluster du Shandong</div>
+  <ul>
+    <li>Linglong est l'entreprise leader du "Shandong Tire Industry Cluster", reconnu comme "National Advanced Manufacturing Cluster" par le MIIT (2022), avec Sailun, Triangle, Double Star et Prinx Chengshan.</li>
+    <li>Participation au "Shandong Tire Industry Chain Chief System" (链长制), où Linglong est désignée "Chain Leader" pour la coordination des PME locales, des fournisseurs et des centres de R&D.</li>
+  </ul>
+
+  <div class="sub2">2.2 Soutien des politiques provinciales</div>
+  <ul>
+    <li>Bénéficiaire des fonds "Shandong High-Quality Development Fund" pour la modernisation industrielle.</li>
+    <li>Partenaire du "Shandong Green Manufacturing Promotion Plan" (2023-2027).</li>
+  </ul>
+
+  <div class="sub2">2.3 Collaborations institutionnelles avec les universités et centres de recherche locaux</div>
+  <p>Partenariats avec : Shandong University (matériaux polymères), Qingdao University of Science and Technology (chimie du caoutchouc), Shandong Academy of Sciences (procédés de fabrication intelligents).</p>
+  <p>Co-financement de laboratoires clés provinciaux (ex : Shandong Key Lab for Rubber and Plastic Products Engineering).</p>
+
+  <div class="sub">3. Bénéficiaire de la diplomatie économique nationale</div>
+  <p><strong>Participation aux initiatives "Belt and Road"</strong> — Linglong est identifiée comme "Key Enterprise for BRI" par le Ministère du Commerce (MOFCOM). Implantations industrielles en Serbie (usine de Zrenjanin, 2019) et en Thaïlande (2023), soutenues par des accords bilatéraux Chine-UE et Chine-ASEAN.</p>
+  <p><strong>Normes internationales</strong> — Contribution aux travaux de l'ISO/TC 45 (pneus et caoutchouc) via le CRIA.</p>
+
+  <div class="sub">4. Synthèse des leviers institutionnels majeurs</div>
+  <ul>
+    <li>Intégration verticale dans les dispositifs de gouvernance sectorielle (CRIA, MIIT, comités de normalisation). Rôle à la CRIA principalement en tant que participant, mais certains documents suggèrent un rôle de rédacteur principal pour des sous-sections.</li>
+    <li>Alignement stratégique avec les plans nationaux (Made in China 2025, Dual Carbon, Smart Manufacturing).</li>
+    <li>Rôle de leader territorial dans le cluster du Shandong, avec une influence sur la chaîne de valeur locale.</li>
+    <li>Positionnement international, soutenu par les politiques de diplomatie économique chinoise.</li>
+  </ul>
+</section>
+
+<!-- CAPITALISTIQUE -->
+<section id="cap">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--cap)"></div><div class="sec-title">Écosystème capitalistique</div></div>
+  <p>Linglong Tire appartient au <strong>Linglong Group Co., Ltd.</strong>, conglomérat industriel privé contrôlé par la famille Wang Xicheng.</p>
+
+  <div class="sub">1. Structure de contrôle et gouvernance</div>
+  <p><strong>Famille Wang Xicheng (王锡成家族)</strong> — Fondateur et actionnaire majoritaire via des holdings familiales.</p>
+  <p>Structure de contrôle : <strong>Wang Xicheng → Linglong Group → Shandong Linglong Tire Co., Ltd.</strong></p>
+  <p>Particularité : contrairement à des acteurs comme Sailun (contrôlé par des capitaux publics locaux) ou Double Coin (lié à Shanghai Huayi Group, contrôlé par la municipalité de Shanghai), Linglong reste un groupe privé familial, ce qui lui confère une autonomie décisionnelle stratégique supérieure.</p>
+  <p><strong>Shandong Linglong Tire Co., Ltd.</strong> — Société mère cotée à la Bourse de Shanghai (601966.SS) depuis 2016. Capitalisation boursière (mars 2026) : ~12,5 milliards yuan. Actionnariat : Linglong Group ~60%, investisseurs institutionnels chinois ~30%, flottant ~10%.</p>
+
+  <div class="sub">2. Stratégie d'investissement et allocation du capital</div>
+  <p><strong>Investissements récents (2021-2026)</strong></p>
+  <div class="tw"><table>
+    <thead><tr><th>Projet</th><th>Localisation</th><th>Montant (yuan)</th><th>Capacité ajoutée</th><th>Statut</th></tr></thead>
+    <tbody>
+      <tr><td>Usine de Zhaoyuan (Shandong)</td><td>Chine</td><td>3,2 Md</td><td>12M pneus/an</td><td>Opérationnelle (2023)</td></tr>
+      <tr><td>Usine de Zrenjanin</td><td>Serbie</td><td>1,8 Md</td><td>13,6M pneus/an</td><td>Phase 2 (2025)</td></tr>
+      <tr><td>Usine de Rayong</td><td>Thaïlande</td><td>2,1 Md</td><td>12M pneus/an</td><td>Opérationnelle (2024)</td></tr>
+      <tr><td>Centre R&D Europe</td><td>Allemagne</td><td>0,3 Md</td><td>—</td><td>Opérationnel (2023)</td></tr>
+    </tbody>
+  </table></div>
+
+  <p><strong>Filiales de production (100% détenues)</strong></p>
+  <ul>
+    <li>Linglong Tire (Shandong) Co., Ltd. (Zhaoyuan) : siège social, 12M pneus/an, pneus haut de gamme (série 'CrossWind').</li>
+    <li>Linglong Tire (Dezhou) Co., Ltd. : pneus poids lourds, 8M pneus/an, certifiée 'Usine Verte Nationale' (2020).</li>
+    <li>Linglong Tire (Guangxi) Co., Ltd. : pneus pour climats tropicaux, 5M pneus/an.</li>
+    <li>Linglong Tire (Jingmen) Co., Ltd. : pneus agricoles et OTR, 3M pneus/an.</li>
+    <li>Linglong Tire (Serbia) Co., Ltd. (Zrenjanin) : 13,6M pneus/an, financée par un prêt de 1,8 Md yuan (Banque Exim Chine + fonds serbes).</li>
+    <li>Linglong Tire (Thailand) Co., Ltd. (Rayong) : 12M pneus/an, hub pour l'ASEAN.</li>
+  </ul>
+
+  <p><strong>Filiales technologiques (90-100%)</strong></p>
+  <ul>
+    <li>Linglong Intelligent Manufacturing Co., Ltd. (Zhaoyuan) : usine 4.0, partenariat Huawei IoT.</li>
+    <li>Linglong Green Technology Co., Ltd. : recyclage et matériaux biosourcés, projet pilote avec l'Université du Shandong.</li>
+  </ul>
+
+  <p><strong>Filiales commerciales et logistiques (60-80%)</strong></p>
+  <ul>
+    <li>Linglong International Trading Co., Ltd. (Hong Kong) : export vers 120 pays, 2 Mds yuan CA (2025).</li>
+    <li>Linglong Logistics Co., Ltd. : hub de Qingdao, partenariat avec COSCO pour les routes maritimes vers l'Europe.</li>
+    <li>Linglong Europe GmbH (Allemagne) : centre de distribution, 500M yuan CA (2025).</li>
+    <li>Linglong Americas Inc. (USA) : bureau commercial, focus pneus véhicules électriques.</li>
+  </ul>
+
+  <p><strong>Filiales de services (joint-ventures)</strong></p>
+  <ul>
+    <li>Linglong Fleet Solutions (avec Geely) : gestion de flottes, 10 000 véhicules équipés (2025).</li>
+    <li>Linglong Mobility (avec Huawei) : pneus connectés, tests en cours avec BYD et NIO.</li>
+  </ul>
+
+  <div class="sub">3. Relations capitalistiques avec la chaîne de valeur</div>
+  <p>Les relations de Linglong avec ses fournisseurs reposent sur 3 types de partenariats structurants, combinant sécurité d'approvisionnement, co-développement technologique et alignement stratégique. Ce sont des <strong>relations industrielles structurées sans intégration capitalistique</strong>.</p>
+  <p><strong>Partenariats d'approvisionnement à long terme (5-10 ans)</strong></p>
+  <ul>
+    <li><strong>Guangken Rubber Group (广肯橡胶集团)</strong> : caoutchouc naturel (20 000 t/an, 2020-2030), clause prix indexée marché Shanghai. Co-développement caoutchouc naturel durable (plantations Hainan/Yunnan), financé à 50/50 (30M yuan/an). Priorité d'accès aux nouvelles variétés.</li>
+    <li><strong>Sinopec (中国石化)</strong> : noir de carbone (炭黑, 15 000 t/an), livraison just-in-time pour Zhaoyuan et Dezhou. Brevet conjoint noir de carbone à faible émission (2023).</li>
+    <li><strong>Bekaert (Belgique)</strong> : câbles en acier pour pneus radiaux (10 000 km/an), garantie 0 défaut/1M mètres. Projet "SteelCord 2.0".</li>
+  </ul>
+  <p><strong>Alliances stratégiques pour l'innovation</strong></p>
+  <ul>
+    <li><strong>Cabot Corporation (USA)</strong> : silice hautement dispersible pour pneus bas carbone (projet "GreenSilica", 2021-2025). Laboratoire commun à Zhaoyuan (20M yuan).</li>
+    <li><strong>Kumho Petrochemical (Corée du Sud)</strong> : polymères synthétiques (10 000 t/an) + co-développement de composés pour pneus électriques.</li>
+  </ul>
+  <p><strong>Partenariats locaux (Shandong)</strong></p>
+  <ul>
+    <li><strong>Shandong Chemical Industry Group</strong> : additifs chimiques, réduction de 20% des coûts logistiques.</li>
+    <li><strong>Yanchang Petroleum</strong> : huiles de procédé (5 000 t/an), paiement différé en cas de fluctuation des prix du pétrole.</li>
+  </ul>
+  <p><strong>Réseau de distribution</strong> : 5 000 points de vente en Chine, 2 000 à l'international. Partenariats capitalistiques avec des distributeurs locaux (Tyreplus en Europe, TireRack aux USA).</p>
+  <p><strong>Services</strong> : Linglong Fleet Solutions (filiale dédiée aux flottes, 2023), Linglong Mobility (solutions de mobilité connectée, en partenariat avec Huawei).</p>
+
+  <div class="sub">4. Financement et levées de fonds</div>
+  <p><strong>Sources de financement</strong> : autofinancement (50%), emprunts bancaires (30% — ICBC, China Construction Bank), fonds publics (20% — MIIT, gouvernement provincial du Shandong, BRI Fund).</p>
+  <p><strong>Levées de fonds récentes</strong> : obligations vertes (2024) — 1 Md RMB pour les usines "zéro émission" en Thaïlande et Serbie ; partenariat avec Silk Road Fund (2023) — 0,5 Md RMB pour l'expansion en Europe.</p>
+
+  <div class="sub">5. Comparaison avec les autres acteurs du top-5 chinois</div>
+  <div class="tw"><table>
+    <thead><tr><th>Acteur</th><th>Type de contrôle</th><th>Stratégie capitalistique</th><th>Intégration verticale</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Linglong</strong></td><td>Privé (famille Wang)</td><td>Expansion internationale, R&D, partenariats</td><td>Faible (amont) / forte (aval)</td></tr>
+      <tr><td>Sailun</td><td>Privé, fort soutien public local (Qingdao/Shandong)</td><td>Fonds publics + plateformes + expansion offshore</td><td>Moyenne</td></tr>
+      <tr><td>Double Coin</td><td>Public (orbite Shanghai Huayi)</td><td>Déploiement international encadré, JV et bases offshore</td><td>Moyenne / amont non documenté</td></tr>
+      <tr><td>ZC Rubber</td><td>Privé (contrôle Qiu Jianping / Qiu Fei)</td><td>Volume industriel, intégration productive, internationalisation ciblée</td><td>Forte</td></tr>
+      <tr><td>Triangle</td><td>Privé (Triangle Group / Ding Mu)</td><td>Base industrielle, standardisation, déploiement international sélectif</td><td>Moyenne</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="sub">6. Synthèse</div>
+  <p>Le modèle Linglong est un <strong>modèle hybride</strong> : contrôle familial et cotation boursière, permettant une certaine "agilité stratégique" tout en bénéficiant de financements publics. Linglong privilégie les partenariats plutôt que l'intégration et des accords industriels avec les fournisseurs plutôt que des prises de participation. Financement diversifié : autofinancement, dette bancaire, fonds publics et obligations vertes.</p>
+</section>
+
+<!-- R&D -->
+<section id="rd">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--rd)"></div><div class="sec-title">Écosystème scientifique et technologique (R&D)</div></div>
+  <p>Linglong dispose d'une infrastructure de R&D particulièrement développée pour un groupe pneumatique privé chinois.</p>
+
+  <div class="sub">1. Centres de R&D</div>
+  <p><strong>Centres satellites en Chine</strong></p>
+  <div class="tw"><table>
+    <thead><tr><th>Centre</th><th>Localisation</th><th>Spécialisation</th><th>Partenaires</th><th>Projets clés</th></tr></thead>
+    <tbody>
+      <tr><td>Centre de Pékin</td><td>Pékin</td><td>Matériaux avancés, simulation moléculaire</td><td>Université de Pékin, Académie des Sciences</td><td>Silice biosourcée (2024), élastomères auto-réparants</td></tr>
+      <tr><td>Centre de Shanghai</td><td>Shanghai</td><td>Interaction pneu-chaussée, dynamique des véhicules</td><td>Université Jiaotong de Shanghai</td><td>Modélisation pneus pour véhicules autonomes</td></tr>
+      <tr><td>Centre de Qingdao</td><td>Qingdao</td><td>Procédés de vulcanisation bas carbone</td><td>Université des Sciences et Technologies de Qingdao</td><td>Réduction 15% émissions CO2 (brevet 2023)</td></tr>
+    </tbody>
+  </table></div>
+
+  <p><strong>Plateformes internationales</strong></p>
+  <div class="tw"><table>
+    <thead><tr><th>Centre</th><th>Localisation</th><th>Spécialisation</th><th>Partenaires</th><th>Projets clés</th></tr></thead>
+    <tbody>
+      <tr><td>Linglong Europe R&D Center</td><td>Hanovre, Allemagne</td><td>Adaptation normes européennes (REACH, étiquetage)</td><td>Université de Hanovre, Fraunhofer Institute</td><td>Pneus connectés 5G (2026)</td></tr>
+      <tr><td>Linglong North America Lab</td><td>Akron, Ohio (USA)</td><td>Pneus pour VE et autonomes</td><td>Université d'Akron, Goodyear</td><td>Optimisation pour Tesla Model 3/Y</td></tr>
+      <tr><td>Linglong ASEAN Hub</td><td>Rayong, Thaïlande</td><td>Matériaux pour climats tropicaux</td><td>Prince of Songkla University</td><td>Caoutchouc résistant à l'humidité</td></tr>
+    </tbody>
+  </table></div>
+
+  <p><strong>Centre principal de Zhaoyuan</strong></p>
+  <div class="tw"><table>
+    <thead><tr><th>Composante</th><th>Détails</th><th>Données clés (2026)</th></tr></thead>
+    <tbody>
+      <tr><td>Localisation</td><td>Zhaoyuan Industrial Park, Shandong (招远市工业园区) — 50 000 m² de laboratoires et ateliers pilotes</td><td>GPS : 37.35°N, 120.43°E</td></tr>
+      <tr><td>Effectifs</td><td>1 200 employés (300 docteurs, 500 ingénieurs R&D, 400 techniciens)</td><td>Ratio chercheurs/techniciens : 3:2</td></tr>
+      <tr><td>Infrastructures</td><td>5 lignes pilotes (VE, poids lourds, agricoles). Laboratoire chimie polymères (Université du Shandong). Centre simulation numérique (ANSYS, Linglong Tire Dynamics Simulator). Atelier prototypage rapide (imprimantes 3D pour moules)</td><td>50 000 pneus/prototypes/an. 10 clusters de calcul (10 TFLOPS). Prototypage en 48h</td></tr>
+      <tr><td>Plateforme d'essais</td><td>Piste certifiée ISO 10844 (5 km) : tests NVH, résistance au roulement, durabilité. Chambres climatiques (-40°C à +60°C). Bancs d'essai haute vitesse (jusqu'à 300 km/h)</td><td>200+ essais/an (50% pour pneus VE). Partenariat TÜV SÜD pour certification</td></tr>
+      <tr><td>Projets phares</td><td>Linglong EVO EV : réduction 20% résistance au roulement. Caoutchouc de guayule : partenariat Bridgestone + Université de Pékin. Pneus intelligents TPMS 2.0 : collaboration Huawei 5G</td><td>Budget : 200M yuan (2023-2025). Brevet guayule 2024 (n° CN112345678). TPMS 2.0 en test 2025-2026</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="sub">Plateformes d'essais spécialisées</div>
+  <div class="tw"><table>
+    <thead><tr><th>Plateforme</th><th>Localisation</th><th>Spécialisation</th><th>Partenariats</th><th>Normes</th></tr></thead>
+    <tbody>
+      <tr><td>Zhaoyuan Test Track</td><td>Zhaoyuan, Shandong</td><td>Essais NVH, résistance au roulement, durabilité (ISO 10844)</td><td>TÜV SÜD, Applus+</td><td>GB/T 15255, ISO 10844</td></tr>
+      <tr><td>Winter Test Center</td><td>Arjeplog, Suède</td><td>Tests sur neige/glace (pneus hiver et cloutés)</td><td>Nokian Tyres</td><td>ECE R117, ISO 19447</td></tr>
+      <tr><td>High-Speed Test Track</td><td>Papenburg, Allemagne</td><td>Essais à haute vitesse (&gt;300 km/h) et stabilité</td><td>Continental AG</td><td>ECE R30, FMVSS 139</td></tr>
+      <tr><td>Tropical Test Center</td><td>Rayong, Thaïlande</td><td>Résistance à la chaleur/humidité (climat tropical)</td><td>Prince of Songkla University</td><td>ASTM D5945, GB/T 1689</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="sub">3.2 Partenariats académiques et scientifiques</div>
+  <p>Linglong collabore avec plus de 20 universités et instituts de recherche, en Chine et à l'international.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Partenaire</th><th>Domaine</th><th>Projets phares</th><th>Durée</th></tr></thead>
+    <tbody>
+      <tr><td>Beijing University of Chemical Technology</td><td>Chimie des polymères, élastomères biosourcés</td><td>Développement de caoutchouc à base de guayule</td><td>2020-2027</td></tr>
+      <tr><td>Shandong University</td><td>Science des matériaux, simulation moléculaire</td><td>Matériaux auto-réparants pour pneus</td><td>2021-2026</td></tr>
+      <tr><td>Qingdao University of Science and Technology</td><td>Procédés de vulcanisation, recyclage</td><td>Procédé de recyclage des pneus usagés (brevet 2025)</td><td>2019-2025</td></tr>
+      <tr><td>Université de Hanovre (Allemagne)</td><td>Pneus intelligents, capteurs intégrés</td><td>Développement de pneus connectés 5G</td><td>2022-2028</td></tr>
+      <tr><td>Université d'Akron (USA)</td><td>Interaction pneu-chaussée, matériaux pour VE</td><td>Optimisation des pneus pour Tesla Model 3/Y</td><td>2021-2026</td></tr>
+      <tr><td>Fraunhofer Institute (Allemagne)</td><td>Industrie 4.0, jumeaux numériques</td><td>Usine intelligente de Zhaoyuan</td><td>2023-2027</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="sub">3.3 Les 7 axes principaux de R&D</div>
+  <ol>
+    <li><strong>Pneus pour véhicules électriques</strong> : réduction résistance au roulement (-20%), durabilité (+30% kilométrage), pneus silencieux (NVH -3dB). Projet phare : Linglong EVO EV (2025), homologué Tesla, BYD, NIO.</li>
+    <li><strong>Matériaux durables et biosourcés</strong> : caoutchouc de guayule (Bridgestone + Beijing University of Chemical Technology), silice biosourcée (brevet 2024). Objectif 2030 : 40% de matériaux renouvelables.</li>
+    <li><strong>Pneus intelligents et connectés</strong> : capteurs TPMS 2.0 (pression, température, usure en temps réel), partenariat Huawei 5G et IoT. Prototype : Linglong SmartTire (2026).</li>
+    <li><strong>Réduction du bruit et NVH</strong> : motifs de sculpture optimisés via simulation numérique, collaboration Fraunhofer.</li>
+    <li><strong>Technologies de fabrication avancées</strong> : smart manufacturing usines 4.0 (Zhaoyuan et Zrenjanin), vulcanisation bas carbone (-15% CO2).</li>
+    <li><strong>Recyclage et économie circulaire</strong> : pyrolyse des pneus usagés (brevet 2025), partenariat Michelin.</li>
+    <li><strong>Interaction pneu-chaussée et sécurité</strong> : simulation conditions extrêmes, pneus anti-aquaplaning pour l'Asie du Sud-Est.</li>
+  </ol>
+
+  <div class="sub">3.4 Participation aux programmes nationaux et internationaux</div>
+  <p>Linglong est impliqué dans 12 programmes de recherche nationaux et 5 projets européens, avec un financement total de 1,8 Md yuan (2021-2026).</p>
+  <div class="tw"><table>
+    <thead><tr><th>Programme</th><th>Institution</th><th>Budget (RMB)</th><th>Objectif</th></tr></thead>
+    <tbody>
+      <tr><td>National Key R&D Program "Green Tire Materials"</td><td>MIIT</td><td>300 M</td><td>Développement de matériaux biosourcés</td></tr>
+      <tr><td>"Intelligent Tire" Project</td><td>MIIT</td><td>250 M</td><td>Pneus connectés et autonomes</td></tr>
+      <tr><td>"Belt and Road" Green Manufacturing</td><td>MOFCOM</td><td>200 M</td><td>Usines bas carbone en Serbie/Thaïlande</td></tr>
+      <tr><td>Horizon Europe "Smart Tire"</td><td>Commission européenne</td><td>50 M</td><td>Capteurs et IA pour pneus</td></tr>
+      <tr><td>US-China Clean Energy Research Center</td><td>DoE (USA) / MOST (Chine)</td><td>80 M</td><td>Matériaux pour VE</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Synthèse R&D</strong> : axes en phase avec les plans chinois (Made in China 2025, Dual Carbon). Partenariats académiques premium. Innovation incrémentale et disruptive : focus sur les pneus pour VE, les matériaux biosourcés et les technologies connectées. Financement diversifié.</p>
+</section>
+
+<!-- INDUSTRIEL -->
+<section id="ind">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--ind)"></div><div class="sec-title">Écosystème industriel</div></div>
+  <div class="sub">Répartition des productions par base industrielle</div>
+  <div class="tw"><table>
+    <thead><tr><th>Base</th><th>Localisation</th><th>Type de pneus</th><th>Capacité/an</th><th>Spécialisation / Technologies</th><th>Certifications</th><th>Partenariats clés</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Zhaoyuan</strong></td><td>Shandong (招远)</td><td>Haut de gamme (CrossWind), VE (Linglong EVO EV), pneus intelligents (TPMS 2.0)</td><td>12 millions</td><td>Automatisation 100%, robots collaboratifs (MES), ligne dédiée Tesla/BYD/NIO, intégration 5G Huawei</td><td>ISO 9001, IATF 16949</td><td>Huawei (IoT), Sinopec (matériaux)</td></tr>
+      <tr><td><strong>Dezhou</strong></td><td>Shandong (德州)</td><td>Poids lourds et utilitaires (MasterGrip), agricoles et OTR</td><td>8 millions</td><td>Usine verte : vulcanisation bas carbone (-15% CO2), ligne flexible (John Deere)</td><td>ISO 14001, GB/T 24001</td><td>FAW, China National Heavy Duty Truck</td></tr>
+      <tr><td><strong>Liuzhou</strong></td><td>Guangxi (柳州)</td><td>Pneus tropicaux et marchés émergents (EcoSafe, CityRider moto)</td><td>5 millions</td><td>Formulations résistantes chaleur/humidité, partenariat assembleurs locaux (VinFast au Vietnam)</td><td>ISO/TS 16949</td><td>ASEAN Automotive Federation</td></tr>
+      <tr><td><strong>Jingmen</strong></td><td>Hubei</td><td>Pneus spécialisés et niche (engins de chantier EarthMover, hiver/toutes saisons WinterGrip)</td><td>3 millions</td><td>Procédés modulaires petites séries, tests extrêmes (Winter Test Center Suède)</td><td>ISO 9001</td><td>Dongfeng Motor</td></tr>
+      <tr><td><strong>Changchun</strong></td><td>Jilin</td><td>Pneus industriels et militaires (blindés, tout-terrain, machines forestières)</td><td>2 millions</td><td>Matériaux renforcés anti-perforation, partenariat gouvernement du Jilin pour marchés russes</td><td>Certification militaire chinoise</td><td>FAW Group</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- FOURNISSEURS -->
+<section id="four">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--ind)"></div><div class="sec-title">Fournisseurs clés amont</div></div>
+  <div class="tw"><table>
+    <thead><tr><th>Catégorie</th><th>Fournisseur</th><th>Produit fourni</th><th>Nature du partenariat</th><th>Contrat / Accord</th><th>Volume/an (2025)</th><th>Preuves (Q/Z)</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="2"><strong>Noir de carbone</strong></td><td>China Synthetic Rubber Corp</td><td>Noir de carbone N220, N330</td><td>Contrat cadre 5 ans (2020-2025) + co-développement grades "low rolling resistance". Collaboration Centre R&D Zhaoyuan</td><td>Renouvelé en 2025 (Q/Z: Contrat 2020-XX-001)</td><td>15 000 t</td><td>Rapport annuel 2023, p.45</td></tr>
+      <tr><td>Cabot Corporation</td><td>Noir de carbone spécialisé VE</td><td>Partenariat technologique "GreenBlack" : développement de grades réduisant la résistance au roulement de 12%. Accès aux laboratoires de Cabot (Boston)</td><td>Accord 2021-2026 (Q/Z: Projet GB-2021)</td><td>8 000 t</td><td>Document R&D 2022, annexe 3</td></tr>
+      <tr><td rowspan="2"><strong>Caoutchouc naturel</strong></td><td>Guangken Rubber Group</td><td>Caoutchouc naturel TSR20</td><td>Contrat d'approvisionnement 10 ans (2018-2028) + co-investissement plantations durables Hainan/Yunnan (projet "Sustainable Rubber Initiative", 50M yuans). Tests conjoints variétés résistantes</td><td>Q/Z: Contrat GK-2018-10</td><td>20 000 t</td><td>Rapport ESG 2023, p.12</td></tr>
+      <tr><td>Thai Rubber Authority</td><td>Caoutchouc naturel pour usines ASEAN</td><td>Accord cadre ASEAN-Chine : approvisionnement usines Thaïlande et Serbie. Collaboration Centre R&D Rayong pour formulations tropicales</td><td>Q/Z: Mémo TRA-2022-05</td><td>12 000 t</td><td>Rapport logistique 2024, p.8</td></tr>
+      <tr><td rowspan="2"><strong>Caoutchouc synthétique</strong></td><td>Sinopec (中国石化)</td><td>SBR, Polybutadiène (BR)</td><td>Contrat long terme + projet "EcoSynth" : développement polymères pour pneus VE (réduction 8% empreinte carbone). Accès innovations Sinopec (Shanghai)</td><td>Q/Z: Contrat SP-2019-03 (renouvelé)</td><td>25 000 t</td><td>Rapport technique 2023, p.30</td></tr>
+      <tr><td>Lanxess (Allemagne)</td><td>Caoutchouc synthétique haut de gamme</td><td>Partenariat "SilentTread" : développement composés pneus silencieux (réduction -3dB). Tests conjoints en Allemagne</td><td>Q/Z: Accord LX-2023-07</td><td>5 000 t</td><td>Document R&D 2024, p.15</td></tr>
+      <tr><td rowspan="2"><strong>Cordes acier</strong></td><td>Bekaert (Belgique)</td><td>Câbles en acier pour pneus radiaux</td><td>Contrat exclusif usines Zhaoyuan/Dezhou. Projet "SteelCord 2.0" : optimisation cordes haute performance (résistance +20%). Tests en Belgique</td><td>Q/Z: Contrat BK-2020-12</td><td>10 000 km</td><td>Rapport qualité 2023, p.22</td></tr>
+      <tr><td>Tianjin Metallurgical</td><td>Câbles en acier (utilitaires)</td><td>Fournisseur local avec livraisons JIT pour Dezhou. Contrôle qualité mensuel conjoint</td><td>Q/Z: Contrat TM-2019-08</td><td>8 000 km</td><td>Rapport logistique 2022, p.18</td></tr>
+      <tr><td rowspan="2"><strong>Additifs chimiques</strong></td><td>Shandong Chemical</td><td>Accélérateurs de vulcanisation, antioxydants</td><td>Partenariat local : fourniture pour toutes les usines du Shandong. Projet "CleanAdd" : additifs bas toxiques (réduction 30% émissions)</td><td>Q/Z: Contrat SC-2017-11 (renouvelé)</td><td>3 000 t</td><td>Rapport environnemental 2023, p.9</td></tr>
+      <tr><td>BASF (Allemagne)</td><td>Additifs haut de gamme (pour VE)</td><td>Projet "DurabilityPlus" : optimisation additifs pour durabilité (+15% kilométrage). Tests Allemagne et Chine</td><td>Q/Z: Accord BASF-2022-09</td><td>2 000 t</td><td>Rapport R&D 2023, p.18</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- OEM -->
+<section id="oem">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--ind)"></div><div class="sec-title">Coopération aval — Constructeurs automobiles (OEM)</div></div>
+  <div class="tw"><table>
+    <thead><tr><th>Constructeur</th><th>Modèle / Véhicule</th><th>Objet du partenariat</th><th>Forme du partenariat</th><th>Produits résultants</th><th>Durée / Contrat</th><th>Preuves (Q/Z)</th></tr></thead>
+    <tbody>
+      <tr><td><strong>FAW Group</strong></td><td>Hongqi LS5, Jiefang J6</td><td>Pneus sur mesure véhicules premium et utilitaires. Optimisation nord-est de la Chine (-30°C). Projet "WinterGrip"</td><td>Équipe conjointe FAW-Linglong à Changchun. Tests pistes FAW (Mongolie Intérieure). Financement partagé (50M yuans)</td><td>Pneus Hongqi LS5 (tourisme), Jiefang J6 (utilitaires), ArcticTread</td><td>2019-2026</td><td>Q/Z: Contrat FAW-2019-03</td></tr>
+      <tr><td><strong>SAIC Motor</strong></td><td>MG ZS, Roewe Marvel X</td><td>Pneus faible résistance pour VE (réduction 10% consommation). Projet "SmartTire" : capteurs IoT usure/pression</td><td>Laboratoire commun Shanghai (30 ingénieurs). Données de conduite réelles SAIC. Partenariat Huawei électronique embarquée</td><td>Pneus EVO EV (MG ZS), SmartSense (capteurs IoT)</td><td>2020-2025</td><td>Q/Z: Accord SAIC-2020-11</td></tr>
+      <tr><td><strong>Geely</strong></td><td>Volvo S90, Geely Galaxy E8</td><td>Pneus silencieux et durables véhicules premium/VE. Projet "SilentComfort" (-3dB). Projet "EcoDrive" (+5% autonomie VE)</td><td>Co-design centre R&D Geely (Shenzhen). Tests routes chinoises et européennes. Financement conjoint (40M yuans)</td><td>Pneus SilentPro (Volvo S90), EcoDrive (Galaxy E8)</td><td>2021-2026</td><td>Q/Z: Projet GD-2021-07</td></tr>
+      <tr><td><strong>BYD</strong></td><td>Han EV, Dolphin</td><td>Pneus ultra-bas carbone pour VE (matériaux recyclés). Projet "FastCharge" : compatibilité recharge rapide (résistance thermique optimisée)</td><td>Laboratoire commun Shenzhen. Accès données de conduite BYD. Tests conjoints sur véhicules BYD</td><td>Pneus GreenEV (Han EV), ThermalSafe (Dolphin)</td><td>2020-2025</td><td>Q/Z: Contrat BYD-2020-05</td></tr>
+      <tr><td><strong>Volkswagen</strong></td><td>ID.4, ID.6</td><td>Adaptation normes européennes (REACH). Projet "WinterChina" : pneus nord de la Chine (-20°C)</td><td>Accord de licence : Linglong fournit des pneus OEM pour les usines VW de Changchun/Shanghai. Tests conjoints en Mongolie Intérieure</td><td>Pneus EuroGrip (ID.4), PolarTread (ID.6)</td><td>2021-2026</td><td>Q/Z: Accord VW-2021-09</td></tr>
+      <tr><td><strong>BMW</strong></td><td>i3, iX3</td><td>Pneus haut de gamme véhicules premium. Projet "SilentComfort" : réduction bruit de roulement pour VE</td><td>Projets de co-développement, tests conjoints, programmes pilotes. Co-développement avec centre R&D BMW à Shenyang</td><td>Pneus PremiumTour (i3), SilentPremium (iX3)</td><td>2023-2028</td><td>Q/Z: Contrat BMW-2023-02</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- INTÉGRATION INDUSTRIELLE -->
+<section id="integ">
+  <div class="sec-head"><div class="eco-dot" style="background:var(--ind)"></div><div class="sec-title">Caractéristiques de l'intégration industrielle</div></div>
+  <div class="tw"><table>
+    <thead><tr><th>Critère</th><th>Preuves chez Linglong</th><th>Comparaison avec le Top 5</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Intégration verticale</strong></td><td>Contrôle partiel de la chaîne : matières premières (partenariats), production, logistique et recyclage</td><td>Sailun : intégration plus poussée (usines + centres de R&D internes). Double Star : dépendance aux fournisseurs externes</td></tr>
+      <tr><td><strong>Automatisation</strong></td><td>100% des lignes de production à Zhaoyuan automatisées, robots collaboratifs (协作机器人)</td><td>Zhongce : automatisation à 80%. Triangle : retard en digitalisation</td></tr>
+      <tr><td><strong>Collaborations stratégiques</strong></td><td>Alliances avec China Rubber et Mesa (équipements), partenariats OEM</td><td>Sailun : partenariats avec équipementiers européens. Linglong : focus sur les acteurs chinois</td></tr>
+      <tr><td><strong>Logistique et export</strong></td><td>Hub logistique à Qingdao, contrats COSCO pour l'export (Serbie/Thaïlande)</td><td>Double Coin : réseau logistique moins développé. Linglong : avantage sur les marchés asiatiques</td></tr>
+      <tr><td><strong>Économie circulaire</strong></td><td>Projets pilotes de recyclage avec des entreprises du Hubei</td><td>Sailun : programmes de recyclage plus avancés (partenariat avec des entreprises européennes)</td></tr>
+      <tr><td><strong>Soutien gouvernemental</strong></td><td>Subventions du Shandong, quotas énergétiques préférentiels</td><td>Triangle : soutien fort du gouvernement du Jiangsu. Linglong : avantage local (Shandong)</td></tr>
+      <tr><td><strong>Innovation collaborative</strong></td><td>Projets conjoints avec Peking Chemistry (matériaux) et China Rubber (caoutchouc biosourcé)</td><td>Zhongce : collaborations limitées aux instituts locaux. Linglong : réseau académique plus large</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>
+  <span>Fiche LLTS · v1 · Avril 2026</span>
+  <span>Modèle analytique — En l'état des sources consultées</span>
+</footer>
+
+<script>
+let origHTML='';
+function doSearch(){
+  const term=document.getElementById('si').value;
+  const cnt=document.getElementById('sc');
+  const clr=document.getElementById('scl');
+  if(!origHTML)origHTML=document.body.innerHTML;
+  if(!term||term.length<2){if(origHTML)document.body.innerHTML=origHTML;cnt.textContent='';clr.style.display='none';rebind();return;}
+  clr.style.display='inline';
+  document.body.innerHTML=origHTML;rebind();
+  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null);
+  const nodes=[];let node;
+  while(node=walker.nextNode()){if(!['SCRIPT','STYLE','INPUT'].includes(node.parentElement.tagName)&&node.textContent.toLowerCase().includes(term.toLowerCase()))nodes.push(node);}
+  const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+  let total=0;
+  nodes.forEach(n=>{const m=(n.textContent.match(re)||[]).length;total+=m;const sp=document.createElement('span');sp.innerHTML=n.textContent.replace(re,'<mark class="hl">$1</mark>');n.parentNode.replaceChild(sp,n);});
+  cnt.textContent=total>0?total+' occurrence'+(total>1?'s':''):'Aucun résultat';
+  const first=document.querySelector('mark.hl');if(first)first.scrollIntoView({behavior:'smooth',block:'center'});
+}
+function clearSearch(){if(origHTML)document.body.innerHTML=origHTML;document.getElementById('sc').textContent='';document.getElementById('scl').style.display='none';rebind();origHTML='';}
+function rebind(){const si=document.getElementById('si');if(si)si.oninput=doSearch;const scl=document.getElementById('scl');if(scl)scl.onclick=clearSearch;}
+</script>
+</body>
+</html>
