@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOP 5 Pneumatique Chinois — Carte</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #f9f8f5; font-family: 'Segoe UI', Arial, sans-serif; padding: 12px 16px; height: 100vh; display: flex; flex-direction: column; }
+  h1 { font-size: 15px; font-weight: 500; color: #2c2c2a; margin-bottom: 8px; flex-shrink: 0; }
+  #map-wrap { background: white; border: 0.5px solid #ddd; border-radius: 8px; flex: 1; min-height: 0; overflow: hidden; }
+  #map-wrap svg { width: 100%; height: 100%; display: block; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; font-size: 11px; color: #555; justify-content: center; flex-shrink: 0; }
+  .legend span { display: flex; align-items: center; gap: 4px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .note { font-size: 10px; color: #aaa; margin-top: 5px; text-align: center; font-style: italic; flex-shrink: 0; }
+</style>
+</head>
+<body>
+<h1>TOP 5 Pneumatique Chinois — Pôles industriels et centres R&D</h1>
+<div id="map-wrap"><div id="map" style="width:100%;height:100%;"></div></div>
+<div class="legend">
+  <span><span class="dot" style="background:#185FA5"></span>Linglong</span>
+  <span><span class="dot" style="background:#0F6E56"></span>Sailun</span>
+  <span><span class="dot" style="background:#993C1D"></span>ZC Rubber</span>
+  <span><span class="dot" style="background:#D85A30"></span>Double Star</span>
+  <span><span class="dot" style="background:#444441"></span>Double Coin</span>
+  <span>
+    <svg width="11" height="11" style="overflow:visible;vertical-align:middle"><polygon points="5,0 10,5 5,10 0,5" fill="#666" stroke="white" stroke-width="1"/></svg>
+    Centre R&D
+  </span>
+</div>
+<p class="note">Cercle = base de production · Losange = centre R&D · Survolez / touchez un point · Bases offshore non représentées</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+const W = 860, H = 600;
+const wrap = document.getElementById('map');
+const svg = d3.select('#map').append('svg')
+  .attr('viewBox', `0 0 ${W} ${H}`)
+  .attr('preserveAspectRatio', 'xMidYMid meet')
+  .attr('width', '100%')
+  .attr('height', '100%');
+
+const proj = d3.geoMercator().center([108,36]).scale(840).translate([W/2-25, H/2+12]);
+const path = d3.geoPath(proj);
+
+const secondary = [
+  { name:'Dezhou — Linglong (TBR)',          lat:37.45, lon:116.36, co:'#185FA5', r:7 },
+  { name:'Liuzhou/Guangxi — Linglong',        lat:24.33, lon:109.42, co:'#185FA5', r:7 },
+  { name:'Dongying — Sailun (TBR)',           lat:37.46, lon:118.67, co:'#0F6E56', r:7 },
+  { name:'Shenyang — Sailun (hub Nord-Est)',  lat:41.80, lon:123.43, co:'#0F6E56', r:7 },
+  { name:'Jiande — ZC Rubber',               lat:29.47, lon:119.27, co:'#993C1D', r:7 },
+  { name:'Tianjin — ZC Rubber',              lat:39.08, lon:117.20, co:'#993C1D', r:7 },
+  { name:'Shiyan/Hubei — Double Star (TBR)', lat:32.64, lon:110.78, co:'#D85A30', r:7 },
+  { name:'Jiangsu — Double Coin (TBR)',       lat:32.06, lon:118.79, co:'#444441', r:7 },
+  { name:'Anhui/Wuhu — Double Coin (PCR)',    lat:31.33, lon:118.36, co:'#444441', r:7 },
+  { name:'Chongqing — Double Coin (TBR)',     lat:29.56, lon:106.55, co:'#444441', r:7 },
+];
+
+const primary = [
+  { name:'Zhaoyuan — Linglong (siège)',    lat:37.35, lon:120.55, co:'#185FA5', r:12 },
+  { name:'Qingdao — Double Star (siège)',   lat:36.65, lon:120.80, co:'#D85A30', r:11 },
+  { name:'Qingdao — Sailun (siège)',        lat:36.05, lon:120.35, co:'#0F6E56', r:12 },
+  { name:'Hangzhou — ZC Rubber (siège)',   lat:30.26, lon:120.15, co:'#993C1D', r:12 },
+  { name:'Shanghai — Double Coin (siège)', lat:31.23, lon:121.55, co:'#444441', r:11 },
+];
+
+const rdCenters = [
+  { name:'R&D Linglong — fabrication intelligente + IoT Huawei', origin:[120.55,37.35], display:[123.2,38.8], co:'#185FA5' },
+  { name:'R&D Sailun — Centre national caoutchouc et pneus',     origin:[120.35,36.05], display:[123.8,36.8], co:'#0F6E56' },
+  { name:'R&D Double Star — Wheel Cloud, centre design',          origin:[120.80,36.65], display:[124.0,35.2], co:'#D85A30' },
+  { name:'R&D Double Coin — Institut de recherche sur les pneus', origin:[121.55,31.23], display:[124.2,31.8], co:'#444441' },
+  { name:'R&D ZC Rubber — 5G + IA, Usine du Futur Hangzhou',    origin:[120.15,30.26], display:[123.5,29.0], co:'#993C1D' },
+];
+
+d3.json('https://cdn.jsdelivr.net/npm/datamaps@0.5.10/src/js/data/chn.topo.json').then(data => {
+  svg.selectAll('path.p')
+    .data(topojson.feature(data, data.objects.chn).features)
+    .join('path').attr('class','p').attr('d',path)
+    .attr('fill','#e8e4dc').attr('stroke','#fff').attr('stroke-width',0.5);
+
+  const tipG = svg.append('g').style('display','none').style('pointer-events','none');
+  const tipRect = tipG.append('rect').attr('rx',5).attr('fill','white')
+    .attr('stroke','#ccc').attr('stroke-width',0.8);
+  const tipTxt = tipG.append('text').attr('font-size',12).attr('font-family','Segoe UI,Arial,sans-serif');
+
+  function showTip(x, y, label, color) {
+    tipTxt.selectAll('*').remove();
+    tipTxt.append('tspan').attr('x',10).attr('y',20)
+      .attr('fill',color).attr('font-weight','600').text(label);
+    const bb = tipTxt.node().getBBox();
+    const tw = bb.width+20, th=32;
+    tipRect.attr('width',tw).attr('height',th);
+    let tx = x+14, ty = y-th-8;
+    if (tx+tw > W-4) tx = x-tw-14;
+    if (ty < 4) ty = y+12;
+    tipG.attr('transform',`translate(${tx},${ty})`).style('display',null);
+  }
+  function hideTip() { tipG.style('display','none'); }
+
+  secondary.forEach(s => {
+    const [x,y] = proj([s.lon,s.lat]);
+    const g = svg.append('g').style('cursor','pointer');
+    g.append('circle').attr('cx',x).attr('cy',y).attr('r',s.r+6).attr('fill','transparent');
+    g.append('circle').attr('cx',x).attr('cy',y).attr('r',s.r)
+      .attr('fill',s.co).attr('fill-opacity',0.88).attr('stroke','white').attr('stroke-width',1.5);
+    g.on('mouseover touchstart',()=>showTip(x,y,s.name,s.co)).on('mouseout touchend',hideTip);
+  });
+
+  primary.forEach(s => {
+    const [x,y] = proj([s.lon,s.lat]);
+    const g = svg.append('g').style('cursor','pointer');
+    g.append('circle').attr('cx',x).attr('cy',y).attr('r',s.r+6).attr('fill','transparent');
+    g.append('circle').attr('cx',x).attr('cy',y).attr('r',s.r)
+      .attr('fill',s.co).attr('fill-opacity',0.88).attr('stroke','white').attr('stroke-width',1.8);
+    g.on('mouseover touchstart',()=>showTip(x,y,s.name,s.co)).on('mouseout touchend',hideTip);
+  });
+
+  rdCenters.forEach(s => {
+    const [ox,oy] = proj(s.origin);
+    const [dx,dy] = proj(s.display);
+    const sz = 8;
+    svg.append('line')
+      .attr('x1',ox).attr('y1',oy).attr('x2',dx).attr('y2',dy)
+      .attr('stroke',s.co).attr('stroke-width',0.9)
+      .attr('stroke-dasharray','3,3').attr('opacity',0.7);
+    const g = svg.append('g').style('cursor','pointer');
+    g.append('circle').attr('cx',dx).attr('cy',dy).attr('r',sz+6).attr('fill','transparent');
+    g.append('polygon')
+      .attr('points',`${dx},${dy-sz} ${dx+sz},${dy} ${dx},${dy+sz} ${dx-sz},${dy}`)
+      .attr('fill',s.co).attr('fill-opacity',0.92).attr('stroke','white').attr('stroke-width',1.8);
+    g.on('mouseover touchstart',()=>showTip(dx,dy,s.name,s.co)).on('mouseout touchend',hideTip);
+  });
+
+  tipG.raise();
+}).catch(() => {
+  svg.append('text').attr('x',W/2).attr('y',H/2)
+    .attr('text-anchor','middle').attr('fill','#888').attr('font-size',14)
+    .text('Erreur de chargement — vérifiez votre connexion.');
+});
+</script>
+</body>
+</html>
