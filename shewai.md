@@ -24,6 +24,6 @@ Sources chinoises, le 14 mai 2026
 [^7]: 《中华人民共和国反外国不当域外管辖条例》, décret n°835 du Conseil des affaires d’État, 7 avril 2026 : https://www.news.cn/politics/leaders/20260413/0a29d45b57bb4d688ea056415e9d26eb/c.html
 [^8]: 《中共中央办公厅 国务院办公厅关于推动行业协会商会深化改革的意见》, *人民日报*, 14 avril 2026 : https://paper.people.com.cn/rmrb/pc/content/202604/14/content_30150930.html
 
-Commentaire
+Commentaire : La directive du 13 avril sur les associations professionnelles et chambres de commerce ajoute une dimension organisationnelle : les corps intermédiaires économiques chinois doivent accompagner l’Etat dans cette montée en capacité. Les cabinets d’avocats, institutions d’arbitrage et plateformes sectorielles deviennent autant de relais et d’agents patentés de la politique poursuivie.
 
 Sources chinoises, 2026
