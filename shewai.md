@@ -2,9 +2,9 @@ Sources chinoises, le 14 mai 2026
 
 <link rel="stylesheet" href="brief-style-V2.css">
 
+## Lawfare, extérritorialité et préparation à la "guerre" juridicitonnelle
 
-
-| Date d’entrée en vigueur / publication | Intitulé chinois | Traduction française | Nature | Fonction dans l’arsenal du 涉外法治 |
+| Date d’entrée en vigueur / publication | Intitulé chinois | Traduction française | Nature | Fonction dans l’arsenal de la "gouvenance extérieure" 涉外法治 |
 |---|---|---|---|---|
 | 19 septembre 2020 | 《不可靠实体清单规定》[^1] | Dispositions relatives à la liste des entités non fiables | Règles ministérielles du ministère du Commerce, approuvées par le Conseil des affaires d’État | Outil administratif de ciblage des entités étrangères portant atteinte à la souveraineté, à la sécurité, aux intérêts de développement ou aux droits d’acteurs chinois. |
 | 9 janvier 2021 | 《阻断外国法律与措施不当域外适用办法》[^2] | Mesures de blocage de l’application extraterritoriale inappropriée de lois et mesures étrangères | Règles ministérielles du ministère du Commerce, approuvées par le Conseil des affaires d’État | Premier mécanisme de blocage contre l’application extraterritoriale de lois étrangères entravant les activités économiques normales d’acteurs chinois avec des pays tiers. |
