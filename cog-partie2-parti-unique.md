@@ -86,13 +86,13 @@ Mais, les derniers paragraphes du texte nous rappellent que sous couvert de « d
 
 Nous savons que le PCC s’inscrit en faux contre les régimes libéraux à séparation des pouvoirs, dénonçant leur inaptitude à solutionner les problème sociaux
 
-La nouveauté de ce texte est qu’il représente un manifeste de prosélytisme politique tourné vers l’action : former, coopter, recruter pour diriger en sous-mains autant de partis et systèmes politiques étrangers que possible, et les transformer en régimes politiques de parti unique, à l’image du PCC. 
+La nouveauté de ce texte est qu’il représente un manifeste de prosélytisme politique tourné vers l’action : former, coopter, recruter pour influencer les partis et systèmes politiques étrangers, et ainsi les transformer en régimes politiques de parti unique, à l’image du PCC. 
 
 Bien que différente dans ses fondements idéologiques et ses modalités, cette doctrine de raison d’Etat élargie ouvre un nouveau front dans la contestation et l’affrontement idéologique entre les nations, après celui ouvert pat les Etats-Unis de D. J. Trump II. 
 
 Toutefois, Pékin avance une doctrine de « changement de régime consenti ». Son impact pourrait s’avérer plus durable et plus profond que la mise à jour logicielle du « regime change » à l’américaine.
 
-Pékin veut déposséder les Etats et leur gouvernment du jeu de l’alternance politique pour n’avoir qu’à traiter un seul interlocuteur, lui assurerant la continuité de la protection de ses intérêts sur le long terme.
+Pékin veut déposséder les Etats et leur gouvernment du jeu de l’alternance politique pour n’avoir qu’à traiter un seul interlocuteur, ce qui lui assurerait la continuité de la protection de ses intérêts sur le long terme.
 
 ----------
 
