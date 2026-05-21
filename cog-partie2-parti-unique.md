@@ -2,9 +2,8 @@
 
 <link rel="stylesheet" href="brief-style-V2.css">
 
-## == L’apologie des systèmes politiques à parti unique ==
+## L’apologie des systèmes politiques à parti unique dans la guerre cognitive
 
-Chaine de conversion d'un parti-unique à l’Unique parti (gouvernance globale)
 
 **Liu Haixing est, depuis 2025, le nouveau chef des affaires extérieures du PCC** 
 
