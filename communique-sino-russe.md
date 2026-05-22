@@ -6,17 +6,15 @@ Sources chinoises, le 28 mai 2026
 
 ## Déclaration conjointe du ministère du Commerce de la République populaire de Chine et du ministère du Développement économique de la Fédération de Russie sur le soutien au commerce ouvert et au multilatéralisme
 
-Le ministère du Commerce de la République populaire de Chine et le ministère du Développement économique de la Fédération de Russie — ci-après dénommés conjointement « les deux parties »
+Le ministère du Commerce de la République populaire de Chine et le ministère du Développement économique de la Fédération de Russie — ci-après dénommés conjointement « les deux parties »,
 
-,considérant l’instabilité de la situation économique actuelle, la tendance croissante à la fragmentation du commerce, ainsi que les défis que les mesures unilatérales et protectionnistes, contraires à l’esprit et aux règles de l’Organisation mondiale du commerce — ci-après « l’OMC » —, font peser sur le commerce international ;
+considérant l’instabilité de la situation économique actuelle, la tendance croissante à la fragmentation du commerce, ainsi que les défis que les mesures unilatérales et protectionnistes, contraires à l’esprit et aux règles de l’Organisation mondiale du commerce — ci-après « l’OMC » —, font peser sur le commerce international ;
 
 réaffirmant leur soutien au système commercial multilatéral, centré sur l’OMC, fondé sur des règles, non discriminatoire, équitable, ouvert, inclusif, égalitaire, durable et transparent ;
 
 reconnaissant l’importance de la promotion d’une coopération ouverte pour favoriser le développement durable ;
 
-s’engageant à développer davantage la facilitation du commerce bilatéral, de l’économie et de l’investissement sur la base des règles et principes de l’OMC ;
-
-sont parvenus aux compréhensions suivantes :
+s’engageant à développer davantage la facilitation du commerce bilatéral, de l’économie et de l’investissement sur la base des règles et principes de l’OMC sont parvenus aux consensus suivants :
 
 1. Les deux parties réaffirment leur engagement à préserver le multilatéralisme, soulignent l’importance du maintien d’un commerce ouvert et équitable entre elles, et s’opposent conjointement aux mesures de coercition unilatérales ainsi qu’au protectionnisme commercial.
 
