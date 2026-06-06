@@ -2,7 +2,7 @@ Sources chinoises, le 10 juin 2026
 
 <link rel="stylesheet" href="diplo-style-V2.css">
 
-## Procès militaire de Xu Qinxian
+## Procès militaire du Major General Xu Qinxian
 
 0:00
 Préparation de l’audience, entrée du personnel, attente avant le procès.
@@ -10,7 +10,7 @@ Préparation de l’audience, entrée du personnel, attente avant le procès.
 1:37
 Président du tribunal : Le tribunal militaire de la région militaire de Pékin de l’Armée populaire de libération de Chine est désormais en session. Faites entrer l’accusé Xu Qinxian.
 
-Chapitre 2 — Entrée de l’accusé Xu Qinxian et vérification de son identité
+### Partie 2 — Entrée de l’accusé Xu Qinxian et vérification de son identité
 
 1:47
 L’accusé Xu Qinxian entre, escorté par les huissiers, et prend place.
@@ -131,7 +131,7 @@ Xu Qinxian : Je ne demande aucune récusation.
 13:28
 Président du tribunal : Accusé, levez-vous. L’instruction d’audience commence maintenant. Le procureur va d’abord lire l’acte d’accusation.
 
-Chapitre 3 — Lecture de l’acte d’accusation : Xu Qinxian est accusé de « refus d’exécuter les ordres de loi martiale »
+### Partie 3 — Lecture de l’acte d’accusation : Xu Qinxian est accusé de « refus d’exécuter les ordres de loi martiale »
 
 13:50
 Procureur : Acte d’accusation du parquet militaire de la région militaire de Pékin de l’Armée populaire de libération. Jing Jun Jian Zi n° 1, 1990.
@@ -343,7 +343,7 @@ Président du tribunal : Après avoir reçu l’ordre, en tant que commandant, c
 42:42
 Xu Qinxian : Après qu’ils eurent fini de parler, j’ai d’abord posé certaines questions qui n’étaient pas claires.
 
-Chapitre 4 — Xu Qinxian se souvient de la réception de l’ordre : questions sur la nécessité des mitrailleuses lourdes et des blindés
+### Partie 4 — Xu Qinxian se souvient de la réception de l’ordre : questions sur la nécessité des mitrailleuses lourdes et des blindés
 
 43:02
 Xu Qinxian : Un point qui m’a fortement marqué concernait le port des armes. Les munitions pour armes légères… et les « autres armes » avec une dotation de base.
@@ -366,7 +366,7 @@ Xu Qinxian : Si l’on devait absolument utiliser l’armée de campagne, je sug
 45:26
 Xu Qinxian : J’ai dit qu’une affaire aussi importante devait être soigneusement étudiée. Quelle était la manière appropriée de la traiter ?
 
-Chapitre 5 — La défense centrale de Xu Qinxian : « Une affaire aussi importante devrait être discutée par le Comité permanent de l’APN, le Conseil des affaires d’État et la Commission militaire centrale »
+### Partie 5 — La défense centrale de Xu Qinxian : « Une affaire aussi importante devrait être discutée par le Comité permanent de l’APN, le Conseil des affaires d’État et la Commission militaire centrale »
 
 45:51
 Xu Qinxian : J’ai suggéré que le Bureau politique, le Conseil des affaires d’État et la Commission militaire centrale se réunissent pour en discuter sérieusement. J’ai dit que, puisque l’armée faisait partie du système de l’État, l’Assemblée populaire nationale pouvait aussi en discuter.
@@ -428,7 +428,7 @@ Président du tribunal : Avez-vous dit : « Est-il juste d’entrer dans la vill
 57:49
 Xu Qinxian : Cela ne ressemble pas exactement à ce que j’ai dit… Je n’ai pas dit cela. Ce que je voulais dire, c’était : est-il approprié de résoudre cela par la force ?
 
-Chapitre 6 — L’écho de l’histoire : Xu Qinxian reconnaît avoir dit qu’exécuter une telle mission pouvait faire de quelqu’un un « pécheur devant l’histoire »
+### Partie 6 — L’écho de l’histoire : Xu Qinxian reconnaît avoir dit qu’exécuter une telle mission pouvait faire de quelqu’un un « pécheur devant l’histoire »
 
 58:18
 Président du tribunal : Avez-vous dit : « Cette action doit résister à l’épreuve de l’histoire. L’histoire le prouvera » ?
@@ -487,7 +487,7 @@ Xu Qinxian : Cela signifie que, personnellement, je n’exécute pas l’ordre. 
 1:08:41
 Président du tribunal : Après que les dirigeants ont donné l’ordre et que vous avez exprimé votre non-exécution, vous ont-ils critiqué ?
 
-Suite du chapitre 6 — Xu Qinxian reconnaît avoir évoqué le risque de devenir un « pécheur devant l’histoire »
+### Suite de la partie 6 — Xu Qinxian reconnaît avoir évoqué le risque de devenir un « pécheur devant l’histoire »
 
 1:08:41
 Président du tribunal : Après que les dirigeants vous ont donné l’ordre et que vous avez exprimé votre refus de l’exécuter, vous ont-ils critiqué ?
@@ -700,7 +700,7 @@ Président du tribunal : Accusé, avez-vous des observations sur le compte rendu
 
 Xu Qinxian : Non.
 
-Chapitre 7 — Lecture du témoignage de Liu Zhenhua, commissaire politique de la région militaire de Pékin
+### Partie 7 — Lecture du témoignage de Liu Zhenhua, commissaire politique de la région militaire de Pékin
 
 1:40:53
 Président du tribunal : Nous allons maintenant lire le témoignage de Liu Zhenhua, commissaire politique de la région militaire de Pékin, concernant le refus par Xu d’exécuter l’ordre de loi martiale de la Commission militaire centrale.
@@ -1289,7 +1289,7 @@ Lecture du témoignage de Dai : « … Parlez de Xu. Réponse : D’accord. Mon 
 2:39:30
 « Question : Autre chose ? Réponse : Je n’ai pas entendu ce qu’il a dit au téléphone. Nous avons été surpris par ce dialogue. Les dirigeants étaient stupéfaits. »
 
-Chapitre 8 — Lecture du témoignage de Wang Fuyi, commissaire politique du 38e corps
+### Partie 8 — Lecture du témoignage de Wang Fuyi, commissaire politique du 38e corps
 
 2:39:45
 Président du tribunal : Accusé Xu, avez-vous entendu le témoignage de Dai ?
@@ -2625,7 +2625,7 @@ Procureur : Considérant aussi qu’il s’agit d’un crime particulier dans un
 4:40:20
 Procureur : Xu a participé à la révolution pendant près de quarante ans et a accompli un travail utile pour la construction de l’armée. Ces circonstances n’affectent ni la qualification de l’infraction ni l’existence d’une atténuation légale, mais nous demandons qu’elles soient prises en considération globalement lors de la détermination de la peine.
 
-Chapitre 9 — Auto-défense de Xu Qinxian : il conteste la condamnation par analogie et maintient que formuler une opinion relève des droits prévus par les statuts du Parti
+### Partie 9 — Auto-défense de Xu Qinxian : il conteste la condamnation par analogie et maintient que formuler une opinion relève des droits prévus par les statuts du Parti
 
 4:41:13
 Président du tribunal : L’accusé prend la parole.
@@ -3237,7 +3237,7 @@ Procureur : Donc invoquer la maladie pour expliquer la non-exécution est contra
 5:53:52
 Procureur : C’est incompatible avec ses multiples déclarations précédentes.
 
-Chapitre 10 — Dernière déclaration de Xu Qinxian
+### Partie 10 — Dernière déclaration de Xu Qinxian
 
 5:54:09
 Président du tribunal : Une opinion ? L’accusé parle.
@@ -3381,5 +3381,8 @@ Avocat de la défense : Deuxièmement, le Code pénal prévoit que le désisteme
 
 6:03:21
 Avocat de la défense : Quant à la manière dont cet article s’applique à l’expression de Xu… nous voulons seulement analyser si son comportement de non-participation est… (trasncript interrompu). 
+
+
+----------
 
 Sources chinoises, 2026
