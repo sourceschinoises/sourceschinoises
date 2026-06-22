@@ -18,7 +18,7 @@ Conformément aux dispositions pertinentes de la Loi de la République populaire
 
 La présente annonce entre officiellement en vigueur à compter de sa publication.
 
-Annexe : Liste de contrôle des exportations — 22 juin 2026
+## Annexe : Liste de contrôle des exportations — 22 juin 2026
 
 Ministère du Commerce
 22 juin 2026
@@ -31,51 +31,61 @@ Liste de contrôle des exportations
 1. Aveox, Inc.
 Adresse : 2265A Ward Ave., Simi Valley, CA, États-Unis
 Code postal : 93065
+
 Dénomination couramment utilisée : AVEOX
 
 2. Red Cat Holdings, Inc.
 Adresse : 2800 S West Temple St., Unite 2, South Salt Lake, UT, États-Unis
 Code postal : 84115
+
 Dénomination couramment utilisée : Red Cat
 
 3. Teal Drones, Inc.
 Adresse : 2800 S West Temple St., Unite 2, South Salt Lake, UT, États-Unis
 Code postal : 84115
+
 Dénominations couramment utilisées : Teal Drones, iDrone
 
 4. IMSAR, LLC
 Adresse : 940 S 2000 W #140, Springville, UT, États-Unis
 Code postal : 84663
+
 Dénomination couramment utilisée : IMSAR
 
 5. Jaia Robotics, Inc.
 Adresse : 22 Burnside St, Bristol, RI, États-Unis
 Code postal : 02809
+
 Dénomination couramment utilisée : Jaia Robotics
 
 6. Ball Aerospace & Technologies Corp.
 Adresse : 10 Longs Peak Drive, Broomfield, CO, États-Unis
 Code postal : 80301
+
 Dénominations couramment utilisées : Ball Aerospace ; activité Space & Mission Systems de BAE Systems
 
 7. Oshkosh Defense, LLC
 Adresse : 2307 Oregon Street, Oshkosh, WI, États-Unis
 Code postal : 54902
+
 Dénomination couramment utilisée : Oshkosh Defense
 
 8. L3Harris Maritime Services, Inc.
 Adresse : 3835 E Princess Anne Rd, Norfolk, VA, États-Unis
 Code postal : 23502
+
 Dénomination couramment utilisée : L3Harris Maritime
 
 9. MP Materials Corp.
 Adresse : 1700 S Pavilion Center Drive, Eighth Floor, Las Vegas, NV, États-Unis
 Code postal : 89135
+
 Dénomination couramment utilisée : MP Materials
 
 10. USA Rare Earth, Inc.
 Adresse : 100 W Airport Rd, Stillwater, OK, États-Unis
 Code postal : 74075
+
 Dénominations couramment utilisées : USAR, USARE
 
 ----------
