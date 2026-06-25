@@ -4,7 +4,7 @@ Sources chinoises, 1er juillet 2026
 
 ## Le programme Deep Time Digital Earth (DDE)
 
-Parmi les initiatives citées par le ministre Yin Hejun, la plus avancée et la mieux structure, celle qui illustre notre mémo  est le programme Deep Time Digital Earth (DDE)(深时数字地球).
+Parmi les initiatives citées par le ministre Yin Hejun, celle qui illustre bien notre mémo est le programme Deep Time Digital Earth (DDE)  (深时数字地球).
 
 ### 1. De quoi s'agit-il ?
 Deep Time Digital Earthest un grand programme scientifique international de géosciences, initié par l’Union internationale des sciences géologiques (International Union of Geological Sciences, IUGS). 
