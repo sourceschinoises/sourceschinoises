@@ -84,7 +84,7 @@ Dans le cadre de l’enquête, le ministère du Commerce peut initier la collect
 
 Lorsque le ministère du Commerce l’estime nécessaire, il peut constituer un groupe consultatif d’experts chargé de fournir des avis consultatifs sur les questions techniques et juridiques de l’enquête. 
 
-Les membres du groupe consultatif d’experts doivent protéger les documents, informations et autres éléments confidentiels liés à l’enquête et garantir leur confidentialité.
+Les membres du groupe consultatif d’experts sont tenus d’assurer la conservation appropriée des documents, informations et autres éléments confidentiels ou classifiés liés à l’enquête, et assument les obligations de confidentialité afférentes.
 
 **Article 10**
 
