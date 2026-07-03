@@ -1,5 +1,5 @@
 
-
+<link rel="stylesheet" href="brief-style-V2.css">
 
 
 Intitulé de l'élément rendu public : Notification de la Commission nationale du développement et de la réforme, de l'Administration nationale de l'énergie, du ministère de l'Industrie et des Technologies de l'information et de l'Administration nationale des données portant publication du « Plan d'action relatif à la promotion du renforcement mutuel entre intelligence artificielle et énergie »
