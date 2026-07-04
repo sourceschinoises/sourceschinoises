@@ -6,7 +6,9 @@ Note : 15ème plan pour un nouveau système énergétique
 
 [https://www.gov.cn/zhengce/zhengceku/202606/P020260625807131374486.pdf](新型能源体系建设"十五五"规划)
 
-Durant la période du 15e plan quinquennal, le développement énergétique de notre pays entre dans une période de superposition et de mutation des risques de sécurité, une période d'intensification de la transition bas-carbone, une période d'accélération des percées de l'innovation énergétique, une période d'approfondissement des batailles décisives de la réforme institutionnelle, et une période d'ajustement et de recomposition de la coopération internationale. Afin de guider scientifiquement le développement de haute qualité de l'énergie et d'accélérer la construction du nouveau système énergétique, la présente planification est établie conformément aux « Grandes lignes du 15e plan quinquennal de développement économique et social de la République populaire de Chine ».
+Durant la période du 15e plan quinquennal [^1], le développement énergétique de notre pays entre dans une période de superposition et de mutation des risques de sécurité, une période d'intensification de la transition bas-carbone, une période d'accélération des percées de l'innovation énergétique, une période d'approfondissement des batailles décisives de la réforme institutionnelle, et une période d'ajustement et de recomposition de la coopération internationale. Afin de guider scientifiquement le développement de haute qualité de l'énergie et d'accélérer la construction du nouveau système énergétique, la présente planification est établie conformément aux « Grandes lignes du 15e plan quinquennal de développement économique et social de la République populaire de Chine ».
+
+[^1]:mon commentaire 
 
 ### I. Exigences générales
 
