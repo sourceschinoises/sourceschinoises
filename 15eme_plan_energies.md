@@ -47,36 +47,27 @@ Les mécanismes de marché et de prix adaptés au nouveau système énergétique
 
 **Encadré 1 : Principaux indicateurs du développement énergétique du 15e plan quinquennal**
 
-N°	Indicateur                               	                         Unité	   2025	    2030	     Nature
 
-1	Capacité de production énergétique globale                          100 Mtec	51,3	    58	      Contraignant
-
-2	Puissance électrique totale installée	                              100 GW	  38,9	    54	      Indicatif
-
-3	Part des énergies non fossiles dans la consommation	%	21,7	25	Contraignant
-
-4	Part des énergies non fossiles dans la production d'électricité	%	42,3	50	Indicatif
-
-5	Baisse des émissions de carbone par unité d'électricité produite ①	%		>10	Contraignant
-
-6	Économies d'énergie des secteurs prioritaires	100 Mtec		>1,5	Indicatif
-
-7	Part de l'électricité dans la consommation finale d'énergie	%	30	35	Indicatif
-
-8	Capacité de transfert d'électricité Ouest-Est (西电东送)	100 GW	3,4	>4,2	Indicatif
-
-9	Croissance de la capacité de réglage sources-stockage ②	%		>40	Indicatif
-
-10	Capacité de réponse à la demande électrique	%	>3	>5	Indicatif
-
-11	Croissance annuelle moyenne des dépôts de brevets internationaux PCT dans le domaine de l'énergie	%		>5	Indicatif
-
-12	Résultats de démonstration d'ingénierie des premières unités (premiers ensembles) d'équipements techniques majeurs du domaine de l'énergie	unité		>100	Indicatif
-
-Note : ① Les émissions de carbone par unité d'électricité produite correspondent au rapport entre les émissions totales de CO2 du secteur de la production électrique et la production d'électricité toutes sources confondues. ② La capacité de réglage sources-stockage est la somme des capacités de réglage des moyens de production et du stockage.
 La configuration spatiale est la suivante : en maintenant le principe « tout le pays comme un seul échiquier », coordonner l'énergie et l'économie, les volumes et la structure, l'échelle nationale et les régions, l'intérieur et l'international, promouvoir la formation de cinq grands pôles de croissance de l'offre d'énergies non fossiles, consolider et optimiser les bases de production d'énergies fossiles, renforcer la coordination entre le développement énergétique et l'implantation des industries consommatrices, optimiser de manière coordonnée l'implantation des corridors énergétiques structurants, et élargir continûment les canaux d'importation diversifiés.
 
 **Encadré 2 : Configuration spatiale du développement énergétique**
+
+| N° | Indicateur | Unité | 2025 | 2030 | Nature |
+|---:|---|---|---:|---:|---|
+| 1 | Capacité de production énergétique globale | 100 Mtec | 51,3 | 58 | Contraignant |
+| 2 | Puissance électrique totale installée | 100 GW | 38,9 | 54 | Indicatif |
+| 3 | Part des énergies non fossiles dans la consommation | % | 21,7 | 25 | Contraignant |
+| 4 | Part des énergies non fossiles dans la production d'électricité | % | 42,3 | 50 | Indicatif |
+| 5 | Baisse des émissions de carbone par unité d'électricité produite ① | % | | >10 | Contraignant |
+| 6 | Économies d'énergie des secteurs prioritaires | 100 Mtec | | >1,5 | Indicatif |
+| 7 | Part de l'électricité dans la consommation finale d'énergie | % | 30 | 35 | Indicatif |
+| 8 | Capacité de transfert d'électricité Ouest-Est (西电东送) | 100 GW | 3,4 | >4,2 | Indicatif |
+| 9 | Croissance de la capacité de réglage sources-stockage ② | % | | >40 | Indicatif |
+| 10 | Capacité de réponse à la demande électrique | % | >3 | >5 | Indicatif |
+| 11 | Croissance annuelle moyenne des dépôts de brevets internationaux PCT dans le domaine de l'énergie | % | | >5 | Indicatif |
+| 12 | Résultats de démonstration d'ingénierie des premières unités (premiers ensembles) d'équipements techniques majeurs du domaine de l'énergie | unité | | >100 | Indicatif |
+
+*Note : ① rapport entre les émissions totales de CO₂ du secteur de la production électrique et la production d'électricité toutes sources confondues. ② somme des capacités de réglage des moyens de production et du stockage.*
 
 Cinq grands pôles de croissance des énergies non fossiles
 
