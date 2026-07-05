@@ -10,7 +10,7 @@ Durant la période du 15e plan quinquennal, le développement énergétique de n
 
 Afin de guider le développement de haute qualité de l'énergie et d'accélérer la construction du nouveau système énergétique [^1], la présente planification est établie conformément aux « Grandes lignes du 15e plan quinquennal de développement économique et social de la République populaire de Chine ».
 
-[^1] le système....
+[^1]: le système....
  
 
 ### I. Exigences générales
