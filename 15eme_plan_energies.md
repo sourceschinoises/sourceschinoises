@@ -31,8 +31,8 @@ Les objectifs principaux sont les suivants :
 - en 2030, le nouveau système énergétique propre, bas-carbone, sûr et efficace sera initialement construit.
 
 - La capacité de production énergétique globale atteindra 5,8 milliards de tonnes équivalent charbon (tec) ;
-- le niveau de complémentarité, d'entraide et de résilience sécuritaire du système électrique sera globalement rehaussé ;
-- les importations d'énergie seront diversifiées et maîtrisées.
+    le niveau de complémentarité, d'entraide et de résilience sécuritaire du système électrique sera globalement rehaussé ;
+    les importations d'énergie seront diversifiées et maîtrisées.
 
 - La consommation de charbon et de pétrole aura atteint son pic ;
 - la part des énergies non fossiles dans la consommation atteindra 25 % ;
@@ -203,7 +203,8 @@ Renforcer le droit à la parole (话语权) et l'influence dans la gouvernance �
 VIII. Mesures de garantie
 Maintenir la direction centralisée et unifiée du Comité central du Parti ; sous la coordination et l'orientation de la Commission nationale de l'énergie, chacune des parties concernées assurera, en fonction des réalités, la bonne mise en œuvre de la présente planification. La Commission nationale du développement et de la réforme et l'Administration nationale de l'énergie renforceront l'organisation de la mise en œuvre de la planification, détermineront les objectifs annuels et assureront l'équilibrage global annuel. Les différents territoires et les départements concernés se coordonneront étroitement pour en promouvoir conjointement la réalisation effective. Renforcer la garantie des facteurs de mise en œuvre de la planification — foncier, pâturages, forêts, espaces maritimes —, bien conduire la planification des districts miniers énergétiques, les études de ressource en eau et les évaluations d'impact environnemental des projets, et appliquer les politiques budgétaires et fiscales, financières, d'investissement, de prix, scientifiques et technologiques et environnementales favorisant le développement vert et bas-carbone de l'énergie.
 
+
 ----------------
-----------------
+Notes : 
 
 
