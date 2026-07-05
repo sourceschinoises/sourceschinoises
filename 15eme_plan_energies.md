@@ -2,7 +2,7 @@ Note : 15ème plan pour un nouveau système énergétique
 
 <link rel="stylesheet" href="brief-style-V2.css">
 
-## 15e plan quinquennal : Planification de la construction du nouveau système énergétique  
+## 15e plan quinquennal : Planification de la construction du nouveau système énergétique   
 
 [https://www.gov.cn/zhengce/zhengceku/202606/P020260625807131374486.pdf](新型能源体系建设"十五五"规划)
 
