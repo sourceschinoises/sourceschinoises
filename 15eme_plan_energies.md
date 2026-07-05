@@ -16,26 +16,42 @@ Afin de guider le développement de haute qualité de l'énergie et d'accélére
 ### I. Demande générale
 
 Maintenir la pensée de Xi Jinping sur le socialisme à la chinoise de la nouvelle ère pour guide, appliquer en profondeur l'esprit du XXe Congrès du Parti et des sessions plénières successives du XXe Comité central, 
-- mettre en œuvre les dispositions du quatrième plénum,
+- mettre en œuvre les dispositions du quatrième plénum [^2],
 - maintenir le principe général de progression dans la stabilité, et appliquer le nouveau paradigme du développement,
 - prendre pour thème le développement de haute qualité de l'énergie et pour force d'entraînement le pic carbone et la neutralité carbone,
-- se concentrer sur l'objectif stratégique de construction d'une puissance énergétique, et mettre en place la nouvelle stratégie de sécurité énergétique des « quatre révolutions, une coopération » [^2],
-- mieux articuler développement et sécurité, en prenant la sécurité et l'abondance comme prérequis, la viabilité économique comme base, l'innovation scientifique et technologique comme fil conducteur et la réforme institutionnelle comme moteur,
+- se concentrer sur l'objectif stratégique de construction d'une puissance énergétique, et mettre en place la nouvelle stratégie de sécurité énergétique des « quatre révolutions, une coopération » [^3],
+- mieux articuler développement et sécurité, en posant comme préalable la sécurité et l'abondance de l'offre, la viabilité économique comme base, l'innovation scientifique et technologique comme fil conducteur et la réforme institutionnelle comme moteur,
 - accélérer la construction d'un nouveau système énergétique propre, bas-carbone, sûr et efficace, et garantir que le bol de riz énergétique soit fermement tenu entre nos propres mains.
 
-[^2]: « Quatre révolutions, une coopération » (四个革命、一个合作), constitutifs de la nouvelle stratégie de sécurité énergétique (能源安全新战略) énoncée par Xi Jinping le 13 juin 2014, lors de la sixième réunion du Groupe dirigeant central pour les finances et l'économie. C'est la matrice doctrinale de toute la politique énergétique chinoise depuis lors. il s'agit de 1) révolution de la consommation : contenir la consommation déraisonnable, sobriété, plafonnement de l'intensité énergétique ; 2) révolution de l'offre : diversification des sources (multi-énergies), sécurisation de l'approvisionnement domestique c'est là que s'ancre le « bol de riz énergétique » ; 3) la révolution technologique : innovation, montée en gamme industrielle, autonomie technologique et 4) la révolution institutionnelle : réforme des marchés et des prix, restructuration du secteur. Enfin la coopération  et le "renforcement tous azimuts de la coopération internationale en s'appuyant principalement sur les conditions domestiques » (立足国内), une clause qui subordonne "l'ouverture" à la sécurité, et qu'on retrouve en 2026 dans le paragraphe 13 de la section VII infra.
+[^2]: Le quatrième plénum du XXe Comité central s'est tenu à Pékin du 20 au 23 octobre 2025. Il a adopté les recommandations du PCC pour le 15e plan quinquennal.
 
-Les objectifs principaux sont les suivants : en 2030, le nouveau système énergétique propre, bas-carbone, sûr et efficace sera initialement construit. La capacité de production énergétique globale atteindra 5,8 milliards de tonnes équivalent charbon (tec) ; le niveau de complémentarité, d'entraide et de résilience sécuritaire du système électrique sera globalement rehaussé ; les importations d'énergie seront diversifiées et maîtrisées. La consommation de charbon et de pétrole aura atteint son pic ; la part des énergies non fossiles dans la consommation atteindra 25 % ; la part de l'éolien et du solaire dans la puissance installée dépassera 50 % et ces filières deviendront la composante principale du parc électrique ; la part des énergies non fossiles dans la production d'électricité atteindra 50 % et elles deviendront la composante principale des volumes produits. 
+[^3]: « Quatre révolutions, une coopération » (四个革命、一个合作), constitutifs de la nouvelle stratégie de sécurité énergétique (能源安全新战略) énoncée par Xi Jinping le 13 juin 2014, lors de la sixième réunion du Groupe dirigeant central pour les finances et l'économie. C'est la matrice doctrinale de toute la politique énergétique chinoise depuis lors. il s'agit de 1) révolution de la consommation : contenir la consommation déraisonnable, sobriété, plafonnement de l'intensité énergétique ; 2) révolution de l'offre : diversification des sources (multi-énergies), sécurisation de l'approvisionnement domestique c'est là que s'ancre le « bol de riz énergétique » ; 3) la révolution technologique : innovation, montée en gamme industrielle, autonomie technologique et 4) la révolution institutionnelle : réforme des marchés et des prix, restructuration du secteur. Enfin la coopération  et le "renforcement tous azimuts de la coopération internationale en s'appuyant principalement sur les conditions domestiques » (立足国内), une clause qui subordonne "l'ouverture" à la sécurité, et qu'on retrouve en 2026 dans le paragraphe 13 de la section VII infra.
 
-Un système d'infrastructures énergétiques de type nouveau, robuste et résilient, vert et bas-carbone, intégré et fusionné, intelligent et efficace, sera en construction accélérée, et le nouveau système électrique sera initialement constitué. Les technologies et équipements clés de la chaîne industrielle énergétique seront globalement autonomes et maîtrisés, et le pays entrera au premier rang des nations innovantes en matière de science et technologie énergétiques. Les mécanismes de marché et de prix adaptés au nouveau système énergétique seront perfectionnés à un rythme accéléré, et le système de marché électrique national unifié sera pour l'essentiel achevé.
+Les objectifs principaux sont les suivants : 
+- en 2030, le nouveau système énergétique propre, bas-carbone, sûr et efficace sera initialement construit.
+
+- La capacité de production énergétique globale atteindra 5,8 milliards de tonnes équivalent charbon (tec) ;
+- le niveau de complémentarité, d'entraide et de résilience sécuritaire du système électrique sera globalement rehaussé ;
+- les importations d'énergie seront diversifiées et maîtrisées.
+
+- La consommation de charbon et de pétrole aura atteint son pic ;
+- la part des énergies non fossiles dans la consommation atteindra 25 % ;
+- la part de l'éolien et du solaire dans la puissance installée dépassera 50 % et ces filières deviendront la composante principale du parc électrique ;
+- la part des énergies non fossiles dans la production d'électricité atteindra 50 % et elles deviendront la composante principale des volumes produits. 
+
+Un système d'infrastructures énergétiques de type nouveau, robuste et résilient, vert et bas-carbone, intégré et fusionné, intelligent et efficace, sera en construction accélérée, et le nouveau système électrique sera initialement constitué. 
+
+Les technologies et équipements clés de la chaîne industrielle énergétique seront globalement autonomes et maîtrisés, et le pays entrera au premier rang des nations innovantes en matière de science et technologie énergétiques. 
+
+Les mécanismes de marché et de prix adaptés au nouveau système énergétique seront perfectionnés à un rythme accéléré, et le système de marché électrique national unifié sera pour l'essentiel achevé.
 
 **Encadré 1 : Principaux indicateurs du développement énergétique du 15e plan quinquennal**
 
-N°	Indicateur	Unité	2025	2030	Nature
+N°	Indicateur                               	                         Unité	   2025	    2030	     Nature
 
-1	Capacité de production énergétique globale	100 Mtec	51,3	58	Contraignant
+1	Capacité de production énergétique globale                          100 Mtec	51,3	    58	      Contraignant
 
-2	Puissance électrique totale installée	100 GW	38,9	54	Indicatif
+2	Puissance électrique totale installée	                              100 GW	  38,9	    54	      Indicatif
 
 3	Part des énergies non fossiles dans la consommation	%	21,7	25	Contraignant
 
