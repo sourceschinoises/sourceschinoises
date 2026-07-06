@@ -115,7 +115,7 @@ Les quatre grands corridors stratégiques d'importation pétrolière et gazière
 
 ### II. Construire un système d'infrastructures énergétiques de type nouveau, avancé et adapté
 
-**(1)Étendre l'échelle de l'offre d'énergies non fossiles**
+**(1) Étendre l'échelle de l'offre d'énergies non fossiles**
 
 - Promouvoir le développement intégré et fusionné des énergies nouvelles. 
 
@@ -197,92 +197,378 @@ Accélérer le développement à grande échelle des centrales électriques virt
 
 **(3) Promouvoir la transformation et la montée en gamme de la production et de l'approvisionnement en énergies fossiles**
 
-Bâtir une chaîne d'approvisionnement et une chaîne industrielle charbonnières modernisées. Généraliser, selon les conditions locales, l'extraction verte du charbon, et mener par catégories et par niveaux la construction de mines de charbon intelligentes. Renforcer le lavage, le triage et la transformation du charbon, et perfectionner le système de normes de qualité du charbon marchand. Approfondir la co-extraction du charbon et du gaz de mine (grisou), promouvoir la valorisation matière et écologique des stériles, des eaux d'exhaure et autres ressources, et faire progresser de manière régulière la maîtrise des émissions de méthane du secteur charbonnier. Accélérer le développement intégré du charbon et des énergies nouvelles, en utilisant pleinement les zones d'affaissement minier et autres emprises pour développer l'éolien et le photovoltaïque. Renforcer le renouvellement et la modernisation des installations de production, de stockage et de transport du charbon. Renforcer l'utilisation propre et efficace du charbon, faire progresser la valorisation par fractionnement des charbons riches en huile, et encourager le développement de produits innovants tels que les combustibles spéciaux et les nouveaux matériaux à base de charbon.
-Promouvoir la transformation des champs pétrogaziers et du raffinage-pétrochimie. Déployer à grande échelle le développement intégré des champs pétrogaziers terrestres avec les énergies nouvelles, explorer le développement coordonné des champs offshore et de l'éolien en mer, promouvoir la construction de clusters industriels régionaux de CCUS, augmenter le taux d'électrification de la production des champs pétrogaziers, et créer des champs pétrogaziers bas-carbone et zéro carbone. En maintenant le principe de « substitution avec réduction », contrôler strictement l'échelle des capacités de raffinage et orienter l'optimisation et la recomposition des capacités de raffinage des grandes entreprises et des régions clés. Accélérer la rénovation d'efficacité énergétique et de décarbonation du raffinage, augmenter régulièrement la part d'électricité verte et d'hydrogène vert utilisée dans la pétrochimie, et faire progresser les expérimentations pilotes de couplage entre le nucléaire et la pétrochimie. Améliorer les rendements en produits chimiques, huiles spéciales et nouveaux matériaux haut de gamme.
+- Bâtir une chaîne d'approvisionnement et une chaîne industrielle charbonnières modernisées. 
 
-Encadré 3 : Ouvrages prioritaires des infrastructures énergétiques de type nouveau
+Généraliser, selon les conditions locales, l'extraction verte du charbon, et mener par catégories et par niveaux la construction de mines de charbon intelligentes. 
 
-Bases éoliennes et photovoltaïques
+Renforcer le lavage, le triage et la transformation du charbon, et perfectionner le système de normes de qualité du charbon marchand. 
 
-En prenant pour priorités les déserts de Kubuqi, d'Ulan Buh, du Tengger et du Badain Jaran, complétés par les autres zones de déserts, du Gobi et de terres arides, construire de grandes bases éoliennes et photovoltaïques à vocation principale d'évacuation. Faire progresser les ouvrages intégrés de lutte contre la désertification et d'éolien-photovoltaïque des « trois Nords ». Poursuivre la construction des bases d'énergies nouvelles du Xinjiang, du cours supérieur du fleuve Jaune, du corridor du Hexi, du coude en « 几 » du fleuve Jaune, du nord du Hebei et de Songliao. Développer les bases éoliennes en mer de Bohai, de la mer Jaune, de la mer de Chine orientale et de la mer de Chine méridionale.
+Approfondir la co-extraction du charbon et du gaz de mine (grisou), promouvoir la valorisation matière et écologique des stériles, des eaux d'exhaure et autres ressources, et faire progresser la maîtrise des émissions de méthane du secteur charbonnier. 
 
-Bases intégrées hydraulique-éolien-solaire
+Accélérer le développement intégré du charbon et des énergies nouvelles, en utilisant les zones d'affaissement minier et autres emprises pour développer l'éolien et le photovoltaïque. 
 
-Accélérer la construction des bases pionnières intégrées hydraulique-éolien-solaire des bassins du Yalong, du cours supérieur du Jinsha, du cours supérieur du Lancang (Mékong) et du sud-est du Tibet (Yucha) ; préparer et faire progresser les bases intégrées des autres bassins principaux — Dadu, cours supérieur du fleuve Jaune, cours moyen et inférieur du Jinsha, Yarlung Tsangpo ; explorer, dans les zones réunissant les conditions requises du Nord-Ouest et du Sud-Ouest, le développement de bases intégrées hydraulique-éolien-solaire de type nouveau utilisant les STEP comme moyen de réglage principal.
+Renforcer le renouvellement et la modernisation des installations de production, de stockage et de transport du charbon. 
 
-Hydrogène et combustibles verts
+Renforcer l'utilisation propre et efficace du charbon, faire progresser la valorisation par fractionnement des charbons riches en huile, et encourager le développement de produits innovants tels que les combustibles spéciaux et les nouveaux matériaux à base de charbon.
 
-Construire, selon les conditions locales, un ensemble de projets de bases de production d'hydrogène, d'ammoniac et de méthanol verts dans le Nord-Est (y compris la Mongolie-intérieure orientale), le coude en « 几 » du fleuve Jaune, le nord de la Chine du Nord et le piémont nord des Tianshan ; étudier et instruire la faisabilité de la production d'hydrogène sur les lieux de consommation à partir d'électricité évacuée des bases éoliennes et photovoltaïques. Soutenir la construction à Shanghai d'un centre international d'avitaillement et de négoce de combustibles verts pour le transport maritime. Lancer la construction de la canalisation de transport d'hydrogène Ulanqab (Mongolie-intérieure)–région Pékin-Tianjin-Hebei ; planifier la construction des réseaux interprovinciaux de transport d'hydrogène Ordos–Yulin et Bayannur–Ningdong ; étudier et instruire une canalisation dédiée interprovinciale de méthanol vert Hinggan–Songyuan–Dalian.
+- Promouvoir la transformation des champs pétrogaziers et du raffinage-pétrochimie. 
 
-Solaire thermodynamique
+Déployer à grande échelle le développement intégré des champs pétrogaziers terrestres avec les énergies nouvelles, explorer le développement coordonné des champs offshore et de l'éolien en mer, promouvoir la construction de clusters industriels régionaux de CCUS, augmenter le taux d'électrification de la production des champs pétrogaziers, et créer des champs pétrogaziers bas-carbone et zéro carbone. 
+
+En maintenant le principe de « substitution avec réduction » [^7] , contrôler strictement l'échelle des capacités de raffinage et orienter l'optimisation et la recomposition des capacités de raffinage des grandes entreprises et des régions clés. 
+
+[^7]: "减量置换" (« substitution avec réduction ») : instrument de régulation des capacités industrielles imposant que toute capacité nouvelle soit gagée sur la fermeture d'une capacité existante supérieure (ratio de remplacement strictement supérieur à 1:1). Rodé depuis le milieu des années 2010 dans la sidérurgie, le ciment et le charbon-électricité pour résorber les surcapacités, il est ici appliqué au raffinage, dont la capacité nationale est plafonnée autour du milliard de tonnes par an. À ne pas confondre avec le "等量或减量替代" (« substitution à volume égal ou réduit ») qui apparaît plus loin dans le texte : celui-ci porte sur la consommation de charbon des projets nouveaux en zones prioritaires de qualité de l'air, non sur les capacités de production.
+
+Accélérer la rénovation d'efficacité énergétique et de décarbonation du raffinage, augmenter régulièrement la part d'électricité verte et d'hydrogène vert utilisée dans la pétrochimie, et faire progresser les expérimentations pilotes de couplage entre le nucléaire et la pétrochimie. 
+
+Améliorer les rendements en produits chimiques, huiles spéciales et nouveaux matériaux haut de gamme.
+
+**Encadré 3 : Ouvrages prioritaires des infrastructures énergétiques de type nouveau**
+
+**1. Bases éoliennes et photovoltaïques**
+
+- En prenant pour priorités les déserts de Kubuqi, d'Ulan Buh, du Tengger et du Badain Jaran, complétés par les autres zones de déserts, du Gobi et de terres arides, construire de grandes bases éoliennes et photovoltaïques à vocation principale d'évacuation.
+
+- Faire progresser les ouvrages intégrés de lutte contre la désertification et d'éolien-photovoltaïque des « trois Nords ».
+
+- Poursuivre la construction des bases d'énergies nouvelles du Xinjiang, du cours supérieur du fleuve Jaune, du corridor du Hexi, du coude en « 几 » du fleuve Jaune, du nord du Hebei et de Songliao.
+
+- Développer les bases éoliennes en mer de Bohai, de la mer Jaune, de la mer de Chine orientale et de la mer de Chine méridionale.
+
+**2. Bases intégrées hydraulique-éolien-solaire**
+
+- Accélérer la construction des bases pionnières intégrées hydraulique-éolien-solaire des bassins du Yalong, du cours supérieur du Jinsha, du cours supérieur du Lancang (Mékong) et du sud-est du Tibet (Yucha) ;
+
+- Préparer et faire progresser les bases intégrées des autres bassins principaux — Dadu, cours supérieur du fleuve Jaune, cours moyen et inférieur du Jinsha, Yarlung Tsangpo ;
+
+- Explorer, dans les zones réunissant les conditions requises du Nord-Ouest et du Sud-Ouest, le développement de bases intégrées hydraulique-éolien-solaire de type nouveau utilisant les STEP comme moyen de réglage principal.
+
+**3. Hydrogène et combustibles verts**
+
+- Construire, selon les conditions locales, un ensemble de projets de bases de production d'hydrogène, d'ammoniac et de méthanol verts dans le Nord-Est (y compris la Mongolie-intérieure orientale), le coude en « 几 » du fleuve Jaune, le nord de la Chine du Nord et le piémont nord des Tianshan ;
+- étudier et instruire la faisabilité de la production d'hydrogène sur les lieux de consommation à partir d'électricité évacuée des bases éoliennes et photovoltaïques.
+
+Soutenir la construction à Shanghai d'un centre international d'avitaillement et de négoce de combustibles verts pour le transport maritime.
+
+Lancer la construction de la canalisation de transport d'hydrogène Ulanqab (Mongolie-intérieure)–région Pékin-Tianjin-Hebei ;
+- planifier la construction des réseaux interprovinciaux de transport d'hydrogène Ordos–Yulin et Bayannur–Ningdong ;
+- étudier et instruire une canalisation dédiée interprovinciale de méthanol vert Hinggan–Songyuan–Dalian.
+
+**4. Solaire thermodynamique**
 
 Dans les zones à fort gisement solaire — Mongolie-intérieure, Gansu, Xinjiang, Qinghai, Tibet —, construire un ensemble d'ouvrages de production solaire thermodynamique ; d'ici 2030, viser une puissance installée cumulée de 15 GW.
 
-Corridors de transport d'électricité
+**5. Corridors de transport d'électricité**
 
-Lancer la construction des corridors d'évacuation de la base du désert du Badain Jaran (Gansu), de la base du désert du Taklamakan (Xinjiang), de la base d'énergies propres de Songliao (Nord-Est), des bases désertiques de Mongolie-intérieure et de la base d'énergies propres du Qinghai ; en lien avec les bases intégrées hydraulique-éolien-solaire du cours supérieur du Lancang (Sud-Ouest) et les bases éoliennes et photovoltaïques « sables, Gobi, déserts » (沙戈荒), programmer une nouvelle série de corridors d'évacuation ultérieurs.
+Lancer la construction des corridors d'évacuation de la base du désert du Badain Jaran (Gansu), de la base du désert du Taklamakan (Xinjiang), de la base d'énergies propres de Songliao (Nord-Est), des bases désertiques de Mongolie-intérieure et de la base d'énergies propres du Qinghai ; 
+- en lien avec les bases intégrées hydraulique-éolien-solaire du cours supérieur du Lancang (Sud-Ouest) et les bases éoliennes et photovoltaïques « sables, Gobi, déserts », programmer une nouvelle série de corridors d'évacuation ultérieurs.
 
-Entraide et flexibilité inter-réseaux
+**6. Entraide et flexibilité inter-réseaux**
 
-Construire les ouvrages d'entraide entre réseaux régionaux Fujian-Jiangxi, Anhui-Hubei, Shandong-Jiangsu, Chongqing-Guizhou, Hunan-Guizhou et Hunan-Guangdong, ainsi que les ouvrages d'entraide interprovinciale internes aux réseaux régionaux Linhai (Heilongjiang)–Ping'an (Jilin), Hami (Xinjiang)–Dunhuang (Gansu), Tiandushan (Ningxia)–Baiyin (Gansu), Guangde (Anhui)–Pingyao (Zhejiang), renforcement de l'ultra-haute tension Sichuan-Chongqing et troisième liaison en courant alternatif Hainan–Guangdong ; planifier une nouvelle série d'ouvrages d'entraide électrique.
+Construire les ouvrages d'entraide entre réseaux régionaux Fujian-Jiangxi, Anhui-Hubei, Shandong-Jiangsu, Chongqing-Guizhou, Hunan-Guizhou et Hunan-Guangdong, ainsi que les ouvrages d'entraide interprovinciale internes aux réseaux régionaux Linhai (Heilongjiang)–Ping'an (Jilin), Hami (Xinjiang)–Dunhuang (Gansu), Tiandushan (Ningxia)–Baiyin (Gansu), Guangde (Anhui)–Pingyao (Zhejiang), renforcement de l'ultra-haute tension Sichuan-Chongqing et troisième liaison en courant alternatif Hainan–Guangdong ; 
+- planifier une nouvelle série d'ouvrages d'entraide électrique.
 
-Raccordement direct à l'électricité verte
+**7. Raccordement direct à l'électricité verte**
 
-Promouvoir la construction de projets de raccordement direct à l'électricité verte par les industries émergentes telles que les centres de calcul, les secteurs fortement consommateurs soumis à des exigences de part de consommation d'électricité verte, et les entreprises exportatrices ayant des besoins de traçabilité de l'électricité verte. Encourager les parcs industriels, les parcs zéro carbone et les réseaux de distribution incrémentaux à étendre les scénarios de raccordement direct multi-utilisateurs à l'électricité verte.
+Promouvoir la construction de projets de raccordement direct à l'électricité verte par les industries émergentes telles que les centres de calcul, les secteurs fortement consommateurs soumis à des exigences de part de consommation d'électricité verte, et les entreprises exportatrices ayant des besoins de traçabilité de l'électricité verte. 
+
+Encourager les parcs industriels, les parcs zéro carbone et les réseaux de distribution incrémentaux à étendre les scénarios de raccordement direct multi-utilisateurs à l'électricité verte.
 
 ### III. Construire un système de garantie de la sécurité énergétique robuste et résilient
 
 **(4) Consolider le plancher de sécurité stratégique énergétique en situations extrêmes**
 
-Intensifier l'accroissement des réserves et de la production d'hydrocarbures. Faire progresser vigoureusement l'exploration-production pétrolière et gazière, accroître l'intensité des investissements, et renforcer l'exploration-production des grands champs pétrogaziers traditionnels comme des ressources de type nouveau telles que les hydrocarbures de schiste. Autour des quatre grands domaines — grandes profondeurs terrestres, offshore profond, non conventionnel, champs matures —, favoriser la « stabilisation du pétrole et l'accroissement du gaz », et faire des domaines maritime et non conventionnel les principaux contributeurs au maintien de la production de brut. Maintenir la production annuelle de pétrole brut stabilisée au niveau de 200 millions de tonnes, avec une croissance régulière de la production de gaz naturel.
-Perfectionner le système de stockage pétrolier et gazier. Optimiser en continu l'implantation des stocks, mettre en place un mécanisme de gestion des stocks plus flexible, et perfectionner un système de réserves pétrolières combinant organiquement, et de manière mutuellement complémentaire, réserves d'État et réserves de responsabilité sociale des entreprises. En maintenant le principe « grands dépôts, grandes stations, implantation groupée », créer plusieurs ensembles de stockages souterrains de gaz, et faire progresser de manière ordonnée l'extension des terminaux méthaniers (GNL) côtiers existants.
-Perfectionner en continu le « réseau national unique » pétrolier et gazier. Renforcer la construction des canalisations de transport principales et des ouvrages d'interconnexion ; en 2030, la capacité de transport primaire du réseau de gaz naturel atteindra 500 milliards de m³/an. En s'appuyant sur le réseau national de transport, construire selon les conditions locales et une implantation optimisée les réseaux provinciaux, et étendre de manière ordonnée la couverture du réseau. Coordonner l'implantation des bases de raffinage-pétrochimie et des ports, le transport maritime extérieur et l'acheminement intérieur, et optimiser l'implantation et les flux des canalisations de brut et de produits raffinés. Renforcer l'interconnexion du réseau de canalisations de brut relié aux ports côtiers. Prendre en compte de manière coordonnée l'implantation des capacités de conversion charbon-hydrocarbures et de gaz de houille, avec construction associée de canalisations d'évacuation.
-Faire progresser vigoureusement la substitution de la consommation pétrolière. Renforcer le déploiement stratégique de multiples carburants de substitution. Renforcer les capacités et les réserves technologiques de conversion charbon-hydrocarbures (CTL/CTG), et faire progresser la construction des bases stratégiques d'Ordos (Mongolie-intérieure), de Yulin (Shaanxi), de Zhundong (Xinjiang) et de Hami (Xinjiang). Implanter, selon les conditions locales, des capacités de production de carburants verts : bioéthanol non alimentaire, biodiesel, biométhane, carburants d'aviation durables (CAD/SAF), ammoniac et méthanol verts. Faire progresser l'application à grande échelle des poids lourds et navires à énergies nouvelles.
-(5) Consolider les fondations de sécurité de la transition énergétique
-Renforcer l'offre de minerais critiques pour les énergies nouvelles. Mettre en œuvre en profondeur la nouvelle campagne d'action stratégique de percées en prospection minière, et renforcer l'exploration-exploitation des ressources minérales critiques de l'amont de la chaîne industrielle des énergies nouvelles. Constituer des réserves de ressources minérales stratégiques d'échelle appropriée, en définissant scientifiquement les catégories, l'ampleur et le séquencement de constitution des stocks. Faire progresser le recyclage des ressources en fin de vie : aérogénérateurs déclassés, modules photovoltaïques, batteries lithium.
-Renforcer le rôle de garantie de dernier recours du charbon. Poursuivre le renforcement de l'exploration des ressources charbonnières et de leur relève stratégique, programmer scientifiquement la construction des capacités de production, et construire en priorité les cinq grandes bases de garantie de l'approvisionnement charbonnier, dont la production représentera plus de 80 % du total national en 2030. Faire progresser de manière prudente et ordonnée l'exploitation sûre des ressources charbonnières profondes. Perfectionner l'implantation des stocks de produits charbonniers, renforcer la gestion opérationnelle des stocks, et promouvoir la complémentarité et l'articulation entre réserves d'État et réserves d'entreprises. Perfectionner la politique de réserves de capacités de production charbonnières et en étendre l'ampleur, pour constituer en 2030 une réserve de capacité de plus de 100 millions de tonnes/an. Perfectionner le système de collecte et d'évacuation du charbon, et promouvoir, dans les régions qui en réunissent les conditions, la construction de hubs d'allocation de ressources pour les grandes matières premières énergétiques telles que le charbon.
-(6) Améliorer la capacité de maîtrise des risques de sécurité énergétique
-Renforcer la surveillance, l'alerte précoce et la gestion d'urgence. Perfectionner le système de surveillance et d'alerte précoce des risques de sécurité énergétique. Renforcer la surveillance, l'analyse, la prévention et la réponse face aux catastrophes, et améliorer la capacité de prévention et de résistance du système énergétique aux catastrophes. Approfondir la maîtrise graduée des risques de sécurité électrique, et renforcer la gestion intégrée des indicateurs de sécurité, des risques, des vulnérabilités et des accidents des grands réseaux. Perfectionner le régime de gestion des urgences énergétiques, et accélérer la constitution de forces d'intervention d'urgence électrique aux quatre niveaux national, provincial, municipal et de district. Perfectionner les plans d'urgence par niveaux et par domaines.
-Renforcer la protection des infrastructures énergétiques. Renforcer la protection des cibles importantes du domaine de l'énergie. Renforcer la maîtrise des risques de sécurité de chacun des maillons sources-réseau-charge-stockage, et renforcer la gestion de la sécurité des corridors de transport d'électricité importants. Renforcer la protection des canalisations de pétrole et de gaz naturel. Renforcer la garantie d'exploitation sûre des corridors ferroviaires structurants de transport du charbon et des ports clés. Renforcer la protection de la sécurité des données des grandes infrastructures énergétiques et la protection des infrastructures d'information critiques, et promouvoir la construction d'un environnement national de simulation et de validation de la cybersécurité électrique. Renforcer la protection et la gestion de la sécurité des infrastructures énergétiques urbaines.
-Encadré 4 : Ouvrages prioritaires de garantie de la sécurité énergétique
-Stockages pétroliers et gaziers
-Construire les grands ouvrages de stockage pétrolier. Construire les stockages souterrains de gaz de Shengping (Daqing), Leilongwan (Yulin, Changqing), Wanshunchang (Sud-Ouest) et Baolang (Xinjiang), ainsi que les stockages en cavités salines des régions clés du Jiangsu, du Shandong, du Henan et du Hubei.
-Réseaux de canalisations pétrolières et gazières
+Intensifier l'accroissement des réserves et de la production d'hydrocarbures. 
+
+Faire progresser l'exploration-production pétrolière et gazière, accroître l'intensité des investissements, et renforcer l'exploration-production des grands champs pétrogaziers traditionnels comme des ressources de type nouveau telles que les hydrocarbures de schiste. 
+
+Autour des quatre grands domaines : grandes profondeurs terrestres, offshore profond, non conventionnel, champs matures ; favoriser la « stabilisation du pétrole et l'accroissement du gaz », et faire des domaines maritime et non conventionnel les principaux contributeurs au maintien de la production de brut. 
+
+Maintenir la production annuelle de pétrole brut stabilisée au niveau de **200** millions de tonnes, avec une croissance régulière de la production de gaz naturel.
+
+Perfectionner le système de stockage pétrolier et gazier. 
+
+Optimiser en continu l'implantation des stocks, mettre en place un mécanisme de gestion des stocks plus flexible, et perfectionner un système de réserves pétrolières combinant organiquement, et de manière mutuellement complémentaire, réserves d'État et réserves de responsabilité sociale des entreprises. 
+
+En maintenant le principe « grands dépôts, grandes stations, implantation groupée » [^8], créer plusieurs ensembles de stockages souterrains de gaz, et faire progresser de manière ordonnée l'extension des terminaux méthaniers (GNL) côtiers existants.
+
+[^8]: "大库大站、集约布局" (« grands dépôts, grandes stations, implantation groupée ») : principe directeur de la construction des capacités de stockage gazier, issu des Mesures de gestion des infrastructures pétrolières et gazières (décret NDRC n° 35, novembre 2025), où il figure sous forme étendue (« ...合作共建、租赁购买 », construction en coopération, location-achat). Il organise l'exécution mutualisée des obligations réglementaires de stockage — les « trois 5 % » imposés aux fournisseurs, à PipeChina et aux gaziers urbains — en privilégiant les grands sites partagés (groupes de stockages souterrains, terminaux GNL) contre la multiplication de petites installations dispersées d'exploitation coûteuse. 
+
+Perfectionner en continu le « réseau national unique » [^9] (pétrolier et gazier). 
+
+[^9]: "全国一张网" (« un seul réseau national ») : formule désignant l'unification des réseaux de canalisations pétrolières et gazières en une infrastructure nationale interconnectée, exploitée indépendamment de la production et de la vente. Elle condense la réforme dite « X + 1 + X » engagée en 2017 et concrétisée par la création de PipeChina en décembre 2019 : amont et aval concurrentiels, monopole régulé du transport au centre, avec accès équitable et ouvert des tiers aux capacités. Le 15e plan en poursuit l'achèvement par l'intégration marchande des réseaux provinciaux au réseau national, la séparation transport-commercialisation et l'objectif de 500 Gm³/an de capacité de transport primaire en 2030. La même image sert ailleurs pour l'électricité (全国统一电力市场, « marché électrique national unifié »), deux déclinaisons du principe « tout le pays comme un seul échiquier ».
+
+Renforcer la construction des canalisations de transport principales et des ouvrages d'interconnexion ; en **2030**, la capacité de transport primaire du réseau de gaz naturel atteindra **500 milliards de m³/an**. 
+
+En s'appuyant sur le réseau national de transport, construire selon les conditions locales et une implantation optimisée les réseaux provinciaux, et étendre de manière ordonnée la couverture du réseau. 
+
+Coordonner l'implantation des bases de raffinage-pétrochimie et des ports, le transport maritime extérieur et l'acheminement intérieur, et optimiser l'implantation et les flux des canalisations de brut et de produits raffinés. 
+
+Renforcer l'interconnexion du réseau de canalisations de brut relié aux ports côtiers. Prendre en compte l'implantation des capacités de conversion charbon-hydrocarbures et de gaz de houille, avec construction associée de canalisations d'évacuation.
+
+Faire progresser la substitution de la consommation pétrolière. 
+
+Renforcer le déploiement stratégique de multiples carburants de substitution. 
+
+Renforcer les capacités et les réserves technologiques de conversion charbon-hydrocarbures (CTL/CTG), et faire progresser la construction des bases stratégiques d'Ordos (Mongolie-intérieure), de Yulin (Shaanxi), de Zhundong (Xinjiang) et de Hami (Xinjiang). 
+
+Implanter, selon les conditions locales, des capacités de production de carburants verts : bioéthanol non alimentaire, biodiesel, biométhane, carburants d'aviation durables (CAD/SAF), ammoniac et méthanol verts. Faire progresser l'application à grande échelle des poids lourds et navires à énergies nouvelles.
+
+**(5) Consolider les fondations de sécurité de la transition énergétique**
+
+Renforcer l'offre de minerais critiques pour les énergies nouvelles. 
+
+Mettre en œuvre en profondeur la nouvelle campagne d'action stratégique de percées en prospection minière, et renforcer l'exploration-exploitation des ressources minérales critiques de l'amont de la chaîne industrielle des énergies nouvelles. 
+
+Constituer des réserves de ressources minérales stratégiques d'échelle appropriée, en définissant scientifiquement les catégories, l'ampleur et le séquencement de constitution des stocks. 
+
+Faire progresser le recyclage des ressources en fin de vie : aérogénérateurs déclassés, modules photovoltaïques, batteries lithium.
+
+Renforcer le rôle de garantie de dernier recours du charbon. 
+
+Poursuivre le renforcement de l'exploration des ressources charbonnières et de leur relève stratégique, programmer scientifiquement la construction des capacités de production, et construire en priorité les cinq grandes bases de garantie de l'approvisionnement charbonnier, dont la production représentera plus de 80 % du total national en 2030. 
+
+Faire progresser de manière prudente et ordonnée l'exploitation sûre des ressources charbonnières profondes. 
+
+Perfectionner l'implantation des stocks de produits charbonniers, renforcer la gestion opérationnelle des stocks, et promouvoir la complémentarité et l'articulation entre réserves d'État et réserves d'entreprises. 
+
+Perfectionner la politique de réserves de capacités de production charbonnières et en étendre l'ampleur, pour constituer en 2030 une réserve de capacité de plus de 100 millions de tonnes/an. 
+
+Perfectionner le système de collecte et d'évacuation du charbon, et promouvoir, dans les régions qui en réunissent les conditions, la construction de hubs d'allocation de ressources pour les grandes matières premières énergétiques telles que le charbon.
+
+**(6) Améliorer la capacité de maîtrise des risques de sécurité énergétique**
+
+Renforcer la surveillance, l'alerte précoce et la gestion d'urgence. 
+
+Perfectionner le système de surveillance et d'alerte précoce des risques de sécurité énergétique. 
+
+Renforcer la surveillance, l'analyse, la prévention et la réponse face aux catastrophes, et améliorer la capacité de prévention et de résistance du système énergétique aux catastrophes. 
+
+Approfondir la maîtrise graduée des risques de sécurité électrique, et renforcer la gestion intégrée des indicateurs de sécurité, des risques, des vulnérabilités et des accidents des grands réseaux. 
+
+Perfectionner le régime de gestion des urgences énergétiques, et accélérer la constitution de forces d'intervention d'urgence électrique aux quatre niveaux national, provincial, municipal et de district. Perfectionner les plans d'urgence par niveaux et par domaines.
+
+Renforcer la protection des infrastructures énergétiques. 
+
+Renforcer la protection des cibles importantes du domaine de l'énergie. 
+
+Renforcer la maîtrise des risques de sécurité de chacun des maillons sources-réseau-charge-stockage, et renforcer la gestion de la sécurité des corridors de transport d'électricité importants. 
+
+Renforcer la protection des canalisations de pétrole et de gaz naturel. Renforcer la garantie d'exploitation sûre des corridors ferroviaires structurants de transport du charbon et des ports clés. 
+
+Renforcer la protection de la sécurité des données des grandes infrastructures énergétiques et la protection des infrastructures d'information critiques, et promouvoir la construction d'un environnement national de simulation et de validation de la cybersécurité électrique. 
+
+Renforcer la protection et la gestion de la sécurité des infrastructures énergétiques urbaines.
+
+**Encadré 4 : Ouvrages prioritaires de garantie de la sécurité énergétique**
+
+**1. Stockages pétroliers et gaziers**
+
+Construire les grands ouvrages de stockage pétrolier. 
+
+Construire les stockages souterrains de gaz de Shengping (Daqing), Leilongwan (Yulin, Changqing), Wanshunchang (Sud-Ouest) et Baolang (Xinjiang), ainsi que les stockages en cavités salines des régions clés du Jiangsu, du Shandong, du Henan et du Hubei.
+
+**2. Réseaux de canalisations pétrolières et gazières**
+
 Accélérer la construction de la deuxième ligne du transport de gaz Sichuan-Est ; faire progresser la construction des gazoducs Hulin–Changchun–Shijiazhuang–Puyang, du doublement de la ligne Est sino-russe Heihe–Daqing–Changling et des gazoducs Jiangsu-Anhui-Henan ; engager les travaux préparatoires des gazoducs Tongliang–Zunyi–Qujing et autres.
-Bases de garantie de l'approvisionnement charbonnier
-Construire selon des standards élevés un ensemble de grandes mines modernisées, en priorité dans les districts miniers de Datong, Hebaopian, Liliu, Huodong, Xishan et Xiangning (Shanxi) ; de Xinjie Taigemiao, Taran Gaole, Nalinxili, Zhungeer-centre et Nalinhe (Mongolie-intérieure occidentale) ; de Huolinhe, Baorixile et Yimin (Mongolie-intérieure orientale) ; de Yushen, Yuheng, Shenfu et Fugu (Shaanxi septentrional) ; ainsi que dans les zones de Zhundong, Tuha et Yili (Xinjiang) ; et promouvoir le développement intégré des ressources des districts miniers d'un seul tenant.
-IV. Construire un système de consommation énergétique vert et bas-carbone
-(7) Intensifier les économies d'énergie et la réduction des émissions de carbone
-Renforcer les économies d'énergie et la substitution propre dans les secteurs prioritaires. Renforcer l'application des procédés et technologies de production sobres et efficaces dans l'industrie, optimiser les trajectoires de substitution énergétique propre, et réduire de manière régulière l'échelle des centrales captives au charbon. Renforcer la gestion de la performance énergétique des bâtiments, promouvoir le développement à grande échelle des bâtiments à très basse consommation et des bâtiments bas-carbone, favoriser l'intégration des énergies renouvelables au bâtiment, et promouvoir le développement du photovoltaïque intégré au bâti (BIPV). Développer activement le transport multimodal, construire des corridors de transport bas-carbone et zéro carbone, et renforcer le développement et l'utilisation des énergies propres dans les chemins de fer, les routes, les ports, les voies navigables et les plateformes multimodales. Renforcer l'efficacité énergétique des nouvelles industries à forte intensité énergétique telles que le calcul. Approfondir la rénovation d'efficacité énergétique et de décarbonation des institutions publiques. Accélérer la couverture de l'accroissement de la consommation d'électricité par l'accroissement de la production d'électricité propre. Élever le niveau d'électrification des usages finaux.
-Renforcer la gestion des économies d'énergie et de la décarbonation. Mettre en œuvre intégralement le régime de double contrôle des émissions de carbone, appliquer strictement l'examen-évaluation en matière d'économies d'énergie et de décarbonation, et renforcer la planification de l'implantation des grands projets consommateurs et la régulation des capacités. Accélérer la construction du marché carbone national, en appliquant en priorité le plafonnement du volume total des quotas aux secteurs dont les émissions totales sont relativement stables. Promouvoir de manière prudente et ordonnée le développement de projets de réduction volontaire des émissions dans le domaine de l'énergie. Établir et perfectionner le mécanisme de comptabilisation des émissions de carbone du secteur énergétique et la politique de gestion de l'empreinte carbone des produits énergétiques de base, et promouvoir la comptabilisation et la reconnaissance de la consommation d'électricité d'origine non fossile. Les régions prioritaires de prévention de la pollution atmosphérique poursuivront le contrôle du volume total de consommation de charbon, les projets consommateurs de charbon nouveaux, reconstruits ou étendus étant soumis à substitution à volume égal ou réduit.
-(8) Élever le niveau de consommation d'énergie verte
-Promouvoir la transition verte et bas-carbone des systèmes de chaleur. Développer activement la production de chaleur d'origine non fossile, intensifier la récupération et la valorisation de la chaleur fatale, et amplifier, selon les conditions locales, la diffusion des pompes à chaleur. Promouvoir la construction de réseaux de chaleur territoriaux à l'échelle des villes et des parcs industriels, renforcer l'intégration organique des sources de chaleur non fossiles aux réseaux de chaleur existants, accélérer la rénovation et la modernisation des réseaux de chaleur, et faire progresser activement les applications de « chauffage urbain intelligent ». Améliorer la capacité de modulation flexible de la charge thermique. Implanter et construire raisonnablement des installations de stockage de chaleur et de froid à différentes échelles. Promouvoir le développement actif de la production de chaleur distribuée verte et bas-carbone dans les zones isolées. Soutenir la rénovation des centrales de cogénération pour la flexibilité chaleur-électricité, et promouvoir l'optimisation conjointe de la conduite des systèmes de chaleur avec les systèmes électrique et gazier. Faire progresser en profondeur la substitution du charbon à usage diffus.
-Renforcer la garantie de service des usages énergétiques propres des ménages. Planifier de manière coordonnée les infrastructures énergétiques urbaines — électricité, chaleur, gaz —, et faire progresser le renouvellement et la rénovation des canalisations de gaz urbaines, des canalisations de chaleur et des quartiers résidentiels non desservis directement par le réseau public. Élever le niveau d'électrification des usages domestiques ; en 2030, la consommation électrique résidentielle annuelle par habitant atteindra 1 500 kWh. Perfectionner des infrastructures de recharge intelligentes et ouvertes, complémentaires entre charge rapide et charge lente ; en 2030, le parc atteindra 40 millions de points de charge, soit un doublement. Faire progresser le chauffage propre diversifié des régions du Nord. Renforcer la garantie d'approvisionnement en gaz des villes. Faire progresser en profondeur la révolution énergétique rurale, et innover dans les modes de développement et d'utilisation des énergies propres en milieu rural.
-Cultiver de nouveaux scénarios et de nouveaux modèles d'activité de consommation énergétique. Promouvoir le développement complémentaire et intégré multi-énergies, orienter la transformation des entreprises énergétiques traditionnelles en producteurs-fournisseurs de services énergétiques intégrés, et construire un ensemble de stations énergétiques intégrées — électricité, gaz, chaleur, hydrogène. Développer, selon les conditions locales, des industries consommatrices adaptées aux caractéristiques des énergies nouvelles, cultiver de nouveaux modèles de fusion production-consommation (prosommateurs), et favoriser l'intégration profonde sources-réseau-charge-stockage. Encourager l'utilisation diversifiée et multi-scénarios du photovoltaïque distribué, de l'éolien décentralisé, de la biomasse et de la géothermie. Promouvoir la construction d'usines et de parcs zéro carbone. Utiliser les mécanismes de marché pour agréger les ressources côté utilisateur — véhicules électriques, charges de climatisation —, et orienter le développement innovant des nouveaux acteurs que sont les centrales électriques virtuelles et les micro-réseaux intelligents.
-Encadré 5 : Tâches prioritaires de la transformation de la consommation énergétique
-Substitution par les énergies propres
-Accélérer la transformation des industries traditionnelles — sidérurgie, métaux non ferreux, pétrochimie, chimie, matériaux de construction —, et diffuser les chaudières électriques, le chauffage électrique et les fours à appoint électrique. Perfectionner les réseaux de stockage, transport et avitaillement de carburants verts des régions clés, des conglomérats urbains et des grands axes de transport, promouvoir la construction d'infrastructures de ravitaillement pour poids lourds le long des principaux corridors de fret, et accélérer la transition vers la propulsion verte de la navigation intérieure, notamment sur le Yangtsé. Optimiser et étendre les orientations d'utilisation du gaz naturel, et faire progresser l'utilisation du gaz naturel avec injection d'hydrogène.
-Infrastructures de recharge
-Construire un réseau d'infrastructures de recharge maillé en surface dans les villes, linéaire le long des routes et ponctuel dans les campagnes. Créer un réseau de recharge interurbain répondant efficacement aux besoins de déplacement de moyenne et longue distance des véhicules électriques. Augmenter la part des installations de charge rapide. Explorer, selon les conditions locales, les scénarios adaptés aux stations d'échange de batteries.
-Révolution énergétique rurale
-Mettre en œuvre en profondeur les actions « dompter le vent dans mille cantons et dix mille villages » et « baigner de soleil mille foyers et dix mille familles », construire selon les conditions locales des centrales photovoltaïques villageoises d'appui au développement, et développer de manière normée les modèles d'agrivoltaïsme et de couplage élevage-photovoltaïque. Orienter l'intégration profonde des énergies nouvelles avec la production agricole et les industries environnantes. Renforcer la construction et la rénovation du réseau électrique dans les zones rurales exposées aux catastrophes naturelles fréquentes, à capacité d'alimentation insuffisante ou non couvertes par le grand réseau. Explorer l'amélioration de la capacité d'auto-équilibrage énergétique à l'échelle des districts, et faire progresser les expérimentations pilotes de micro-réseaux énergétiques de bourgs et villages.
-V. Construire un système d'innovation scientifique et technologique énergétique autonome et fort
-(9) Renforcer l'innovation dans les technologies, les équipements et l'industrie énergétiques
-Promouvoir l'autonomie et la maîtrise technologiques sur l'ensemble de la chaîne industrielle. Renforcer les percées technologiques et la R&D d'équipements dans les domaines prioritaires, et renforcer la capacité de soutien des fondations de l'industrie énergétique. Déployer par anticipation les technologies énergétiques du futur, mener avec une avance mesurée des recherches sur les technologies d'avant-garde et de rupture, promouvoir la percée d'un ensemble de technologies emblématiques, faire progresser leur application d'ingénierie, et conquérir les points hauts du développement.
-Consolider et étendre les avantages compétitifs des filières d'énergies nouvelles. Renforcer l'innovation dans les technologies et équipements éoliens et photovoltaïques, renforcer le rôle directeur des normes et la protection de la propriété intellectuelle, et créer un haut lieu mondial de l'innovation dans l'industrie des énergies nouvelles. Optimiser de manière coordonnée l'implantation de la chaîne industrielle des énergies nouvelles, favoriser l'équilibre entre offre et demande de la chaîne, et former une configuration de concurrence saine. Promouvoir la montée en qualité et en gamme des industries manufacturières des nouveaux stockages et de l'hydrogène, consolider les avantages en matière de technologies clés et d'écosystèmes applicatifs, et réduire les duplications de faible niveau. Cultiver des clusters industriels d'équipements haut de gamme tels que le nucléaire. Mettre en œuvre en profondeur l'action « Intelligence artificielle + » énergie, coordonner l'allocation des ressources énergétiques et la construction des infrastructures de calcul, et promouvoir le développement intégré de la synergie calcul-électricité (算电协同).
-Accélérer le développement des filières de l'hydrogène et des combustibles verts. Coordonner le développement de la chaîne complète de l'hydrogène — production, stockage, transport, usages. Développer, selon les conditions locales, les modèles de production d'hydrogène par raccordement direct à l'électricité verte et de production d'hydrogène hors réseau à partir d'énergies renouvelables ; en 2030, la production d'hydrogène d'origine renouvelable atteindra 2 millions de tonnes. Renforcer la purification et la valorisation efficace de l'hydrogène coproduit industriel. Implanter raisonnablement les bases de production et les infrastructures d'hydrogène, d'ammoniac et de méthanol verts, renforcer l'orientation de l'implantation des réseaux de transport d'hydrogène, et explorer le transport à grande échelle de méthanol vert par les canalisations pétrolières et gazières existantes à taux de charge insuffisant. Promouvoir les applications de l'hydrogène, de l'ammoniac et du méthanol dans la production d'électricité, les transports, la chimie et la métallurgie, et le stockage massif d'énergie. Implanter de manière coordonnée des plateformes d'essais de démonstration de l'hydrogène, mener des percées technologiques et des expérimentations pilotes d'industrialisation des combustibles verts, et établir un système de certification de la durabilité des combustibles verts.
-Encadré 6 : Axes prioritaires du développement de l'innovation énergétique
-Percées dans les technologies et équipements
+
+**3. Bases de garantie de l'approvisionnement charbonnier**
+
+Construire selon des standards élevés un ensemble de grandes mines modernisées, en priorité dans les districts miniers de 
+- Datong, Hebaopian, Liliu, Huodong, Xishan et Xiangning (Shanxi) ;
+- de Xinjie Taigemiao, Taran Gaole, Nalinxili, Zhungeer-centre et Nalinhe (Mongolie-intérieure occidentale) ;
+- de Huolinhe, Baorixile et Yimin (Mongolie-intérieure orientale) ;
+- de Yushen, Yuheng, Shenfu et Fugu (Shaanxi septentrional) ; ainsi que dans les zones de
+- Zhundong, Tuha et Yili (Xinjiang) ;
+- promouvoir le développement intégré des ressources des districts miniers d'un seul tenant.
+
+### IV. Construire un système de consommation énergétique vert et bas-carbone
+
+**(7) Intensifier les économies d'énergie et la réduction des émissions de carbone**
+
+Renforcer les économies d'énergie et la substitution propre dans les secteurs prioritaires. 
+
+- Renforcer l'application des procédés et technologies de production sobres et efficaces dans l'industrie, optimiser les trajectoires de substitution énergétique propre, et réduire l'échelle des centrales captives au charbon.
+
+- Renforcer la gestion de la performance énergétique des bâtiments, promouvoir le développement à grande échelle des bâtiments à très basse consommation et des bâtiments bas-carbone, favoriser l'intégration des énergies renouvelables au bâtiment, et promouvoir le développement du photovoltaïque intégré au bâti (BIPV).
+
+- Développer activement le transport multimodal, construire des corridors de transport bas-carbone et zéro carbone, et renforcer le développement et l'utilisation des énergies propres dans les chemins de fer, les routes, les ports, les voies navigables et les plateformes multimodales.
+
+- Renforcer l'efficacité énergétique des nouvelles industries à forte intensité énergétique telles que le calcul.
+
+- Approfondir la rénovation d'efficacité énergétique et de décarbonation des institutions publiques.
+
+- Accélérer la couverture de l'accroissement de la consommation d'électricité par l'accroissement de la production d'électricité propre. Élever le niveau d'électrification des usages finaux.
+
+Renforcer la gestion des économies d'énergie et de la décarbonation. 
+
+- Mettre en œuvre intégralement le régime de double contrôle des émissions de carbone, appliquer strictement l'examen-évaluation en matière d'économies d'énergie et de décarbonation, et renforcer la planification de l'implantation des grands projets consommateurs et la régulation des capacités.
+
+- Accélérer la construction du marché carbone national, en appliquant en priorité le plafonnement du volume total des quotas aux secteurs dont les émissions totales sont relativement stables.
+
+- Promouvoir de manière prudente le développement de projets de réduction volontaire des émissions dans le domaine de l'énergie.
+
+- Établir et perfectionner le mécanisme de comptabilisation des émissions de carbone du secteur énergétique et la politique de gestion de l'empreinte carbone des produits énergétiques de base, et promouvoir la comptabilisation et la reconnaissance de la consommation d'électricité d'origine non fossile.
+
+- Les régions prioritaires de prévention de la pollution atmosphérique poursuivront le contrôle du volume total de consommation de charbon, les projets consommateurs de charbon nouveaux, reconstruits ou étendus étant soumis à substitution à volume égal ou réduit.
+  
+**(8) Élever le niveau de consommation d'énergie verte**
+
+Promouvoir la transition verte et bas-carbone des systèmes de chaleur. 
+
+- Développer activement la production de chaleur d'origine non fossile, intensifier la récupération et la valorisation de la chaleur fatale, et amplifier, selon les conditions locales, la diffusion des pompes à chaleur.
+
+- Promouvoir la construction de réseaux de chaleur territoriaux à l'échelle des villes et des parcs industriels, renforcer l'intégration organique des sources de chaleur non fossiles aux réseaux de chaleur existants, accélérer la rénovation et la modernisation des réseaux de chaleur, et faire progresser activement les applications de « chauffage urbain intelligent ».
+
+- Améliorer la capacité de modulation flexible de la charge thermique.
+
+- Implanter et construire raisonnablement des installations de stockage de chaleur et de froid à différentes échelles.
+
+- Promouvoir le développement actif de la production de chaleur distribuée verte et bas-carbone dans les zones isolées.
+
+- Soutenir la rénovation des centrales de cogénération pour la flexibilité chaleur-électricité, et promouvoir l'optimisation conjointe de la conduite des systèmes de chaleur avec les systèmes électrique et gazier.
+
+- Faire progresser en profondeur la substitution du charbon à usage diffus.
+
+Renforcer la garantie de service des usages énergétiques propres des ménages. 
+
+- Planifier de manière coordonnée les infrastructures énergétiques urbaines — électricité, chaleur, gaz —, et faire progresser le renouvellement et la rénovation des canalisations de gaz urbaines, des canalisations de chaleur et des quartiers résidentiels non desservis directement par le réseau public.
+
+- Élever le niveau d'électrification des usages domestiques ; en 2030, la consommation électrique résidentielle annuelle par habitant atteindra 1 500 kWh.
+
+- Perfectionner des infrastructures de recharge intelligentes et ouvertes, complémentaires entre charge rapide et charge lente ; en 2030, le parc atteindra 40 millions de points de charge, soit un doublement.
+
+- Faire progresser le chauffage propre diversifié des régions du Nord.
+  
+- Renforcer la garantie d'approvisionnement en gaz des villes.
+
+- Faire progresser en profondeur la révolution énergétique rurale, et innover dans les modes de développement et d'utilisation des énergies propres en milieu rural.
+
+Cultiver de nouveaux scénarios et de nouveaux modèles d'activité de consommation énergétique. 
+
+- Promouvoir le développement complémentaire et intégré multi-énergies, orienter la transformation des entreprises énergétiques traditionnelles en producteurs-fournisseurs de services énergétiques intégrés, et construire un ensemble de stations énergétiques intégrées — électricité, gaz, chaleur, hydrogène.
+
+- Développer, selon les conditions locales, des industries consommatrices adaptées aux caractéristiques des énergies nouvelles, cultiver de nouveaux modèles de fusion production-consommation (prosommateurs), et favoriser l'intégration profonde sources-réseau-charge-stockage.
+
+- Encourager l'utilisation diversifiée et multi-scénarios du photovoltaïque distribué, de l'éolien décentralisé, de la biomasse et de la géothermie.
+
+- Promouvoir la construction d'usines et de parcs zéro carbone.
+
+- Utiliser les mécanismes de marché pour agréger les ressources côté utilisateur — véhicules électriques, charges de climatisation —, et orienter le développement innovant des nouveaux acteurs que sont les centrales électriques virtuelles et les micro-réseaux intelligents.
+
+**Encadré 5 : Tâches prioritaires de la transformation de la consommation énergétique**
+
+**1. Substitution par les énergies propres**
+
+Accélérer la transformation des industries traditionnelles — sidérurgie, métaux non ferreux, pétrochimie, chimie, matériaux de construction —, et diffuser les chaudières électriques, le chauffage électrique et les fours à appoint électrique. 
+
+Perfectionner les réseaux de stockage, transport et avitaillement de carburants verts des régions clés, des conglomérats urbains et des grands axes de transport, promouvoir la construction d'infrastructures de ravitaillement pour poids lourds le long des principaux corridors de fret, et accélérer la transition vers la propulsion verte de la navigation intérieure, notamment sur le Yangtsé. 
+
+Optimiser et étendre les orientations d'utilisation du gaz naturel, et faire progresser l'utilisation du gaz naturel avec injection d'hydrogène.
+
+**2. Infrastructures de recharge**
+
+Construire un réseau d'infrastructures de recharge maillé en surface dans les villes, linéaire le long des routes et ponctuel dans les campagnes. 
+
+Créer un réseau de recharge interurbain répondant efficacement aux besoins de déplacement de moyenne et longue distance des véhicules électriques. 
+
+Augmenter la part des installations de charge rapide. Explorer, selon les conditions locales, les scénarios adaptés aux stations d'échange de batteries.
+
+**3. Révolution énergétique rurale**
+
+Mettre en œuvre en profondeur les actions « dompter le vent dans mille cantons et dix mille villages » et « baigner de soleil mille foyers et dix mille familles » [^10], construire selon les conditions locales des centrales photovoltaïques villageoises d'appui au développement, et développer de manière normée les modèles d'agrivoltaïsme et de couplage élevage-photovoltaïque. 
+
+Orienter l'intégration profonde des énergies nouvelles avec la production agricole et les industries environnantes. 
+
+Renforcer la construction et la rénovation du réseau électrique dans les zones rurales exposées aux catastrophes naturelles fréquentes, à capacité d'alimentation insuffisante ou non couvertes par le grand réseau. 
+
+Explorer l'amélioration de la capacité d'auto-équilibrage énergétique à l'échelle des districts, et faire progresser les expérimentations pilotes de micro-réseaux énergétiques de bourgs et villages.
+
+[^10]: "千乡万村驭风行动 / 千家万户沐光行动" (« dompter le vent dans mille cantons et dix mille villages » / « baigner de soleil mille foyers et dix mille familles ») : programmes jumeaux de développement de l'éolien décentralisé (2024, NDRC-NEA-ministère de l'Agriculture) et du photovoltaïque distribué (2021, NEA) en milieu rural. Principe commun : de petites installations sur foncier villageois — friches, toitures, abords d'exploitations —, dont les revenus (loyers fonciers, dividendes collectifs) abondent les économies villageoises, dans la continuité du photovoltaïque de lutte contre la pauvreté des années 2015-2020.
+
+### V. Construire un système d'innovation scientifique et technologique énergétique autonome et fort
+
+**(9) Renforcer l'innovation dans les technologies, les équipements et l'industrie énergétiques**
+
+Promouvoir l'autonomie et la maîtrise technologiques sur l'ensemble de la chaîne industrielle. 
+
+- Renforcer les percées technologiques et la R&D d'équipements dans les domaines prioritaires, et renforcer la capacité de soutien des fondations de l'industrie énergétique.
+- Déployer par anticipation les technologies énergétiques du futur, mener avec une avance mesurée des recherches sur les technologies d'avant-garde et de rupture, promouvoir la percée d'un ensemble de technologies emblématiques, faire progresser leur application d'ingénierie, et conquérir les points hauts du développement.
+
+Consolider et étendre les avantages compétitifs des filières d'énergies nouvelles. 
+
+- Renforcer l'innovation dans les technologies et équipements éoliens et photovoltaïques, renforcer le rôle directeur des normes et la protection de la propriété intellectuelle, et créer un haut lieu mondial de l'innovation dans l'industrie des énergies nouvelles.
+
+- Optimiser de manière coordonnée l'implantation de la chaîne industrielle des énergies nouvelles, favoriser l'équilibre entre offre et demande de la chaîne, et former une configuration de concurrence saine.
+
+- Promouvoir la montée en qualité et en gamme des industries manufacturières des nouveaux stockages et de l'hydrogène, consolider les avantages en matière de technologies clés et d'écosystèmes applicatifs, et réduire les duplications de faible niveau.
+
+- Cultiver des clusters industriels d'équipements haut de gamme tels que le nucléaire.
+
+- Mettre en œuvre en profondeur l'action Intelligence artificielle + énergie" ([^11], coordonner l'allocation des ressources énergétiques et la construction des infrastructures de calcul, et promouvoir le développement intégré de la synergie calcul-électricité (算电协同).
+
+[^11]: « 人工智能+ » 能源 (« Intelligence artificielle + » énergie) : déclinaison sectorielle de l'action nationale « IA + » lancée par les directives du Conseil des affaires de l'État d'août 2025, qui organise la diffusion de l'intelligence artificielle par grands domaines d'application. Le volet énergétique est porté par le Plan d'action pour le renforcement mutuel entre intelligence artificielle et énergie (NDRC, NEA, MIIT, Administration nationale des données) d'avril 2026, (object de notre Note du 2 juillet dernier).
+
+[^12]: "算电协同" (« synergie calcul-électricité ») : coordination planifiée entre infrastructures de calcul et système électrique— implantation des centres de calcul près des bases d'énergies nouvelles pour absorber la production locale, et pilotage des charges de calcul (déplaçables dans le temps et l'espace) comme ressource de flexibilité du réseau. Le concept, monté en puissance depuis 2023-2024 avec le programme « données de l'Est, calcul de l'Ouest », est résumé par une autre formulation officielles : « renforcer le calcul par l'électricité, stimuler l'électricité par le calcul ».
+
+Accélérer le développement des filières de l'hydrogène et des combustibles verts. 
+
+- Coordonner le développement de la chaîne complète de l'hydrogène — production, stockage, transport, usages.
+
+- Développer, selon les conditions locales, les modèles de production d'hydrogène par raccordement direct à l'électricité verte et de production d'hydrogène hors réseau à partir d'énergies renouvelables ; en 2030, la production d'hydrogène d'origine renouvelable atteindra 2 millions de tonnes.
+
+- Renforcer la purification et la valorisation efficace de l'hydrogène coproduit industriel.
+
+- Implanter raisonnablement les bases de production et les infrastructures d'hydrogène, d'ammoniac et de méthanol verts, renforcer l'orientation de l'implantation des réseaux de transport d'hydrogène, et explorer le transport à grande échelle de méthanol vert par les canalisations pétrolières et gazières existantes à taux de charge insuffisant.
+
+- Promouvoir les applications de l'hydrogène, de l'ammoniac et du méthanol dans la production d'électricité, les transports, la chimie et la métallurgie, et le stockage massif d'énergie.
+
+- Implanter de manière coordonnée des plateformes d'essais de démonstration de l'hydrogène, mener des percées technologiques et des expérimentations pilotes d'industrialisation des combustibles verts, et établir un système de certification de la durabilité des combustibles verts.
+
+**Encadré 6 : Axes prioritaires du développement de l'innovation énergétique**
+
+**1. Percées dans les technologies et équipements**
+
 Accélérer les percées technologiques et la R&D d'équipements sur les petits réacteurs modulaires et les réacteurs de quatrième génération, les groupes turbines Pelton de très haute chute et de grande capacité, l'éolien en mer au large et par grands fonds, le photovoltaïque avancé, le solaire thermodynamique, la nouvelle génération de centrales au charbon, les turbines à gaz lourdes (heavy-duty), le transport en courant continu flexible (VSC-HVDC), les micro-réseaux intelligents, les hydrocarbures non conventionnels, l'extraction charbonnière intelligente sans personnel, la valorisation par fractionnement des charbons riches en huile, et l'hydrogène et les combustibles verts.
-Technologies énergétiques du futur
+
+**2. Technologies énergétiques du futur** 
+
 Renforcer la recherche théorique et l'innovation technologique sur la fusion nucléaire contrôlée, les centrales électriques spatiales, le transport d'électricité par supraconducteurs à haute température, la transmission d'énergie sans fil, et les énergies des régions polaires et des grands fonds marins.
-« Intelligence artificielle + » énergie
-Renforcer l'implantation coordonnée des grandes bases d'énergies nouvelles et des hubs nationaux de puissance de calcul, créer des clusters industriels « énergie + numérique », et promouvoir le renforcement du calcul par l'électricité et la stimulation de l'électricité par le calcul (以电强算、以算促电). Renforcer le renforcement mutuel entre puissance de calcul et électricité, et garantir les besoins en électricité de haute qualité des industries des mégadonnées et de l'intelligence artificielle. Faire progresser la construction de mines de charbon intelligentes sur l'ensemble du système, créer un ensemble de centrales électriques intelligentes et de champs pétrogaziers numériques, et promouvoir le développement numérique et intelligent des réseaux électriques et des réseaux de canalisations pétrolières et gazières.
-(10) Perfectionner les mécanismes de coordination de l'innovation scientifique et technologique énergétique
-Consolider les capacités fondamentales de l'innovation scientifique et technologique énergétique. Perfectionner les mécanismes d'investissement dans l'innovation énergétique, et inciter les entreprises à accroître leurs dépenses de R&D énergétique. Renforcer la coordination des ressources d'innovation et l'organisation des forces, et renforcer l'implantation coordonnée des laboratoires nationaux, des organismes nationaux de recherche, des universités de recherche de haut niveau et des entreprises technologiques de premier plan dans le domaine de l'énergie. Mettre en œuvre avec une haute qualité les grands programmes scientifiques et technologiques nationaux dans les domaines énergétiques — réseau intelligent, charbon, hydrocarbures. Renforcer la construction des laboratoires clés nationaux, des centres nationaux d'innovation technologique et des plateformes de R&D et d'innovation du domaine de l'énergie. Faire progresser le développement intégré de l'éducation, de la science et technologie et des talents dans le domaine de l'énergie.
-Promouvoir l'intégration profonde de l'innovation scientifique et technologique et de l'innovation industrielle. Faire progresser la R&D et l'application des technologies prioritaires par catégories — technologies de pointe structurantes, technologies génériques clés, validation d'ingénierie —, promouvoir, en priorité dans les domaines des énergies nouvelles, des nouveaux stockages, du nucléaire avancé, du réseau intelligent et de l'interaction véhicule-réseau, l'établissement d'un ensemble de plateformes de validation pilote, et renforcer les applications de démonstration des grands résultats de recherche. Perfectionner les politiques d'application des premières unités (premiers ensembles), premiers lots et premières versions, encourager l'application à grande échelle des produits d'innovation autonome, et orienter l'émulation compétitive de l'industrie.
-VI. Construire un système de gouvernance énergétique modernisé, coordonné et efficace
-(11) Approfondir la réforme de la marchéisation de l'énergie
+
+**3. « Intelligence artificielle + » énergie**
+
+- Renforcer l'implantation coordonnée des grandes bases d'énergies nouvelles et des hubs nationaux de puissance de calcul [^12], créer des clusters industriels « énergie + numérique », et promouvoir le renforcement du calcul par l'électricité et la stimulation de l'électricité par le calcul.
+
+[^12]: "国家算力枢纽" (« hubs nationaux de puissance de calcul ») : les huit nœuds nationaux du programme « données de l'Est, calcul de l'Ouest » (东数西算, lancé en février 2022) — Pékin-Tianjin-Hebei, delta du Yangtsé, Grande Baie, Chengdu-Chongqing, Mongolie-intérieure, Guizhou, Gansu, Ningxia —, assortis de dix clusters de centres de données. Le programme organise le transfert des charges de calcul non sensibles à la latence vers les régions occidentales riches en énergie ; c'est l'armature spatiale sur laquelle se greffe désormais la synergie calcul-électricité
+
+- Renforcer le renforcement mutuel entre puissance de calcul et électricité, et garantir les besoins en électricité de haute qualité des industries des mégadonnées et de l'intelligence artificielle.
+
+- Faire progresser la construction de mines de charbon intelligentes sur l'ensemble du système, créer un ensemble de centrales électriques intelligentes et de champs pétrogaziers numériques, et promouvoir le développement numérique et intelligent des réseaux électriques et des réseaux de canalisations pétrolières et gazières.
+
+**(10) Perfectionner les mécanismes de coordination de l'innovation scientifique et technologique énergétique**
+
+Consolider les capacités fondamentales de l'innovation scientifique et technologique énergétique. 
+
+- Perfectionner les mécanismes d'investissement dans l'innovation énergétique, et inciter les entreprises à accroître leurs dépenses de R&D énergétique.
+
+- Renforcer la coordination des ressources d'innovation et l'organisation des forces, et renforcer l'implantation coordonnée des laboratoires nationaux, des organismes nationaux de recherche, des universités de recherche de haut niveau et des entreprises technologiques de premier plan dans le domaine de l'énergie.
+
+- Mettre en œuvre avec une haute qualité les grands programmes scientifiques et technologiques nationaux dans les domaines énergétiques — réseau intelligent, charbon, hydrocarbures.
+
+- Renforcer la construction des laboratoires clés nationaux, des centres nationaux d'innovation technologique et des plateformes de R&D et d'innovation du domaine de l'énergie.
+
+- Faire progresser le développement intégré de l'éducation, de la science et technologie et des talents dans le domaine de l'énergie.
+
+Promouvoir l'intégration profonde de l'innovation scientifique et technologique et de l'innovation industrielle. 
+
+- Faire progresser la R&D et l'application des technologies prioritaires par catégories — technologies de pointe structurantes, technologies génériques clés, validation d'ingénierie —, promouvoir, en priorité dans les domaines des énergies nouvelles, des nouveaux stockages, du nucléaire avancé, du réseau intelligent et de l'interaction véhicule-réseau, l'établissement d'un ensemble de plateformes de validation pilote, et renforcer les applications de démonstration des grands résultats de recherche.
+
+- Perfectionner les politiques d'application des premières unités (premiers ensembles), premiers lots et premières versions, encourager l'application à grande échelle des produits d'innovation autonome, et orienter l'émulation compétitive de l'industrie.
+
+### VI. Construire un système de gouvernance énergétique modernisé, coordonné et efficace
+
+**(11) Approfondir la réforme de la marchéisation de l'énergie** 
+
 Construire un système de marché énergétique national unifié. Construire un système de marché électrique national unifié articulant organiquement marchés spot, marchés à moyen et long terme, marchés de services système et marchés de capacité ; promouvoir l'articulation des transactions électriques interprovinciales-interrégionales et intraprovinciales, et étendre raisonnablement l'ampleur des livraisons interprovinciales conclues aux conditions de marché. Approfondir la réforme du régime de l'exploration-exploitation pétrolière et gazière, et renforcer la gestion des cessions de droits miniers. Poursuivre l'intégration, selon des modalités de marché, des réseaux provinciaux de canalisations au réseau national, et réduire les échelons de transport et de distribution du gaz. Généraliser le régime des contrats pluriannuels de gaz naturel. Unifier les règles fondamentales du marché du charbon, et perfectionner le régime des contrats à moyen et long terme de sécurisation de l'approvisionnement en charbon thermique. Optimiser les mécanismes de formation et de transmission des prix de l'énergie, approfondir la réforme de marchéisation des prix des maillons concurrentiels, et renforcer la régulation des prix des maillons en monopole naturel.
 Optimiser les mécanismes d'investissement et d'exploitation des infrastructures énergétiques. Perfectionner le mécanisme pérenne de participation des entreprises privées à la construction des grands projets énergétiques, et encourager la participation d'acteurs pluriels à l'investissement et à la construction des bases d'énergies propres, des réseaux de transport et de distribution d'énergie et des installations de stockage pétrolier et gazier. Perfectionner le mécanisme de conduite du système électrique (dispatch) fondé sur les résultats des transactions de marché. Établir et perfectionner un mécanisme de développement coordonné entre le réseau électrique public et les nouveaux modèles et nouvelles formes d'activité. Optimiser le mécanisme de conduite des réseaux de canalisations pétrolières et gazières, et encourager les fournisseurs amont de gaz à pratiquer l'achat-vente direct avec les entreprises gazières urbaines et les grands consommateurs. Explorer un mécanisme de conduite coordonnée des systèmes électrique et gazier.
 (12) Perfectionner le régime de gouvernance de l'énergie
