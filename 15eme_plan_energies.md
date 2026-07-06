@@ -720,7 +720,7 @@ Les différents territoires et les départements concernés se coordonneront pou
 Renforcer la garantie des facteurs de mise en œuvre de la planification ; foncier, pâturages, forêts, espaces maritimes, bien conduire la planification des districts miniers énergétiques, les études de ressource en eau et les évaluations d'impact environnemental des projets, et appliquer les politiques budgétaires et fiscales, financières, d'investissement, de prix, scientifiques et technologiques et environnementales favorisant le développement vert et bas-carbone de l'énergie.
 
 
-----------------
+--------------------------
 Notes : 
 
 
