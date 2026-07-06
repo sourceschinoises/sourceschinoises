@@ -1,4 +1,4 @@
-Note : 15ème plan pour un nouveau système énergétique
+<p align="center">Annexe : traduction in extenso du 15ème plan pour un nouveau système énergétique</p>
 
 <link rel="stylesheet" href="brief-style-V2.css">
 
@@ -10,7 +10,7 @@ Durant la période du 15e plan quinquennal, le développement énergétique de n
 
 Afin de guider le développement de haute qualité de l'énergie et d'accélérer la construction du nouveau système énergétique [^1], la présente planification est établie conformément aux « Grandes lignes du 15e plan quinquennal de développement économique et social de la République populaire de Chine » (2021-2035).
 
-[^1]: le "nouveau système énergétique" (新型能源体系) est formule cadre issue du XXe Congrès (2022) désignant un système énergétique propre, bas-carbone, sûr et efficace, à dominante non fossile ; elle englobe le "nouveau système électrique (新型电力系统) (2021) et structure depuis la loi sur l'énergie de 2024 ainsi que la planification quinquennale.
+[^1]: "新型能源体系", le "nouveau système énergétique" est la formule cadre issue du XXe Congrès (2022) désignant un système énergétique propre, bas-carbone, sûr et efficace, à dominante non fossile ; elle englobe le "nouveau système électrique (新型电力系统) (2021) et structure depuis la loi sur l'énergie de 2024 ainsi que la planification quinquennale.
  
 
 ### I. Demande générale
@@ -75,13 +75,13 @@ La configuration spatiale est la suivante : en maintenant le principe « tout le
 
 Comme suit : 
 
-**Cinq grands pôles de croissance des énergies non fossiles**
+**1. Cinq grands pôles de croissance des énergies non fossiles**
 
 En maintenant le développement simultané de l'éolien, du solaire, de l'hydraulique, du nucléaire et des autres filières, mettre en œuvre l'action de doublement décennal des énergies non fossiles ; les bases éoliennes et photovoltaïques des « trois Nords » [^4], les bases intégrées hydraulique-éolien-solaire du Sud-Ouest, les bases nucléaires littorales, les bases éoliennes en mer et les énergies nouvelles distribuées deviennent les principaux hauts lieux de production d'énergies non fossiles.
 
 [^4]: "三北" (sānběi, « trois Nords ») : désigne le Nord-Est (东北), la Chine du Nord (华北) et le Nord-Ouest (西北). L'expression, popularisée dès 1978 par le programme de reboisement des « trois Nords » (三北防护林), désigne aujourd'hui dans le vocabulaire énergétique l'arc steppique et désertique où se concentrent les grandes bases éoliennes et photovoltaïques — dont les bases « sables, Gobi, déserts » (沙戈荒) —, à vocation principale d'évacuation vers les centres de charge de l'Est et du Sud.
 
-**Bases de production d'énergies fossiles**
+**2. Bases de production d'énergies fossiles**
 
 Optimiser la configuration de l'exploitation charbonnière, construire en priorité les cinq grandes bases du Shanxi, de la Mongolie-intérieure occidentale, de la Mongolie-intérieure orientale, du Shaanxi septentrional et du Xinjiang, tout en tenant compte de la construction de capacités de relais dans les régions de l'Est et du Centre. 
 
@@ -89,7 +89,7 @@ Renforcer la construction de bases de garantie stratégique pétrolière et gazi
 
 Promouvoir le développement du gaz de houille (CBM) de la partie orientale du bassin de l'Ordos.
 
-**Implantation coordonnée du développement énergétique et des industries consommatrices**
+**3. Implantation coordonnée du développement énergétique et des industries consommatrices**
 
 Les régions riches en ressources énergétiques renforceront le développement énergétique et l'extension des chaînes industrielles, coordonneront l'utilisation de l'électricité de l'Ouest dans l'Ouest et le transfert d'électricité de l'Ouest vers l'Est, renforceront la coordination entre transferts industriels et énergies propres, promouvront le développement intégré de l'électricité avec les industries manufacturières avancées, la puissance de calcul, l'hydrogène et d'autres filières, et favoriseront la transformation et l'utilisation locales et de proximité des ressources énergétiques. 
 
@@ -97,7 +97,7 @@ Les régions fortement consommatrices s'appuieront sur le développement et l'ut
 
 Renforcer le soutien énergétique de l'arrière-pays stratégique national et la garantie des facteurs énergétiques des grandes provinces économiques.
 
-**Corridors énergétiques structurants**
+**4. Corridors énergétiques structurants**
 
 Créer des corridors de circulation structurants pour les grands produits énergétiques. 
 
@@ -109,7 +109,7 @@ L'implantation des infrastructures du « réseau national unique » pétrolier e
 
 [^5]: "一轴两翼多联" (« un axe, deux ailes, multiples liaisons ») : schéma directeur des corridors d'évacuation du charbon du Xinjiang. L'axe est le corridor central de la ligne Lanzhou–Ürümqi (Lanxin), l'aile nord la ligne Linhe–Hami (Linha), l'aile sud la ligne Golmud–Korla (Geku) ; les « multiples liaisons » désignent les lignes de raccordement, antennes minières et jonctions (Jiangnao, Hongnao, liaison Linha–Hongnao ouverte en 2025...) qui interconnectent les trois corridors entre eux et aux réseaux miniers.
 
-**Canaux d'importation d'énergie**
+**5. Canaux d'importation d'énergie**
 
 Les quatre grands corridors stratégiques d'importation pétrolière et gazière — Nord-Est, Nord-Ouest, Sud-Ouest et maritime — seront consolidés et étendus, et la configuration des canaux d'importation de charbon consolidée et perfectionnée.
 
@@ -117,111 +117,115 @@ Les quatre grands corridors stratégiques d'importation pétrolière et gazière
 
 **(1) Étendre l'échelle de l'offre d'énergies non fossiles**
 
-- Promouvoir le développement intégré et fusionné des énergies nouvelles. 
+Promouvoir le développement intégré et fusionné des énergies nouvelles. 
 
-Mener de front le centralisé et le distribué, les usages électriques et non électriques ; renforcer le développement complémentaire multi-filières des énergies nouvelles, l'utilisation spatiale intensive et combinée, et l'exploitation agrégée intégrée; faire progresser le développement massif et régulier de l'éolien terrestre et du photovoltaïque, l'évolution de l'éolien en mer vers le large et les grands fonds, et le développement à grande échelle du solaire thermodynamique et des énergies marines. 
+- Mener de front le centralisé et le distribué, les usages électriques et non électriques ;
+    - renforcer le développement complémentaire multi-filières des énergies nouvelles, l'utilisation spatiale intensive et combinée, et l'exploitation agrégée intégrée;
+    - faire progresser le développement massif et régulier de l'éolien terrestre et du photovoltaïque, l'évolution de l'éolien en mer vers le large et les grands fonds, et le développement à grande échelle du solaire thermodynamique et des énergies marines.
 
 - Faire avancer la construction de projets intégrés « éolien-solaire + biomasse ». 
 
-Améliorer les performances de raccordement au réseau des énergies nouvelles et construire un ensemble de centrales d'énergies nouvelles « compatibles système » (system-friendly). Promouvoir activement le développement de la géothermie, de l'hydrogène et des combustibles verts, et réaliser le doublement de l'échelle des usages non électriques des énergies nouvelles. 
+- Améliorer les performances de raccordement au réseau des énergies nouvelles et construire un ensemble de centrales d'énergies nouvelles « compatibles système » (system-friendly).
+  
+- Promouvoir activement le développement de la géothermie, de l'hydrogène et des combustibles verts, et réaliser le doublement de l'échelle des usages non électriques des énergies nouvelles.
 
-Établir et perfectionner un système d'indicateurs d'évaluation globale de l'absorption des énergies nouvelles ; en 2030, la part des énergies nouvelles dans la production d'électricité atteindra **30 %**.
+- Établir et perfectionner un système d'indicateurs d'évaluation globale de l'absorption des énergies nouvelles ; en 2030, la part des énergies nouvelles dans la production d'électricité atteindra **30 %**.
 
-- Faire progresser le développement hydroélectrique en donnant la priorité à l'intégration hydraulique-éolien-solaire. 
+Faire progresser le développement hydroélectrique en donnant la priorité à l'intégration hydraulique-éolien-solaire. 
 
-Construire avec une haute qualité l'aménagement hydroélectrique du cours inférieur du Yarlung Tsangpo, faire progresser de manière ordonnée les grands ouvrages de Cihaxia, Longpan et Gangtuo, et étudier et instruire la planification hydroélectrique du bassin du Nu (Salouen). 
+- Construire avec une haute qualité l'aménagement hydroélectrique du cours inférieur du Yarlung Tsangpo, faire progresser de manière ordonnée les grands ouvrages de Cihaxia, Longpan et Gangtuo, et étudier et instruire la planification hydroélectrique du bassin du Nu (Salouen). 
 
 - Accélérer la planification et la construction des bases intégrées hydraulique-éolien-solaire des principaux bassins. 
 
-Faire progresser l'ajustement des planifications hydroélectriques des principaux bassins, et promouvoir l'extension des centrales hydroélectriques et l'augmentation de puissance des groupes existants (uprating). 
+- Faire progresser l'ajustement des planifications hydroélectriques des principaux bassins, et promouvoir l'extension des centrales hydroélectriques et l'augmentation de puissance des groupes existants (uprating).
+  
+- Organiser la mise en œuvre du programme de développement de haute qualité de l'hydroélectricité du bassin du Yangtsé. Mettre en œuvre la rénovation et l'amélioration vertes de la petite hydraulique. 
 
-Organiser la mise en œuvre du programme de développement de haute qualité de l'hydroélectricité du bassin du Yangtsé. Mettre en œuvre la rénovation et l'amélioration vertes de la petite hydraulique. 
+- **En 2030**, la puissance hydroélectrique conventionnelle installée atteindra environ **410 GW**.
 
-**En 2030**, la puissance hydroélectrique conventionnelle installée atteindra environ **410 GW**.
+Développer le nucléaire de manière active, sûre et ordonnée. 
 
-- Développer le nucléaire de manière active, sûre et ordonnée. 
+- En s'appuyant principalement sur les technologies de réacteurs à eau pressurisée de troisième génération, maintenir un rythme régulier de construction nucléaire.
 
-En s'appuyant principalement sur les technologies de réacteurs à eau pressurisée de troisième génération, maintenir un rythme régulier de construction nucléaire. 
+- Faire progresser de manière active et prudente la R&D sur les filières de réacteurs avancés et la construction d'ouvrages de démonstration.
+  
+- Promouvoir, selon les conditions locales, les utilisations intégrées de l'énergie nucléaire. 
 
-Faire progresser de manière active et prudente la R&D sur les filières de réacteurs avancés et la construction d'ouvrages de démonstration. 
-
-Promouvoir, selon les conditions locales, les utilisations intégrées de l'énergie nucléaire. 
-
-En **2030**, la puissance nucléaire en exploitation atteindra environ **110 GW**.
+- En **2030**, la puissance nucléaire en exploitation atteindra environ **110 GW**.
 
 **(2) Construire un nouveau système électrique adapté à une forte proportion d'énergies nouvelles**
 
-- Accélérer la construction du réseau électrique de type nouveau. 
+Accélérer la construction du réseau électrique de type nouveau. 
 
-Promouvoir la construction des corridors de transport d'évacuation des bases d'énergies propres, optimiser la structure du parc de production côté émission, et améliorer la capacité de transit des corridors, leur taux d'utilisation et la part d'électricité propre transportée. 
+- Promouvoir la construction des corridors de transport d'évacuation des bases d'énergies propres, optimiser la structure du parc de production côté émission, et améliorer la capacité de transit des corridors, leur taux d'utilisation et la part d'électricité propre transportée.
 
-Renforcer l'entraide entre réseaux interrégionaux Centre-Sud, Centre-Est, Nord-Est de la Chine et Centre-Nord-Ouest, en augmentant la capacité de complémentarité et d'entraide d'environ **40 GW**. 
+- Renforcer l'entraide entre réseaux interrégionaux Centre-Sud, Centre-Est, Nord-Est de la Chine et Centre-Nord-Ouest, en augmentant la capacité de complémentarité et d'entraide d'environ **40 GW**. 
 
-- Consolider et perfectionner l'architecture du réseau national structurant fondée sur des réseaux synchrones régionaux interconnectés entre eux de manière asynchrone. 
+- Consolider et perfectionner l'architecture du réseau national structurant fondée sur des réseaux synchrones régionaux interconnectés entre eux de manière asynchrone.
 
-Promouvoir la transformation des réseaux de distribution en plateformes d'allocation efficace des ressources sources-réseau-charge-stockage [^6] ; en 2030, viser une capacité d'accueil de 900 GW d'énergies nouvelles distribuées. 
+- Promouvoir la transformation des réseaux de distribution en plateformes d'allocation efficace des ressources sources-réseau-charge-stockage [^6] ; en 2030, viser une capacité d'accueil de 900 GW d'énergies nouvelles distribuées. 
 
 [^6]: "源网荷储" (yuán-wǎng-hè-chǔ, « sources-réseau-charge-stockage ») : quadrinôme désignant l'intégration des quatre maillons du système électrique — production (源), transport-distribution (网), consommation (荷) et stockage (储). La formule, popularisée à partir de 2020-2021 avec l'essor du 一体化 (« intégration source-réseau-charge-stockage », objet de directives NDRC/NEA dès mars 2021), renverse le paradigme historique « la production suit la charge » : dans un système à forte part d'énergies renouvelables variables, la charge et le stockage deviennent des ressources pilotables au même titre que la production. C'est le socle conceptuel des centrales virtuelles, de l'interaction véhicule-réseau et de la transformation des réseaux de distribution en « plateformes d'allocation efficace des ressources "源网荷储" que prescrit le plan.
 
-Accélérer la construction du réseau intelligent (smart grid), construire un système de conduite intelligent et améliorer le niveau d'absorption des énergies nouvelles. 
+- Accélérer la construction du réseau intelligent (smart grid), construire un système de conduite intelligent et améliorer le niveau d'absorption des énergies nouvelles.
 
-Développer, selon les conditions locales, les micro-réseaux intelligents et le raccordement direct à l'électricité verte.
+- Développer, selon les conditions locales, les micro-réseaux intelligents et le raccordement direct à l'électricité verte.
 
-- Faire évoluer le parc thermique vers un rôle de source de soutien et de réglage. 
+Faire évoluer le parc thermique vers un rôle de source de soutien et de réglage. 
 
-Optimiser l'implantation du parc thermique, et maîtriser raisonnablement la puissance installée et les volumes produits des centrales au charbon. 
+- Optimiser l'implantation du parc thermique, et maîtriser raisonnablement la puissance installée et les volumes produits des centrales au charbon.
 
-Mettre en œuvre la rénovation et la montée en gamme de la nouvelle génération de centrales au charbon, améliorer leurs capacités de réglage à haute efficacité — modulation profonde, rampes rapides —, et encourager le recours à la co-combustion de combustibles bas-carbone ou zéro carbone et au captage, utilisation et stockage du carbone (CCUS) pour une décarbonation propre. 
+- Mettre en œuvre la rénovation et la montée en gamme de la nouvelle génération de centrales au charbon, améliorer leurs capacités de réglage à haute efficacité — modulation profonde, rampes rapides —, et encourager le recours à la co-combustion de combustibles bas-carbone ou zéro carbone et au captage, utilisation et stockage du carbone (CCUS) pour une décarbonation propre.
 
-Poursuivre les travaux de fermeture et de prolongation de durée de vie des groupes charbon. 
+- Poursuivre les travaux de fermeture et de prolongation de durée de vie des groupes charbon. 
 
 - Planifier et construire raisonnablement des centrales au gaz naturel, et intensifier la démonstration et la diffusion des turbines à gaz de fabrication nationale.
 
-- Optimiser la construction et l'appel du stockage. 
+Optimiser la construction et l'appel du stockage. 
 
-Développer et construire de manière rationnelle, active et ordonnée des stations de transfert d'énergie par pompage (STEP). 
+- Développer et construire de manière rationnelle, active et ordonnée des stations de transfert d'énergie par pompage (STEP).
 
-Développer vigoureusement les nouveaux stockages d'énergie, intensifier le développement du stockage de longue durée, encourager la pluralité des voies technologiques de stockage, et étendre les applications des nouveaux stockages dans l'exploitation coordonnée avec les moyens de production, le soutien à la stabilité du réseau, ainsi que les micro-réseaux et centrales électriques virtuelles. 
+- Développer vigoureusement les nouveaux stockages d'énergie, intensifier le développement du stockage de longue durée, encourager la pluralité des voies technologiques de stockage, et étendre les applications des nouveaux stockages dans l'exploitation coordonnée avec les moyens de production, le soutien à la stabilité du réseau, ainsi que les micro-réseaux et centrales électriques virtuelles.
 
-Promouvoir l'innovation dans les modes de pilotage des nouveaux stockages et élever raisonnablement leur taux d'utilisation. 
+- Promouvoir l'innovation dans les modes de pilotage des nouveaux stockages et élever raisonnablement leur taux d'utilisation.
 
-En **2030**, la puissance installée en STEP atteindra environ **160 GW**, et celle des nouveaux stockages **300 GW**.
+- En **2030**, la puissance installée en STEP atteindra environ **160 GW**, et celle des nouveaux stockages **300 GW**.
 
-- Construire un écosystème de charge électrique flexible et élastique. 
+Construire un écosystème de charge électrique flexible et élastique. 
 
-Exploiter pleinement le potentiel de réglage côté utilisateur et, en s'appuyant sur le nouveau système de gestion des charges électriques, augmenter la proportion de réponse à la demande. 
+- Exploiter pleinement le potentiel de réglage côté utilisateur et, en s'appuyant sur le nouveau système de gestion des charges électriques, augmenter la proportion de réponse à la demande.
 
-Utiliser pleinement les ressources de stockage des véhicules électriques, mener des explorations d'interaction intégrée véhicule-borne-station-réseau, généraliser la recharge intelligente et pilotée, et étendre le périmètre d'application à grande échelle de l'interaction véhicule-réseau (V2G) ; en **2030**, la capacité de recharge modulable agrégée par l'interaction véhicule-réseau atteindra environ **50 GW**. 
+- Utiliser pleinement les ressources de stockage des véhicules électriques, mener des explorations d'interaction intégrée véhicule-borne-station-réseau, généraliser la recharge intelligente et pilotée, et étendre le périmètre d'application à grande échelle de l'interaction véhicule-réseau (V2G) ; en **2030**, la capacité de recharge modulable agrégée par l'interaction véhicule-réseau atteindra environ **50 GW**. 
 
-Accélérer le développement à grande échelle des centrales électriques virtuelles ; en **2030**, leur capacité de réglage dépassera **50 GW**.
+- Accélérer le développement à grande échelle des centrales électriques virtuelles ; en **2030**, leur capacité de réglage dépassera **50 GW**.
 
 **(3) Promouvoir la transformation et la montée en gamme de la production et de l'approvisionnement en énergies fossiles**
 
-- Bâtir une chaîne d'approvisionnement et une chaîne industrielle charbonnières modernisées. 
+Bâtir une chaîne d'approvisionnement et une chaîne industrielle charbonnières modernisées. 
 
-Généraliser, selon les conditions locales, l'extraction verte du charbon, et mener par catégories et par niveaux la construction de mines de charbon intelligentes. 
+- Généraliser, selon les conditions locales, l'extraction verte du charbon, et mener par catégories et par niveaux la construction de mines de charbon intelligentes.
 
-Renforcer le lavage, le triage et la transformation du charbon, et perfectionner le système de normes de qualité du charbon marchand. 
+- Renforcer le lavage, le triage et la transformation du charbon, et perfectionner le système de normes de qualité du charbon marchand.
 
-Approfondir la co-extraction du charbon et du gaz de mine (grisou), promouvoir la valorisation matière et écologique des stériles, des eaux d'exhaure et autres ressources, et faire progresser la maîtrise des émissions de méthane du secteur charbonnier. 
+- Approfondir la co-extraction du charbon et du gaz de mine (grisou), promouvoir la valorisation matière et écologique des stériles, des eaux d'exhaure et autres ressources, et faire progresser la maîtrise des émissions de méthane du secteur charbonnier.
 
-Accélérer le développement intégré du charbon et des énergies nouvelles, en utilisant les zones d'affaissement minier et autres emprises pour développer l'éolien et le photovoltaïque. 
+- Accélérer le développement intégré du charbon et des énergies nouvelles, en utilisant les zones d'affaissement minier et autres emprises pour développer l'éolien et le photovoltaïque. 
 
-Renforcer le renouvellement et la modernisation des installations de production, de stockage et de transport du charbon. 
+- Renforcer le renouvellement et la modernisation des installations de production, de stockage et de transport du charbon. 
 
-Renforcer l'utilisation propre et efficace du charbon, faire progresser la valorisation par fractionnement des charbons riches en huile, et encourager le développement de produits innovants tels que les combustibles spéciaux et les nouveaux matériaux à base de charbon.
+- Renforcer l'utilisation propre et efficace du charbon, faire progresser la valorisation par fractionnement des charbons riches en huile, et encourager le développement de produits innovants tels que les combustibles spéciaux et les nouveaux matériaux à base de charbon.
 
-- Promouvoir la transformation des champs pétrogaziers et du raffinage-pétrochimie. 
+Promouvoir la transformation des champs pétrogaziers et du raffinage-pétrochimie. 
 
-Déployer à grande échelle le développement intégré des champs pétrogaziers terrestres avec les énergies nouvelles, explorer le développement coordonné des champs offshore et de l'éolien en mer, promouvoir la construction de clusters industriels régionaux de CCUS, augmenter le taux d'électrification de la production des champs pétrogaziers, et créer des champs pétrogaziers bas-carbone et zéro carbone. 
+- Déployer à grande échelle le développement intégré des champs pétrogaziers terrestres avec les énergies nouvelles, explorer le développement coordonné des champs offshore et de l'éolien en mer, promouvoir la construction de clusters industriels régionaux de CCUS, augmenter le taux d'électrification de la production des champs pétrogaziers, et créer des champs pétrogaziers bas-carbone et zéro carbone.
 
-En maintenant le principe de « substitution avec réduction » [^7] , contrôler strictement l'échelle des capacités de raffinage et orienter l'optimisation et la recomposition des capacités de raffinage des grandes entreprises et des régions clés. 
+- En maintenant le principe de « substitution avec réduction » [^7] , contrôler strictement l'échelle des capacités de raffinage et orienter l'optimisation et la recomposition des capacités de raffinage des grandes entreprises et des régions clés. 
 
 [^7]: "减量置换" (« substitution avec réduction ») : instrument de régulation des capacités industrielles imposant que toute capacité nouvelle soit gagée sur la fermeture d'une capacité existante supérieure (ratio de remplacement strictement supérieur à 1:1). Rodé depuis le milieu des années 2010 dans la sidérurgie, le ciment et le charbon-électricité pour résorber les surcapacités, il est ici appliqué au raffinage, dont la capacité nationale est plafonnée autour du milliard de tonnes par an. À ne pas confondre avec le "等量或减量替代" (« substitution à volume égal ou réduit ») qui apparaît plus loin dans le texte : celui-ci porte sur la consommation de charbon des projets nouveaux en zones prioritaires de qualité de l'air, non sur les capacités de production.
 
-Accélérer la rénovation d'efficacité énergétique et de décarbonation du raffinage, augmenter régulièrement la part d'électricité verte et d'hydrogène vert utilisée dans la pétrochimie, et faire progresser les expérimentations pilotes de couplage entre le nucléaire et la pétrochimie. 
+- Accélérer la rénovation d'efficacité énergétique et de décarbonation du raffinage, augmenter régulièrement la part d'électricité verte et d'hydrogène vert utilisée dans la pétrochimie, et faire progresser les expérimentations pilotes de couplage entre le nucléaire et la pétrochimie.
 
-Améliorer les rendements en produits chimiques, huiles spéciales et nouveaux matériaux haut de gamme.
+- Améliorer les rendements en produits chimiques, huiles spéciales et nouveaux matériaux haut de gamme.
 
 **Encadré 3 : Ouvrages prioritaires des infrastructures énergétiques de type nouveau**
 
