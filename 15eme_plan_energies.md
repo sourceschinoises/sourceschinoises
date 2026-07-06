@@ -569,30 +569,151 @@ Promouvoir l'intégration profonde de l'innovation scientifique et technologique
 
 **(11) Approfondir la réforme de la marchéisation de l'énergie** 
 
-Construire un système de marché énergétique national unifié. Construire un système de marché électrique national unifié articulant organiquement marchés spot, marchés à moyen et long terme, marchés de services système et marchés de capacité ; promouvoir l'articulation des transactions électriques interprovinciales-interrégionales et intraprovinciales, et étendre raisonnablement l'ampleur des livraisons interprovinciales conclues aux conditions de marché. Approfondir la réforme du régime de l'exploration-exploitation pétrolière et gazière, et renforcer la gestion des cessions de droits miniers. Poursuivre l'intégration, selon des modalités de marché, des réseaux provinciaux de canalisations au réseau national, et réduire les échelons de transport et de distribution du gaz. Généraliser le régime des contrats pluriannuels de gaz naturel. Unifier les règles fondamentales du marché du charbon, et perfectionner le régime des contrats à moyen et long terme de sécurisation de l'approvisionnement en charbon thermique. Optimiser les mécanismes de formation et de transmission des prix de l'énergie, approfondir la réforme de marchéisation des prix des maillons concurrentiels, et renforcer la régulation des prix des maillons en monopole naturel.
-Optimiser les mécanismes d'investissement et d'exploitation des infrastructures énergétiques. Perfectionner le mécanisme pérenne de participation des entreprises privées à la construction des grands projets énergétiques, et encourager la participation d'acteurs pluriels à l'investissement et à la construction des bases d'énergies propres, des réseaux de transport et de distribution d'énergie et des installations de stockage pétrolier et gazier. Perfectionner le mécanisme de conduite du système électrique (dispatch) fondé sur les résultats des transactions de marché. Établir et perfectionner un mécanisme de développement coordonné entre le réseau électrique public et les nouveaux modèles et nouvelles formes d'activité. Optimiser le mécanisme de conduite des réseaux de canalisations pétrolières et gazières, et encourager les fournisseurs amont de gaz à pratiquer l'achat-vente direct avec les entreprises gazières urbaines et les grands consommateurs. Explorer un mécanisme de conduite coordonnée des systèmes électrique et gazier.
-(12) Perfectionner le régime de gouvernance de l'énergie
-Renforcer les fondations de la gouvernance énergétique. Promouvoir la publication des règlements et politiques d'application de la loi sur l'énergie, faire progresser l'élaboration et la révision de la loi sur l'électricité, de la loi sur les énergies renouvelables, de la loi sur les économies d'énergie ainsi que du règlement sur la gestion de la conduite du système électrique et du règlement sur la gestion du gaz naturel, et perfectionner la réglementation de sécurité du nouveau système électrique. Établir et perfectionner un mécanisme de promotion de la consommation d'énergie verte, perfectionner le régime des pondérations de responsabilité d'absorption de l'électricité renouvelable, et mettre en œuvre un régime d'objectifs de part minimale de consommation d'énergies renouvelables. Établir un système de statistiques et d'évaluation des usages non électriques des énergies renouvelables. Perfectionner le système de normes énergétiques, promouvoir le développement coordonné des normes pilotées par l'État et des normes d'initiative de marché, et approfondir la coopération internationale en matière de normalisation.
-Perfectionner un système de supervision énergétique scientifique et efficace. Perfectionner le régime et les mécanismes de supervision des maillons en monopole naturel de l'énergie, perfectionner les mécanismes de raccordement et d'utilisation des infrastructures, renforcer la supervision de l'accès équitable et ouvert aux réseaux électriques et aux réseaux de canalisations pétrolières et gazières, et promouvoir la séparation transport-commercialisation des réseaux provinciaux. Généraliser la supervision des processus, la supervision numérique, la supervision « pénétrante » (穿透式) et la supervision coordonnée interservices. Établir un système d'évaluation du marché électrique et un régime de crédit. Poursuivre la correction des interventions inappropriées des gouvernements locaux dans le marché électrique. Élever en continu le niveau national du service « accès à l'électricité », bâtir intégralement un environnement des affaires modernisé pour l'utilisation de l'électricité, et mener une action spéciale d'amélioration de la qualité de la fourniture d'électricité. Renforcer la gestion de la sécurité de la construction et de l'exploitation électriques.
-Encadré 7 : Tâches prioritaires de la réforme de marchéisation et de la construction institutionnelle de l'énergie
-Marché électrique national unifié
-Déterminer raisonnablement la proportion de contractualisation à moyen et long terme, approfondir le fonctionnement en continu du marché à moyen et long terme, augmenter la fréquence et la flexibilité des transactions à moyen et long terme, et perfectionner le mécanisme de gestion planifiée des volumes de production prioritaire et d'achat prioritaire. Promouvoir le passage en exploitation officielle des marchés spot provinciaux et du marché électrique régional du Sud, approfondir l'entraide électrique du delta du Yangtsé, explorer la construction du marché électrique Pékin-Tianjin-Hebei, et explorer, dans le cadre des transactions interprovinciales, des mécanismes de transactions d'entraide électrique régionale dans le Nord-Est, le Nord-Ouest et le Centre. Faire entrer de manière régulière sur le marché les centrales au gaz, l'hydraulique et le nucléaire. Accélérer l'établissement d'un marché de services système de réserve, et explorer selon les conditions locales de nouveaux produits de services système tels que la rampe. Établir et perfectionner un mécanisme de rémunération de la capacité fiable, et encourager les régions qui en réunissent les conditions à explorer la construction de marchés de capacité.
-Mécanismes de prix
-Perfectionner le mécanisme de tarification du transport des ouvrages dédiés interprovinciaux-interrégionaux, et optimiser le mécanisme de tarif de capacité côté production et le mécanisme de règlement des prix pour le développement durable des énergies nouvelles. Perfectionner le mécanisme de fixation des prix des produits raffinés, et approfondir la réforme de marchéisation des prix du gaz naturel. Perfectionner la politique de régulation par fourchette des prix du charbon, et perfectionner le mécanisme de prix des transactions à moyen et long terme de charbon thermique. Optimiser les régimes de tarification progressive par tranches de l'électricité et du gaz résidentiels, promouvoir la transmission des signaux de prix horosaisonniers de marché jusqu'aux utilisateurs finaux, et utiliser les instruments de marché pour orienter toute la société vers la sobriété énergétique. Faire progresser la rénovation du comptage de la chaleur, et instaurer de manière ordonnée la facturation de la chaleur au comptage.
-Investissement dans les infrastructures énergétiques
-Encourager la participation d'acteurs pluriels au développement et à la construction des bases d'énergies propres. Encourager les capitaux privés remplissant les conditions à participer à l'investissement et à la construction des ouvrages de transport d'électricité interprovinciaux-interrégionaux et du maillon de la distribution. Soutenir la prise de participation de toutes catégories de capitaux sociaux, selon les principes du marché, dans les projets d'infrastructures pétrolières et gazières, et encourager les capitaux sociaux remplissant les conditions à participer à l'investissement et à la construction des dépôts de stockage pétroliers et gaziers et des terminaux méthaniers (GNL).
-Régime des certificats verts et de l'électricité verte
-Accélérer la formation et le développement du marché des certificats verts et de l'électricité verte, et établir un régime de consommation de certificats verts combinant consommation obligatoire et consommation volontaire. Perfectionner les régimes de comptabilisation, de certification et de labellisation de la consommation d'électricité verte, et établir un système de normes pour les certificats verts et la consommation d'électricité verte. Améliorer la reconnaissance internationale des certificats verts, et répondre activement aux barrières commerciales vertes internationales.
-Système de normes énergétiques
-Perfectionner en continu les normes des domaines traditionnels — hydrocarbures, charbon —, accélérer l'élaboration des normes des domaines émergents — nouveau système électrique, nucléaire avancé, nouveaux stockages, hydrogène et combustibles verts —, et élaborer les normes de qualité des carburants de la prochaine étape. Étudier et programmer un ensemble de normes prioritaires « Intelligence artificielle + » énergie. Renforcer l'élaboration et la révision des normes de comptabilisation des émissions de carbone du secteur énergétique et de comptabilisation de l'empreinte carbone des produits énergétiques de base.
-VII. Construire un système de coopération énergétique internationale multidimensionnel et diversifié
-(13) Renforcer la sécurité énergétique en conditions d'ouverture
-Renforcer la capacité de diversification des importations d'énergie et de garantie de sécurité, maintenir la diversification des importations énergétiques, et renforcer la coopération avec les principales zones de production pétrolière et gazière à l'étranger. En s'adaptant à l'évolution de l'offre et de la demande intérieures de charbon, faire pleinement jouer au charbon importé son rôle de complément et de régulation du marché intérieur. Participer de manière active et prudente à l'exploration-exploitation et à l'investissement-exploitation énergétiques mondiaux.
-(14) Participer à la conduite de la transformation de la gouvernance énergétique mondiale
-Étendre activement les espaces de coopération verte et d'investissement à l'étranger. Faire progresser de manière ordonnée la coopération internationale sur la chaîne industrielle des énergies nouvelles, renforcer la mise en correspondance internationale des technologies et des systèmes de normes, et promouvoir la sortie à l'international intégrée des produits, technologies, normes et services. Créer avec une haute qualité de grands ouvrages énergétiques emblématiques. Mener en priorité des coopérations sur des projets « petits mais beaux » et, autour des domaines prioritaires — éolien, photovoltaïque, hydrogène, stockage —, promouvoir la réalisation d'un ensemble de projets exemplaires d'énergies vertes à bonne rentabilité économique et à fort effet de démonstration.
-Renforcer le droit à la parole (话语权) et l'influence dans la gouvernance énergétique. Mener avec une haute qualité la diplomatie d'accueil énergétique, et bien construire et faire fonctionner les plateformes de coopération telles que le Partenariat énergétique de « la Ceinture et la Route » et le Partenariat mondial pour la coopération sur les énergies propres. Renforcer la construction des plateformes de coopération énergétique régionales, en faisant jouer le rôle des plateformes régionales entre la Chine et l'Organisation de coopération de Shanghai, la Ligue arabe, l'ASEAN, l'Union africaine, l'Europe centrale et orientale, ainsi que le Centre pour l'énergie durable de l'APEC. Participer en profondeur à la coopération énergétique dans les cadres multilatéraux, et renforcer les échanges et la coopération avec les organisations internationales concernées. Mener la coopération Sud-Sud dans le domaine des énergies renouvelables. Promouvoir l'établissement en Chine d'une organisation internationale non gouvernementale du domaine de l'électronucléaire.
-VIII. Mesures de garantie
-Maintenir la direction centralisée et unifiée du Comité central du Parti ; sous la coordination et l'orientation de la Commission nationale de l'énergie, chacune des parties concernées assurera, en fonction des réalités, la bonne mise en œuvre de la présente planification. La Commission nationale du développement et de la réforme et l'Administration nationale de l'énergie renforceront l'organisation de la mise en œuvre de la planification, détermineront les objectifs annuels et assureront l'équilibrage global annuel. Les différents territoires et les départements concernés se coordonneront étroitement pour en promouvoir conjointement la réalisation effective. Renforcer la garantie des facteurs de mise en œuvre de la planification — foncier, pâturages, forêts, espaces maritimes —, bien conduire la planification des districts miniers énergétiques, les études de ressource en eau et les évaluations d'impact environnemental des projets, et appliquer les politiques budgétaires et fiscales, financières, d'investissement, de prix, scientifiques et technologiques et environnementales favorisant le développement vert et bas-carbone de l'énergie.
+Construire un système de marché énergétique national unifié. 
+
+- Construire un système de marché électrique national unifié articulant organiquement marchés spot, marchés à moyen et long terme, marchés de services système et marchés de capacité ; promouvoir l'articulation des transactions électriques interprovinciales-interrégionales et intraprovinciales, et étendre raisonnablement l'ampleur des livraisons interprovinciales conclues aux conditions de marché.
+
+- Approfondir la réforme du régime de l'exploration-exploitation pétrolière et gazière, et renforcer la gestion des cessions de droits miniers.
+
+- Poursuivre l'intégration, selon des modalités de marché, des réseaux provinciaux de canalisations au réseau national, et réduire les échelons de transport et de distribution du gaz.
+  
+- Généraliser le régime des contrats pluriannuels de gaz naturel.
+ 
+- Unifier les règles fondamentales du marché du charbon, et perfectionner le régime des contrats à moyen et long terme de sécurisation de l'approvisionnement en charbon thermique.
+
+- Optimiser les mécanismes de formation et de transmission des prix de l'énergie, approfondir la réforme de marchéisation des prix des maillons concurrentiels, et renforcer la régulation des prix des maillons en monopole naturel.
+  
+Optimiser les mécanismes d'investissement et d'exploitation des infrastructures énergétiques.
+
+- Perfectionner le mécanisme pérenne de participation des entreprises privées à la construction des grands projets énergétiques, et encourager la participation d'acteurs pluriels à l'investissement et à la construction des bases d'énergies propres, des réseaux de transport et de distribution d'énergie et des installations de stockage pétrolier et gazier.
+
+- Perfectionner le mécanisme de conduite du système électrique (dispatch) fondé sur les résultats des transactions de marché. Établir et perfectionner un mécanisme de développement coordonné entre le réseau électrique public et les nouveaux modèles et nouvelles formes d'activité.
+
+- Optimiser le mécanisme de conduite des réseaux de canalisations pétrolières et gazières, et encourager les fournisseurs amont de gaz à pratiquer l'achat-vente direct avec les entreprises gazières urbaines et les grands consommateurs.
+
+- Explorer un mécanisme de conduite coordonnée des systèmes électrique et gazier.
+
+**(12) Perfectionner le régime de gouvernance de l'énergie**
+
+Renforcer les fondations de la gouvernance énergétique. 
+
+- Promouvoir la publication des règlements et politiques d'application de la loi sur l'énergie, faire progresser l'élaboration et la révision de la loi sur l'électricité, de la loi sur les énergies renouvelables, de la loi sur les économies d'énergie ainsi que du règlement sur la gestion de la conduite du système électrique et du règlement sur la gestion du gaz naturel, et perfectionner la réglementation de sécurité du nouveau système électrique.
+
+- Établir et perfectionner un mécanisme de promotion de la consommation d'énergie verte, perfectionner le régime des pondérations de responsabilité d'absorption de l'électricité renouvelable, et mettre en œuvre un régime d'objectifs de part minimale de consommation d'énergies renouvelables.
+  
+- Établir un système de statistiques et d'évaluation des usages non électriques des énergies renouvelables.
+
+- Perfectionner le système de normes énergétiques, promouvoir le développement coordonné des normes pilotées par l'État et des normes d'initiative de marché, et approfondir la coopération internationale en matière de normalisation.
+
+Perfectionner un système de supervision énergétique scientifique et efficace. 
+
+- Perfectionner le régime et les mécanismes de supervision des maillons en monopole naturel de l'énergie, perfectionner les mécanismes de raccordement et d'utilisation des infrastructures, renforcer la supervision de l'accès équitable et ouvert aux réseaux électriques et aux réseaux de canalisations pétrolières et gazières, et promouvoir la séparation transport-commercialisation des réseaux provinciaux.
+
+- Généraliser la supervision des processus, la supervision numérique, la supervision « pénétrante » [^13] et la supervision coordonnée interservices.
+
+[^13]: "穿透式监管" (« supervision pénétrante », look-through supervision) : méthode de supervision consistant à "percer" les écrans juridiques et les montages intermédiaires pour atteindre la réalité sous-jacente — bénéficiaires effectifs, actifs finaux, nature réelle d'une opération. Forgée dans la régulation financière au milieu des années 2010 pour déjouer les empilements de produits de gestion d'actifs et l'ingénierie de contournement réglementaire, elle a essaimé depuis vers d'autres champs de supervision.. Appliquée au secteur électrique, elle vise notamment la traçabilité effective des transactions, des participations croisées et des flux réels derrière les montages contractuels du marché.
+
+- Établir un système d'évaluation du marché électrique et un régime de crédit.
+
+- Poursuivre la correction des interventions inappropriées des gouvernements locaux dans le marché électrique.
+
+- Élever en continu le niveau national du service « accès à l'électricité » [^14] , bâtir intégralement un environnement des affaires modernisé pour l'utilisation de l'électricité, et mener une action spéciale d'amélioration de la qualité de la fourniture d'électricité.
+
+[^14]: "获得电力" (« accès à l'électricité », calque de l'indicateur Getting Electricity du classement Doing Business de la Banque mondiale) : devenu à partir de 2018-2019 le nom d'un programme national d'amélioration du service de raccordement, dans le cadre de la campagne d'optimisation de l'environnement des affaires. Les réformes pilotes de Pékin et Shanghai — réduction des démarches, raccordement des petits consommateurs en « trois zéros » (sans déplacement, sans autorisation préalable, sans investissement du client), avaient contribué au bond de la Chine dans le classement (31e mondiale en 2020). L'indicateur a survécu à son étalon : Doing Business a été supprimé par la Banque mondiale en 2021 à la suite du scandale de manipulation des données (concernant notamment le rang de la Chine !), mais l'indicateur demeure dans la nomenclature administrative chinoise comme catégorie de qualité de service
+
+- Renforcer la gestion de la sécurité de la construction et de l'exploitation électriques.
+
+**Encadré 7 : Tâches prioritaires de la réforme de marchéisation et de la construction institutionnelle de l'énergie**
+
+**1. Marché électrique national unifié**
+
+Déterminer raisonnablement la proportion de contractualisation à moyen et long terme, approfondir le fonctionnement en continu du marché à moyen et long terme, augmenter la fréquence et la flexibilité des transactions à moyen et long terme, et perfectionner le mécanisme de gestion planifiée des volumes de production prioritaire et d'achat prioritaire. 
+
+Promouvoir le passage en exploitation officielle des marchés spot provinciaux et du marché électrique régional du Sud, approfondir l'entraide électrique du delta du Yangtsé, explorer la construction du marché électrique Pékin-Tianjin-Hebei, et explorer, dans le cadre des transactions interprovinciales, des mécanismes de transactions d'entraide électrique régionale dans le Nord-Est, le Nord-Ouest et le Centre. 
+
+Faire entrer de manière régulière sur le marché les centrales au gaz, l'hydraulique et le nucléaire. 
+
+Accélérer l'établissement d'un marché de services système de réserve, et explorer selon les conditions locales de nouveaux produits de services système tels que la rampe. 
+
+Établir et perfectionner un mécanisme de rémunération de la capacité fiable, et encourager les régions qui en réunissent les conditions à explorer la construction de marchés de capacité.
+
+**2. Mécanismes de prix** 
+
+Perfectionner le mécanisme de tarification du transport des ouvrages dédiés interprovinciaux-interrégionaux, et optimiser le mécanisme de tarif de capacité côté production et le mécanisme de règlement des prix pour le développement durable des énergies nouvelles. 
+
+Perfectionner le mécanisme de fixation des prix des produits raffinés, et approfondir la réforme de marchéisation des prix du gaz naturel. 
+
+Perfectionner la politique de régulation par fourchette des prix du charbon, et perfectionner le mécanisme de prix des transactions à moyen et long terme de charbon thermique. 
+
+Optimiser les régimes de tarification progressive par tranches de l'électricité et du gaz résidentiels, promouvoir la transmission des signaux de prix horosaisonniers de marché jusqu'aux utilisateurs finaux, et utiliser les instruments de marché pour orienter toute la société vers la sobriété énergétique. 
+
+Faire progresser la rénovation du comptage de la chaleur, et instaurer de manière ordonnée la facturation de la chaleur au comptage.
+
+**3. Investissement dans les infrastructures énergétiques**
+
+Encourager la participation d'acteurs pluriels au développement et à la construction des bases d'énergies propres. 
+
+Encourager les capitaux privés remplissant les conditions à participer à l'investissement et à la construction des ouvrages de transport d'électricité interprovinciaux-interrégionaux et du maillon de la distribution. 
+
+Soutenir la prise de participation de toutes catégories de capitaux sociaux, selon les principes du marché, dans les projets d'infrastructures pétrolières et gazières, et encourager les capitaux sociaux remplissant les conditions à participer à l'investissement et à la construction des dépôts de stockage pétroliers et gaziers et des terminaux méthaniers (GNL).
+
+**4. Régime des certificats verts et de l'électricité verte**
+
+Accélérer la formation et le développement du marché des certificats verts et de l'électricité verte, et établir un régime de consommation de certificats verts combinant consommation obligatoire et consommation volontaire. 
+
+Perfectionner les régimes de comptabilisation, de certification et de labellisation de la consommation d'électricité verte, et établir un système de normes pour les certificats verts et la consommation d'électricité verte. 
+
+Améliorer la reconnaissance internationale des certificats verts, et répondre activement aux barrières commerciales vertes internationales.
+
+**5. Système de normes énergétiques**
+
+Perfectionner en continu les normes des domaines traditionnels — hydrocarbures, charbon —, accélérer l'élaboration des normes des domaines émergents — nouveau système électrique, nucléaire avancé, nouveaux stockages, hydrogène et combustibles verts —, et élaborer les normes de qualité des carburants de la prochaine étape. 
+
+Étudier et programmer un ensemble de normes prioritaires "Intelligence artificielle + énergie". 
+
+Renforcer l'élaboration et la révision des normes de comptabilisation des émissions de carbone du secteur énergétique et de comptabilisation de l'empreinte carbone des produits énergétiques de base.
+
+### VII. Construire un système de coopération énergétique internationale multidimensionnel et diversifié
+
+**(13) Renforcer la sécurité énergétique en conditions d'ouverture**
+
+Renforcer la capacité de diversification des importations d'énergie et de garantie de sécurité, maintenir la diversification des importations énergétiques, et renforcer la coopération avec les principales zones de production pétrolière et gazière à l'étranger. 
+
+En s'adaptant à l'évolution de l'offre et de la demande intérieures de charbon, faire jouer au charbon importé son rôle de complément et de régulation du marché intérieur. 
+
+Participer de manière active et prudente à l'exploration-exploitation et à l'investissement-exploitation énergétiques mondiaux.
+
+**(14) Participer à la conduite de la transformation de la gouvernance énergétique mondiale** 
+
+Étendre activement les espaces de coopération verte et d'investissement à l'étranger. 
+
+- Faire progresser de manière ordonnée la coopération internationale sur la chaîne industrielle des énergies nouvelles, renforcer la mise en correspondance internationale des technologies et des systèmes de normes, et promouvoir la sortie à l'international intégrée des produits, technologies, normes et services.
+
+- Créer avec une haute qualité de grands ouvrages énergétiques emblématiques.
+
+- Mener en priorité des coopérations sur des projets « petits mais beaux » et, autour des domaines prioritaires — éolien, photovoltaïque, hydrogène, stockage —, promouvoir la réalisation d'un ensemble de projets exemplaires d'énergies vertes à bonne rentabilité économique et à fort effet de démonstration.
+
+Renforcer notre influence dans la gouvernance énergétique. 
+
+- Conduire une diplomatie énergétique de haut niveau, et bien construire et faire fonctionner les plateformes de coopération telles que le Partenariat énergétique de « la Ceinture et la Route » et le Partenariat mondial pour la coopération sur les énergies propres.
+
+- Renforcer la construction des plateformes de coopération énergétique régionales, en faisant jouer le rôle des plateformes régionales entre la Chine et l'Organisation de coopération de Shanghai, la Ligue arabe, l'ASEAN, l'Union africaine, l'Europe centrale et orientale, ainsi que le Centre pour l'énergie durable de l'APEC.
+
+- Participer à la coopération énergétique dans les cadres multilatéraux, et renforcer les échanges et la coopération avec les organisations internationales concernées.
+
+- Initier une coopération Sud-Sud dans le domaine des énergies renouvelables.
+
+- Promouvoir l'établissement en Chine d'une organisation internationale non gouvernementale dand le secteur de l'électronucléaire.
+
+### VIII. Mesures de sauvegarde
+
+Maintenir la direction centralisée et unifiée du Comité central du Parti ; sous la coordination et l'orientation de la Commission nationale de l'énergie, chacune des parties concernées veillera à la bonne exécution de la présente planification. 
+
+La Commission nationale du développement et de la réforme et l'Administration nationale de l'énergie renforceront l'organisation de la mise en œuvre de la planification, détermineront les objectifs annuels et en assureront l'équilibrage global. 
+
+Les différents territoires et les départements concernés se coordonneront pour en promouvoir la réalisation effective. 
+
+Renforcer la garantie des facteurs de mise en œuvre de la planification ; foncier, pâturages, forêts, espaces maritimes, bien conduire la planification des districts miniers énergétiques, les études de ressource en eau et les évaluations d'impact environnemental des projets, et appliquer les politiques budgétaires et fiscales, financières, d'investissement, de prix, scientifiques et technologiques et environnementales favorisant le développement vert et bas-carbone de l'énergie.
 
 
 ----------------
