@@ -10,7 +10,7 @@ Sources chinoises, le 16 juillet 2026
 
 À l'invitation du président de la République populaire de Chine, M. Xi Jinping, la présidente de la République de Namibie, Mme Netumbo Nandi-Ndaitwah (内通博·南迪-恩代特瓦), a effectué une visite d'État en République populaire de Chine du 5 au 11 juillet 2026.
 
-Les deux chefs d'État ont procédé à un échange de vues approfondi sur les relations sino-namibiennes dans la nouvelle conjoncture (新形势) ainsi que sur les questions internationales et régionales d'intérêt commun. Le Premier ministre du Conseil des affaires d'État, M. Li Qiang, et le président du Comité permanent de l'Assemblée populaire nationale, M. Zhao Leji, se sont entretenus séparément avec la présidente Nandi-Ndaitwah.
+Les deux chefs d'État ont procédé à un échange de vues sur les relations sino-namibiennes dans la nouvelle conjoncture (新形势) ainsi que sur les questions internationales et régionales d'intérêt commun. Le Premier ministre du Conseil des affaires d'État, M. Li Qiang, et le président du Comité permanent de l'Assemblée populaire nationale, M. Zhao Leji, se sont entretenus séparément avec la présidente Nandi-Ndaitwah.
 
 Les deux parties estiment que l'amitié traditionnelle entre la Chine et la Namibie est profonde et n'a cessé de se consolider au fil du temps. Les deux pays ont établi leurs relations diplomatiques en 1990 et institué en 2018 un partenariat de coopération stratégique global (全面战略合作伙伴关系). La confiance politique mutuelle s'est constamment renforcée, la coopération pragmatique (务实合作) a porté des fruits abondants, et les deux pays se coordonnent et se concertent dans les affaires internationales, faisant de leur relation un modèle de l'amitié sino-africaine et de la coopération Sud-Sud (中非友好和南南合作的典范).
 
