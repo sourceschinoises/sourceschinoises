@@ -1,0 +1,15 @@
+Sources chinoises, le 15 octobre 2026
+
+<link rel="stylesheet" href="brief-style-V2.css">
+
+| Texte et statut | Usage possible face aux instruments européens |
+| --- | --- |
+| **Loi sur le commerce extérieur** (《对外贸易法》), révisée le 27 décembre 2025 ; applicable depuis le 1er mars 2026 ([texte](https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104354)) | Répondre aux restrictions commerciales discriminatoires, viser certains acteurs étrangers et ouvrir des enquêtes, notamment sur le fondement des articles 10, 40 et 41. |
+| **Règlement sur les entités non fiables** (《不可靠实体清单规定》), 2020 ([texte](https://www.mofcom.gov.cn/zfxxgk/zc/gz/art/2021/art_31e0eda6c1954aa7898b6f97c0ead8bb.html)) | Viser une entreprise étrangère pour certaines interruptions de transactions ou certains traitements discriminatoires. |
+| **Mesures de blocage de l’application extraterritoriale indue** (《阻断外国法律与措施不当域外适用办法》), 2021 ([texte](https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html)) | Contrer certaines restrictions étrangères affectant les relations économiques chinoises avec des pays tiers. |
+| **Dispositions d’application de la loi contre les sanctions étrangères**, décret 803, mars 2025 ([texte](https://big5.mee.gov.cn/gate/big5/www.mee.gov.cn/zcwj/gwywj/202503/t20250325_1104650.shtml)) | Restreindre des transactions, des investissements ou des transferts de données ; agir sur les actifs. |
+| **Règlement sur le contrôle des exportations de biens à double usage**, décret 792 ; applicable depuis décembre 2024 ([texte](https://www.mofcom.gov.cn/zcfb/dwmygl/art/2024/art_6ed1d5c0336843c493bd45a1911eab17.html)) | Mobiliser les licences et les listes de contrôle ; encadrer certaines opérations réalisées hors de Chine. |
+| **Dispositions sur la sécurité des chaînes industrielles et d’approvisionnement**, décret 834, publié en avril 2026 ([texte](https://www.mee.gov.cn/zcwj/gwywj/202604/t20260408_1148459.shtml)) | Qualifier certaines restrictions étrangères d’atteintes à la sécurité des chaînes chinoises et engager une réponse. |
+| **Règlement contre la juridiction extraterritoriale étrangère indue**, décret 835, publié en avril 2026 ([texte](https://cpc.people.com.cn/n1/2026/0414/c64094-40700899.html)) | Identifier et bloquer certaines mesures étrangères ; prendre des contre-mesures. |
+| **Dispositions sur les investissements extérieurs**, décret 837, publiées le 1er juin 2026 ; applicables depuis le 1er juillet ([texte](https://www.mee.gov.cn/zcwj/gwywj/202606/t20260602_1157822.shtml)) | Encadrer les investissements et les transferts technologiques ; protéger les investisseurs contre certaines mesures étrangères. |
+| **Projet de révision des mesures sur les investissements extérieurs**, Commission nationale du développement et de la réforme ; consultation du 21 août au 20 septembre 2026 ([projet](https://yyglxxbs.ndrc.gov.cn/file-submission/20260821144311258866.pdf)) | Préciser la surveillance des investissements et le signalement des exigences étrangères. Son adoption définitive reste à confirmer. |
